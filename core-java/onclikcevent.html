@@ -1,0 +1,25 @@
+<html>
+  <head>
+  <title> Onlick Event </title>
+ <script>
+    function greeting() {
+	   let val= document.getElementById("Myname").value;
+	   alert("Hello:  "+val)
+	   }
+	   
+	   function validateEmail() {
+	     let email= document.getElementById("Myname").value;
+     const re = 
+	 /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+     if(!re.test(email)){
+	 alert("Please provide proper email id")
+        }
+	  }
+	   </script>
+ 
+ </head>
+   <body> 
+     <p>  <input type = "text" id= "Myname"  />  </p>
+       <input type = "button" onclick= "validateEmail();" value= "Click here" /> 
+   </body>
+</html>

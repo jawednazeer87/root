@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.9.0.final using JasperReports Library version 6.9.0-cb8f9004be492ccc537180b49c026951f4220bf3  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="plks_dec" language="groovy" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="545" leftMargin="20" rightMargin="30" topMargin="20" bottomMargin="20" uuid="477dea89-7a20-4a4f-97e3-c53fbf0a44b8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="cmpny_name" class="java.lang.String"/>
+	<parameter name="passport" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<parameter name="pageTitle" class="java.lang.String"/>
+	<parameter name="school_name" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<pageHeader>
+		<band height="74">
+			<textField>
+				<reportElement x="233" y="22" width="100" height="30" uuid="3c4e52ba-4799-4b90-bc2d-ef953904316d"/>
+				<textFieldExpression><![CDATA[$P{pageTitle}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="463" splitType="Stretch">
+			<textField pattern="dd/MM/yyyy" isBlankWhenNull="true">
+				<reportElement x="39" y="432" width="100" height="20" uuid="726bc843-df02-40e7-8fa9-13a59afca41d"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="412" width="174" height="20" uuid="7b7b79bb-cd0c-467f-92e6-83fa9038c0b8"/>
+				<text><![CDATA[(Nama & T/Tangan Pemilik Syarikat)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="103" width="545" height="20" uuid="2d47e140-09db-409e-90ce-df9a6dbfb353"/>
+				<text><![CDATA[seperti yang dinyatakan dalam Borang Pendaftaran Perniagaan, mengakui bahawa :-]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-2" y="130" width="545" height="45" uuid="21c8f078-45a0-4c65-954c-5d1f0dcb5495"/>
+				<text><![CDATA[c) Saya dan syarikat akan bertanggungjawab ke atas semua pekerja asing ini dan bersedia menghadapi sebarang tindakan dari pihak kerajaan sekiranya maklumat yang saya berikan ini adalah palsu.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="432" width="34" height="20" uuid="777062af-b1b0-4f48-943d-fee48853da23"/>
+				<text><![CDATA[Tarikh:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="392" width="228" height="20" uuid="d052c8dc-5b5e-493c-b78c-040ce65479c9"/>
+				<text><![CDATA[............................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="240" width="191" height="20" uuid="6ad8ed42-5685-4cc8-9639-03e8cfca7633"/>
+				<text><![CDATA[Diperbuat dengan sebenar-benarnya,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="200" width="174" height="20" uuid="d3ef96f5-2a56-4ca3-8a29-a071224b0432"/>
+				<text><![CDATA[Sekian, terima kasih.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="39" y="6" width="506" height="20" forecolor="#009999" uuid="a4377ada-5a53-4bd9-aff7-bfed13bea542"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{cmpny_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="447" y="48" width="98" height="20" uuid="2431a7aa-d8bc-42ed-b526-a48e8c5ef6d7"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[ yang beralamat di]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="6" width="39" height="20" uuid="0fd76716-4b61-4fba-a18e-c7f2b407a0e8"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Saya]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="82" y="28" width="151" height="20" forecolor="#009999" uuid="4af345c8-cdbf-4693-bf88-18c1f17a96ef"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{passport}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="49" width="447" height="20" forecolor="#009999" uuid="091730f1-2e17-4952-96f2-12d79819bfe0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{school_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="233" y="28" width="312" height="20" uuid="4479f31d-249c-4ebe-a7fb-424666892e3b"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[adalah salah seorang pemilik / Ahli Lembaga Pengarah Syarikat ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="28" width="79" height="20" uuid="339aa2af-bb00-4de1-a8ce-71e4bd2ffe77"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[No. K.P/Passport]]></text>
+			</staticText>
+			<line>
+				<reportElement x="27" y="26" width="516" height="1" uuid="baa774ca-07b8-4b68-8847-ad9451cd6c45"/>
+			</line>
+			<line>
+				<reportElement x="82" y="48" width="151" height="1" uuid="6b2debe0-2169-4409-8762-bb4a1e633cce"/>
+			</line>
+			<line>
+				<reportElement x="1" y="69" width="446" height="1" uuid="1ff4be9c-1b57-4443-bdd4-6b88a9a75d5c"/>
+			</line>
+			<line>
+				<reportElement x="2" y="90" width="543" height="1" uuid="3c5cd6e5-194a-4ff0-986c-cc9c8b3be19c"/>
+			</line>
+			<textField>
+				<reportElement x="200" y="70" width="100" height="30" uuid="4041f65f-bfbf-4802-bb60-352b4f79ee93"/>
+				<textFieldExpression><![CDATA[$P{address}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

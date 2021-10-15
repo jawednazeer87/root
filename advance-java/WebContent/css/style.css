@@ -1,0 +1,32 @@
+div.backg-color {
+  background: #ffffff;
+  background: -webkit-linear-gradient(to right, #ffffff, #e6f7ff);
+  background: linear-gradient(to right, #ffffff, #e6f7ff);
+  min-height: 100vh;
+}
+div.backg-color-rev {
+	background: #e6f7ff;
+	background: -webkit-linear-gradient(to right, #e6f7ff, #ffffff);
+	background: linear-gradient(to right, #e6f7ff, #ffffff);
+}
+#button-addon1 {
+  color: #ffc371;
+}
+
+i {
+  color: #ffc371;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
+}
+
+tr:nth-child(even) {
+  background-color: #edffff;
+}
