@@ -34,7 +34,6 @@ public class Room {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Room{" +
         "roomId=" + room_id +
         ", floorNum='" + floor_num + '\'' +

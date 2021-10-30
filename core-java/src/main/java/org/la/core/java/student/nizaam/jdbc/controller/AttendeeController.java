@@ -5,7 +5,6 @@ import org.la.core.java.student.nizaam.jdbc.service.AttendeeService;
 public class AttendeeController {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		AttendeeService as = new AttendeeService();
 		

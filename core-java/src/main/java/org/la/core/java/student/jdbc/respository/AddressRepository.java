@@ -1,7 +1,6 @@
 package org.la.core.java.student.jdbc.respository;
 
 import org.la.core.java.student.jdbc.model.Address;
-import org.la.core.java.student.jdbc.model.User;
 import org.la.core.java.student.jdbc.util.ConnectionUtil;
 
 import java.sql.Connection;

@@ -1,11 +1,9 @@
 package org.la.core.java.student.nizaam.jdbc.repository;
 
 import java.sql.Connection;
-import java.util.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Timestamp;
-import java.time.LocalDate;
 
 import org.la.core.java.student.nizaam.jdbc.model.Presentation;
 import org.la.core.java.student.nizaam.jdbc.util.ConnectionUtil;
