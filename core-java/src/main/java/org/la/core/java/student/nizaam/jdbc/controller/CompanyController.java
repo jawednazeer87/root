@@ -5,7 +5,6 @@ import org.la.core.java.student.nizaam.jdbc.service.CompanyService;
 public class CompanyController {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		CompanyService cs = new CompanyService();
 		

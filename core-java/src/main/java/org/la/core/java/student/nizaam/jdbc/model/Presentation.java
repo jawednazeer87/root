@@ -1,6 +1,5 @@
 package org.la.core.java.student.nizaam.jdbc.model;
 
-import java.sql.Date;
 import java.sql.Timestamp;
 
 public class Presentation {
@@ -52,7 +51,6 @@ public class Presentation {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Presentation{" +
         "presentationid=" + presentation_id +
         ", bookedCompanyId='" + booked_company_id + '\'' +

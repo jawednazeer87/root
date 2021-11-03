@@ -9,6 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class UserRepository {
@@ -16,6 +17,9 @@ public class UserRepository {
     private static Connection connection = null;
     private static AddressService addressService = new AddressService();
 
+    public static List<User> findByDob(Calendar calendar){
+    	return null;
+	}
     public static List<User> findByAge(int age) throws Exception {
         connection = ConnectionUtil.openConnection();
         PreparedStatement pStatement = null;

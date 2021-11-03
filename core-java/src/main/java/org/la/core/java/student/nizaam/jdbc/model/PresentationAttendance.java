@@ -33,7 +33,6 @@ public class PresentationAttendance {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "PresentaitonAttendance{" +
         "ticketId=" + ticket_id +
         ", presentationId='" + presentation_id + '\'' +

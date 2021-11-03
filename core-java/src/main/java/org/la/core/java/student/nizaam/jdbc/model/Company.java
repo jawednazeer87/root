@@ -42,7 +42,6 @@ public class Company {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Company{" +
         "CompanyId=" + company_id +
         ", name='" + name + '\'' +

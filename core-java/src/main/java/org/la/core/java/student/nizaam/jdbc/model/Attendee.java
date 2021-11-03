@@ -40,7 +40,6 @@ public class Attendee {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "Attendee{" +
                 "attendeeId=" + attendee_id +
                 ", firstName='" + first_name + '\'' +
