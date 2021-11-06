@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	System.out.println(position);
 	
 	int value = '?';
-	System.out.println("value"+ value);
+	System.out.println("value "+ value);
 	
 }
 }
