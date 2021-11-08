@@ -5,6 +5,7 @@ public class BooleanExample {
 		//boolean only has two values : true * false
 		boolean isMale=true;
 		System.out.println("I am a Male : "+isMale);
+
 	}
 
 }
