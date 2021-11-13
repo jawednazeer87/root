@@ -35,12 +35,7 @@ public class UnaryBinaryTenery {
 		int c= a/b;
 		System.out.println("c "+c);
 		
-		//Relational return boolean only
-		boolean d= 1==3;
-		System.out.println("d = "+d);
 		
-		boolean e= a!=b;
-		System.out.println("e = "+ e);
 		
 		
 	}
