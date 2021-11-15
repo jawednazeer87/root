@@ -6,8 +6,7 @@ public static void main(String[] args) {
 			boolean d= 1==3;
 			System.out.println("d = "+d);
 			
-			boolean e= a!=b;
-			System.out.println("e = "+ e);
+			
 			
 			//Logical : && || !(not)
 			int x=1, y=2;
@@ -15,5 +14,6 @@ public static void main(String[] args) {
 			System.out.println("x = "+x);
 			System.out.println("y = "+y);
 			System.out.println("b = "+b);
+			
 }
 }
