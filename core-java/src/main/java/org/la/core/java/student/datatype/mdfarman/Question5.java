@@ -1,10 +1,9 @@
 package org.la.core.java.student.datatype.mdfarman;
 
-public class Question6 {
+public class Question5 {
 	public static void main(String[] args) {
-//		06. wap to print: software classes
-		System.out.println("software classes");
+		//	05. wap to print: software program
+		System.out.println("software program");
 		System.out.println();
 	}
-
 }
