@@ -1,6 +1,6 @@
 package org.la.core.java.student.datatype.mdfarman;
 
-public class question29 {
+public class Question29 {
 
 	public static void main(String[] args) {
 
