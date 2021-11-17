@@ -6,6 +6,7 @@ public class Wap01 {
 		// TODO Auto-generated method stub
 //		01. wap to print: hello world
 		System.out.println("hello world");
+		
 	}
 
 }
