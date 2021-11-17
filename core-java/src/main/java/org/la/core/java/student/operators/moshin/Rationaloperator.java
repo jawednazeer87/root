@@ -6,7 +6,7 @@ public class Rationaloperator {
 		
 		//Relational return boolean only
 		
-		boolean d = 5==5;
+		boolean d = 1==5;
 		System.out.println("d = "+d);
 		
 		boolean d1 = 4==5;
