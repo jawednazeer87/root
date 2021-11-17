@@ -6,6 +6,7 @@ public class Example30 {
 		int a = 0152;
 		int b = --a / 2 *2;
 		System.out.println("a = " + a);
+		System.out.println("b = " + b);
 
 	}
 
