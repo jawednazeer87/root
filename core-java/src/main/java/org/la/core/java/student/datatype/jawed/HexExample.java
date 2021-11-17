@@ -6,5 +6,6 @@ public class HexExample {
 		
 		int i = 0x10;
 		System.out.println("i: "+i);
+	
 	}
 }
