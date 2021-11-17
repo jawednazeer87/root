@@ -1,4 +1,4 @@
-package org.la.core.java.student.datatype.moshin;
+package org.la.core.java.student.operators.moshin;
 
 public class Rationaloperator {
 
