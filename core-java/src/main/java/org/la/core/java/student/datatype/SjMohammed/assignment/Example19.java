@@ -1,0 +1,12 @@
+package org.la.core.java.student.datatype.SjMohammed.assignment;
+
+public class Example19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean x=true, y=false;
+		System.out.println(x);
+		System.out.println(y);
+	}
+
+}
