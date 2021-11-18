@@ -3,9 +3,11 @@ package org.la.core.java.student.operators.logic.waleed;
 public class OrLogic {
 
 	public static void main(String[] args) {
-		boolean a = true || false;
+		boolean a = true, b= false;
+		a = a || b;
+	
 		System.out.println("a: "+a);
-		a = true || true;
+		a = b || a;
 		System.out.println("a: "+a);
 		a = false || false;
 		System.out.println("a: "+a);
