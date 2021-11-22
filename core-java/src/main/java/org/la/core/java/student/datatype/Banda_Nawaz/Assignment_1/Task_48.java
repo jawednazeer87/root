@@ -1,7 +1,10 @@
 package org.la.core.java.student.datatype.Banda_Nawaz.Assignment_1;
 
-public class Java_class {
+public class Task_48 {
 	public static void main ( String[] args) {
-		System.out.println("Java class");
+		boolean a=true;
+		System.out.println("a="+a);
+		a=false;
+		System.out.println("a="+a);
 	}
 }
