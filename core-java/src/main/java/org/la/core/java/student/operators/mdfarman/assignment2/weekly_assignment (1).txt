@@ -1,0 +1,336 @@
+what will be the output?
+	
+	1.	int i = 19/5; 
+		sop(i);
+	2.  char a = 65;
+		sop(a);
+	3.	int s = 'a';
+		sop(s);
+		
+Arithmetic Operation
+	1.	wap to add two numbers?
+	2.	wap to add three numbers?
+	3.	wap to subtract two numbers?
+	4.	wap to subtract three numbers?
+	5.	wap to multiply two numbers?
+	6.	wap to multiply three numbers?
+	7.	wap to find remainder of a given numbers?
+	8.	wap to find percentage?
+	9.	wap to find average of 3 numbers?
+	10.	wap to find average of 4 numbers?
+	11.	wap to find average of 2 numbers?
+	12.	what will be output: int x = 5 + 3 * 4 / 5 + 4;
+	13.	what will be output: double x = 14 / 5 ;
+	
+	14.	int x = 15;
+        int y = x % 4;
+        int z = y * 24;
+        System.out.println(z / 2);
+	
+	15.	int i = 34.0;
+        int j = 7;
+        int k = i % j;
+        System.out.println("k = " + k );
+	
+	16.	int x = 42;
+        double y = 42.25;
+		System.out.println("x mod 10 = " + x % 10 );
+        System.out.println("y mod 10 = " + y % 10 );
+	
+	17.	int a = 31, b = 40;
+        int c = b - a;
+        b = c % a;        
+        b = b / a;        
+        a = ++c;        
+        b = (a - --b) * c;
+	
+	18.	int num = 69;
+        int days = num % 30;
+        int month = num / 30;
+        System.out.println(month + " Month and " + days + " days");
+	
+	19.	int a = 56;
+        int b = -8;
+        int c = a % b;
+        int d = b % a;
+        System.out.println(c + ", " + d);
+	
+	20.	System.out.println(10 * 5 + 100 * (25 * 11) / (25 * 10) * 10 - 5 + 7 % 2);
+		int zx = (10 * 5 + 100 * (25 * 11));
+		int yz = ((25 * 10) * 10 - 5 + 7 % 2);
+		System.out.println(zx / yz);
+	
+	21.	int a = 34;
+        double d = 20.5;
+        d+=a;
+        a+=d;
+        d-=a;
+        a-=d;
+        System.out.println(" d = " + ++d );
+        System.out.println(" a = " + a-- );
+	
+	22.	int a = 4;
+        a++;
+        a += a;
+        --a;
+        a = 7 + a;
+        a *= a;
+        a -= 3;
+		System.out.println(" a = " + a );
+	
+	23.	int a = 4;
+        a -= 10;
+        a = -a;
+        a = 7 + a;
+        System.out.println(" a = " + a );
+        a %= a;
+        a = a * a - 3 ;
+        System.out.println(" a = " + a );
+	
+	24.	int a = -4;
+		a=a+1;        
+		a++;        
+		a+=1;        
+		++a; 
+		System.out.println(" a = " + a );
+	
+	25.	short s = 10;
+        int a = s;
+        s += 10;
+        System.out.println(s + "," + a);
+	
+	26.	short s = 10;
+        int a = s;
+        s = s + 10;
+        System.out.println(s + "," + a);
+	
+	27.	int a = 0152;
+        int b = --a / 2 * 2;
+        System.out.println("a=" + a);
+		
+
+	
+	28. wap to add two int variable but assign the result to double variable and print the result?
+	
+	29. wap to add two int variable but assign the result to float variable and print the result?
+	
+	30.	wap to add two char variable and store sum in char variable and print the result?
+	
+	31.	wap to add two float variable but assign the result to int variable and print the result?
+	
+	32.	wap to add two double variable but assign the result to int variable and print the result?
+	
+	
+	
+Post/Pre Increment/Decrement
+
+	1.	wap to do pre increment a number and assign its value to other number and print both number
+	2.	wap to do post increment a number and assign its value to other number and print both number
+	
+	3.	wap to do pre increment a number and assign its value to other number and print both numbers, do assignment increment in same line
+	4.	wap to do post increment a number and assign its value to other number and print both numbers, do assignment increment in same line
+	
+	5.	wap to pre increment a number n multiply with a number and assign product to a variable, print both variables
+	6.	wap to post increment a number n multiply with a number and assign product to a variable, print both variables
+	7.	Repeat all above operations with decrement operators too.
+	
+	8.	int a = 3;
+		int b = ++a;
+		what will be the value of a and b on printing
+	
+	9.	int a = -3;
+		int b = a++;
+		what will be the value of a and b on printing
+	
+	10.	int a = 3;
+		int b = ++a;
+		what will be the value of a and b on printing
+	
+	11.	int a = 3;
+		int b = ++a + 9;
+		what will be the value of a and b on printing
+	
+	12.	int a = 3;
+		int b = a++ * 6;
+		what will be the value of a and b on printing
+	
+	13.	int a = 3;
+		int b = a++ / 3;
+		what will be the value of a and b on printing
+	
+	14. int x = 10;
+		int y = -2;
+		int z = ++x * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+	
+	15. int x = 3;
+		int y = 2;
+		int z = x++ * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	16. int x = -1;
+		int y = 2;
+		int z = --x * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	17. int x = 0;
+		int y = -2;
+		int z = ++x * ++y;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	18. int x = -3;
+		int y = -2;
+		int z = --x * y--;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	19. int x = 10;
+		int y = -2;
+		int z = ++x + y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	20. int x = 10;
+		int y = -2;
+		int z = ++x / y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+
+Relational Operator:
+
+	1.	wap to compare two numbers and print the result, >, >=, <, <=, ==, !=
+	
+	2.	int a = 10;
+        int b = a - 5;
+        System.out.println(a <= b);
+        System.out.println(a > b);
+	3.	= is an assignment operator where as == is a relational operator ?
+	4.	int a = 10;
+        int b = 15;
+        a++;
+        b--;
+        int c = b % a;
+        System.out.println(c >= b);
+		
+	5.	int a = 10;
+		boolean x = a++==10;
+		boolean y = --a==10;
+		sop(a);
+		sop(x);
+		sop(y);
+	
+	6.	int a = 10;
+		int b = 3;
+		boolean x = a++==10 && ++b==4;
+		boolean y = --a==10 || b--<4;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+	
+	7.	int a = 10;
+		int b = 3;
+		boolean x = a++==10 && ++b==4;
+		boolean y = --a==10 || b--<4;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	8.	int a = -4;
+		int b = 0;
+		boolean x = a< -5 && b==4;
+		boolean y = --a > -6 || b-- < -1;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	9.	int a = -1;
+		int b = 1;
+		boolean x = ++a<=0 && ++b>1;
+		boolean y = --a > -2 || b-- < 1;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	10.	int a = -1;
+		boolean x = a!=-2 && ++a==0;
+		sop(a);
+		sop(x);
+	
+	11.	int x = 9;
+		sop("result: "+(x==9 && ++x!=9)); 
+
+	12. int x = -5;
+		sop("result: "+(x==-5 && ++x>-5)); 
+	
+	13. int y = -1;
+		int x = 5 * y++ ;
+		sop(x);
+		sop(y);
+	
+	14.	int y = -1;
+		int x = -5 * ++y ;
+		sop(x);
+		sop(y);
+		
+	15.	int a=1, b=2, c=-3;
+		int s = ++a + b-- + c%3 ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+	
+	16.	int a=1, b=2, c=-3;
+		int s = a++ + b-- - c++ ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+		
+	17.	int a=1, b=2, c=-3;
+		int s = a++ + b-- * c++ ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+		
+	18.	boolean x = false, y = true;
+		boolean r = x==false;
+		boolean p = y!=true;
+		sop(x);
+		sop(r);
+		sop(p);
+		
+	19.	boolean x = false, y = true;
+		boolean r = x==true;
+		boolean p = y==true;
+		sop(x);
+		sop(r);
+		sop(p);
+
+	20.	boolean x = false, y = true;
+		boolean r = x==false && y!=true;
+		sop(x);
+		sop(y);
+		sop(r);
+		
+	
+	21.	boolean x = false, y = true;
+		boolean r = x && y;
+		sop(r);
+				
