@@ -5,7 +5,7 @@ public class Task_50 {
 		boolean a=true, b=false;
 		System.out.println("a="+a);
 		System.out.println("b="+b);
-		int c=5, d=6, e=8;
+		int c=5, d=7, e=8;
 		System.out.println("c="+c);
 		System.out.println("d="+d);
 		System.out.println("e="+e);
