@@ -341,7 +341,7 @@ public class Weekly_Assignment1 {
 		System.out.println(co);
 		System.out.println(cp);
 		System.out.println(cq);
-		System.out.println();
+		System.out.println(cr);
 	}
 
 }
