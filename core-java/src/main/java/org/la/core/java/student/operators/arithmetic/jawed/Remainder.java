@@ -4,7 +4,7 @@ public class Remainder {
 
 	public static void main(String[] args) {
 		
-		int r = 4 % 2;
+		int r = 5 % 2;
 		System.out.println(r);
 	}
 }
