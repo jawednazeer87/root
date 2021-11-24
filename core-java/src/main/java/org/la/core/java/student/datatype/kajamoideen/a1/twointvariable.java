@@ -1,14 +1,15 @@
 package org.la.core.java.student.datatype.kajamoideen.a1;
 
-public class bytevariable {
+public class twointvariable {
 
 	public static void main(String[] args) {
 		
-		 byte i=10;
+		int i=10;
+		int x=15;
+		int sum = i+x;
 
-		System.out.println("This is Byte Variable"+" "+i);
+		System.out.println(i+" "+x+" "+sum);
 		
 	}
-	
 
 }
