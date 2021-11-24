@@ -1,4 +1,4 @@
-package org.la.core.java.student.shoaibisaPackage;
+package org.la.core.java.student.shoaibisaPackage.dataType;
 
 public class Wap10Double {
 	public static void main (String[] args) {
