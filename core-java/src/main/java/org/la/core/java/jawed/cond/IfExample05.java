@@ -4,7 +4,7 @@ public class IfExample05 {
 
 	public static void main(String[] args) {
 
-		int age = 2;
+		int age = 29;
 		System.out.println("Program started");
 		
 		if(age>=18) {

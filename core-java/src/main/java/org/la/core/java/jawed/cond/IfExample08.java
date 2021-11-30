@@ -4,7 +4,7 @@ public class IfExample08 {
 
 	public static void main(String[] args) {
 
-		int per = 49;
+		int per = 69;
 		
 		System.out.println("Program to check student grade");
 		
