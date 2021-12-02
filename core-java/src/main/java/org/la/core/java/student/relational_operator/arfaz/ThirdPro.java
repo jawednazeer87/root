@@ -7,7 +7,7 @@ public class ThirdPro {
 		int a = 10;
         int b = a - 5;
 //        Printing for Assignment operator
-        System.out.println(a=10);
+        System.out.println("a = "+a);
 //        Printing for relational operator
         System.out.println(a == b);
 	}
