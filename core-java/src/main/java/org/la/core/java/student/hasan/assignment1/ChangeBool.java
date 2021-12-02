@@ -1,0 +1,11 @@
+package org.la.core.java.student.hasan.assignment1;
+
+public class ChangeBool {
+	public static void main(String[] args){
+		boolean a=false;
+		System.out.println("a="+a);
+		a=true;
+				System.out.println("a="+a);
+		
+	}
+}
