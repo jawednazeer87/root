@@ -7,7 +7,7 @@ public class declarefloatandchar {
 		 char i='B';
 		 float j=1.11f;
 
-		System.out.println("This is float and char Variable "+""+j+ ","+"'"+i+"'");
+		System.out.println("This is char and float Variable "+""+j+" ,"+i);
 		
 	}
 	
