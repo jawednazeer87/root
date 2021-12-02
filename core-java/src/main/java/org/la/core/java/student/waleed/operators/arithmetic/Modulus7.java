@@ -1,4 +1,4 @@
-package org.la.core.java.student.operators.arithmetic.waleed;
+package org.la.core.java.student.waleed.operators.arithmetic;
 
 public class Modulus7 {
 
