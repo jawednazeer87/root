@@ -5,7 +5,7 @@ public class IfExample03 {
 	public static void main(String[] args) {
 
 		char race = 'e';						//asian
-		char location = 'l';
+		char location = 'm';
 		System.out.println("Program started for checking race");
 		
 		if(race=='c' || race=='a') {
