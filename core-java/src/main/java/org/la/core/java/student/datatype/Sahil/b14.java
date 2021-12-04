@@ -1,9 +1,10 @@
-package org.la.core.java.student.arfaz.ifstmt;
+package org.la.core.java.student.datatype.Sahil;
 
-public class FouthPro {
+public class b14 {
+public static void main(String[] args) {
 
-	public static void main(String[] args) {
-		boolean a, b, c;
+	
+	boolean a, b, c;
         a = b = c = true;
         if( !a || ( b && c ) )
         {
@@ -13,6 +14,5 @@ public class FouthPro {
         {
             System.out.println("else executed");
         }
-	}
-
+}
 }
