@@ -1,14 +1,11 @@
 package org.la.core.java.jawed.loop;
 
-public class WhileOne6 {
+public class ForOne {
 
 	public static void main(String[] args) {
 
-		int i = 10;
-		
-		while(i<=5) {
-			System.out.println("Hi: "+i);
-			i++;
+		for(int i=1 ; i<=4 ; i++) {
+			System.out.println(i);
 		}
 		
 		System.out.println("end");

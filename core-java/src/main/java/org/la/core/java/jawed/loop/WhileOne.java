@@ -6,8 +6,8 @@ public class WhileOne {
 
 		int i = 1;
 		
-		while(i<=5) {
-			System.out.println("Hi");
+		while(i<=9) {
+			System.out.println("Hi: "+i);
 			i++;
 		}
 		

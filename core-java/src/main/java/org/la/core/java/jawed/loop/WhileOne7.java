@@ -1,6 +1,6 @@
 package org.la.core.java.jawed.loop;
 
-public class WhileOne2 {
+public class WhileOne7 {
 
 	public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class WhileOne2 {
 		while(i<=5) {
 			System.out.println("Hi: "+i);
 		}
-		
+		i++;
 		System.out.println("--------  end  -----------");
 	}
 
