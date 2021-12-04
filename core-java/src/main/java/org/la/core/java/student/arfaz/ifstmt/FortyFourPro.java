@@ -6,8 +6,12 @@ public class FortyFourPro {
 		int a=123,b=10;
 
 		
-		if (a>b) 
-			System.out.println(a);
+			
+		
+		if (a<b)
+		System.out.println(a);
+			 
+
 		else
 			System.out.println(b);
 		
