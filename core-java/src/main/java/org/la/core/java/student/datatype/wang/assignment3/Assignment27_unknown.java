@@ -2,8 +2,8 @@ package org.la.core.java.student.datatype.wang.assignment3;
 
 public class Assignment27_unknown {
     public static void main(String[] args) {
-        float f = 75.0f;
-        double d = 75.0;
+        float f = 71.20f;
+        double d = 71.20;
         int i = 75;
         if( f == d )
         {
