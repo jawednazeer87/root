@@ -1,0 +1,234 @@
+	1.	wap to find which number is greater among two numbers
+	2.	wap to find which number is greater among three numbers
+	3.	wap to find a number is odd or even
+	4.	wap to find a number is negative or positive or zero
+	5.	wap to find whether a number is divisible by a given number completely.
+	6.	wap to find a number is multiple of 10 or not
+	7.	wap to find to find greatest among three numbers
+	8.	wap to find divistion secured by a student
+	9.	wap to for a given length and breadth of a rectangle check if it is square or not.
+	10.	A school has following rules for grading system:
+		a. Below 25 - F
+		b. 25 to 45 - E
+		c. 45 to 50 - D
+		d. 50 to 60 - C
+		e. 60 to 80 - B
+		f. Above 80 - A
+		provide marks and print the corresponding grade.
+	
+	11.	wap to find smallest number among 2 numbers
+	12.	wap to find smallest number among 3 numbers
+	13.	Write a program to check whether a given character is lowercase ( a to z ) or uppercase ( A to Z ).
+		Hint: u can use ascii value to solve this issue
+	
+	14.	boolean a, b, c;
+        a = b = c = true;
+        if( !a || ( b && c ) )
+        {
+            System.out.println("If executed");
+        }
+        else
+        {
+            System.out.println("else executed");
+        }
+		
+	15.	if( 1 > 2 )
+        {
+            System.out.println(" 1 is greater than 2");
+        }
+		
+	16.	if( 1 < 2 )
+        {
+            System.out.println("1 is less than 2");
+        }
+        else
+            System.out.println("2 is less than 1");
+            System.out.println("Hello From IfExample");
+       
+	17.	int marks = 80;
+        if( marks > 70 )
+            System.out.println("Distinction");
+        if( marks > 35 )
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+            System.out.println("Better luck next time");
+			
+	19.	int a = 7 * 3 + 6 / 2 - 5;
+        int b = 21 - 8 + a % 3 * 11;
+        if(a < b)
+        {
+            System.out.println("A is less than B");
+        }
+        if(a = b)
+        {
+            System.out.println("A is equal to B");
+        }
+        if(a > b)
+        {
+            System.out.println("A is greater than B");
+        }
+		
+	20.	int a = 12 + 21 * 3 - 9 / 2;
+        int b = 14 - 32 * 4 + 175 / 8 - 3;
+        if(++a > 71 && --b < 20)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+        if(b-- == -97 || a-- < 100)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+		
+	21.	float fl = 5.3f;
+        if (fl == 5.3)
+            System.out.println("Both are equal");
+        else
+            System.out.println("Both are not equal");
+			
+	22.	int first = 10, second;
+        if (first < 10)
+            second = 1;
+        if (first >= 10)
+            second = 2;
+        System.out.println("y is " + second);
+		
+	23.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + "," + y);
+        }
+		
+	24.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + " " + y);
+        }
+		
+	25.	boolean x = true;
+        boolean y = false;
+        if (x && y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+		
+	26.	boolean x = true;
+        boolean y = false;
+        if (x || y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+		
+	27.	float f = 75.0f;
+        double d = 75.0;
+        int i = 75;
+        if( f == d )
+        {
+            if( f == i )
+            {
+                System.out.println("f, d and i are equal");
+            }
+            else
+            {
+                System.out.println("f, d are equal but i is not equal");
+            }
+        }
+        else
+        {
+            System.out.println("f and d are not equal");
+        }
+	
+	28.	boolean male = false;
+        int age = 30;
+        if( male )
+            if( age < 20 )
+                System.out.println("Boy");
+            else
+                System.out.println("Man");
+        else
+            if( age < 20 )
+                System.out.println("Girl");
+            else
+                System.out.println("Woman");
+				
+	29.	int marks = 50;
+        if( marks > 70 )
+            System.out.println("Distinction");
+        else if( marks > 35 )
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+			
+	30.	int marks = 80;
+        if( marks > 70 )
+        {
+            System.out.println("Distinction");
+            System.out.println("Congratulations");
+        }
+        else if( marks > 35 )
+        {
+            System.out.println("Pass");
+        }
+        else
+        {
+            System.out.println("Fail");
+            System.out.println("Better luck next time");
+        }
+	
+	31.	int marks = 50;
+        if( marks >= 70 )
+            System.out.println("Distinction");
+
+        if( marks < 70 && marks >= 35 )
+            System.out.println("Pass");
+
+        if( marks < 35 )
+            System.out.println("Fail");
+			
+	32.	boolean a=true, b = false;
+		if (a) {
+			System.out.println("A");
+		} else if (a && b) {
+			System.out.println("A && B");
+		} else {
+			if (!b) {
+				System.out.println("notB");
+			} else {
+				System.out.println("ELSE");
+			}
+		}
+
+	33. wap to find a given number is negative or not?
+	34. wap to print zero if number zero, 1 if positive and -1 if number is negative
+	35. wap to print odd if number is odd and even if number is even
+	36. wap to check whether number is less than 100 or not
+	37. wap to check whether number is between -100 to 50
+	38. wap to print whether number is divisible by 3 or not
+	39. wap to check whether number divisible by 7
+	40. wap to print hi if number is zero and by if number is 100
+	41. wap to print double if number is a double digit 
+	42. wap to print single if number is single digit
+	43. wap to print ternary if number is 3 digit
+	44. wap to print 100 if number is between 100 to 200
+	45. wap to find greatest number among two numbers
+	46. wap to find greatest number among three numbers
+	47. wap to find least number among two numbers  
+	48. wap to find least number among three numbers
+	49. wap to check whether a given character is capital 'A' or not 
+	50. wap to print 'up' if any given character is upper case
+	51. wap to print 'low' if any given character is lower case
+	52. wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
+	53. wap to check whether a given number is positive and double digit or single digit number 
+	54. wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
+	55. wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
+	56. wap to print all these on basis of give character value
+		'A' -> Capital
+		'a' -> small 
+	57. wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
+	58. wap to print 'number' if the given character is number else 'non number'
+	59.	wap to print 'star' if the given character is * else print 'no star'
+	60.	wap to print 'at the rate' if the given character is @ else print 'no rate'
+	61.	wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 'world' if number is divisible by 5.
+	

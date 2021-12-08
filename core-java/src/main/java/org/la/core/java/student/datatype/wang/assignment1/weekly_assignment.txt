@@ -1,0 +1,68 @@
+WAP -> Write a program
+
+01. wap to print: hello world
+02. wap to print: java world
+03. wap to print: java class
+04. wap to print: java classes
+05. wap to print: software program
+06. wap to print: software classes
+07. wap declare int variable and print its value
+08. wap declare long variable and print its value
+09. wap declare float variable and print its value
+10. wap declare double variable and print its value
+11. wap declare byte variable and print its value
+12. wap declare boolean variable and print its value
+13. wap declare char variable and print its value
+14. wap declare 2 int variables and print its value
+15. wap declare 2 long variables and print its value
+16. wap declare 2 float variables and print its value
+17. wap declare 2 double variables and print its value
+18. wap declare 2 byte variables and print its value
+19. wap declare 2 boolean variables and print its value
+20. wap declare 2 char variables and print its value
+21. wap declare float and int variables and print its value
+22. wap declare float and double variables and print its value
+23. wap declare float and char variables and print its value
+24. wap declare float and boolean variables and print its value
+25. wap declare double and int variables and print its value
+26. wap declare double and long variables and print its value
+27. wap declare double and char variables and print its value
+28. wap declare int and long variables and print its value
+29. wap declare int and char variables and print its value
+30. wap declare int and boolean variables and print its value
+31. wap declare int and byte variables and print its value
+32. wap to print 2 negative int
+33. wap to print 2 negative double
+34. wap to print 2 negative float
+35. wap to print number as char and its ascii value 
+e.g
+public class NumChar {
+	public static void main(String[] args){
+		char num = '1';
+		System.out.println("number as char: +"num);
+		System.out.println("ASCII value: +" (int)num);
+	}
+} 
+
+36. wap to declare int spc = 32; and print its char value
+public class NumChar2 {
+	public static void main(String[] args){
+		int num = 32;
+		System.out.println("number as char: +"(char)num);
+		System.out.println("int value: +" num);
+	}
+} 
+37. wap to declare 3 int variables and assign any value and print it
+38. wap to declare 3 char variables and assign any value and print it
+39. wap to declare 3 double variables and assign any value and print it
+40. wap to declare 3 float variables and assign any value and print it
+41. wap to declare 3 long variables and assign any value and print it
+42. wap to declare 3 boolean variables and assign any value and print it
+43. wap declare int variable and print its value then change its value and print again
+44. wap declare long variable and print its value then change its value and print again
+45. wap declare float variable and print its value then change its value and print again
+46. wap declare double variable and print its value then change its value and print again
+47. wap declare char variable and print its value then change its value and print again
+48. wap declare int and print its value then change its value and print again
+49. wap declare 5 char variable and assign vowel and print it
+50. wap declare 2 boolean, 3 int and 1 long variable and assign value and print it
