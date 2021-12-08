@@ -1,4 +1,4 @@
-package org.la.core.java.student.datatype.SjMohammed.assignment;
+package org.la.core.java.student.sjmohammed.assignment1;
 
 public class Example34 {
 

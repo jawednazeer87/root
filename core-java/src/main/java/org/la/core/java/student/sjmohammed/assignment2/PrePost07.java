@@ -1,4 +1,4 @@
-package org.la.core.java.student.arithmetic.SjMohammed;
+package org.la.core.java.student.sjmohammed.assignment2;
 
 public class PrePost07 {
 

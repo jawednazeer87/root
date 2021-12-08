@@ -1,4 +1,4 @@
-package org.la.core.java.student.datatype.SjMohammed;
+package org.la.core.java.student.datatype.sjmohammed;
 
 public class IntDataType {
 
