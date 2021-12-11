@@ -14,7 +14,7 @@ public class TablePrinting {
 		}
 		
 		
-		System.out.println("--------  end  -----------");
+		System.out.println("--------  end  -----------: "+i);
 	}
 
 }
