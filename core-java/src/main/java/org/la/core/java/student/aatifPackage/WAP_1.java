@@ -3,8 +3,16 @@ package org.la.core.java.student.aatifPackage;
 public class WAP_1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
+		
+		//Q.no 1 to 6
+		
+		System.out.println("hello world");
+		System.out.println("java world");
+		System.out.println("java class");
+		System.out.println("java classes");
+		System.out.println("software program");
+		System.out.println("software classes");
+		
 	}
 
 }
