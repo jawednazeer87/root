@@ -1,4 +1,4 @@
-package org.la.core.java.student.aatifPackage;
+package org.la.core.java.student.aatifPackage.assignment1;
 
 public class WAP_1_to_6 {
 
