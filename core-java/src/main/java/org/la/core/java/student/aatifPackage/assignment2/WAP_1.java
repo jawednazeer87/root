@@ -1,4 +1,4 @@
-package org.la.core.java.student.aatifPackage.arithmetic;
+package org.la.core.java.student.aatifPackage.assignment2;
 
 public class WAP_1 {
 	public static void main(String[] args) {
