@@ -4,7 +4,7 @@ public class Diamond {
 
 	public static void main(String[] args) {
 
-		int n = 10;
+		int n = 5;
 		for(int i=-n ; i<=n ; i++) {
 			
 			int j=i;

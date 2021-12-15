@@ -4,9 +4,9 @@ public class DecreaseStar {
 
 	public static void main(String[] args) {
 		
-		int n = 20;
+		int n = 6;
 		for(int j=1 ; j<=n ; j++) {
-			for(int y=1; y<=n-j+1 ; y++) {
+			for(int y=0; y<=n-j ; y++) {
 				System.out.print("*");
 			}
 			System.out.println("");
