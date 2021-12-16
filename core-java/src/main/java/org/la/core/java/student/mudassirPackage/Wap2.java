@@ -6,7 +6,6 @@ public class Wap2 {
 		// TODO Auto-generated method stub
 		System.out.println("Hello Java!");
 		
-
 	}
 
 }
