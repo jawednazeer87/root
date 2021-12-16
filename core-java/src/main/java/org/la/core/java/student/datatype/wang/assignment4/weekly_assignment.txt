@@ -1,0 +1,200 @@
+1.	wap to print number from 1 to 10
+	2.	wap to print number from 10 to 1
+	3.	wap to print first five odd numbers.
+	4.	wap to print first five even numbers.
+	5.	wap to print to print all negative numbers between -1 and -10.
+	6.	wap to print numbers which is completely divisible by 3 between 1 to 10.
+	7.	wap to print numbers which is completely divisible by 10 between 1 to 100.
+	8.	wap to print numbers which is completely divisible by 3 and 2 between 1 to 10.
+	9.	wap to print numbers which is multiple of 3 between 1 to 22.
+	10.	wap to print 5 times A.
+	11.	wap to print 1 time a.
+	12.	wap to print 15 times hello.
+	13.	wap to print 10 times wolrd.
+	14.	wap to print -10 to -1.
+	15.	wap to print all even numbers between 100 to 120.
+	16.	wap to print all odd numbers between 120 to 100.
+	17.	wap to print all numbers between 30 to 50 those are not divisible by 7.
+	18.	wap to print all numbers between 130 to 90 those are not divisible by 10.
+	19.	wap to print all numbers between 30 to 80 those are divisible by 6 and 5.
+	20.	wap to print all numbers between 10 to 50 those are divisible by 2 and 5.
+	21.	wap to print all numbers between 10 to 50 those are divisible by 2 and 5.
+	22.	wap to print all numbers between 10 to 70 those are not divisible by 3 and 5.
+	23.	wap to print all numbers between 10 to 50 those are divisible by 5 and 9.
+	24.	wap to print all numbers between 10 to 90 those are not divisible by 2 and 5.
+	25.	wap to print all numbers between 100 to 1 those are not divisible by 11 and 3.
+	26.	wap to print all numbers between 200 to 1 those are divisible by 13 and 2.
+	27.	wap to print all numbers between 1 to 1500 those are divisible by 11 and 13.
+	28.	wap to print all numbers between 10 to 300 those are divisible by 11 and 12.
+	29.	wap to print all numbers between 100 to 1 those are divisible by 11 and 3.
+	30.	wap to print all numbers between 1 to 150 multiple of 11.
+	31.	wap to give a condition that loop may be rotate upto 10 but break loop when it rotates uptop 7 times.
+	32. wap to print all lower case alphabets.
+	33.	wap to print all upper case alphabets.
+	34.	wap to print all upper case alphabets except vowels.
+	34.	wap to print all lower case alphabets except vowels.
+	35.	wap to print all lower case vowels.
+	36.	wap to print all upper case vowels.
+	37.	wap to print all numbers from 1 to 10 except 3 and 7.
+	38.	wap to print all numbers from 1 to 10 except 2 and 5 and 8.
+	39.	wap to print number from 50 to 45
+	40.	wap to find factorial of a given number
+	41.	wap to print fibonocci series
+	42.	wap to find given number is prime or not
+	43.	wap to reverse a number e.g ip=12345, op=54321 avoid zero
+	44.	wap to find sum of a number e.g ip=1234,  op=10
+	45.	wap to print patterns
+	46.	Wap to print all natural numbers from 1 to n.
+	47.	Wap to print all natural numbers in reverse (from n to 1).
+	48.	Wap to print all alphabets from a to z.
+	49.	Wap to print all even numbers between 1 to 100.
+	50.	Wap to print all odd number between 1 to 100.
+	51.	Wap to find sum of all natural numbers between 1 to n.
+	52.	Wap to find sum of all even numbers between 1 to n.
+	53.	Wap to find sum of all odd numbers between 1 to n.
+	54.	Wap to print multiplication table of any number.
+	55.	Wap to count number of digits in a number.
+	56.	Wap to find first and last digit of a number.
+	57.	Wap to find sum of first and last digit of a number.
+	58.	Wap to swap first and last digits of a number.
+	59.	Wap to calculate sum of digits of a number.
+	60.	Wap to calculate product of digits of a number.
+	61.	Wap to enter a number and print its reverse.
+	62.	Wap to check whether a number is palindrome or not.
+	63.	Wap to print all ASCII character with their values.
+	64.	Wap to find power of a number using for loop.
+	65.	Wap to calculate factorial of a number.
+	66.	Wap to check whether a number is Prime number or not.
+	67.	Wap to print all Prime numbers between 1 to n.
+	68.	Wap to find sum of all prime numbers between 1 to n.
+	69.	Wap to check whether a number is Armstrong number or not.
+	70.	Wap to print all Armstrong numbers between 1 to n.
+	71.	Wap to check whether a number is Perfect number or not.
+	72.	Wap to print all Perfect numbers between 1 to n.
+	73.	Wap to check whether a number is Strong number or not.
+	74.	Wap to print all Strong numbers between 1 to n.
+	75.	Wap to print Fibonacci series up to n terms.
+	76.
+		*
+		**
+		***
+		****
+	
+	77.
+		****
+		***
+		**
+		*
+		
+	78.
+		****
+		 ***
+		  **
+		   *
+		   
+	79.
+		    *
+		   **
+	      ***
+	     ****
+		 
+	80.
+		   *
+		  * *
+		 * * *
+		* * * *
+
+	81.
+		* * * * *
+		 * * * *
+		  * * *
+		   * *
+		    *
+	
+	82.
+		1
+		1 2
+		1 2 3
+	
+	83.
+		1
+		2 2
+		3 3 3
+		
+	84.	
+	         1
+	       1 2
+		 1 2 3
+		 
+		
+	
+
+	
+	86. Star pattern programs - Wap to print the given star patterns.
+	87.	Number pattern programs - Wap to print the given number patterns.
+	88.	wap to print number as char and its ascii value 
+	89. 	wap to declare int spc = 32; and print its char value
+	90	wap to declare 3 int variables and assign any value and print it
+	91	wap to create a char variable but assign an int value and print that variable?
+	92	wap to create an int variable but assign a char value and print that variable?
+	93.	what will be the output?
+	
+	1.	
+		int i = 19/5; 
+		sop(i);
+	2.  
+		char a = 65;
+		sop(a);
+	3.
+		int s = 'a';
+		sop(s);
+	
+	94.	what will be output: int x = 5 + 3 * 4 / 5 + 4;
+	what will be output: double x = 14 / 5 ;
+	
+	95.	int x = 15;
+	int y = x % 4;
+	int z = y * 24;
+	System.out.println(z / 2);
+		
+
+	96 	int x = 42;
+	double y = 42.25;
+	System.out.println("x mod 10 = " + x % 10 );
+	System.out.println("y mod 10 = " + y % 10 );		
+	
+		97.	int a = 31, b = 40;
+        int c = b - a;
+        b = c % a;        
+        b = b / a;        
+        a = ++c;        
+        b = (a - --b) * c;
+	
+	98	int num = 69;
+        int days = num % 30;
+        int month = num / 30;
+        System.out.println(month + " Month and " + days + " days");
+		
+		
+	99-21.	int a = 34;
+        double d = 20.5;
+        d+=a;
+        a+=d;
+        d-=a;
+        a-=d;
+        System.out.println(" d = " + ++d );
+        System.out.println(" a = " + a-- );
+
+
+100	28. wap to add two int variable but assign the result to double variable and print the result?	
+101	29. wap to add two int variable but assign the result to float variable and print the result?
+
+
+102	1.	wap to do pre increment a number and assign its value to other number and print both number
+103	2.	wap to do post increment a number and assign its value to other number and print both number	
+104	3.	wap to do pre increment a number and assign its value to other number and print both numbers, do assignment increment in same line
+105	4.	wap to do post increment a number and assign its value to other number and print both numbers, do assignment increment in same line	
+106	5.	wap to pre increment a number n multiply with a number and assign product to a variable, print both variables
+107	6.	wap to post increment a number n multiply with a number and assign product to a variable, print both variables
+108	7.	Repeat all above operations with decrement operators too.	
+	
