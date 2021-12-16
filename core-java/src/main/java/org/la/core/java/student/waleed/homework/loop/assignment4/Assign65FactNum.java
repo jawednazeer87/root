@@ -12,11 +12,11 @@ public class Assign65FactNum {
 		for(; n>=1 ; n--) {
 			System.out.println(f+"*"+n );
 			f = f * n;
-		
 			sum = sum+f;
+			
 		}
-		
-		System.out.println("factorial: "+sum);
+		System.out.println("factorial: "+f);
+		System.out.println("Sum: "+sum);
 	}
 		
 		
