@@ -7,5 +7,4 @@ public class Wap2 {
 		System.out.println("Hello Java!");
 		
 	}
-
 }
