@@ -8,7 +8,7 @@ public class Assign34UpperExceptVowels {
 		
 		for (char a ='A';a<='Z';a++)
 		 {
-			if(a!='A'&& a!='A' && a!='O' && a!='I'&& a!='U') {
+			if(a!='A'&& a!='E' && a!='O' && a!='I'&& a!='U') {
 				System.out.print(a+" ");
 			}
 			
