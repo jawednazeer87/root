@@ -1,15 +1,12 @@
 package org.la.core.java.student.sjmohammed.assignment4;
 
-public class Example40 {
+public class Example63 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=4,f=1;
-		while(n>=1) {
-			f=n*f;
-			n--;
+		for(char i='a';i<='z';i++) {
+			System.out.println(i+" It's ASCII Value "+(int)i);
 		}
-		System.out.println(f);
 	}
 
 }
