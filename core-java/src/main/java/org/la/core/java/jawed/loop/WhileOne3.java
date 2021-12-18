@@ -8,7 +8,7 @@ public class WhileOne3 {
 		
 		while(i<=5) {
 			System.out.println("Hi: "+i);
-			i+=1;		// i = i + 1 ;
+			i+=2;		// i = i + 1 ;
 		}
 		
 		
