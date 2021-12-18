@@ -126,10 +126,11 @@
 	       1 2
 		 1 2 3
 		 
+	85.
+			 1
+	       2 2
+		 3 3 3
 		
-	
-
-	
 	86. Star pattern programs - Wap to print the given star patterns.
 	87.	Number pattern programs - Wap to print the given number patterns.
 	88.	wap to print number as char and its ascii value 

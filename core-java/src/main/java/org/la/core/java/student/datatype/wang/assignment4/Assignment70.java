@@ -5,16 +5,23 @@ public class Assignment70 {
 
     public static void main(String[] args) {
 
-        int i, N = 100000;
+        int i, N = 10000;
         for (i = 0; i < N; i++) {
-            int num = i, sum = 0, temp = num;
-            while (num != 0) {
-                int remainder = num % 10;//r=3;
-                sum += Math.pow(remainder, 3);
-                num = num / 10; //result =15;
+
+            int num = i, sum = 0, temp = num, digits = 0;
+            while (temp > 0) {
+                temp = temp / 10;
+                digits++;
             }
-            if (temp == sum) {
-                System.out.println(temp + " is ArmstrongNumber");
+            temp = num;
+            while (temp > 0) {
+                int remainder = temp % 10;//r=3;
+                sum += Math.pow(remainder, digits);
+                temp = temp / 10; //result =15;
+            }
+
+            if (num == sum) {
+                System.out.println(num + " is Armstrong number");
             }
         }
     }

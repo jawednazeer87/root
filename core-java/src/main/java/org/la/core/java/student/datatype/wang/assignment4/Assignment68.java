@@ -8,15 +8,13 @@ public class Assignment68 {
         int numMax = 10;
         int i, sum = 0;
         for (int num = 2; num < numMax; num++) {
-            boolean isPrime = false;
 
-            for (i = 2; i <= num / 2; i++) {
+            for (i = 2; i <= num ; i++) {
                 if (num % i == 0) {
-                    isPrime = true;
                     break;
                 }
             }
-            if (!isPrime) {
+            if (i == num) {
                 System.out.println(num + " is a prime number");
                 sum+=num;
             }
