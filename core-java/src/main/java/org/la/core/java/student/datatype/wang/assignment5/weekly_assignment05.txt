@@ -1,0 +1,229 @@
+Array
+	01) wap to create and print array using without loop
+	02) wap to create and print array using loop
+	03) wap to find length of an array
+	04) wap to print only odd numbers from an array
+	05) wap to print only even numbers from an array
+	06) wap to print only positive number from an array
+	07) wap to print only negative number from an array
+	08) wap to print number divisible by given number from an array
+	09) wap to print number not divisible by given number from an array
+	10) wap to print array in reverse order
+	11) wap to copy one array into other array
+	12) wap to copy an array to another array in reverse order
+	13) wap to find some of an array element
+	14) wap to find greatest number from any array 
+	15) wap to find smallest number among array element
+	16) wap to reverse an array
+	17) wap to copy two arrays into one array
+	18) wap to add two array elements n copy into third array
+	19) wap to find duplicate elements in an array? 
+	20) wap to check whether two array are equal or not(means we have to check each element of two arrays)?
+	21) wap to print all prime numbers from an array ?
+	22) wap to calculate the factorial of each element of an array?
+	23) wap to count occurrences of each element in an array?
+	24) wap to remove duplicate elements from an array?
+	25) wap to calculate the average value of array elements?
+	26) wap to test if an array contains a specific value?
+	27) wap to find the index of an array element(here u have to take any number and check that number is 
+		present inside an array or not, 
+	    if 	not print -1, if present then print its index means of of that element)?
+	28) wap to remove a specific element from an array?
+	29) wap to insert an element (specific position) into an array?
+	30) wap to find the common elements between two arrays?
+	31) wap to remove duplicate elements from an array?
+	32) wap to find the second largest element in an array?
+	33) wap to find the second smallest element in an array?
+	34) wap to remove all zero element from an array?
+	35) wap to check if an array of integers without 0 and -1?
+	36) wap to remove the duplicate elements of a given array and return the new length of the 
+		array.Sample array: [20, 20, 30, 40, 50, 50, 50]
+		After removing the duplicate elements the program should return 4 as the new length of the array?
+	37) wap to separate even and odd numbers of a given array of integers. Put all even numbers first, and 
+		then odd numbers ?
+	38) Find largest and smallest elements of an array? 
+	39)	wap to subtract -1 from each element of an array 
+	40)	wap to add 5 to each element of an array
+	41) wap to convert an array of characters from upper case to lower case, e.g if arr[] = {'a', 'b', 'C'} 
+		then after conversion final array should be arr[] = {'A', 'B', 'C'}
+	42)	wap to convert an array of characters from lower case to upper case, e.g if arr[] = {'A', 'b', 'C'} 
+		then after conversion final array should be arr[] = {'a', 'b', 'c'}
+	43)	wap to multiply 3 to each element of an array
+		Suppose given array is [10, 19, 2, 7] -> answer 30, 57, 6, 21
+	44)	wap to to divide each element of an array by 2.
+		Suppose given array is [10, 19, 2, 7] -> our program will divide each element by 2
+		then answer should be 10/2, 19/2, 2, 7/2 = 5, 9, 3, 1
+	45) wap to add all even numbers of an array and print the sum
+		Suppose given array is [10, 19, 2, 7] -> sum=12 which is sum of 10 and 2, both are even
+	46)	wap to add all odd numbers of an array and print the sum
+		Suppose given array is [10, 19, 2, 7] -> sum=26 which is sum of 19 and 7, both are odd
+	47)	wap to count all 1's of an int array
+		Suppose given array is [10, 19, 2, 7] -> number of 1's here zero
+		Suppose given array is [1, 19, 1, 7, 1, 3] -> number of 1's here 3
+	48)	wap to count all 2's of an int array
+		Suppose given array is [10, 19, 2, 7] -> number of 2's here one
+		Suppose given array is [1, 19, 1, 7, 1, 3] -> number of 2's here 0
+	49)	what ArrayIndexOutOfBoundsException ?	- theory, search in google
+	50)	wap to find the largest and smallest number in an integer array
+		Suppose given array is [100, 30, -20, 0] -> largest=100, smallest=-20
+ 	51) wap to count all prime numbers of an array?
+		Suppose given array is [100, 19, 2, 7, 50] -> 19, 2, 7 are prime numbers so the count = 3
+	52)	wap to add all elements of an array and check wether the sum is a prime number or not?
+		Suppose given array is [10, 19, 2, 7] -> sum=38 is not a prime number
+		Suppose given array is [10, 8, 2, 9] -> sum=29 is a prime number
+	53)	wap to find whether an array of characters having 'a' or not?
+		Suppose given array is ['a', '5', '7', 'p'] -> this array has 'a'
+		Suppose given array is ['A', '5', '7', 'p'] -> this array doesn't have 'a'
+	54)	wap to find whether an array of characters having 'Z' or not?
+		Suppose given array is ['a', '5', '7', 'p'] -> this array doesn't have 'Z'
+		Suppose given array is ['A', '5', 'Z', 'p'] -> this array has 'Z'
+	55) wap to print all ascii value of character array
+		Suppose given array is ['a', '5', '7', 'p'] -> answer would be : 97, 53, 55, 112
+		
+		
+		
+	56	32. wap to print all lower case alphabets.
+	57	33.	wap to print all upper case alphabets.
+	58	34.	wap to print all upper case alphabets except vowels.
+	59	34.	wap to print all lower case alphabets except vowels.
+	60	35.	wap to print all lower case vowels.
+	61	36.	wap to print all upper case vowels.
+	62	37.	wap to print all numbers from 1 to 10 except 3 and 7.
+	63	38.	wap to print all numbers from 1 to 10 except 2 and 5 and 8.
+	64	39.	wap to print number from 50 to 45
+	65	40.	wap to find factorial of a given number
+	
+	66	40. wap to print hi if number is zero and by if number is 100
+	67	41. wap to print double if number is a double digit 
+	68	42. wap to print single if number is single digit
+	69	43. wap to print ternary if number is 3 digit
+	70	44. wap to print 100 if number is between 100 to 200
+	71	45. wap to find greatest number among two numbers
+	72	46. wap to find greatest number among three numbers
+	73	47. wap to find least number among two numbers  
+	74	48. wap to find least number among three numbers
+	75	49. wap to check whether a given character is capital 'A' or not 
+	76	50. wap to print 'up' if any given character is upper case
+	77	51. wap to print 'low' if any given character is lower case
+	78	52. wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
+	79	53. wap to check whether a given number is positive and double digit or single digit number 
+	80	54. wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
+	81	55. wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
+	
+	82	14.	boolean a, b, c;
+        a = b = c = true;
+        if( !a || ( b && c ) )
+        {
+            System.out.println("If executed");
+        }
+        else
+        {
+            System.out.println("else executed");
+        }
+		
+	83	15.	if( 1 > 2 )
+        {
+            System.out.println(" 1 is greater than 2");
+        }
+		
+	84	16.	if( 1 < 2 )
+        {
+            System.out.println("1 is less than 2");
+        }
+        else
+            System.out.println("2 is less than 1");
+            System.out.println("Hello From IfExample");
+       
+	85	17.	int marks = 80;
+        if( marks > 70 )
+            System.out.println("Distinction");
+        if( marks > 35 )
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+            System.out.println("Better luck next time");
+			
+	86	19.	int a = 7 * 3 + 6 / 2 - 5;
+        int b = 21 - 8 + a % 3 * 11;
+        if(a < b)
+        {
+            System.out.println("A is less than B");
+        }
+        if(a = b)
+        {
+            System.out.println("A is equal to B");
+        }
+        if(a > b)
+        {
+            System.out.println("A is greater than B");
+        }
+		
+	87	20.	int a = 12 + 21 * 3 - 9 / 2;
+        int b = 14 - 32 * 4 + 175 / 8 - 3;
+        if(++a > 71 && --b < 20)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+        if(b-- == -97 || a-- < 100)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+		
+	88	21.	float fl = 5.3f;
+        if (fl == 5.3)
+            System.out.println("Both are equal");
+        else
+            System.out.println("Both are not equal");
+			
+	89	22.	int first = 10, second;
+        if (first < 10)
+            second = 1;
+        if (first >= 10)
+            second = 2;
+        System.out.println("y is " + second);
+		
+	90	23.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + "," + y);
+        }
+		
+	91	24.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + " " + y);
+        }
+		
+	92	25.	boolean x = true;
+        boolean y = false;
+        if (x && y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+		
+		
+		
+	93	1.
+		int a = 1;
+		int b = 2;
+		if(a==1 || ++b==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
+		
+	94	2.	int a = 1;
+		int b = 2;
+		if(a==1 && ++b==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
+	95	3.	int a = 1;
+		int b = 2;
+		if(a!=1 || b++==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
