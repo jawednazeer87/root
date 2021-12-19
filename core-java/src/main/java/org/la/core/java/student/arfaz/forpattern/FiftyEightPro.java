@@ -1,6 +1,6 @@
 package org.la.core.java.student.arfaz.forpattern;
 
-public class FiftySevenPro {
+public class FiftyEightPro {
 
 	public static void main(String[] args) {
 		int n=1756256478,first=0,last=0;
@@ -10,7 +10,7 @@ public class FiftySevenPro {
     	
 	}
 		last=n%10;
-		System.out.println(first+" "+last);
+		System.out.println("Sum of 1st, last "+(first+last));
 	}
 //	find first and last digit of a number.
 }
