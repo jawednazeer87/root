@@ -4,7 +4,7 @@ public class ExitControlExample {
 
 	public static void main(String[] args) {
 		
-		int n=0;
+		int n=10;
 		do {
 			System.out.println(n);
 			n--;
