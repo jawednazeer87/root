@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 
 public class Copy {
 
-	static Logger logger = LoggerFactory.getLogger(Copy.class);
+	static Logger log = LoggerFactory.getLogger(Copy.class);
 	
 	public static void main(String[] args) {
-		
+		log.info("This is info log");
 		int s[] = {1, 2, 3, 4, 5};
 		int t[] = new int[s.length];
 		for(int i=0 ; i<s.length ; i++) {
