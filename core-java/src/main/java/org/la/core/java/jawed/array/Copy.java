@@ -16,9 +16,9 @@ public class Copy {
 		}
 		
 		for(int i=0 ; i<t.length ; i++) {
-			System.out.println("t["+i+"] = "+t[i]);
+			log.info("t["+i+"] = "+t[i]);
 		}
 		t[0] = 13222;
-		System.out.println("s[0]: "+s[0]);
+		log.info("s[0]: "+s[0]);
 	}
 }
