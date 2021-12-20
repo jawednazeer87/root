@@ -1,7 +1,12 @@
 package org.la.core.java.jawed.array;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Copy {
 
+	static Logger logger = LoggerFactory.getLogger(Copy.class);
+	
 	public static void main(String[] args) {
 		
 		int s[] = {1, 2, 3, 4, 5};
