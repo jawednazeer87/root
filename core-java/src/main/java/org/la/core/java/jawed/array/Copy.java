@@ -20,5 +20,6 @@ public class Copy {
 		}
 		t[0] = 13222;
 		log.info("s[0]: "+s[0]);
+		
 	}
 }
