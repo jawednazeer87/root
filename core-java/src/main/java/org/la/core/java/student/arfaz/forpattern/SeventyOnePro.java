@@ -4,7 +4,7 @@
 
 public class SeventyOnePro {
 	public static void main(String[] args) {
-		int m,rem, arm=0,n=1000;
+		int m,rem, arm=0,n=999;
 		for(int i=1;i<=n;i++)  {
 			m=i;
 			arm=0;

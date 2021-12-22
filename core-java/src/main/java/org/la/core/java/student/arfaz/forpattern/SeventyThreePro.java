@@ -4,22 +4,20 @@
 
 public class SeventyThreePro {
 	public static void main(String[] args) {
-		int s=0,temp=0;
-		for (int n = 2; n < 10000; n++)  {
-//			temp=n;
+		int s=0;
+		for (int n = 1; n < 1000; n++)  {
+			s=0;
+
 			for(int i=1;i<n;i++)  {
 			if(n%i==0)
 				s+=i;
-//			System.out.println(s);
-//			System.out.println(i);
+			
 			}
-			if(temp==s)
-				System.out.println(temp+" is Perfect number");
-			else
-				System.out.println("not a perfect");
-
+			if(n==s)
+				System.out.println(s+" is Perfect number");
+			
 		}
-            		
+			
 	}
 
 		
