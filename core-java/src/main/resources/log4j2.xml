@@ -3,16 +3,15 @@
 	<Appenders>
 		<Console name="console" target="SYSTEM_OUT">
 			<PatternLayout
-				pattern="%d{dd/MM/yyyy HH:mm:ss,SSS} %-5p - %m%n" />
+				pattern="%d{dd-MM-yyyy HH:mm:ss,SSS} %-5p  %c{7} - %m%n" />
 		</Console>
 		<RollingFile name="RollingFile"
-			fileName="G:/students/student-2/logs/app.log"
-			filePattern="G:/students/student-2/logs/b3l3a.%d{yyyyMMdd}.log">
+			filePattern="G:/students/student-2/logs/logs.%d{dd-MM-yyyy}.log">
 			<PatternLayout>
 				<Pattern>%d{dd/MM/yyyy HH:mm:ss,SSS} %-5p - %m%n</Pattern>
 			</PatternLayout>
 			<Policies>
-				<SizeBasedTriggeringPolicy size="10MB" />
+				<SizeBasedTriggeringPolicy size="5MB" />
 			</Policies>
 		</RollingFile>
 	</Appenders>
