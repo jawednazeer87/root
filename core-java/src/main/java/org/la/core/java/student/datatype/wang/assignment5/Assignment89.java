@@ -1,10 +1,12 @@
 
 package org.la.core.java.student.datatype.wang.assignment5;
 
-public class Assignment89 {
-    /*
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-     */
+public class Assignment89 {
+    static Logger log = LoggerFactory.getLogger(Assignment89.class);
+
     public static void main(String[] args) {
 
         int first = 10, second = 0;
@@ -12,6 +14,6 @@ public class Assignment89 {
             second = 1;
         if (first >= 10)
             second = 2;
-        System.out.println("y is " + second);
+        log.info("y is " + second);
     }
 }

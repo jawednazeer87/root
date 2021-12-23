@@ -1,5 +1,8 @@
 package org.la.core.java.student.datatype.wang.assignment5;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Arrays;
 
 public class Assignment36 {
@@ -8,6 +11,7 @@ public class Assignment36 {
 		array.Sample array: [20, 20, 30, 40, 50, 50, 50]
 		After removing the duplicate elements the program should return 4 as the new length of the array?
     */
+    static Logger log = LoggerFactory.getLogger(Assignment36.class);
     public static void main(String[] args) {
         int[] arr = {20, 20, 30, 40, 50, 50, 50}; //20,30,40,50
 
@@ -18,8 +22,8 @@ public class Assignment36 {
             }
         }
 
-        System.out.println("the new length of the array : "+j);
-        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+        log.info("the new length of the array : "+j);
+        log.info("Arrays.toString(arr) = " + Arrays.toString(arr));
 
     }
 

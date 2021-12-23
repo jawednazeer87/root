@@ -1,11 +1,15 @@
 package org.la.core.java.student.datatype.wang.assignment5;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Arrays;
 
 public class Assignment28 {
     /*
  28) wap to remove a specific element from an array?
     */
+    static Logger log = LoggerFactory.getLogger(Assignment28.class);
     public static void main(String[] args) {
         int[] arr = {4, 2, 3, 1, 7};
         int[] resultArr = new int[arr.length-1];
@@ -15,6 +19,6 @@ public class Assignment28 {
                 resultArr[j++]=arr[i];
             }
         }
-        System.out.println("Arrays.toString(resultArr) = " + Arrays.toString(resultArr));
+        log.info("Arrays.toString(resultArr) = " + Arrays.toString(resultArr));
     }
 }

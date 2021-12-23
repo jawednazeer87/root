@@ -1,11 +1,15 @@
 package org.la.core.java.student.datatype.wang.assignment5;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Arrays;
 
 public class Assignment25 {
     /*
   25)wap to calculate the average value of array elements?
     */
+    static Logger log = LoggerFactory.getLogger(Assignment25.class);
     public static void main(String[] args) {
         int[] arr = {4, 2, 3};
         int length = arr.length, sum = 0;
@@ -13,6 +17,6 @@ public class Assignment25 {
             sum+=arr[i];
         }
         int aveValue = sum / length;
-        System.out.println("aveValue = " + aveValue);
+        log.info("aveValue = " + aveValue);
     }
 }

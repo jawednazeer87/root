@@ -1,16 +1,18 @@
 
 package org.la.core.java.student.datatype.wang.assignment5;
 
-public class Assignment84 {
-    /*
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-     */
+public class Assignment84 {
+    static Logger log = LoggerFactory.getLogger(Assignment84.class);
+
     public static void main(String[] args) {
         if (1 < 2) {
-            System.out.println("1 is less than 2");
-            System.out.println("Hello From IfExample");
+            log.info("1 is less than 2");
+            log.info("Hello From IfExample");
         } else
-            System.out.println("2 is less than 1");
+            log.info("2 is less than 1");
 
     }
 }

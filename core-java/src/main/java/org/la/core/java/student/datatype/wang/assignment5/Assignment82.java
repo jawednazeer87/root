@@ -1,17 +1,19 @@
 
 package org.la.core.java.student.datatype.wang.assignment5;
 
-public class Assignment82 {
-    /*
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-     */
+public class Assignment82 {
+    static Logger log = LoggerFactory.getLogger(Assignment82.class);
+
     public static void main(String[] args) {
         boolean a, b, c;
         a = b = c = true;
         if (!a || (b && c)) { //false||(true && true)>>true
-            System.out.println("If executed");
+            log.info("If executed");
         } else {
-            System.out.println("else executed");
+            log.info("else executed");
         }
     }
 }
