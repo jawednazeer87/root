@@ -3,7 +3,6 @@ package org.la.core.java.student.mudassirPackage.Arthmetic;
 public class Wap9 {
 
 	public static void main(String[] args) {
-		// Average of three numbers
 		
       float a = 10, b = 12, c = 14, avg;
 		
