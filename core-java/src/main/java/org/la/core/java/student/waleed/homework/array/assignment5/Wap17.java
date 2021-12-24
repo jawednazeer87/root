@@ -1,15 +1,16 @@
-package org.la.core.java.student.waleed.homework.condition.assignment3;
+package org.la.core.java.student.waleed.homework.array.assignment5;
 
-public class Assign18 {
+public class Wap17 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
 		
 		
-		int marks = 51;
+		int marks = 80;
         if( marks > 70 )
             System.out.println("Distinction");
-        else if( marks > 35 )
+        if( marks > 35 )
             System.out.println("Pass");
         else
             System.out.println("Fail");
