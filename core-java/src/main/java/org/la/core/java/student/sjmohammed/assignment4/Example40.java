@@ -4,14 +4,12 @@ public class Example40 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i=4,sum=1;
-		while(i>=1) {
-			sum = i *i;
-			
-			i--;
-			System.out.println(i);
+		int n=4,f=1;
+		while(n>=1) {
+			f=n*f;
+			n--;
 		}
-		System.out.println(i);
+		System.out.println(f);
 	}
 
 }
