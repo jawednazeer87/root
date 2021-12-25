@@ -9,8 +9,8 @@ public class ForEachOne {
 			System.out.println(b);
 		}
 		
-		double[] da = {1.4, 44.2, 2.3, 8.4,-1.7, 0.4};
-		for(double b : da) {
+		double[] array = {1.4, 44.2, 2.3, 8.4,-1.7, 0.4};
+		for(double b : array) {
 			System.out.println(b);
 		}
 		
