@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*  find the common elements between two arrays?*/
 
-public class ThirtyTwoProgram {
+public class ThirtyThreeProgram {
 
 	public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class ThirtyTwoProgram {
 						break;
 				}
 			}
-			System.out.println(arr[arr.length-2]);
+			System.out.println(arr[1]);
 //				for(int arr1 : arr )
 //				System.out.println(arr1);
 			
