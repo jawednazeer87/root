@@ -4,15 +4,21 @@ public class Program31 {
 
 	public static void main(String[] args) {
 		//31) wap to remove duplicate elements from an array?
-	    		
-		Integer[] arr1 = {1,2,3,4,5,6,7,7,6,6,4,2,2};
+		
+		int[] arr1 = {1,2,3,4,5,6,7,7,6,6,4,2,2};
+		int arrayLength = arr1.length;
 		for(int i=0; i<arr1.length;i++) {
-			for(int n=i+1; n<arr1.length;n++) {
+			for(int n=i+1; n<arrayLength;n++) {
 				if(arr1[i] == arr1[n]) {
-					arr1[n] = null;
+					arr1[n] = arr1[arrayLength-1];
+					arrayLength--;
+					n--;
 				} 
-			}			
-			System.out.println(arr1[i]);			
+			}	
 		}
+		for(int i=0; i<arrayLength;i++) {
+			System.out.println(arr1[i]);
+		}
+		
 	}
 }
