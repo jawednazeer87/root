@@ -13,7 +13,7 @@ public class Example69 {
 		}
 		t=n;
 		int res=0;
-		while(t>n) {
+		while(t>0) {
 			int r = t%10;
 			res+=Math.pow(r, d);
 			t=t/10;
