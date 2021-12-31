@@ -1,0 +1,378 @@
+
+
+
+Java interview questions
+
+What are Native methods in Java?
+
+Java applications can call code written in C, C++, or assembler. This is sometimes done for performance and sometimes to access the underlying host operating system or GUI API using the JNI.
+
+The steps for doing that are:
+
+First write the Java code and compile it
+Then create a C header file
+Create C stubs file 
+Write the C code 
+Create shared code library (or DLL) 
+Run application
+
+
+What are class loaders?
+
+The class loader describes the behavior of converting a named class into the bits responsible for implementing that class. 
+
+Class loaders eradicate the JREs need to know anything about files and file systems when running Java programs. 
+
+A class loader creates a flat name space of class bodies that are referenced by a string name and are written as:
+
+Class r = loadClass(String className, boolean resolveIt);
+
+
+What is Reflection API in Java?
+
+The Reflection API allows Java code to examine classes and objects at run time. The new reflection classes allow you to call another class's methods dynamically at run time. With the reflection classes, you can also examine an instance's fields and change the fields' contents.
+
+The Reflection API consists of the java.lang.Class class and the java.lang.reflect classes: Field, Method, Constructor, Array, and Modifier.
+
+
+Explain the difference between static and dynamic class loading.
+
+The static class loading is done through the new operator.
+
+Dynamic class loading is achieved through Run time type identification. Also called as reflection
+This is done with the help of the following methods:
+getClass(); getName(); getDeclaredFields(); 
+Instance can also be created using forName() method. It loads the class into the current class memory.
+
+
+Explain Shallow and deep cloning.
+
+Cloning of objects can be very useful if you use the prototype pattern or if you want to store an internal copy of an object inside an aggregation class for example.
+
+Deep cloning - You clone the object and their constituent parts.
+
+It should be used when it is inappropriate to separate the parts; the object is formed of, from it.
+
+Shallow cloning - You clone only the object, not their parts. You add references to their parts.
+
+It should be used when it is adequate to have the references added to the cloned object
+
+
+What is the purpose of Comparator Interface?
+
+Comparators can be used to control the order of certain data structures and collection of objects too.
+
+The interface can be found in java.util.Comparator 
+
+A Comparator must define a compare function which takes two Objects and returns a -1, 0, or 1
+
+Sorting can be done implicitly by using data structures of by implementing sort methods explicitly.
+
+Explain the impact of private constructor.
+
+Private Constructors can't be access from any derived classes neither from another class. 
+
+So you have to provide a public function that calls the private constructor if the object has not been initialized, or you have to return an instance to the object, if it was initialized. 
+
+This can be useful for objects that can't be instantiated.
+
+
+
+
+
+
+
+
+
+
+
+What are static Initializers?
+
+A static initializer block resembles a method with no name, no arguments, and no return type. There is no need to refer to it from outside the class definition.
+
+Syntax:
+
+static
+
+{
+
+  //CODE
+
+}
+
+The code in a static initializer block is executed by the virtual machine when the class is loaded.
+
+Because it is executed automatically when the class is loaded, parameters don't make any sense, so a static initializer block doesn't have an argument list.
+
+
+Define the purpose of Externalizable Interface.
+
+The Externizable interface extends the serializable interface.
+
+When you use Serializable interface, your class is serialized automatically by default. But you can override writeObject() and readObject()two methods to control more complex object serailization process. 
+
+When you use Externalizable interface, you have a complete control over your class's serialization process. The two methods to be implemented are :
+
+void readExternal(ObjectInput) 
+
+The object implements the readExternal method to restore its contents by calling the methods of DataInput for primitive types and readObject for objects, strings and arrays. 
+
+void writeExternal(ObjectOutput) 
+
+The object implements the writeExternal method to save its contents by calling the methods of DataOutput for its primitive values or calling the writeObject method of ObjectOutput for objects, strings, and arrays.
+
+
+What are transient and volatile modifiers?
+
+When serializable interface is declared, the compiler knows that the object has to be 
+handled so as so be able to serialize it. However, if you declare a variable in an object as transient, then it doesn’t get serialized.
+
+Volatile 
+Specifying a variable as volatile tells the JVM that any threads using that variable are not allowed to cache that value at all. 
+
+Volatile modifier tells the compiler that the variable modified by volatile can be changed unexpectedly by other parts of the program.
+
+What are daemon threads?
+
+Threads that work in the background to support the runtime environment are called daemon threads.
+Eg garbage collector threads.
+
+When the only remaining threads in a process are daemon threads, the interpreter exits. This makes sense because when only daemon threads remain, there is no other thread for which a daemon thread can provide a service. 
+
+You cannot create a daemon method but you can use 
+public final void setDaemon(boolean isDaemon) method to turn it into one.
+
+
+What is JAVAdoc utility?
+
+Javadoc utility enables you to keep the code and the documentation in sync easily.
+
+The javadoc utility lets you put your comments right next to your code, inside your ".java" source files.
+
+All you need to do after completing your code is to run the Javadoc utility to create your HTML documentation automatically.
+
+
+Explain the difference between StringBuilder and StringBuffer class.
+
+StringBuilder is unsynchronized whereas StringBuffer is synchronized. So when the application needs to be run only in a single thread then it is better to use StringBuilder. 
+
+StringBuilder is more efficient than StringBuffer.
+
+
+Explain semaphore and monitors in java threading.
+
+A semaphore is a flag variable used to check whether a resource is currently being used by another thread or process.
+
+The drawback of semaphores is that there is no control or guarantee of proper usage.
+
+A Monitor defines a lock and condition variables for managing concurrent access to shared data. The monitor uses the lock to ensure that only a single thread is active in the monitor code at any time.
+
+A semaphore is a generalization of a monitor. A monitor allows only one thread to lock an object at once.
+
+
+Describe synchronization in respect to multithreading.
+
+Multithreading occurs asynchronously, meaning one thread executes independently of the other threads. In this way, threads don’t depend on each other’s execution. In contrast, processes that run synchronously depend on each other. That is, one process waits until the other process terminates before it can execute
+
+
+What are Checked and UnChecked Exception?
+
+The java.lang.Throwable class has two subclasses Error and Exception. There are two types of exceptions non runtime exceptions and runtime exceptions. Non runtime exceptions are called checked exceptions and the unchecked exceptions are runtime exceptions. 
+
+Runtime Exceptions occur when the code is not robust and non runtime exceptions occur due to the problems is environment, settings, etc.
+
+
+What are different types of inner classes?
+
+Local classes - Local classes are like local variables, specific to a block of code. Their visibility is only within the block of their declaration
+
+Member classes - Member inner classes are just like other member methods and member variables and access to the member class is restricted, just like methods and variables.
+
+Anonymous classes - Anonymous classes have no name, you cannot even provide a constructor.
+
+
+What is serializable Interface? 
+
+If we want to transfer data over a network then it needs to be serialized. Objects cannot be transferred as they are. Hence, we need to declare that a class implements serializable so that a compiler knows that the data needs to be serialized.
+
+
+How does thread synchronization occurs inside a monitor? 
+
+A Monitor defines a lock and condition variables for managing concurrent access to shared data. The monitor uses the lock to ensure that only a single thread is active in the monitor code at any time. A monitor allows only one thread to lock an object 
+at once.
+
+
+What is the difference between AWT and Swing?
+
+Classes in swing are not OS dependent. They don’t create peer components, so they are light weight unlike AWT.
+
+They don’t take the look and feel of the target platform so they have a consistent appearance
+
+What is meant by Stream Tokenizer?
+
+The StreamTokenizer class takes an input stream and parses it into "tokens", allowing the tokens to be read one at a time. The parsing process is controlled by a table and a number of flags that can be set to various states. The stream tokenizer can recognize identifiers, numbers, quoted strings, and various comment styles.
+
+
+What is resource bundle?
+
+The place where an application stores its locale-specific data (isolated from source code).
+
+When your program needs a locale-specific resource your program can load it from the resource bundle that is appropriate for the current user's locale.
+
+
+What is a thread? What are the advantages we derived by programming with thread?
+
+Threads allow programs to execute simultaneously. A thread is an independent path of execution in a program. These threads can be executed synchronously or asynchronously. All threads have a priority attached. Thread with a higher priority is executed first. 
+
+Advantages:
+•	Allows multiple programs to be executed concurrently
+•	Cost of thread is low compared to processes in terms of space and communication.
+•	Threads are lightweight.
+
+
+Explain how to create a thread and start it running.
+
+Creating a thread:
+Declare a class as a sub class of Thread
+Class SampleThread extends Thread
+{
+	Long minSample; {
+	SampleThread( Long minSample);
+}
+	Public void run()
+{
+	Program goes here
+}
+}
+Run the thread: An instance is created to start the thread.
+SampleThread s = new SampleThread(100);
+s.start();
+
+
+What is multithreaded program? What is the importance of thread synchronization?
+
+A multithreaded program involves multiple threads of control in a single program. Each thread has its own stack. Other resources of the process are shared by all threads and while trying to access them it should be synchronized.
+
+Importance of thread synchronization:
+Avoids issues like deadlocks and starvation
+Can be used for de bugging multi threaded programs
+
+
+What is the difference between yielding and sleeping?
+
+Sleep holds the threads execution for the specified time. On the other hand, yield will cause the thread to rejoin the queue. When a task is invoked in yielding, it returns to the ready state. While when a task is invoked in sleeping, it returns to the waiting state.
+
+
+What is the difference between C++ & Java?
+
+•	Java does not support Enums, Structures or Unions but supports classes.
+•	Java does not support multiple inheritance or operator overloading
+•	Java allows functions to be overloaded
+•	In java, memory leaks are prevented by automatic garbage collection
+•	C++ allows direct calls to be made to the native system libraries. On the other hand java calls these libraries trough java native interface.
+•	In c++ parameters are passed by either value or pointers. In java, due to the absence of pointers, parameters are passed by value.
+
+
+What is JAR file?
+
+JAR is a Java Archived file which allows many files to be stored. All applets and classes can be stored in a JAR file thereby reducing the size. JAR files can be created using the JAR command that comes with JDK. This JAR file can also be digitally signed. In this case, the JAR file itself is not signed. But, all the files inside it are signed. 
+
+
+What is JNI?
+
+Java Native Interface is a framework that allows the Java code running in the Java 
+Virtual Machine to interact and communicate with other applications and libraries written in some other languages. JNI is typically used when an application cannot be entirely written in Java. JNI can be invoked only by signed applets and applications. 
+
+
+What is serialization?
+
+Serialization is an operation in which an object’s internal state is converted into a stream of bytes. This stream is then written to the disk. This stream can also be sent over a socket. Serialization is a very compact and accurate method. For any object to be serialized .it must be an instance of a class that implements either the Serializable or Externalizable interface.
+
+Uses of serialization:
+Helps to persist data for future use
+To exchange data between servlets and applets
+To store users session
+
+
+How are Observer and Observable used?
+
+The observer pattern in java is known for its use in design. Whenever an observable object changes its state, its corresponding observer classes are notified. Observable is implemented as a class which includes methods for managing Observer lists and notifying Observers. When an Observable object is updated it invokes the update() method of each of its observers to notify the observers that it has changed state.  For example, third-party software cannot be made Observable without changing an existing class hierarchy.
+
+What is synchronization and why is it important?
+
+Java supports multiple threads to be executed. This may cause two or more threads to access the same fields or objects. Synchronization is a process which keeps all concurrent threads in execution to be in synch. Synchronization avoids memory consistence errors caused due to inconsistent view of shared memory. When a method is declared as synchronized; the thread holds the monitor for that method's object. If another thread is executing the synchronized method, your thread is blocked until that thread releases the monitor.
+
+Does garbage collection guarantee that a program will not run out of memory?
+
+Garbage collection does not guarantee that a program will not run out of memory. The garbage collection is dependant on the JVM. Hence it is possible for the resources to be used faster than they are garbage collected. Garbage collection cannot be predicted if it will happen or not. 
+
+
+
+
+
+What is the difference between a break statement and a continue statement?
+
+A break statement when applied to a loop ends the statement. A continue statement ends the iteration of the current loop and returns the control to the loop statement. If the break keyword is followed by an identifier that is the label of a random enclosing statement, execution transfers out of that enclosing statement. If the continue keyword is followed by an identifier that is the label of an enclosing loop, execution skips to the end of that loop instead.
+
+What are synchronized methods and synchronized statements?
+
+Synchronized methods
+When a method in Java needs to be synchronized, the keyword synchronized should be added.
+Example:
+Public synchronized void increment()
+{
+	X++;
+}
+
+Synchronization does not allow invocation of this Synchronized method for the same object until the first thread is done with the object. Synchronization allows having control over the data in the class.
+
+Synchronized Statement:
+A synchronized Statement can only be executed once the thread has obtained a lock for the object or the class that has been referred to in the statement. Synchronized statement contains a synchronized block, within which is placed objects and methods that are to be synchronized.
+Example:
+public void run() {
+     synchronized(p1)     {             //synchronize statement. P1 here is an object of some class P
+            p1.display(s1); 
+     }
+}
+
+
+For more questions with answers, follow the link below: 
+
+http://www.careerride.com/Java-Interview-Questions.aspx
+
+
+We do not warrant the correctness of content. The risk from using it lies entirely with the user. While using this document, you agree to have read and accepted the terms of use and privacy policy.
+
+
+1) What is an exception?
+2) How the exceptions are handled in java? OR Explain exception handling mechanism in java?
+3) What is the difference between error and exception in java?
+4) Can we keep other statements in between try, catch and finally blocks?
+5) Can we write only try block without catch and finally blocks?
+6) There are three statements in a try block – statement1, statement2 and statement3. After that there is a catch block to catch the exceptions occurred in the try block. Assume that exception has occurred in statement2. Does statement3 get executed or not?
+7) What is unreachable catch block error?
+8) Explain the hierarchy of exceptions in java?
+9) What are run time exceptions in java. Give example?
+10) What is OutOfMemoryError in java?
+11) what are checked and unchecked exceptions in java?
+12) What is the difference between ClassNotFoundException and NoClassDefFoundError in java?
+13) Can we keep the statements after finally block If the control is returning from the finally block itself?
+14) Does finally block get executed If either try or catch blocks are returning the control?
+15) Can we throw an exception manually? If yes, how?
+16) What is Re-throwing an exception in java?
+17) What is the use of throws keyword in java?
+18) Why it is always recommended that clean up operations like closing the DB resources to keep inside a finally block?
+19) What is the difference between final, finally and finalize in java?
+20) How do you create customized exceptions in java?
+21) What is ClassCastException in java?
+22) What is the difference between throw, throws and throwable in java?
+23) What is StackOverflowError in java?
+24) Can we override a super class method which is throwing an unchecked exception with checked exception in the sub class?
+25) What are chained exceptions in java?
+26) Which class is the super class for all types of errors and exceptions in java?
+27) What are the legal combinations of try, catch and finally blocks?
+28) What is the use of printStackTrace() method?
+29) Give some examples to checked exceptions?
+30) Give some examples to unchecked exceptions?
+ 
+See the answers at http://javaconceptoftheday.com/java-exception-handling-interview-questions-and-answers/
