@@ -1,0 +1,90 @@
+Java Syllabus
+
+
+Data types
+All primitive data types only.
+Final keyword
+
+Operators
+Unary, Binary and Ternary operators
+Mathematical
+Increment and Decrement
+Logical
+Relational
+Bitwise operators
+
+Conditional Statements
+If else
+Nested if else
+Else if
+Switch Case
+
+Scope of variable
+
+Loop
+Entry Control loop
+While 
+for
+For each
+
+Exit Control loop
+Do while
+
+Data types 
+Secondary data types 
+Array
+String
+Final keywords
+2D Array
+
+
+Methods
+Types of methods (4 types)
+Concept of arguments (Formal and Actual)
+Method overloading
+Final keywords method level
+
+
+Class and Object
+Member variable (Global variable)
+Member methods
+Local variable(s) inside method(s)
+All previous programs using methods
+
+ 
+Access
+Specifiers/Modifiers 
+Private 
+Public 
+Default
+Protected 
+Note: Please discuss differences specially between protected and default.
+	
+Types of methods and variables
+Signature
+Instance and Static
+Final
+
+Date type and its conversion in different formats with string.
+
+Derived and base class(child and parent)
+
+Method overloading and overriding
+
+Abstract class
+
+Interface
+
+Exception Handling 
+
+Collection
+List
+ArrayList
+Map
+HashMap
+Sort 
+
+Lambda function
+Stream APIs
+
+ 
