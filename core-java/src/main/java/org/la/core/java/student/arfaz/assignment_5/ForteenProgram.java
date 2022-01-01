@@ -1,5 +1,7 @@
 package org.la.core.java.student.arfaz.assignment_5;
 
+import java.util.Arrays;
+
 // wap to find greatest number from any array 
 
 public class ForteenProgram {
@@ -12,13 +14,9 @@ public class ForteenProgram {
         	arr[i] = j;
             	
         }
-		 for(int j=0;j<arr.length;j++) {
-			if(arr[j]>arr[arr.length-1])
-			 max = arr[j];
-			else if(arr[j]<arr[arr.length-1])
-				max = arr[arr.length-1];
-			}
-		 System.out.println(max);
+		Arrays.sort(arr);
+		 
+		 System.out.println(arr[arr.length-1]);
 	}
 
 }

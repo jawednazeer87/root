@@ -1,0 +1,4992 @@
+
+
+core java syllabus
+	Data types
+		All primitive data types only.
+	Operators
+		Unary, Binary and Ternary
+		Increment and Decrement
+		Compound 
+		Logical
+		Relational
+		bitwise 
+	Conditional Statements
+		If else
+		Nested if else
+		Else if
+		Switch Case
+	Loop
+		Entry Control loop
+		While 
+		for
+		For each
+		Exit Control loop
+		Do while
+	Data types 
+		Secondary data types 
+		Array
+		String
+	Methods
+	Concept of arguments(Format and Actual)
+	Scope of variables(All kinds)
+	Class and Object
+	Member variable
+	Member methods
+	Local variable(s) inside method(s)
+	Access Specifiers, Modifiers 
+		Private 
+		Public 
+		Default
+		Protected 
+	Note: Please discuss differences specially between protected and default.
+	Types of methods and variables
+	Signature
+	Instance and Static
+	Final
+	Date type and its conversion in different formats with string.
+	Derived and base class(child and parent)
+	Method overloading and overriding
+	Abstract class
+	Interface
+	Exception Handling 
+	Collection
+		List
+		ArrayList
+		Map
+		HashMap
+		Sort 
+	java 8
+		Functional interface
+		Lambda function
+		Stream APIs
+
+
+Data type
+	what will be size, type and default value of these variables?
+		int,
+		double,
+		float,
+		long,
+		short,
+		byte,
+		boolean,
+		char
+
+Version Control
+	Git
+Building tool
+	Maven
+IDE
+	Eclipse
+Database RDBMS
+	mysql/postgresql
+Database nosql
+	MongoDB
+Reporting tool
+	iReport/jasper report
+JSON
+Rest service tool
+	Postman / Insomnia
+Advance Java
+	JDBC
+	Servlet
+	JSP
+Framework
+	Spring MVC / Spring Boot
+	Hibernate (ORM)
+	Rest Services
+	Micro Services
+	or Liferay (portlet Technology)
+	
+	
+	
+	
+	###########################################	Programming	###########################################
+
+01. wap to print: hello world
+02. wap to print: java world
+03. wap to print: java class
+04. wap to print: java classes
+05. wap to print: software program
+06. wap to print: software classes
+07. wap declare int variable and print its value
+08. wap declare long variable and print its value
+09. wap declare float variable and print its value
+10. wap declare double variable and print its value
+11. wap declare byte variable and print its value
+12. wap declare boolean variable and print its value
+13. wap declare char variable and print its value
+14. wap declare 2 int variables and print its value
+15. wap declare 2 long variables and print its value
+16. wap declare 2 float variables and print its value
+17. wap declare 2 double variables and print its value
+18. wap declare 2 byte variables and print its value
+19. wap declare 2 boolean variables and print its value
+20. wap declare 2 char variables and print its value
+21. wap declare float and int variables and print its value
+22. wap declare float and double variables and print its value
+23. wap declare float and char variables and print its value
+24. wap declare float and boolean variables and print its value
+25. wap declare double and int variables and print its value
+26. wap declare double and long variables and print its value
+27. wap declare double and char variables and print its value
+28. wap declare int and long variables and print its value
+29. wap declare int and char variables and print its value
+30. wap declare int and boolean variables and print its value
+31. wap declare int and byte variables and print its value
+32. wap to print 2 negative int
+33. wap to print 2 negative double
+34. wap to print 2 negative float
+35. wap to print number as char and its ascii value 
+e.g
+public class NumChar {
+	public static void main(String[] args){
+		char num = '1';
+		System.out.println("number as char: +"num);
+		System.out.println("ASCII value: +" (int)num);
+	}
+} 
+
+36. wap to declare int spc = 32; and print its char value
+public class NumChar2 {
+	public static void main(String[] args){
+		int num = 32;
+		System.out.println("number as char: +"(char)num);
+		System.out.println("int value: +" num);
+	}
+} 
+37. wap to declare 3 int variables and assign any value and print it
+38. wap to declare 3 char variables and assign any value and print it
+39. wap to declare 3 double variables and assign any value and print it
+40. wap to declare 3 float variables and assign any value and print it
+41. wap to declare 3 long variables and assign any value and print it
+42. wap to declare 3 boolean variables and assign any value and print it
+43. wap declare int variable and print its value then change its value and print again
+44. wap declare long variable and print its value then change its value and print again
+45. wap declare float variable and print its value then change its value and print again
+46. wap declare double variable and print its value then change its value and print again
+47. wap declare char variable and print its value then change its value and print again
+48. wap declare int and print its value then change its value and print again
+49. wap declare 5 char variable and assign vowel and print it
+50. wap declare 2 boolean, 3 int and 1 long variable and assign value and print it
+
+
+	
+	
+	
+Data Type:
+	wap to create and print an int variable?
+	wap to create and print a char variable?
+	wap to create and print a float variable?
+	wap to create and print a short variable?
+	wap to create and print a boolean variable?
+	wap to create and print a double variable?
+	wap to create and print a long variable?
+
+Type Casting:
+	wap to create a char variable but assign an int value and print that variable?
+	wap to create an int variable but assign a char value and print that variable?
+	
+	what will be the output?
+	
+	1.	
+		int i = 19/5; 
+		sop(i);
+	2.  
+		char a = 65;
+		sop(a);
+	3.
+		int s = 'a';
+		sop(s);
+		
+	
+Arithmetic Operation
+	1.	wap to add two numbers?
+	2.	wap to add three numbers?
+	3.	wap to subtract two numbers?
+	4.	wap to subtract three numbers?
+	5.	wap to multiply two numbers?
+	6.	wap to multiply three numbers?
+	7.	wap to find remainder of a given numbers?
+	8.	wap to find percentage?
+	9.	wap to find average of 3 numbers?
+	10.	wap to find average of 4 numbers?
+	11.	wap to find average of 2 numbers?
+	12.	what will be output: int x = 5 + 3 * 4 / 5 + 4;
+	13.	what will be output: double x = 14 / 5 ;
+	
+	14.	int x = 15;
+        int y = x % 4;
+        int z = y * 24;
+        System.out.println(z / 2);
+	
+	15.	int i = 34.0;
+        int j = 7;
+        int k = i % j;
+        System.out.println("k = " + k );
+	
+	16.	int x = 42;
+        double y = 42.25;
+		System.out.println("x mod 10 = " + x % 10 );
+        System.out.println("y mod 10 = " + y % 10 );
+	
+	17.	int a = 31, b = 40;
+        int c = b - a;
+        b = c % a;        
+        b = b / a;        
+        a = ++c;        
+        b = (a - --b) * c;
+	
+	18.	int num = 69;
+        int days = num % 30;
+        int month = num / 30;
+        System.out.println(month + " Month and " + days + " days");
+	
+	19.	int a = 56;
+        int b = -8;
+        int c = a % b;
+        int d = b % a;
+        System.out.println(c + ", " + d);
+	
+	20.	System.out.println(10 * 5 + 100 * (25 * 11) / (25 * 10) * 10 - 5 + 7 % 2);
+		int zx = (10 * 5 + 100 * (25 * 11));
+		int yz = ((25 * 10) * 10 - 5 + 7 % 2);
+		System.out.println(zx / yz);
+	
+	21.	int a = 34;
+        double d = 20.5;
+        d+=a;
+        a+=d;
+        d-=a;
+        a-=d;
+        System.out.println(" d = " + ++d );
+        System.out.println(" a = " + a-- );
+	
+	22.	int a = 4;
+        a++;
+        a += a;
+        --a;
+        a = 7 + a;
+        a *= a;
+        a -= 3;
+		System.out.println(" a = " + a );
+	
+	23.	int a = 4;
+        a -= 10;
+        a = -a;
+        a = 7 + a;
+        System.out.println(" a = " + a );
+        a %= a;
+        a = a * a - 3 ;
+        System.out.println(" a = " + a );
+	
+	24.	int a = -4;
+		a=a+1;        
+		a++;        
+		a+=1;        
+		++a; 
+		System.out.println(" a = " + a );
+	
+	25.	short s = 10;
+        int a = s;
+        s += 10;
+        System.out.println(s + "," + a);
+	
+	26.	short s = 10;
+        int a = s;
+        s = s + 10;
+        System.out.println(s + "," + a);
+	
+	27.	int a = 0152;
+        int b = --a / 2 * 2;
+        System.out.println("a=" + a);
+			
+	28. wap to add two int variable but assign the result to double variable and print the result?	
+	29. wap to add two int variable but assign the result to float variable and print the result?
+	
+	30.	wap to add two char variable and store sum in char variable and print the result?
+	
+	31.	wap to add two float variable but assign the result to int variable and print the result?
+	
+	32.	wap to add two double variable but assign the result to int variable and print the result?
+	
+	
+	
+Post/Pre Increment/Decrement
+
+	1.	wap to do pre increment a number and assign its value to other number and print both number
+	2.	wap to do post increment a number and assign its value to other number and print both number	
+	3.	wap to do pre increment a number and assign its value to other number and print both numbers, do assignment increment in same line
+	4.	wap to do post increment a number and assign its value to other number and print both numbers, do assignment increment in same line	
+	5.	wap to pre increment a number n multiply with a number and assign product to a variable, print both variables
+	6.	wap to post increment a number n multiply with a number and assign product to a variable, print both variables
+	7.	Repeat all above operations with decrement operators too.	
+	8.	int a = 3;
+		int b = ++a;
+		what will be the value of a and b on printing
+	
+	9.	int a = -3;
+		int b = a++;
+		what will be the value of a and b on printing
+	
+	10.	int a = 3;
+		int b = ++a;
+		what will be the value of a and b on printing
+	
+	11.	int a = 3;
+		int b = ++a + 9;
+		what will be the value of a and b on printing
+	
+	12.	int a = 3;
+		int b = a++ * 6;
+		what will be the value of a and b on printing
+	
+	13.	int a = 3;
+		int b = a++ / 3;
+		what will be the value of a and b on printing
+	
+	14. int x = 10;
+		int y = -2;
+		int z = ++x * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+	
+	15. int x = 3;
+		int y = 2;
+		int z = x++ * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	16. int x = -1;
+		int y = 2;
+		int z = --x * y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	17. int x = 0;
+		int y = -2;
+		int z = ++x * ++y;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	18. int x = -3;
+		int y = -2;
+		int z = --x * y--;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	19. int x = 10;
+		int y = -2;
+		int z = ++x + y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+	20. int x = 10;
+		int y = -2;
+		int z = ++x / y++;
+		sop(x);
+		sop(y);
+		sop(z);
+
+
+Relational Operator:
+
+	1.	wap to compare two numbers and print the result, >, >=, <, <=, ==, !=
+	
+	2.	int a = 10;
+        int b = a - 5;
+        System.out.println(a <= b);
+        System.out.println(a > b);
+	3.	= is an assignment operator where as == is a relational operator ?
+	4.	int a = 10;
+        int b = 15;
+        a++;
+        b--;
+        int c = b % a;
+        System.out.println(c >= b);
+		
+	5.	int a = 10;
+		boolean x = a++==10;
+		boolean y = --a==10;
+		sop(a);
+		sop(x);
+		sop(y);
+	
+	6.	int a = 10;
+		int b = 3;
+		boolean x = a++==10 && ++b==4;
+		boolean y = --a==10 || b--<4;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+	
+	7.	int a = 10;
+		int b = 3;
+		boolean x = a++==10 && ++b==4;
+		boolean y = --a==10 || b--<4;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	8.	int a = -4;
+		int b = 0;
+		boolean x = a< -5 && b==4;
+		boolean y = --a > -6 || b-- < -1;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	9.	int a = -1;
+		int b = 1;
+		boolean x = ++a<=0 && ++b>1;
+		boolean y = --a > -2 || b-- < 1;
+		sop(a);
+		sop(b);
+		sop(x);
+		sop(y);
+		
+	10.	int a = -1;
+		boolean x = a!=-2 && ++a==0;
+		sop(a);
+		sop(x);
+	
+	11.	int x = 9;
+		sop("result: "+(x==9 && ++x!=9)); 
+
+	12. int x = -5;
+		sop("result: "+(x==-5 && ++x>-5)); 
+	
+	13. int y = -1;
+		int x = 5 * y++ ;
+		sop(x);
+		sop(y);
+	
+	14.	int y = -1;
+		int x = -5 * ++y ;
+		sop(x);
+		sop(y);
+		
+	15.	int a=1, b=2, c=-3;
+		int s = ++a + b-- + c%3 ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+	
+	16.	int a=1, b=2, c=-3;
+		int s = a++ + b-- - c++ ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+		
+	17.	int a=1, b=2, c=-3;
+		int s = a++ + b-- * c++ ;
+		sop(a);
+		sop(b);
+		sop(c);
+		sop(s);
+		
+	18.	boolean x = false, y = true;
+		boolean r = x==false;
+		boolean p = y!=true;
+		sop(x);
+		sop(r);
+		sop(p);
+		
+	19.	boolean x = false, y = true;
+		boolean r = x==true;
+		boolean p = y==true;
+		sop(x);
+		sop(r);
+		sop(p);
+
+	20.	boolean x = false, y = true;
+		boolean r = x==false && y!=true;
+		sop(x);
+		sop(y);
+		sop(r);
+		
+	
+	21.	boolean x = false, y = true;
+		boolean r = x && y;
+		sop(r);
+		
+		
+
+	
+Logical operation
+	1.
+		int a = 1;
+		int b = 2;
+		if(a==1 || ++b==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
+		
+	2.	int a = 1;
+		int b = 2;
+		if(a==1 && ++b==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
+	3.	int a = 1;
+		int b = 2;
+		if(a!=1 || b++==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+		
+	4.	int a = 1;
+		int b = 2;
+		if(a!=1 && b++==3){
+			sop("hello world");
+		}
+		what will be the value of a and b on printing
+	
+	5.	boolean a = true;
+        boolean b = true;
+        boolean c = true;
+        boolean d = false;
+        boolean e = a || !b || c || !d;
+		print a, b, c, d and e
+		
+	6.	boolean lampX = false, result;
+        boolean lampY = true;
+        result = lampY && lampX;
+        System.out.println("Lamp switch-on " + result);
+        result = lampY & lampX;
+        System.out.println("Lamp switch-on " + result);
+		
+	7.	boolean lampX = false, result;
+        boolean lampY = true;
+        result = lampY || lampX;
+        System.out.println("Lamp switch-on " + result);
+        result = lampY | lampX;
+        System.out.println("Lamp switch-on " + result);
+		
+	8.	boolean lampX = false, result;
+        boolean lampY = true;
+        result = lampY || lampX;
+        System.out.println("Lamp switch-on " + result);
+        result = lampY && lampX;
+        System.out.println("Lamp switch-on " + result);
+		
+	9.	boolean lampX = false, result;
+        boolean lampY = true;
+        result = lampY && lampX;
+        System.out.println("Lamp switch-on " + result);
+        result = lampY || result;
+        System.out.println("Lamp switch-on " + result);
+	
+	10.	boolean lampX = false, result;
+        boolean lampY = true;
+        result = lampY || lampX;
+        System.out.println("Lamp switch-on " + result);
+        result = result && lampX;
+        System.out.println("Lamp switch-on " + result);
+		
+	11.	int c = 0, d = 50, e = 50;
+        boolean b = (c == 1) && (++e < 100);
+        System.out.println("e = " + e);
+        boolean f = (++e < 100) && (c == 1);
+        System.out.println("e = " + e);
+		
+	12.	int c = 0, e = 50;
+        boolean b = (c == 1) && (++e < 100);
+        System.out.println("e = " + e);
+        boolean f = (++e < 100) && (c == 1);
+        System.out.println("e = " + e);
+		
+	13.	int c = 0, e = 50;
+        boolean b = (c == 1) || (++e < 100);
+        System.out.println("e = " + e);
+        boolean f = (e++ < 100) || (c == 1);
+        System.out.println("e = " + e);
+		
+	14.	int a = 15;
+        int b = a + 5;
+        int c = a + 10;
+        int d = c % a;
+        System.out.println(d);
+	
+	15.	double d1 = 21.5;
+        double d2 = 0.5;
+        boolean condition = ( d1 / d2 ) < 15;
+        int result = condition ? 77 : 99;
+        System.out.println("result = " + result);
+
+	16.	int a = 27 / 4 + 9;
+        int b = 52 / 6 - 3;
+        int c = 3;
+        c = a++ - b; 
+        a = a * b; 
+        b = b + a; 
+        a = (a < c) ? a % c : c % a; 
+        System.out.println("a = " + a + " b = " + b + " c = " + c);
+		
+	17.	int a = 7 * 3 + 24 / 3 - 5;
+        int b = (7 * 3) + (24 / 3) - 5;
+        System.out.print(a + ", " + b);
+		
+	18.	int x = 20;
+        int y = 10;
+        double z = x++ - y * 7 / --y + x * 10;
+        System.out.println(z);
+
+	19.	int x = 20;
+        int y = 10;
+        double z = x + y * 7 + y-- + x;
+        System.out.println(z);
+		
+	20.	int x = 20;
+        int y = 10;
+        double z = (x + y) * 7 + (--y + x);
+        System.out.println(z);
+		
+	21.	int c = 20;
+        double kelvin = c + 273.15;
+        System.out.println(kelvin);
+        int Rankine = (int) (c + 273.15 * 9 / 5);
+        System.out.println(Rankine);
+        double delisle = (100 - c) * 3 / 2;
+        System.out.println(delisle);
+	
+	22.	double f = 70;
+        double kelvin = (f + 459.67) * 5 / 9;
+        System.out.println((int) kelvin);
+        double newton = (f - 32) * 11 / 60;
+        System.out.println((int) newton);
+
+	23.	boolean a, b, c;
+        a = b = c = true;
+		System.out.println("a = " + a + " b = " + b + " c = " + c);
+		
+Ternary:
+	1.	wap to print greatest number among two given numbers( with if and without if).
+	2.	wap to print smallest number among two given numbers( with if and without if).
+	3.	wap to print negative number among two given numbers( with if and without if).
+	4.	wap to print positive number among two given numbers( with if and without if).
+	5.	wap to print even number among two given numbers( with if and without if).
+	6.	wap to print odd number among two given numbers( with if and without if).
+	
+	
+if-else
+	1.	wap to find which number is greater among two numbers
+	2.	wap to find which number is greater among three numbers
+	3.	wap to find a number is odd or even
+	4.	wap to find a number is negative or positive or zero
+	5.	wap to find whether a number is divisible by a given number completely.
+	6.	wap to find a number is multiple of 10 or not
+	7.	wap to find to find greatest among three numbers
+	8.	wap to find divistion secured by a student
+	9.	wap to for a given length and breadth of a rectangle check if it is square or not.
+	10.	A school has following rules for grading system:
+		a. Below 25 - F
+		b. 25 to 45 - E
+		c. 45 to 50 - D
+		d. 50 to 60 - C
+		e. 60 to 80 - B
+		f. Above 80 - A
+		provide marks and print the corresponding grade.
+	
+	11.	wap to find smallest number among 2 numbers
+	12.	wap to find smallest number among 3 numbers
+	13.	Write a program to check whether a given character is lowercase ( a to z ) or uppercase ( A to Z ).
+		Hint: u can use ascii value to solve this issue
+	
+	14.	boolean a, b, c;
+        a = b = c = true;
+        if( !a || ( b && c ) )
+        {
+            System.out.println("If executed");
+        }
+        else
+        {
+            System.out.println("else executed");
+        }
+		
+	15.	if( 1 > 2 )
+        {
+            System.out.println(" 1 is greater than 2");
+        }
+		
+	16.	if( 1 < 2 )
+        {
+            System.out.println("1 is less than 2");
+        }
+        else
+            System.out.println("2 is less than 1");
+            System.out.println("Hello From IfExample");
+       
+	17.	int marks = 80;
+        if( marks > 70 )
+            System.out.println("Distinction");
+        if( marks > 35 )
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+            System.out.println("Better luck next time");
+			
+	19.	int a = 7 * 3 + 6 / 2 - 5;
+        int b = 21 - 8 + a % 3 * 11;
+        if(a < b)
+        {
+            System.out.println("A is less than B");
+        }
+        if(a = b)
+        {
+            System.out.println("A is equal to B");
+        }
+        if(a > b)
+        {
+            System.out.println("A is greater than B");
+        }
+		
+	20.	int a = 12 + 21 * 3 - 9 / 2;
+        int b = 14 - 32 * 4 + 175 / 8 - 3;
+        if(++a > 71 && --b < 20)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+        if(b-- == -97 || a-- < 100)
+        {
+            System.out.println("a = " + a + " b = " + b);
+        }
+		
+	21.	float fl = 5.3f;
+        if (fl == 5.3)
+            System.out.println("Both are equal");
+        else
+            System.out.println("Both are not equal");
+			
+	22.	int first = 10, second;
+        if (first < 10)
+            second = 1;
+        if (first >= 10)
+            second = 2;
+        System.out.println("y is " + second);
+		
+	23.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + "," + y);
+        }
+		
+	24.	int x = 20;
+        int y = 25;
+        if (++x < (y = y -= 4) || (x = x += 4) > y) {
+            System.out.println(x + " " + y);
+        }
+		
+	25.	boolean x = true;
+        boolean y = false;
+        if (x && y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+		
+	26.	boolean x = true;
+        boolean y = false;
+        if (x || y) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+		
+	27.	float f = 75.0f;
+        double d = 75.0;
+        int i = 75;
+        if( f == d )
+        {
+            if( f == i )
+            {
+                System.out.println("f, d and i are equal");
+            }
+            else
+            {
+                System.out.println("f, d are equal but i is not equal");
+            }
+        }
+        else
+        {
+            System.out.println("f and d are not equal");
+        }
+	
+	28.	boolean male = false;
+        int age = 30;
+        if( male )
+            if( age < 20 )
+                System.out.println("Boy");
+            else
+                System.out.println("Man");
+        else
+            if( age < 20 )
+                System.out.println("Girl");
+            else
+                System.out.println("Woman");
+				
+	29.	int marks = 50;
+        if( marks > 70 )
+            System.out.println("Distinction");
+        else if( marks > 35 )
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+			
+	30.	int marks = 80;
+        if( marks > 70 )
+        {
+            System.out.println("Distinction");
+            System.out.println("Congratulations");
+        }
+        else if( marks > 35 )
+        {
+            System.out.println("Pass");
+        }
+        else
+        {
+            System.out.println("Fail");
+            System.out.println("Better luck next time");
+        }
+	
+	31.	int marks = 50;
+        if( marks >= 70 )
+            System.out.println("Distinction");
+
+        if( marks < 70 && marks >= 35 )
+            System.out.println("Pass");
+
+        if( marks < 35 )
+            System.out.println("Fail");
+			
+	32.	boolean a=true, b = false;
+		if (a) {
+			System.out.println("A");
+		} else if (a && b) {
+			System.out.println("A && B");
+		} else {
+			if (!b) {
+				System.out.println("notB");
+			} else {
+				System.out.println("ELSE");
+			}
+		}
+
+	33. wap to find a given number is negative or not?
+	34. wap to print zero if number zero, 1 if positive and -1 if number is negative
+	35. wap to print odd if number is odd and even if number is even
+	36. wap to check whether number is less than 100 or not
+	37. wap to check whether number is between -100 to 50
+	38. wap to print whether number is divisible by 3 or not
+	39. wap to check whether number divisible by 7
+	40. wap to print hi if number is zero and by if number is 100
+	41. wap to print double if number is a double digit 
+	42. wap to print single if number is single digit
+	43. wap to print ternary if number is 3 digit
+	44. wap to print 100 if number is between 100 to 200
+	45. wap to find greatest number among two numbers
+	46. wap to find greatest number among three numbers
+	47. wap to find least number among two numbers  
+	48. wap to find least number among three numbers
+	49. wap to check whether a given character is capital 'A' or not 
+	50. wap to print 'up' if any given character is upper case
+	51. wap to print 'low' if any given character is lower case
+	52. wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
+	53. wap to check whether a given number is positive and double digit or single digit number 
+	54. wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
+	55. wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
+	56. wap to print all these on basis of give character value
+		'A' -> Capital
+		'a' -> small 
+	57. wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
+	58. wap to print 'number' if the given character is number else 'non number'
+	59.	wap to print 'star' if the given character is * else print 'no star'
+	60.	wap to print 'at the rate' if the given character is @ else print 'no rate'
+	61.	wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 'world' if number is divisible by 5.
+	
+	
+for/while loop
+	1.	wap to print number from 1 to 10
+	2.	wap to print number from 10 to 1
+	3.	wap to print first five odd numbers.
+	4.	wap to print first five even numbers.
+	5.	wap to print to print all negative numbers between -1 and -10.
+	6.	wap to print numbers which is completely divisible by 3 between 1 to 10.
+	7.	wap to print numbers which is completely divisible by 10 between 1 to 100.
+	8.	wap to print numbers which is completely divisible by 3 and 2 between 1 to 10.
+	9.	wap to print numbers which is multiple of 3 between 1 to 22.
+	10.	wap to print 5 times A.
+	11.	wap to print 1 time a.
+	12.	wap to print 15 times hello.
+	13.	wap to print 10 times wolrd.
+	14.	wap to print -10 to -1.
+	15.	wap to print all even numbers between 100 to 120.
+	16.	wap to print all odd numbers between 120 to 100.
+	17.	wap to print all numbers between 30 to 50 those are not divisible by 7.
+	18.	wap to print all numbers between 130 to 90 those are not divisible by 10.
+	19.	wap to print all numbers between 30 to 80 those are divisible by 6 and 5.
+	20.	wap to print all numbers between 10 to 50 those are divisible by 2 and 5.
+	21.	wap to print all numbers between 10 to 50 those are divisible by 2 and 5.
+	22.	wap to print all numbers between 10 to 70 those are not divisible by 3 and 5.
+	23.	wap to print all numbers between 10 to 50 those are divisible by 5 and 9.
+	24.	wap to print all numbers between 10 to 90 those are not divisible by 2 and 5.
+	25.	wap to print all numbers between 100 to 1 those are not divisible by 11 and 3.
+	26.	wap to print all numbers between 200 to 1 those are divisible by 13 and 2.
+	27.	wap to print all numbers between 1 to 1500 those are divisible by 11 and 13.
+	28.	wap to print all numbers between 10 to 300 those are divisible by 11 and 12.
+	29.	wap to print all numbers between 100 to 1 those are divisible by 11 and 3.
+	30.	wap to print all numbers between 1 to 150 multiple of 11.
+	31.	wap to give a condition that loop may be rotate upto 10 but break loop when it rotates uptop 7 times.
+	32. wap to print all lower case alphabets.
+	33.	wap to print all upper case alphabets.
+	34.	wap to print all upper case alphabets except vowels.
+	34.	wap to print all lower case alphabets except vowels.
+	35.	wap to print all lower case vowels.
+	36.	wap to print all upper case vowels.
+	37.	wap to print all numbers from 1 to 10 except 3 and 7.
+	38.	wap to print all numbers from 1 to 10 except 2 and 5 and 8.
+	39.	wap to print number from 50 to 45
+	40.	wap to find factorial of a given number
+	41.	wap to print fibonocci series
+	42.	wap to find given number is prime or not
+	43.	wap to reverse a number e.g ip=12345, op=54321 avoid zero
+	44.	wap to find sum of a number e.g ip=1234,  op=10
+	45.	wap to print patterns
+	46.	Wap to print all natural numbers from 1 to n.
+	47.	Wap to print all natural numbers in reverse (from n to 1).
+	48.	Wap to print all alphabets from a to z.
+	49.	Wap to print all even numbers between 1 to 100.
+	50.	Wap to print all odd number between 1 to 100.
+	51.	Wap to find sum of all natural numbers between 1 to n.
+	52.	Wap to find sum of all even numbers between 1 to n.
+	53.	Wap to find sum of all odd numbers between 1 to n.
+	54.	Wap to print multiplication table of any number.
+	55.	Wap to count number of digits in a number.
+	56.	Wap to find first and last digit of a number.
+	57.	Wap to find sum of first and last digit of a number.
+	58.	Wap to swap first and last digits of a number.
+	59.	Wap to calculate sum of digits of a number.
+	60.	Wap to calculate product of digits of a number.
+	61.	Wap to enter a number and print its reverse.
+	62.	Wap to check whether a number is palindrome or not.
+	63.	Wap to print all ASCII character with their values.
+	64.	Wap to find power of a number using for loop.
+	65.	Wap to calculate factorial of a number.
+	66.	Wap to check whether a number is Prime number or not.
+	67.	Wap to print all Prime numbers between 1 to n.
+	68.	Wap to find sum of all prime numbers between 1 to n.
+	69.	Wap to check whether a number is Armstrong number or not.
+	70.	Wap to print all Armstrong numbers between 1 to n.
+	71.	Wap to check whether a number is Perfect number or not.
+	72.	Wap to print all Perfect numbers between 1 to n.
+	73.	Wap to check whether a number is Strong number or not.
+	74.	Wap to print all Strong numbers between 1 to n.
+	75.	Wap to print Fibonacci series up to n terms.
+	76.
+		*
+		**
+		***
+		****
+	
+	77.
+		****
+		***
+		**
+		*
+		
+	78.
+		****
+		 ***
+		  **
+		   *
+		   
+	79.
+		    *
+		   **
+	      ***
+	     ****
+		 
+	80.
+		   *
+		  * *
+		 * * *
+		* * * *
+
+	81.
+		* * * * *
+		 * * * *
+		  * * *
+		   * *
+		    *
+	
+	82.
+		1
+		1 2
+		1 2 3
+	
+	83.
+		1
+		2 2
+		3 3 3
+		
+	84.	
+	         1
+	       1 2
+		 1 2 3
+		 
+		
+	85.
+			 1
+	       2 2
+		 3 3 3
+
+	
+	Star pattern programs - Wap to print the given star patterns.
+	Number pattern programs - Wap to print the given number patterns.
+
+Array
+	01) wap to create and print array using without loop
+	02) wap to create and print array using loop
+	03) wap to find length of an array
+	04) wap to print only odd numbers from an array
+	05) wap to print only even numbers from an array
+	06) wap to print only positive number from an array
+	07) wap to print only negative number from an array
+	08) wap to print number divisible by given number from an array
+	09) wap to print number not divisible by given number from an array
+	10) wap to print array in reverse order
+	11) wap to copy one array into other array
+	12) wap to copy an array to another array in reverse order
+	13) wap to find some of an array element
+	14) wap to find greatest number from any array 
+	15) wap to find smallest number among array element
+	16) wap to reverse an array
+	17) wap to copy two arrays into one array
+	18) wap to add two array elements n copy into third array
+	19) wap to find duplicate elements in an array? 
+	20) wap to check whether two array are equal or not(means we have to check each element of two arrays)?
+	21) wap to print all prime numbers from an array ?
+	22) wap to calculate the factorial of each element of an array?
+	23) wap to count occurrences of each element in an array?
+	24) wap to remove duplicate elements from an array?
+	25) wap to calculate the average value of array elements?
+	26) wap to test if an array contains a specific value?
+	27) wap to find the index of an array element(here u have to take any number and check that number is 
+		present inside an array or not, 
+	    if 	not print -1, if present then print its index means of of that element)?
+	28) wap to remove a specific element from an array?
+	29) wap to insert an element (specific position) into an array?
+	30) wap to find the common elements between two arrays?
+	31) wap to remove duplicate elements from an array?
+	32) wap to find the second largest element in an array?
+	33) wap to find the second smallest element in an array?
+	34) wap to remove all zero element from an array?
+	35) wap to check if an array of integers without 0 and -1?
+	36) wap to remove the duplicate elements of a given array and return the new length of the 
+		array.Sample array: [20, 20, 30, 40, 50, 50, 50]
+		After removing the duplicate elements the program should return 4 as the new length of the array?
+	37) wap to separate even and odd numbers of a given array of integers. Put all even numbers first, and 
+		then odd numbers ?
+	38) Find largest and smallest elements of an array? 
+	39)	wap to subtract -1 from each element of an array 
+	40)	wap to add 5 to each element of an array
+	41) wap to convert an array of characters from upper case to lower case, e.g if arr[] = {'a', 'b', 'C'} 
+		then after conversion final array should be arr[] = {'A', 'B', 'C'}
+	42)	wap to convert an array of characters from lower case to upper case, e.g if arr[] = {'A', 'b', 'C'} 
+		then after conversion final array should be arr[] = {'a', 'b', 'c'}
+	43)	wap to multiply 3 to each element of an array
+		Suppose given array is [10, 19, 2, 7] -> answer 30, 57, 6, 21
+	44)	wap to to divide each element of an array by 2.
+		Suppose given array is [10, 19, 2, 7] -> our program will divide each element by 2
+		then answer should be 10/2, 19/2, 2, 7/2 = 5, 9, 3, 1
+	45) wap to add all even numbers of an array and print the sum
+		Suppose given array is [10, 19, 2, 7] -> sum=12 which is sum of 10 and 2, both are even
+	46)	wap to add all odd numbers of an array and print the sum
+		Suppose given array is [10, 19, 2, 7] -> sum=26 which is sum of 19 and 7, both are odd
+	47)	wap to count all 1's of an int array
+		Suppose given array is [10, 19, 2, 7] -> number of 1's here zero
+		Suppose given array is [1, 19, 1, 7, 1, 3] -> number of 1's here 3
+	48)	wap to count all 2's of an int array
+		Suppose given array is [10, 19, 2, 7] -> number of 2's here one
+		Suppose given array is [1, 19, 1, 7, 1, 3] -> number of 2's here 0
+	49)	what ArrayIndexOutOfBoundsException ?	- theory, search in google
+	50)	wap to find the largest and smallest number in an integer array
+		Suppose given array is [100, 30, -20, 0] -> largest=100, smallest=-20
+ 	51) wap to count all prime numbers of an array?
+		Suppose given array is [100, 19, 2, 7, 50] -> 19, 2, 7 are prime numbers so the count = 3
+	52)	wap to add all elements of an array and check wether the sum is a prime number or not?
+		Suppose given array is [10, 19, 2, 7] -> sum=38 is not a prime number
+		Suppose given array is [10, 8, 2, 9] -> sum=29 is a prime number
+	53)	wap to find whether an array of characters having 'a' or not?
+		Suppose given array is ['a', '5', '7', 'p'] -> this array has 'a'
+		Suppose given array is ['A', '5', '7', 'p'] -> this array doesn't have 'a'
+	54)	wap to find whether an array of characters having 'Z' or not?
+		Suppose given array is ['a', '5', '7', 'p'] -> this array doesn't have 'Z'
+		Suppose given array is ['A', '5', 'Z', 'p'] -> this array has 'Z'
+	55) wap to print all ascii value of character array
+		Suppose given array is ['a', '5', '7', 'p'] -> answer would be : 97, 53, 55, 112
+	56)	
+		
+		
+String 
+	How to compare strings?
+	How to search last occurance of a substring inside a substring?
+	How to remove a particular character from a string?
+	How to replace a substring inside a string by another one ?
+	How to reverse a String?
+	How to search a word inside a string?
+	How to split a string into a number of substrings using space?
+	How to convert a string totally into upper case?
+	How to concatenate two strings?
+
+
+Method
+	void printNegative(int[])
+		method will print all negative number from supplied array
+	void printPositive(int[])
+		method will print all positive number from supplied array
+	void printEven(int[])
+		method will print all even number from supplied array
+	void printOdd(int[])
+		method will print all odd number from supplied array
+	void printNum(int[], int)
+		method will print number if found in array negative number from supplied array
+		e.g. if a[]={1,2,3} n b=2 then print 2
+		if a[]={1,2,3} n b=5 then print not found, here 5 is not an array element
+	void copy(int[], int[])
+		copy first array to second array
+	int[] copy(int[])
+		create an array and copy supplied array and return that new array
+	int sum(int[])
+		find sum of all elements of an array and return sum
+	int average(int[])
+		find the average of array elements and return average
+	int greatest(int[])
+		find greatest element of an array and return that greatest value
+	int smallest(int[])
+		find smallest element of an array and return that smallest value
+	int[] addTwoArrays(int[], int[]) - all array of same size
+		add two supplied arrays elements and then copy the some of each element to 3rd array and 
+		return 3rd array.
+	int[] copyArrays(int[], int[]) - target array size = size of arr1 + size of arr2
+		copy first array and second array to two third array.
+	int add(int, int) - add two numbers and return sum
+	int sub(int, int) - subtract two numbers and return result
+	int mul(int, int) - multiply two numbers and return result
+	int reminder(int, int) - find remainder and return 
+	double div(int, int) - divide first argument with second argument and return the result
+	double average(int, int, int) - find average of formal arguments and return result
+	double percent(int, int, int, int, int)
+		suppose 5 arguments are marks in subjects, each subject is of 100 marks,
+		find percentage and return result
+	long factorial(int)
+		find factorial of given argument and return result
+	boolean prime(int)
+		check whether given number is prime or not and return true or false
+	void fibonocci(int)
+		print fibonacci series 
+	void printIncrStar(int n)
+		print star patter
+	void printStarFromRight(int n)
+		print star pattern from right
+	void printStarReverse(int n)
+		print star pattern in decrease order 
+	void printStarReverseRight(int n)
+		print star in decreasing order from right
+	void diamond(int n)
+		print diamond
+	int countOnes(int a[])  a[] = {1,2,1,3,2,1,1,1};
+		count number of times one in array and return count
+	int countZero(int a[])  a[] = {1,0,1,0,0,1,1,0};
+		count number of zeros and return 
+	int checkChar(char c) 
+		return 1 if argument is capital letter or -1 if lower case, 0 if not alphabet
+	int[] countOneZero(int a[]) - a[] = {1,0,1,0,0,1,1};
+		create an array having the count of zero and one in given array, 
+		return zero and one count array.
+		e.g the return array having r[] = {3, 4}
+		a[] = {1,0,1,0,0,1,1}; - this array having 3 zeros and 4 ones
+	char[] reverse(char[] src)
+		create new array and copy the src array to new array in reverse order 
+	char[] reverse(char[] src)
+		reverse the same array and return.
+				
+			
+	create a class name PatternPrinting
+		create these methods
+			void increasingStar(int)
+			void decreasingStar(int)
+			void increasingStarWithSpace(int)
+			void decreasingStarWithSpace(int)
+			void pyramid(int)
+			void reversePyramid(int)
+			void diamond(int)
+			void numRow(int)
+			void numColumn(int)
+			
+			Question 1
+Write a program with a method named getTotal that accepts two integers as an argument and return its sum. Call this method from main( ) and print the results.
+Show the answer.
+import java.util.Scanner;
+
+public class SumTwoNumber
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+        int num1, num2;
+        
+        System.out.print("Enter first number: ");
+        num1 = console.nextInt();
+        
+        System.out.print("Enter second number: ");
+        num2 = console.nextInt();
+        
+        int sum = getTotal(num1, num2);
+        
+        System.out.println("Sum: " + sum);
+    }
+
+    public static int getTotal(int number1, int number2)
+    {
+        return number1 + number2;
+    }
+}
+
+
+
+
+
+
+
+Question 2
+Write a method named isEven that accepts an int argument. The method should return true if the argument is even, or false otherwise. Also write a program to test your method.
+Show the answer.
+import java.util.Scanner;
+
+public class TestEven
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+        int num;
+        
+        System.out.print("Enter an integer: ");
+        num = console.nextInt();
+                
+        if(isEven(num))
+        {
+            System.out.println("Number is even");
+        }
+        else
+        {
+            System.out.println("Number is odd");
+        }    
+    }
+
+    public static boolean isEven(int number)
+    {
+        if(number % 2 == 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+
+Question 3
+Write a value-returning method, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. In main() method accept a string from user and count number of vowels in that string.
+Show the answer.
+import java.util.Scanner;
+
+public class TestEven
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+        String sentence;
+        
+        System.out.print("Enter a string: ");
+        sentence = console.nextLine();
+        
+        int count = 0;
+        
+        for(int i = 0; i < sentence.length(); i++)
+        {
+            if(isVowel(sentence.charAt(i)))
+            {
+                count++;
+            }
+        }
+        
+        System.out.println("Number of vowels: " + count);    
+    }
+
+    public static boolean isVowel(char letter)
+    {
+        switch(letter)
+        {
+            case 'a':
+            case 'A':
+            case 'e':
+            case 'E':
+            case 'i':
+            case 'I':
+            case 'o':
+            case 'O':
+            case 'u':
+            case 'U':
+                return true;
+            default:
+                return false;
+        }
+    }
+}
+
+Question 4
+A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
+Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
+Show the answer.
+public class PrimeNumbers
+{
+    public static void main(String[] args)
+    {        
+        for(int i = 1; i <= 500; i++)
+        {
+            if(isPrime(i))
+            {
+                System.out.print(i + " ");
+            }
+        }    
+    }
+
+    public static boolean isPrime(int number)
+    {
+        for(int i = 2; i < number; i++)
+	{
+	    if(number % i == 0)
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+}
+
+
+Question 5
+A nonnegative integer is called a palindrome if it reads forward and backward in the same way. For example, the numbers 5, 121, 3443, and 123454321 are palindromes. Write a method that takes as input a nonnegative integer and returns true if the number is a palindrome; otherwise, it returns false. Also write a program to test your method.
+Show the answer.
+
+import java.util.Scanner;
+
+public class TestPalindrom
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in);
+     
+        int num;
+
+        System.out.print("Enter a number: ");
+        num = console.nextInt();
+        
+        if(isPalindrom(num))
+        {
+            System.out.println("Number is palindrom");
+        }
+        else
+        {
+            System.out.println("Number is not palindrom");
+        }
+    }
+
+
+    public static boolean isPalindrom(int number)
+    {
+        int temp = number;
+        int remainder;
+        int reverse = 0;
+        
+        while(temp > 0)
+	{
+            remainder = temp % 10;
+            temp = temp / 10;
+            reverse = reverse * 10 + remainder;
+	}
+        
+        return reverse == number;
+    }
+}
+
+6- What will be the output of the following program?
+public class Madam
+{
+    public static void main(String[] args)
+    {
+        int a = 5;
+        System.out.println(cube(a));
+    }
+    static int cube(int theNum)
+    {
+        return theNum * theNum * theNum;
+    }
+}
+
+sulotion=125
+
+
+
+7-What will be the output of the following program?
+class Equation1
+{
+    public static void main(String s[])
+    {
+        int x = 6;
+        int y = 3;
+        int z = 12;
+
+        int w = method1(x, y, z);
+        
+        System.out.println("w = " + w);
+    }
+
+    public static int method1(int y, int z, int x)
+    {
+        return (x * z) / y;
+    }
+}
+
+solution=6
+8- What will be the output of the following program?
+class Equation1
+{
+    public static void main(String s[])
+    {
+        int x = 6;
+        int y = 3;
+        int z = 12;
+
+        int w = method1(x, y, z);
+        
+        System.out.println("w = " + w);
+    }
+
+    public static int method1(int x, int y, int z)
+    {
+        return (x * z) / y;
+    }
+}
+sulotion = 24
+
+
+
+9- What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        return a + b;
+    }
+}
+solution
+a = 34 b = 56
+c = 90
+
+
+
+10- What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = 0;
+        sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        int c = 0;
+        c = a + b;
+        System.out.println("c = " + c);
+        return c;
+    }
+}
+What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = 0;
+        sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        int c = 0;
+        c = a + b;
+        System.out.println("c = " + c);
+        return c;
+    }
+}
+
+solution
+
+a = 34 b = 56
+c = 90
+c = 0
+
+
+
+11-
+What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int b, int a)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        return a + b;
+    }
+}
+solution
+a = 56 b = 34
+c = 90
+
+12- What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static int sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        int c = a + b
+        return c;
+    }
+}
+
+solution
+
+Compilation Error
+
+
+13-  What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = 0;
+        sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static void sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        int c = a + b;
+    }
+}
+
+solution
+
+
+a = 34 b = 56
+c = 0
+
+
+14- What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        int a = 34;
+        int b = 56;
+        int c = 0;
+        sum(a, b);
+        System.out.println("c = " + c);
+    }
+    
+    public static void sum(int a, int b)
+    {
+        System.out.println("a = " + a + " b = " + b);
+        c = a + b;
+    }
+}
+
+solution
+Compilation Error
+
+
+
+
+15- What will be the output of the following program.
+class MethodsTest
+{
+    public static void main(String s[])
+    {
+        float m = 34;
+        float n = 56;
+        float o = sum(m, n);
+        System.out.println("o = " + o);
+    }
+    
+    public static void sum(float m, float n)
+    {
+        System.out.println("m = " + m + " n = " + n);
+        return m + n;
+    }
+}
+solution 
+Compilation Error
+qestion 4
+A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
+Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
+Show the answer.
+public class PrimeNumbers
+{
+    public static void main(String[] args)
+    {        
+        for(int i = 1; i <= 500; i++)
+        {
+            if(isPrime(i))
+            {
+                System.out.print(i + " ");
+            }
+        }    
+    }
+
+    public static boolean isPrime(int number)
+    {
+        for(int i = 2; i < number; i++)
+	{
+	    if(number % i == 0)
+            {
+                return false;
+            }
+        }
+        
+        return true;
+    }
+}
+
+
+			-----------------------------------------------------------------------
+			
+
+Class:
+	1.	Create a class Company having member variables companyId, name, description. create getters and 
+		setters for all member variables. Create object of Company class in other class inside main method
+		and set all member values and print all member values using getters.
+	
+	2.	Create a class Presentation having member variables presentationId, bookedCompanyId, bookedRoomId, startTime, endTime. Create getters and setters for all member variables. Create object of Presentation class in other class inside main method and set all member values and print all member values using getters.
+		
+	3.	Create a class Room having member variables roomId, floorNum, seatCapacity. create getters and 
+		setters for all member variables. Create object of Room class in other class inside main method
+		and set all member values and print all member values using getters.
+	
+	4.	Create a class Attendee having member variables attendeeId, firstName, lastName, phone, email, vip. create getters and setters for all member variables. Create object of Attendee class in other class inside main method and set all member values and print all member values using getters.
+	
+	5.	Create a class PresentationAttendance having member variables ticketId, presentationId, attendeeId. create getters and setters for all member variables. Create object of PresentationAttendance class in other class inside main method and set all member values and print all member values using getters.
+	
+	6.	Create a class Employee having member variables id, employeeName, employeeNum, dateHired, cityId. create getters and setters for all member variables. Create object of Employee class in other class inside main method and set all member values and print all member values using getters.
+	
+	7.	Create a class SalariedEmployee having member variables id, annualSalary, employeeId. create getters and setters for all member variables. Create object of SalariedEmployee class in other class inside main method and set all member values and print all member values using getters.
+	
+	8.	Create a class City having member variables id, city. create getters and 
+		setters for all member variables. Create object of City class in other class inside main method
+		and set all member values and print all member values using getters.
+		
+	9.	Create a class HourlyEmployee having member variables id, annualSalary, employeeId . create getters and setters for all member variables. Create object of HourlyEmployee class in other class inside main method and set all member values and print all member values using getters.
+	
+	10.	Create a class OrderItems having member variables orderId, productId, quantity. create getters and 
+		setters for all member variables. Create object of OrderItems class in other class inside main method and set all member values and print all member values using getters.
+		
+	11.	Create a class Orders having member variables id, userId, status, createdAt. create getters and 
+		setters for all member variables. Create object of Orders class in other class inside main method
+		and set all member values and print all member values using getters.
+		
+	12.	Create a class Users having member variables id, fullName, email, gender, dateOfBirth, countryCode, createdAt. create getters and setters for all member variables. Create object of Users class in other class inside main method and set all member values and print all member values using getters.
+	
+	13.	Create a class Merchants having member variables id, merchantName, adminId, countryCode, createdAt. create getters and setters for all member variables. Create object of Merchants class in other class inside main method and set all member values and print all member values using getters.
+	
+	14.	Create a class Products having member variables id, merchantId, name, price, status, createdAt. create getters and setters for all member variables. Create object of Products class in other class inside main method and set all member values and print all member values using getters.
+	
+	15.	Create a class Countries having member variables code, name, continentName. create getters and 
+		setters for all member variables. Create object of Countries class in other class inside main method and set all member values and print all member values using getters.
+		
+	16.	Create a class Brands having member variables id, brandName, thumbnails. create getters and 
+		setters for all member variables. Create object of Brands class in other class inside main method
+		and set all member values and print all member values using getters.
+		
+	17.	Create a class Categorys having member variables id, categoryName, thumbnails. create getters and 
+		setters for all member variables. Create object of Categorys class in other class inside main method and set all member values and print all member values using getters.
+		
+	18.	Create a class Stuff having member variables id, stuffName, thumbnails. create getters and 
+		setters for all member variables. Create object of Stuff class in other class inside main method
+		and set all member values and print all member values using getters.
+		
+	19.	Create a class BaseRelationTable having member variables id, brandsId, categoryId, collectionId. create getters and setters for all member variables. Create object of BaseRelationTable class in other class inside main method and set all member values and print all member values using getters.
+	
+	20.	Create a class Pattern having member variables id, optionName. create getters and 
+		setters for all member variables. Create object of Pattern class in other class inside main method
+		and set all member values and print all member values using getters.
+		
+	21.	Create a class Product having member variables id, productName, description, baseRelationTable, patternId. create getters and setters for all member variables. Create object of Product class in other class inside main method and set all member values and print all member values using getters.
+	
+	22.	Create a class ProductOptionRelation having member variables productId, optionId. create getters and setters for all member variables. Create object of ProductOptionRelation class in other class inside main method and set all member values and print all member values using getters.
+	
+	23.	Create a class Finish having member variables id, finishName. create getters and 
+		setters for all member variables. Create object of Finish class in other class inside main method
+		and set all member values and print all member values using getters.
+	
+	24.	Create a class ProductVariant having member variables variantId, productId, finishId, colorsId, metadata, thumbnails. create getters and setters for all member variables. Create object of ProductVariant class in other class inside main method and set all member values and print all member values using getters.
+	
+	25.	Create a class OptionTable having member variables id, optionName. create getters and setters for all member variables. Create object of OptionTable class in other class inside main method and set all member values and print all member values using getters.
+	
+	26.	Create a class OptionValues having member variables id, optionId, valueName. create getters and setters for all member variables. Create object of OptionValues class in other class inside main method and set all member values and print all member values using getters.
+	
+	27.	Create a class Colors having member variables id, colorName. create getters and 
+		setters for all member variables. Create object of Colors class in other class inside main method
+		and set all member values and print all member values using getters.
+	
+	28.	Create a class Dimensions having member variables id, dimensionValue. create getters and 
+		setters for all member variables. Create object of Dimensions class in other class inside main method
+		and set all member values and print all member values using getters.
+	
+	29.	Create a class DimensionHasProductVariant having member variables dimensionId, productId, variantId. create getters and setters for all member variables. Create object of DimensionHasProductVariant class in other class inside main method and set all member values and print all member values using getters.
+	
+	30.	Create a class VariantValue having member variables productId, optionId, valueId, dimensionId, variantId, price, sku. create getters and setters for all member variables. Create object of VariantValue class in other class inside main method and set all member values and print all member values using getters.
+	
+	31.	Create a class Customers having member variables customerId, firstName, lastName, class, doorNum, address1, address2, city, state, postalcode, country, phone, email, voiceMail, password, creditCard, creditCardTypeId, cardExpMonth, cardExpYr, billingAddress, billingCity, billingRegion, billingPostalcode, billingCountry, shipAddress, shipCity, shipRegion, shipPostalcode, shipCountry, dateEntered. create getters and setters for all member variables. Create object of Customers class in other class inside main method and set all member values and print all member values using getters.
+		
+	32.	Create a class Suppliers having member variables supplierId, companyName, contact_fName, contact_lName, contact_title, address1, address2, city, state, postalcode, country, phone, fax, email,
+	url, paymentMethods, discountType, typeGoods_, notes, discountAvailabe, currentOrder, logo, customerId. create getters and setters for all member variables. Create object of Suppliers class in other class inside main method and set all member values and print all member values using getters.
+						
+	33.	creat a class having name Pattern, then add methods to print all patterns like increaseStar, decreaseStar, increaseStartFromRight, decreaseStartFromRight, diamond, pyramid, reversePyramid.
+	All these methods will accept one int argument and will not return anything.
+	
+	34. create a class of name Arithmetic, add methods like add, sub, div, prod, fibonacci, prime, factorial. Plz make these methods return type and arguments according to your wish.
+	
+	35. create a class ArrayOperation and add methods like int[] copy(int[] a), int[] reverse(int[] b), 
+	int[] addTwoArrays(int[] a, int[] b), void print(int[] p), int sumArray(int a[]), 
+	int findMax(int[] a), int findMin(int[] a), int countNegative(int a[]), int countPositive(int a[]),  
+	
+	
+			-----------------------------------------------------------------------
+	
+ArrayList:
+	1.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	2.	create a class Student having fields id, name, dob, email, schoolId. Create an array list of User class and 
+		add 4 user objects inside the list.
+
+	3.	create a class School having fields schoolId, name, registrationDate, medium, address. Create an array list
+		of 	User class and add 6 user objects inside the list.
+
+	4.	create a class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName. 
+		Create an array list of User class and add 7 user objects inside the list.
+
+	5.	create a class Car having fields CarId, model, company, engine, color, type. 
+		Create an array list of User class and  add 5 user objects inside the list.
+
+	6.	create a class Employee having fields id, name, dob, email, designation, joiningDate, resigned 		
+		companyName. Create an array list of User class and  add 10 user objects inside the list.
+
+	7.	create a class Employee having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	8.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	9.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	10.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	11.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	12.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	13.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	14.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	15.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+	16.	create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+
+			-----------------------------------------------------------------------
+
+Model and Dto class
+	1.	create a model class User having fields id, name, dob, email
+		create a dto class UserDto having fields id, name, dob, email
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+	
+	2.	create a model class Student having fields id, name, dob, email, schoolId
+		create a dto class StudentDto having fields id, name, dob, email, schoolId
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+	
+	3.	create a model class School having fields schoolId, name, registrationDate, medium, address
+		create a dto class SchoolDto having fields schoolId, name, registrationDate, medium, address
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	4.	create a model class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName
+		create a dto class TeacherDto having fields id, TeacherId, name, dob, email, schoolId, fatherName
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	5.	create a model class Car having fields CarId, model, company, engine, color, type
+		create a dto class CarDto having fields CarId, model, company, engine, color, type
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	6.	create a model class Country having fields countryId, name, independenceDate, email, phoneCode, republicDate
+		create a dto class CountryDto having fields countryId, name, independenceDate, email, phoneCode, republicDate
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	7.	create a model class State having fields stateId, countryId, name, stateCode
+		create a dto class StateDto having fields stateId, countryId, name, stateCode
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	8.	create a model class City having fields cityId, countryId, stateId, name, cityCode
+		create a dto class CityDto having fields cityId, countryId, stateId, name, cityCode
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	9.	create a model class Street having fields streetId, cityId, countryId, stateId, name, address, postcode
+		create a dto class StreetDto having fields streetId, cityId, countryId, stateId, name, address, postcode
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	10.	create a model class Student having fields id, name, dob, email
+		create a dto class StudentDto having fields id, name, dob, email
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	11.	create a model class Student having fields id, name, dob, email
+		create a dto class StudentDto having fields id, name, dob, email
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	12.	create a model class Student having fields id, name, dob, email
+		create a dto class StudentDto having fields id, name, dob, email
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+	13.	create a model class Student having fields id, name, dob, email
+		create a dto class StudentDto having fields id, name, dob, email
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
+
+
+
+			-----------------------------------------------------------------------
+
+
+Abstract class:
+
+	NANR - method neither return nor accept any argument
+	ANR - method will not return but accept any argument
+	NAR - method will return but not accept any argument
+	AR - method will return and accept argument
+	
+	ABS -> abstract method
+	CON -> conrete method
+	
+	create and extends abstract class
+	1.	Person having abstract methods
+		job, salary, designation -> NANR, ABS
+	2.	CollegeDetails
+		feesStructure, duration, specialization ->  NANR, ABS
+		name -> NAR, CON
+	3.	Language
+		locale, standard -> NANR, ABS
+	4.	Animal
+		
+		
+	
+
+
+			-----------------------------------------------------------------------
+
+Interface:
+	implement these interfaces 
+	1.	public interface Series{
+			public void fibonocci();
+			public void pell();
+			public void square();
+			public void cube();
+			public void firstTenNaturalNum();
+			public void firstTenEvenNum();
+			public void firstTenOddNum();
+			public void printNumBetween90N100();
+		}
+	2.	public interface StringOperation {
+			public void reverse(String);
+			public void upperCase(String);
+			public void lowercase(String);
+			public void palindrome(String);
+			public void removeDuplicateChar(String);
+			public void removeAllSpaces(String);
+			public void removeFirstSpace(String);
+			public void removeLastSpace(String);
+			public void removeAllNum(String);
+			public void removeAllSpecialChar(String);
+			public void removeLeadingTrailingSpaces(String);
+		}
+
+				
+
+
+1. Create a class with a method that prints "This is super class" and its subclass with another method that prints "This is sub class".
+	Now, create an object for each of the class and call
+		1 - method of superclass by object of parent class
+		2 - method of subclass class by object of subclass class
+		3 - method of superclass class by object of subclass class
+
+2. Create a class with a constructor that prints "This is a constructor of super class" and its subclass with its own constructor that
+prints "This is a constructor of subclass". Now, create the following objects and print the output in the console.
+		1 - An object of the superclass using the subclass
+		2 - An object of the superclass using the superclass itself
+		3 - An object of the subclass using the subclass itself
+
+3. Create a class with an field with integer value and its subclass with another field with integer value. Now, create object of each class and call
+		
+		1 - field of the superclass using the subclass
+		2 - field of the superclass using the superclass itself
+		3 - field of the subclass using the subclass itself
+
+4. Create a class with a method print() that prints a message, and a subclass with a method with the same method signature as well that prints another message,
+Now, create an object of each class and call
+		1 - method of superclass by object of parent class
+		2 - method of subclass class by object of subclass class
+		3 - method of superclass class by object of subclass class 
+	
+5. Show the output	
+	class A {
+		public void print() {
+			System.out.println("print output from A");
+		}
+	}
+	
+	class B extends A {
+		public void print() {
+			System.out.println("print output from B");
+		}
+	}
+	
+	class C extends B {
+		public void print() {
+			System.out.println("print output from C");
+		}
+	}
+
+	class MainClass {
+		public static void main(String[] args) {
+
+			A obj1 = new A();
+			A obj2 = new B();
+			B obj3 = new B();
+			B obj4 = new C();
+
+			obj1.print();
+			obj2.print();
+			obj3.print();
+			obj4.print();
+			
+		}
+	}
+	
+
+6. What's the output of this:
+	
+	class A {
+		int i = 10;
+	}
+	
+	class B extends A {
+		int i = 20;
+	}
+
+	class MainClass {
+		public static void main(String[] args) {
+
+			A a = new A();
+			A b = new B();
+			B c = new B();
+
+			System.out.println(a.i);
+			System.out.println(b.i);
+			System.out.println(c.i);
+		}
+	}
+	
+	
+7. What's the output of this:
+	
+	class A {
+		public A() {
+			System.out.println("Class A Constructor");
+		}
+	}
+	
+	class B extends A {
+		public B() {
+			System.out.println("Class B Constructor");
+		}
+	}
+
+	class MainClass {
+		public static void main(String[] args) {
+
+			A a = new A();
+			A b = new B();
+			B c = new B();
+
+		}
+	}
+	
+8. You have these two classes:
+	
+	class First {
+		public static void printFirst() {
+			System.out.println("First class");
+		}
+	}
+	
+	class Second extends First {
+		public static void printSecond() {
+			System.out.println("Second class");
+		}
+	}
+
+	class MainClass {
+		public static void main(String[] args) {
+			A.printA();
+			A.printB();
+			B.printA();
+			B.printB();
+		}
+	}
+
+9. Show the output
+
+	class A {
+	
+		int i = 1212;
+	}
+	 
+	class B extends A {
+	{
+		A a;
+	 
+		public B(A a)
+		{
+			this.a = a;
+		}
+	}
+	 
+	public class MainClass
+	{
+		public static void main(String[] args)
+		{
+			A a = new A();
+	 
+			B b = new B(a);
+	 
+			System.out.println(a.i);
+	 
+			System.out.println(b.i);
+	 
+			System.out.println(b.a.i);
+	 
+			b.a.i = 2121;
+	 
+			System.out.println("--------");
+	 
+			System.out.println(a.i);
+	 
+			System.out.println(b.i);
+		}
+	}		
+		Answer :
+			1212
+			1212
+			1212
+			——–
+			2121
+			1212
+
+		
+10. What will be the output:
+	
+	public class A {
+		int methodOfA(int i) {
+		
+			i /= 10;
+
+			return i;
+		}
+	}
+	
+	class B extends A {
+		int methodOfB(int i) {
+		
+			i *= 20;
+
+			return methodOfA(i);
+		}
+	}
+
+	class MainClass {
+		public static void main(String[] args) {
+
+			B b = new B();
+
+			System.out.println(b.methodOfB(100));
+
+		}
+}
+
+11. You have these two classes:
+
+	class BaseClass() {
+		
+		private void show() {
+			System.out.println("base class");
+		}
+	}
+	
+	class DerivedClass() extends BaseClass {
+		
+		public void show() { 
+			System.out.println("derived class");
+		}
+	}
+
+create an object of each class. What will be the output and why?
+	
+12. You have these two classes:
+
+	class TheBase() {
+		
+		final void show() {
+			System.out.println("base class");
+		}
+	}
+	
+	class TheBranch() extends TheBase {
+		
+		public void show() {
+			System.out.println("branch class");
+		}
+	}
+
+create an object of each class. What will be the output and why?
+
+13. What's the output of this:
+	class Grandparent {
+		public void Print() {
+			System.out.println("Grandparent's Print()");
+		}
+	}
+  
+	class Parent extends Grandparent {
+		public void Print() {
+			System.out.println("Parent's Print()");
+		}
+	}
+	  
+	class Child extends Parent {
+		public void Print() {
+			super.super.Print(); 
+			System.out.println("Child's Print()");
+		}
+	}
+	  
+	public class Main {
+		public static void main(String[] args) {
+			Child c = new Child();
+			c.Print();
+		}
+	}
+
+14. Create a class named 'Member' which has the following member variables:
+	name, age, nationality, salary
+	Then create two classes 'Manager' and 'Employee' and both extend 'Member' class. Manager class has member variable 'department' and employee has
+	member variable 'specialization'. 
+		1 - Create an object for Employee and object for manager
+		2 - Assign name, age, nationality, salary and specialization to the employee object
+		3 - Assign name, age, nationality, salary and department to the manager object
+
+15. Create a class named 'Shape' with a method to print "This is This is shape". Then create two other classes named 'Rectangle', 'Circle' inheriting
+the Shape class, both having a method to print "This is rectangular shape" and "This is circular shape" respectively. 
+Create a class 'Square' extending 'Rectangle' with a method to print "Square is a rectangle".
+Now call the method of 'Shape' and 'Rectangle' class by the object of 'Square' class.
+		
+    
+    1. Program to calculate the factorial of a number
+2. Program to calculate the sum digits of a number
+3. Program to reverse a number
+4. Program to check the number is strong number or not.
+5. Program to calculate the prime factors of a numbers
+6. Program to check given number is armstrong or not
+7. Program to check given number is palendrome or not
+8. Program to add between any two numbers using loop
+9. Program to calculate daily expenditure if monthely expenditure is given using loop.
+10. Program to count number of bits are set to 1 in an integer.
+11. Program to calculate G.C.D of any two numbers
+12. Program to calculate L.C.M of two numbers.
+13. Program to calculate fibonacci series
+14. Program to calculate string palindrome
+15. Program to check the number is Prime number or not
+16. Program to find largest number in an array
+17. Program to find Second largest number in an array
+18. Program to remove duplicate elements in an array
+19. Program to convert decimal to binary
+20. Program to convert binary to decimal
+21. Program to check the number is perfect number or not.
+22. Program to find generic root of a number.
+23. Program to check a year is leap year or not.
+24. Program to revese a string
+25. Program to add a sub-string in a string
+26. Program to traverse a string in reverse order
+27. Program to count number of vowels , digits,characters and word present in string.
+28. Program to add between two matrix
+29. Program to multiplication between two matrix
+30. Program to transpose a matrix
+31. Program to check a matrix is sparse matrix or not
+32. Program to calculate Amicable pairs from 1 to 1000
+33. Program to calculate Sum of the series 1+2+3+---------+n
+34. Program to find area triangle
+35. Program for Bubble sort
+36. Program for Selection sort
+37. Program for insertion sort
+38. Program for Quick Sort
+39. Program for Merge Sort
+40. Program for Sequential search using array
+41. Program for Sequential search using linked list
+42. Program for Binary search using array
+43. Program for Binary search using linked list
+44. Program to implement stack using linked list
+45. Program to convert infix to prefix notation
+46. Program to Evaluate postfix notation
+47. Program to implement Queue using linked list
+48. Program for Dqueue
+49. Program for Priority Queue
+50. Program to traverse linked list in reverse order.
+51. Program to display the contents of a file using command line argument
+52. Caclulate the age of a person after giving the date of birth
+53. Cacluate the average marks of student looking at the following table
+54. Cacluate the amount to be paid after giving the total time.
+55. Program to convert upper case to lower case
+56. Program to calculate the power of a number
+57. INSERT AN ELMENT IN AN ARRAY AT DESIRED POSITION
+58. program to calculate the sum of the following series
+1 - x + x2/2! + x3/3! --------to nth term
+59. find the weekday of a particular date(ex-6 sep 2010 (monday)
+60.Write a program to convert given ip address 192.168.3.35 into 192.168.003.035
+61.Caclulate the net salary looking at the following table
+62. Write a program to display :
+  *
+  ***
+  *****
+  *******
+  *********
+  ******
+  ***
+  *
+63. Write a program which will store roll name and age in student structure and address telephone no. In address structure. Implement the nested structure which will store information of ten students and their address and organize data in descending order by their roll no.
+64. Write a program to store the information of student such as roll, name and course to a file using read & write system call.
+65. Write a program to count no. of paragraphs, lines, words and characters present in a file.
+66. Write a C program that will generate a table of values for the equation;
+    f(X,Y) = 2ex3 + (23 + Y) x Where 1 < x < 5 with an increment 0.5 and 1 < y < 5 with an increment 0.25.
+67. Write a C program using a do â€“ while loop, to calculate the sum of every third integer, beginning with I = 2, for all values of I that are less than 100.
+68. Write a C program to solve a quadratic equation using switch statement.
+69. Write a C program that accepts a character as input data and determine. If the character is an uppercase letter. An uppercase letter is any character that is greater than or equal to â€˜Aâ€™ and
+    less than or equal to â€˜Zâ€™. If the entered character is an uppercase letter, display the message â€oeThe character just entered character is an uppercase letterâ€•. If the entered character is not uppercase, display the message â€oeThe character just entered character is not an uppercase letterâ€•.
+70. To find the longest word and its length in a give string.
+71. Write program : To create data for 50 students ( roll, name, mark 1, mark 2, mark 3, termmark ) and then find the total for each student and average mark of all students.
+72. Write Programs : To round afloating point number to an indicate decimal place e. g. 17.457 will be rounded to 17.46 to two decimal places.
+73. Write a C program to create a file for RD account in a bank assuming the file structure as RD account no, instalment amount and number of instalments.
+74. Write a c program to open a file named â€oeBPUTâ€• and write a line of text in it by reading the text from the key board.
+75. Declare a 2-dimensional array a of integers of size 4 x 4.. Treat it as matrix. Write a C program to test if this matrix is symmetric.
+76. Write â€˜Câ€™ program to read the contents of file, â€˜fâ€™ and paste the contents at the beginning of another file â€˜fâ€™ without taking help of any extra file
+77. To find the longest elements and its location in 2-d array assuming elements of the array are distinet.
+78. Program for DFS
+79. Program for BFS
+80. Program to search an element using hash table
+81. Program to search a string from hast table
+82. Program to search an element using hash table using chaning
+83. Shortest path using warshal's algorith
+84. Shortest path using dijkstra's algorith
+85. Find the path matrix of Graph
+86. Program to read the current date and time
+87. Program to read all files from current directory
+------------------------------------------------------
+create an arraylist of integer n prints its value
+create an arraylist of character n prints its value
+create an arraylist of Double n prints its value
+create an arraylist of Float n prints its value
+create an arraylist of integer n copy its value to other arraylist
+create an arraylist of character n copy its value to other arraylist
+create an arraylist of Double n copy its value to other arraylist
+create an arraylist of Float n copy its value to other arraylist
+create an arraylist of integer n add value using for loop
+create an arraylist of String n copy value from an string array of hard coded value
+copy two difference String arraylist into one arraylist
+WAP to print array using for, while and do while loop?
+WAP to print array in reverse order using for, while and do while loop?
+Wap print string in reverse e.g world to dlrow?
+
+4. Program to check the number is strong number or not.
+main()
+{
+int x,n;
+printf("Enter a number :");
+scanf("%d",&n);
+x=strong(n);
+if(x==n)
+printf("Strong");
+else
+printf("Not strong");
+}
+int strong(int n)
+{
+int s=0,r,f;
+while(n>0)
+{
+r=n%10;
+f=fact(r);
+s=s+f;
+n=n/10;
+}
+return s;
+}
+int fact(int n)
+{
+int f=1;
+while(n>0)
+{
+f=f*n;
+n--;
+}
+return f;
+}
+5. Program to calculate the prime factors of a numbers
+main()
+{
+int x,n;
+printf("Enter a number :");
+scanf("%d",&n);
+prime_factors(n);
+}
+int prime_factors(int n)
+{
+int i=1,k;
+while(i<=n)
+{
+if(n%i==0)
+{
+k=check_prime(i);
+if(k!=0)
+printf("%d ",k);
+}
+i++;
+}
+}
+int check_prime(int n)
+{
+int i=1;
+int c=0;
+while(i<=n)
+{
+if(n%i==0)
+c++;
+i++;
+}
+if(c==2)
+return n;
+else
+return 0;
+}
+6. Program to check given number is armstrong or not
+main()
+{
+int n,x;
+printf("Enter a number:");
+scanf("%d",&n);
+x=armstrong(n);
+if(x==n)
+printf("Arm strong");
+else
+printf("Not arm strong");
+}
+int armstrong(int num)
+{
+int sum=0,r;
+while(num!=0)
+{
+r=num%10;
+num=num/10;
+sum=sum+(r*r*r);
+}
+return sum;
+}
+7. Program to check given number is palendrome or not
+main()
+{
+int n,x;
+printf("Enter a number:");
+scanf("%d",&n);
+x=palendrome(n);
+if(x==n)
+printf("Palendrome ");
+else
+printf("Not palendrome ");
+}
+int palendrome(int num)
+{
+int r=0;
+while(num>0)
+{
+r=r* 10 + num%10;
+num=num/10;
+}
+return r;
+}
+8. Program to add between any two numbers using loop
+main()
+{
+int x;
+int a,b;
+printf("Enter any two numbers :");
+scanf("%d%d",&a,&b);
+x=add(a,b);
+printf("%d ",x);
+}
+int add(int a,int b)
+{
+while(a>0)
+{
+b++;
+a--;
+}
+return b;
+}
+9. Program to calculate daily expenditure if monthely expenditure is given using loop.
+main()
+{
+int x,n;
+printf("Enter monthely expenditure :");
+scanf("%d",&n);
+x=daily_exp(n);
+printf("%d ",x);
+}
+int daily_exp(int n)
+{
+int c=0;
+while(n>0)
+{
+c++;
+n=n-30;
+}
+return c;
+}
+10. Program to count number of bits are set to 1 in an integer.
+main()
+{
+int x,n;
+printf("Enter a number :");
+scanf("%d",&n);
+x=bit_count(n);
+printf("%d ",x);
+}
+int bit_count(int n)
+{
+int c=0;
+while(n>0)
+{
+c++;
+n=n&n-1;
+}
+return c;
+}
+11. Program to calculate G.C.D of any two numbers
+main()
+{
+int n1,n2,x;
+printf("Enter two numbers:");
+scanf("%d%d",&n1,&n2);
+x=gcd(n1,n2);
+printf("%d ",x);
+}
+int gcd(int n1,int n2)
+{
+while(n1!=n2)
+{
+if(n1>n2)
+n1=n1-n2;
+else
+n2=n2-n1;
+}
+return n1;
+}
+12. Program to calculate L.C.M of two numbers.
+main()
+{
+int n1,n2,x;
+printf("Enter two numbers:");
+scanf("%d%d",&n1,&n2);
+x=lcm(n1,n2);
+printf("%d ",x);
+}
+int lcm(int n1,int n2)
+{
+int x,y;
+x=n1,y=n2;
+while(n1!=n2)
+{
+if(n1>n2)
+n1=n1-n2;
+else
+n2=n2-n1;
+}
+return x*y/n1;
+}
+
+14. Program to calculate string palindrome
+main()
+{
+char x[100],y[100];
+printf("Enter a string :");
+scanf("%s",x);
+strcpy(y,x);
+check_palindrome(x);
+if(strcmp(x,y)==0)
+printf("Palindrome");
+else
+printf("Not Palindrome");
+}
+int check_palindrome(char *x)
+{
+int len=strlen(x);
+int i;
+char temp;
+for(i=0;i<len/2;i++)
+{
+temp=x[i];
+x[i]=x[len-i-1];
+x[len-i-1]=temp;
+}
+}
+
+16. Program to find largest number in an array
+main()
+{
+int a[]={15,67,25,90,40};
+int k;
+k=large_number(a);
+printf("%d ",k);
+}
+int large_number(int a[5])
+{
+int i,big;
+big=a[0];
+for(i=1;i<5;i++)
+{
+if(big<a[i])
+big=a[i];
+}
+return big;
+}
+17. Program to find Second largest number in an array
+main()
+{
+int a[]={15,67,25,90,40};
+int k;
+k=large_number(a);
+printf("%d ",k);
+}
+int large_number(int un[5])
+{
+int big1,big2;
+int i;
+big1 = un[0];
+for ( i=1;i<5;++i )
+if ( big1 < un[i] )
+big1 = un[i];
+if ( big1!=un[0] )
+big2=un[0];
+else
+big2=un[1];
+for(i=1; i<5;++i )
+if (big1!=un[i] && big2 < un[i] )
+big2=un[i];
+return big2;
+}
+18. Program to remove duplicate elements in an array
+main()
+{
+int i,k;
+int x[10]={5,7,2,8,9,3,3,6,7,20};
+k=remove_duplicate(x);
+for(i=0;i<k;i++)
+{
+printf(" %d",x[i]);
+}
+}
+int remove_duplicate(int p[10])
+{
+int size=10,i,j,k;
+for(i=0;i<size;i++)
+{
+for(j=0;j<size;j++)
+{
+if(i==j)
+{
+continue;
+}
+else
+if(*(p+i)==*(p+j))
+{
+k=j;
+size--;
+while(k < size)
+{
+*(p+k)=*(p+k+1);
+k++;
+}
+j=0;
+}
+}
+}
+return size;
+}
+19. Program to convert from decimal to binary
+main()
+{
+int n;
+printf("Enter a number :");
+scanf("%d",&n);
+decimal_binary(n);
+}
+int decimal_binary(int n)
+{
+int m,no=0,a=1,rem;
+m=n;
+while(n!=0)
+{
+rem=n%2;
+no=no+rem*a;
+n=n/2;
+a=a*10;
+}
+printf("%d",no);
+}
+20. Program to convert binary to decimal
+main()
+{
+int n;
+printf("Enter data in binary format :");
+scanf("%d",&n);
+binary_decimal(n);
+}
+int binary_decimal(int n)
+{
+int j=1,rem,n1=0;
+while(n!=0)
+{
+rem=n%10;
+n1=n1+rem*j;
+j=j*2;
+n=n/10;
+}
+printf("%d",n1);
+}
+21. Program to check the number is perfect number or not.
+main()
+{
+int n,x;
+printf("Enter a number:");
+scanf("%d",&n);
+x=check_perfect(n);
+if(x==n)
+printf("Perfect number :");
+else
+printf("Not a perfect number :");
+}
+int check_perfect(int n)
+{
+int s=0,i=1;
+while(i<n)
+{
+if(n%i==0)
+s=s+i;
+i++;
+}
+return s;
+}
+22.Program to find generic root of a number.
+main()
+{
+int n,k;
+printf("Enter a number");
+scanf("%d",&n);
+k=generic(n);
+printf("%d",k);
+}
+int generic(int n)
+{
+int sum,r;
+if(n<10)
+return n;
+while(n>10)
+{
+sum=0;
+while(n!=0)
+{
+r=n%10;
+n=n/10;
+sum+=r;
+}
+if(sum>10)
+n=sum;
+else
+break;
+}
+return sum;
+}
+23. Program to check a year is leap year or not.
+main()
+{
+int year;
+printf("Enter the year :\n");
+scanf("%d",&year);
+if((year % 400==0 )|| ((year % 4==0)&& (year %100!=0)))
+printf("Leap Year ");
+else
+printf("Not leap year");
+}
+24. Program to revese a string
+main()
+{
+char x[100];
+printf("Enter a string :");
+gets(x);
+strrev(x);
+printf("%s",x);
+}
+int strrev(char *x)
+{
+int len=strlen(x);
+int i;
+char temp;
+for(i=0;i<len/2;i++)
+{
+temp=x[i];
+x[i]=x[len-i-1];
+x[len-i-1]=temp;
+}
+}
+25. Program to add a sub-string in a string
+main()
+{
+char x[100],y[20];
+int pos;
+printf("Enter string :");
+gets(x);
+printf("Enter substring:");
+scanf("%s",y);
+printf("Enter position:");
+scanf("%d",&pos);
+add_substring(x,y,pos);
+}
+int add_substring(char *x,char *y,int pos)
+{
+char z[100];
+int i=0,j=0,k;
+memset(z,0,sizeof(z));
+while(i<pos)
+{
+z[i]=*x;
+x++;
+i++;
+}
+while(*y!=0)
+{
+z[i]=*y;
+i++;
+y++;
+}
+z[i]=' ';
+i++;
+while(*x!=0)
+{
+z[i]=*x;
+i++;
+x++;
+}
+z[i]=0;
+printf("%s",z);
+}
+
+27. Program to count number of words,vowels,digits and space present in string.
+main()
+{
+int word=0,space=0,digit=0,vowels=0,i;
+char x[100];
+printf("Enter a string :");
+gets(x);
+for(i=0;i<strlen(x);i++)
+{
+if(x[i]=='a' || x[i]=='A' || x[i]=='e' || x[i]=='E' || x[i]=='i' || x[i]=='I'
+|| x[i]=='o' || x[i]=='O' || x[i]=='u' || x[i]=='U')
+vowels++;
+if(x[i]>=48 && x[i]<=57)
+digit++;
+if(x[i]==32) //space
+space++;
+}
+word=space+1;
+printf("%d %d %d %d\n",word,space,digit,vowels);
+}
+28. Program to add between two matrix
+main()
+{
+int a[3][3]={
+1,2,1,
+1,2,2,
+3,2,1
+};
+int b[3][3]={
+2,2,1,
+1,1,1,
+2,3,1
+};
+int c[3][3];
+int i,j,k,sum=0;
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+c[i][j]=a[i][j]*b[i][j];
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d ",c[i][j]);
+}
+printf("\n");
+}
+}
+29. Program for multiplication between two matrix
+main()
+{
+int a[3][3]={
+1,2,1,
+1,2,2,
+3,2,1
+};
+int b[3][3]={
+2,2,1,
+1,1,1,
+2,3,1
+};
+int c[3][3];
+int i,j,k,sum=0;
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+c[i][j]=0;
+for(k=0;k<3;k++)
+{
+c[i][j]=c[i][j]+a[i][k]*b[k][j];
+}
+}
+}
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d ",c[i][j]);
+}
+printf("\n");
+}
+}
+30. Program to transpose a matrix
+main()
+{
+int a[3][5]={
+1,4,5,6,7,
+2,3,4,1,5,
+9,5,3,1,4
+};
+int b[5][3];
+int i,j;
+for(i=0;i<3;i++)
+{
+for(j=0;j<5;j++)
+{
+b[j][i]=a[i][j];
+}
+}
+for(i=0;i<5;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%d",b[i][j]);
+}
+printf("\n");
+}
+}
+31. Program to check a matrix is sparse matrix or not
+main()
+{
+int mat[3][5]={
+1,0,2,3,0,
+0,1,0,1,0,
+0,0,0,1,0
+};
+int i,j,nzero=0,zero=0;
+for(i=0;i<3;i++)
+{
+for(j=0;j<5;j++)
+{
+if(mat[i][j]!=0)
+nzero++;
+else
+zero++;
+}
+}
+if(zero>nzero)
+printf("The matrix is sparse matrix");
+else
+printf("Not a sparse matrix");
+}
+32. Program to calculate Amicable pairs from 1 to 1000
+#include "stdio.h"
+main()
+{
+int n,k;
+int i=1,s1=0,s2=0;
+for(k=1;k<=1000;k++)
+{
+n=k;
+while(i<n)
+{
+if(n%i==0)
+s1=s1+i;
+i++;
+}
+i=1;
+if(s1==n)
+continue;
+while(i<s1)
+{
+if(s1%i==0)
+s2=s2+i;
+i++;
+}
+if(n==s2)
+printf("%d \n",n);
+s1=0;
+s2=0;
+}
+}
+33. Program to calculate Sum of the series 1+2+3+---------+n
+main()
+{
+int r;
+printf("Enter the number range: ");
+scanf("%d",&r);
+printf("%d",(r*(r+1))/2);
+}
+34. Program to find area triangle
+#include "math.h"
+int main()
+{
+double a,b,c,s;
+double area;
+printf("Enter the size of triangle :");
+scanf("%lf%lf%lf",&a,&b,&c);
+s = (a + b + c)/2;
+area =sqrt (s*(s-a)*(s-b)*(s-c));
+printf("%lf",area);
+}
+35. Program for Bubble sort
+main()
+{
+int a[5]={4,9,40,2,25};
+int i;
+bubble_sort(a);
+for(i=0;i<5;i++)
+printf("%d ",a[i]);
+}
+int bubble_sort(int a[5])
+{
+int i,j,temp;
+for(i=0;i<5;i++)
+{
+for(j=0;j<5-i;j++)
+{
+if(a[j]>a[j+1])
+{
+temp=a[j];
+a[j]=a[j+1];
+a[j+1]=temp;
+}
+}
+}
+}
+36. Program for Selection sort
+main()
+{
+int a[5]={4,9,40,2,25};
+int i;
+selection_sort(a);
+for(i=0;i<5;i++)
+printf("%d ",a[i]);
+}
+int selection_sort(int a[5])
+{
+int i,j,temp;
+for(i=0;i<5;i++)
+{
+for(j=i+1;j<5;j++)
+{
+if(a[i]>a[j])
+{
+temp=a[i];
+a[i]=a[j];
+a[j]=temp;
+}
+}
+}
+}
+37. Program for Insertion sort
+main()
+{
+int a[5]={4,9,40,2,25};
+int i;
+insert_sort(a);
+for(i=0;i<5;i++)
+printf("%d ",a[i]);
+}
+int insert_sort(int a[5])
+{
+int i,j,k,temp;
+for(i=1;i<5;i++)
+{
+for(j=0;j<i;j++)
+{
+if(a[i]<a[j])
+{
+temp=a[i];
+for(k=i;k>j;k--)
+{
+a[k]=a[k-1];
+}
+a[j]=temp;
+}
+}
+}
+}
+38. Program for quick sort
+main()
+{
+int x[5]={5,9,2,20,6};
+int i;
+quick_sort(x,0,4);
+for(i=0;i<5;i++)
+printf("%d ",x[i]);
+}
+quick_sort(int x[10],int first,int last)
+{
+int pivot,j,temp,i;
+if(first<last)
+{
+pivot=first;
+i=first;
+j=last;
+while(i<j)
+{
+while(x[i]<=x[pivot]&&i<last)
+i++;
+while(x[j]>x[pivot])
+j--;
+if(i<j)
+{
+temp=x[i];
+x[i]=x[j];
+x[j]=temp;
+}
+}
+temp=x[pivot];
+x[pivot]=x[j];
+x[j]=temp;
+quick_sort(x,first,j-1);
+quick_sort(x,j+1,last);
+}
+}
+39. Program for Merge Sort
+40. Program for sequential search
+main()
+{
+int a[]={6,5,3,20,55};
+int i,flag=0,n;
+printf("Enter number to search :");
+scanf("%d",&n);
+for(i=0;i<5;i++)
+{
+if(a[i]==n)
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+printf("Found\n");
+else
+printf("Not found\n");
+}
+41. Program for Sequential search using linked list
+struct xxx
+{
+int data;
+struct xxx *ad;
+};
+struct xxx *create_linkedlist();
+main()
+{
+int k;
+struct xxx *b;
+b=create_linkedlist();
+k=search(b);
+if(k==1)
+printf("Found ");
+else
+printf("Not found\n");
+}
+struct xxx *create_linkedlist()
+{
+char ch[10];
+struct xxx *p,*q,*r;
+p=malloc(sizeof(struct xxx));
+printf("Enter data :");
+scanf("%d",&p->data);
+r=p;
+while(1)
+{
+printf("Do u continue yes/no :");
+scanf("%s",ch);
+if(strcmp(ch,"no")==0)
+break;
+q=malloc(sizeof(struct xxx));
+p->ad=q;
+p=q;
+printf("Enter data :");
+scanf("%d",&p->data);
+}
+p->ad=0;
+return r;
+}
+int search(struct xxx *p)
+{
+int n,flag=0;
+printf("Enter number to search :");
+scanf("%d",&n);
+while(p!=0)
+{
+if(p->data==n)
+{
+flag=1;
+break;
+}
+p=p->ad;
+}
+return flag;
+}
+42. Binary Search using an Array
+void main()
+{
+int a[10],i,n,m,c=0,l,u,mid;
+printf("Enter the size of an array->");
+scanf("%d",&n);
+printf("\nEnter the elements of the array->");
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("\nThe elements of an array are->");
+for(i=0;i<n;i++)
+{
+printf(" %d",a[i]);
+}
+printf("\nEnter the number to be search->");
+scanf("%d",&m);
+l=0,u=n-1;
+while(l<=u)
+{
+mid=(l+u)/2;
+if(m==a[mid])
+{
+c=1;
+break;
+}
+else
+if(m<a[mid])
+{
+u=mid-1;
+}
+else
+l=mid+1;
+}
+if(c==0)
+printf("\nThe number is not in the list");
+else
+printf("\nThe number is found");
+}
+43. Program for Binary search using linked list
+struct xxx
+{
+int roll;
+struct xxx *ad;
+};
+struct xxx *create();
+main()
+{
+int status;
+int u,n;
+struct xxx *b;
+b=create();
+visit(b);
+selection_sort(b);
+printf("\n");
+visit(b);
+u=count(b);
+printf("Enter number to search :");
+scanf("%d",&n);
+status=binary_search(b,1,u,n);
+if(status==1)
+printf("Found\n");
+else
+printf("Not found\n");
+}
+int binary_search(struct xxx *p,int l,int u,int n)
+{
+struct xxx *r=p;
+int mid,i,f=0;
+while(l<=u && r!=0)
+{
+mid=(l+u)/2;
+for(i=1;i<mid;i++)
+{
+r=r->ad;
+}
+if(n==r->roll)
+{
+f=1;
+break;
+}
+if(n<r->roll)
+{ u=mid-1;
+}
+if(n>r->roll)
+{
+l=mid+1;
+}
+r=p;
+}
+return f;
+}
+int count(struct xxx *p)
+{
+int c=0;
+while(p!=0)
+{
+c++;
+p=p->ad;
+}
+return c;
+}
+int selection_sort(struct xxx *p)
+{
+struct xxx *q=p->ad;
+int temp;
+while(p->ad!=0)
+{
+while(q!=0)
+{
+if(p->roll>q->roll)
+{
+temp=p->roll;
+p->roll=q->roll;
+q->roll=temp;
+}
+q=q->ad;
+}
+p=p->ad;
+q=p->ad;
+}
+}
+int visit(struct xxx *p)
+{
+while(p!=0)
+{
+printf("%d ",p->roll);
+p=p->ad;
+}
+}
+struct xxx *create()
+{
+struct xxx *p,*q,*r;
+char ch[10];
+p=malloc(sizeof(struct xxx));
+r=p;
+while(1)
+{
+printf("Enter roll :");
+scanf("%d",&p->roll);
+printf("Do u continue yes/No:");
+scanf("%s",ch);
+if(strcmp(ch,"no")==0)
+break;
+q=malloc(sizeof(struct xxx));
+p->ad=q;
+p=q;
+}
+p->ad=0;
+return r;
+}
+44. Program to implement stack using linked list
+struct xxx
+{
+int roll;
+struct xxx *ad;
+};
+struct xxx *p=0;
+main()
+{
+int x;
+do
+{
+printf("1 for push\n");
+printf("2 for pop\n");
+printf("0 for stop\n");
+printf("Enter choice :");
+scanf("%d",&x);
+if(x==1)
+{
+push();
+}
+else
+if(x==2)
+{
+pop();
+}
+}while(x!=0);
+}
+int pop()
+{
+if(p==0)
+{
+printf("Stack is empty\n");
+return;
+}
+else
+{
+printf("%d \n",p->roll);
+p=p->ad;
+}
+}
+int push()
+{
+struct xxx *q;
+if(p==0)
+{
+p=malloc(sizeof(struct xxx));
+printf("Enter roll :");
+scanf("%d",&p->roll);
+p->ad=0;
+}
+else
+{
+q=malloc(sizeof(struct xxx));
+q->ad=p;
+p=q;
+printf("Enter roll :");
+scanf("%d",&p->roll);
+}
+}
+45. Program to convert infix to prefix notation
+struct xxx
+{
+char data;
+struct xxx *ad;
+};
+main()
+{
+int len;
+struct xxx *opd=0,*opr=0,*q;
+char x[50];
+char y[50];
+int i=0;
+printf("Enter Infix expression :");
+scanf("%s",x);
+char *p=x+strlen(x)-1;
+int k1,k2;
+for(i=strlen(x)-1;i>=0;i--)
+{
+if(*p>=48 && *p<=57)
+{
+if(opd==0)
+{
+opd=malloc(sizeof(struct xxx));
+opd->data=*p;
+opd->ad=0;
+}
+else
+{
+q=malloc(sizeof(struct xxx));
+q->ad=opd;
+opd=q;
+opd->data=*p;
+}
+}
+else
+{
+if(opr==0)
+{
+opr=malloc(sizeof(struct xxx));
+opr->data=*p;
+opr->ad=0;
+}
+else
+{
+k1=check_precedence(*p);
+k2=check_precedence(opr->data);
+if(k1<=k2)
+{
+while(k1<=k2 && opr!=0)
+{
+q=malloc(sizeof(struct xxx));
+q->ad=opd;
+opd=q;
+opd->data=opr->data;
+opr=opr->ad;
+if(opr==0)
+{ opr=malloc(sizeof(struct xxx));
+opr->ad=0;
+break;
+}
+k2=check_precedence(opr->data);
+}
+opr->data=*p;
+}
+else
+{
+q=malloc(sizeof(struct xxx));
+q->ad=opr;
+opr=q;
+opr->data=*p;
+}
+}//else
+} //else
+p--;
+} //for
+while(opr!=0)
+{
+q=malloc(sizeof(struct xxx));
+q->ad=opd;
+opd=q;
+opd->data=opr->data;
+opr=opr->ad;
+}
+memset(y,0,sizeof(y));
+i=0;
+while(opd!=0)
+{
+y[i]=opd->data;
+i++;
+opd=opd->ad;
+}
+printf("%s ",y);
+}
+int check_precedence(int m)
+{
+switch(m)
+{
+case '+':
+case '-':
+return 1;
+case '/':
+case '*':
+return 2;
+}
+}
+46. Program to Evaluate postfix notation
+struct xxx
+{
+unsigned char data;
+struct xxx *ad;
+};
+main()
+{
+unsigned char a,b,c;
+struct xxx *st=0,*q;
+char x[100];
+printf("Enter Post Expression:");
+scanf("%s",x);
+char *p=x;
+while(*p!=0)
+{
+if(*p>=48 && *p<=57)
+{
+if(st==0)
+{
+st=malloc(sizeof(struct xxx));
+st->data=*p;
+st->ad=0;
+}
+else
+{
+q=malloc(sizeof(struct xxx));
+q->ad=st;
+st=q;
+st->data=*p;
+}
+}
+else
+{
+b=st->data-48;
+st=st->ad;
+a=st->data-48;
+if(*p=='*')
+{
+c=a*b;
+}
+else
+if(*p=='/')
+{
+c=a/b;
+}
+else
+if(*p=='+')
+{
+c=a+b;
+}
+else
+if(*p=='-')
+{
+c=a-b;
+}
+st->data=c+48;
+}
+p++;
+}
+printf("%d ", st->data-48);
+}
+47. Program to implement Queue using linked list
+#include<stdio.h>
+#include<malloc.h>
+struct node
+{
+int info;
+struct node *next;
+} ;
+struct node *front, *rear;
+void enqueue(int elt);
+int dequeue();
+void display();
+void main()
+{
+int ch, elt;
+rear = NULL;
+front = NULL;
+while (1)
+{
+printf("1 Insert\n");
+printf("2 Delete\n");
+printf("3 Display\n");
+printf("4 Exit\n");
+printf("Enter your choice : ");
+scanf("%d", &ch);
+switch (ch)
+{
+case 1:
+printf("Enter The Element Value\n");
+scanf("%d", &elt);
+enqueue(elt);
+break;
+case 2:
+elt = dequeue();
+printf("The deleted element = %d\n", elt);
+break;
+case 3:
+display();
+break;
+default:
+exit(0);
+}
+}
+}
+void enqueue(int elt)
+{
+struct node *p;
+p = (struct node*)malloc(sizeof(struct node));
+p->info = elt;
+p->next = NULL;
+if (rear == NULL || front == NULL)
+front = p;
+else
+rear->next = p;
+rear = p;
+}
+int dequeue()
+{
+struct node *p;
+int elt;
+if (front == NULL || rear == NULL)
+{
+printf("\nUnder Flow");
+exit(0);
+}
+else
+{
+p = front;
+elt = p->info;
+front = front->next;
+free(p);
+}
+return (elt);
+}
+void display()
+{
+struct node *t;
+t = front;
+while (front == NULL || rear == NULL)
+{
+printf("\nQueue is empty");
+exit(0);
+}
+while (t != NULL)
+{
+printf("->%d", t->info);
+t = t->next;
+}
+}
+49. Program for Priority Queue
+struct xxx
+{
+int pr;
+struct xxx *ad;
+};
+struct xxx *p=0;
+main()
+{
+int x;
+do
+{
+printf("1 for add\n");
+printf("2 for dele\n");
+printf("3 for traverse\n");
+printf("0 for stop\n");
+printf("Enter choice :");
+scanf("%d",&x);
+if(x==1)
+add();
+else
+if(x==2)
+dele();
+else
+if(x==3)
+trav();
+}while(x!=0);
+}
+int trav()
+{
+struct xxx *r=p;
+while(r!=0)
+{
+printf("%d ",r->pr);
+r=r->ad;
+}
+}
+int add()
+{
+struct xxx *q,*r,*m;
+if(p==0)
+{
+p=malloc(sizeof(struct xxx));
+printf("Enter priority :");
+scanf("%d",&p->pr);
+p->ad=0;
+}
+else
+{
+q=malloc(sizeof(struct xxx));
+printf("Enter priority :");
+scanf("%d",&q->pr);
+if(q->pr <= p->pr)
+{
+q->ad=p;
+p=q;
+}
+else
+{
+r=p;
+while(q->pr > r->pr)
+{
+m=r;
+if(r->ad==0)
+{
+r->ad=q;
+q->ad=0;
+return;
+}
+r=r->ad;
+}
+m->ad=q;
+q->ad=r;
+}
+}
+}
+int dele()
+{
+struct xxx *r,*m;
+r=p;
+if(r==0)
+{
+printf("Stack is empty\n");
+exit(0);
+}
+while(r->ad!=0)
+{
+m=r;
+r=r->ad;
+}
+free(r);
+m->ad=0;
+}
+50. Traverse a linked list in reverse order
+#include <stdio.h>
+#define NODES 4
+typedef struct list_head {
+struct node* head;
+struct node* tail;
+} list_head;
+typedef struct node {
+struct node* next;
+int value;
+} node;
+node n[NODES];
+list_head init_empty_list()
+{
+list_head h;
+h.head = 0;
+h.tail = 0;
+return h;
+}
+list_head init_list()
+{
+int i;
+list_head h;
+for (i=0; i<NODES-1; ++i) {
+n[i].next = &n[i+1];
+n[i].value = i+1;
+}
+n[NODES-1].next = 0;
+n[NODES-1].value = NODES;
+h.head = &n[0];
+h.tail = &n[NODES-1];
+return h;
+}
+void print_list(list_head h)
+{
+node* p = h.head;
+while (p) {
+printf("%d ", p->value);
+p = p->next;
+}
+printf("\n");
+}
+list_head reverse_list(list_head h)
+{
+list_head nh;
+if ((h.head == 0) || (h.head->next ==0)) {
+return h;
+}
+nh.head = h.head->next;
+nh.tail = h.tail;
+nh = reverse_list(nh);
+h.head->next = 0;
+nh.tail->next = h.head;
+nh.tail = h.head;
+return nh;
+}
+int main()
+{
+list_head head;
+head = init_list();
+print_list(head);
+head = reverse_list(head);
+print_list(head);
+return 0;
+}
+51. Program to display the contents of a file using command line argument
+#include "fcntl.h"
+main(int x, char *y[], char *z[])
+{
+int i;
+char ch;
+if(x<2)
+{
+printf("Too few parameters\n");
+exit(0);
+}
+for(i=1;i<x;i++)
+{
+int k=open(y[i],O_RDONLY);
+if(k==-1)
+{
+printf("File not found\n");
+break;
+}
+while(read(k,&ch,1))
+printf("%c",ch);
+close(k);
+}
+}
+52. Calculate the age of a person after giving the date of the birth.
+#include "time.h"
+main()
+{
+char x[100],y[100];
+int dd,mm,yy;
+int bd,bm,by;
+int nd,nm,ny;
+unsigned int t;
+struct tm *mytime;
+t=time(0);
+mytime=localtime(&t);
+dd=mytime->tm_mday;
+mm=mytime->tm_mon+1;
+yy=mytime->tm_year+1900;
+printf("Enter birtd day,mon and year :");
+scanf("%d%d%d",&bd,&bm,&by);
+if(dd>=bd)
+nd=dd-bd;
+else
+if(mm==1 || mm==3 || mm==5 || mm==7 || mm==8 || mm==10 || mm==12)
+{
+dd=dd+31;
+nd=dd-bd;
+}
+else
+if(mm==4 || mm==6 || mm==9 || mm==11)
+{
+dd=dd+30;
+nd=dd-bd;
+}
+else
+if(mm==2)
+{
+dd=dd+28;
+nd=dd-bd;
+}
+if(mm>=bm)
+{
+nm=mm-bm;
+}
+else
+{
+mm=mm+12;
+yy=yy-1;
+nm=mm-bm;
+}
+ny=yy-by;
+printf("%d %d %d \n",ny,nm,nd);
+}
+53. Cacluate the average marks of student looking at the following table
+p1 p2 p3 average Result
+>=60% first
+>=50 second
+>=40 third
+avg=(p1+p2+p3)/3;
+where p1,p2 and p3 >=30
+main()
+{
+int p1,p2,p3,avg;
+printf("Enter Marks for p1 p2 & p3 : ");
+scanf("%d%d%d",&p1,&p2,&p3);
+avg=(p1+p2+p3)/3;
+if(p1>=30 && p2>=30 && p3>=30)
+{
+if(avg>=60)
+printf("First\n");
+else
+if(avg>=50)
+printf("Second\n");
+else
+if(avg>=40)
+printf("Third\n");
+else
+printf("Failed\n");
+}
+else
+printf("Failed\n");
+}
+54. Cacluate the amount to be paid after giving the total time.
+Time Amount
+8 hours 100/-
+Next 4 hours 20/- ph
+Next 4 hours 30/- ph
+Next 4 hours 40/- ph
+main()
+{
+int time,amt;
+printf("Enter Total Time :");
+scanf("%d",&time);
+if(time==8)
+amt=100;
+else
+if(time>8 && time<=12)
+amt=100+(time-8)*20;
+else
+if(time>12 && time<=16)
+amt=180+(time-12)*30;
+else
+if(time>16 && time<=20)
+amt=300+(time-16)*40;
+else
+{
+printf("Invalid entry\n");
+exit(0);
+}
+printf("%d", amt);
+}
+55. Program to convert upper case to lower case
+void main()
+{
+char str[20];
+int i;
+printf("Enter any string->");
+scanf("%s",str);
+printf("The string is->%s",str);
+for(i=0;i<=strlen(str);i++)
+{
+if(str[i]>=65&&str[i]<=90)
+str[i]=str[i]+32;
+}
+printf("\nThe string in uppercase is->%s",str);
+}
+56. Program to calculate the power of a number
+void main()
+{
+int pow,num,i=1;
+long int sum=1;
+printf("\nEnter a number: ");
+scanf("%d",&num);
+printf("\nEnter power: ");
+scanf("%d",&pow);
+while(i<=pow)
+{
+sum=sum*num;
+i++;
+}
+printf("\n%d to the power %d is: %ld",num,pow,sum);
+57. INSERT AN ELMENT IN AN ARRAY AT DESIRED POSITION
+void main()
+{
+int a[50],size,num,i,pos,temp;
+printf("\nEnter size of the array: ");
+scanf("%d",&size);
+printf("\nEnter %d elements in to the array: ",size);
+for(i=0;i<size;i++)
+scanf("%d",&a[i]);
+printf("\nEnter position and number to insert: ");
+scanf("%d %d",&pos,&num);
+i=0;
+while(i!=pos-1)
+i++;
+temp=size++;
+while(i<temp)
+{
+a[temp]=a[temp-1];
+temp--;
+}
+a[i]=num;
+for(i=0;i<size;i++)
+printf(" %d",a[i]);
+}
+}
+58. program to calculate the sum of the following series
+1 - x + x2/2! + x3/3! --------to nth term
+main()
+{
+int serise,square,fact=1,loop=1,loop1;
+float sum;
+float result=0;
+printf("Enter The serise ");
+scanf("%d",&serise);
+while(loop<=serise)
+{
+square=pow(loop,2);
+for(loop1=1;loop1<=loop;loop1++)
+{
+fact = fact * loop1;
+}
+sum=(float)square/fact;
+if(loop%2!=0)
+result = result + sum;
+else
+result = result - sum;
+fact=1;
+loop++;
+}
+printf("The summation Of the serise is %f\n",result);
+}
+59. Find the weekday of a particular date(ex-6 sep 2010 (monday)
+#include "time.h"
+#include "stdio.h"
+main()
+{
+char daybuf[20];
+int dd,mm,yy;
+unsigned int t;
+struct tm *mytime;
+t=time(0);
+mytime=localtime(&t);
+dd=mytime->tm_mday;
+mm=mytime->tm_mon+1;
+yy=mytime->tm_year+1900;
+mytime->tm_hour = 0;
+mytime->tm_min = 0;
+mytime->tm_sec = 1;
+mytime->tm_isdst = -1;
+printf("Enter the day,mon and year :");
+scanf("%d%d%d",&dd,&mm,&yy);
+if(mktime(mytime) == -1)
+fprintf(stderr, "Unkown -\n");
+else
+strftime(daybuf, sizeof(daybuf), "%A", mytime);
+printf("It was a %s\n", daybuf);
+}
+60.Write a program to convert given ip address 192.168.3.35 into 192.168.003.035
+#include<stdio.h>
+int main()
+{
+char input[16];
+char p[4][4];
+int i,a,b,len;
+int j,c;
+printf("pl enter any ip address\n");
+scanf("%s",input);
+a=0;b=0;
+for(i=0;input[i];i++)
+{
+if(input[i]!='.')
+p[a][b++]=input[i];
+else
+{
+p[a][b]=0;
+a++;
+b=0;
+}
+}
+p[a][b]=0;
+for(a=0;a<4;a++)
+{
+len=strlen(p[a]);
+for(j=len-1;j>=0;j--)
+p[a][j+3-len]=p[a][j];
+for(j=0;j<(3-len);p[a][j]='0',j++);
+p[a][3]=0;
+}
+input[0]=0;
+for(i=0;i<4;i++)
+{
+strcat(input,p[i]);
+strcat(input,".");
+}
+input[15]=0;
+puts(input);
+return 0;
+}
+61.Caclulate the net salary looking at the following table
+Basic TA DA PF NET
+>=20000 500 200 200 ?
+>=10000 200 300 100 ?
+>=500 100 100 100 ?
+main()
+{
+int basic,ta,da,pf,net;
+printf("Enter basic Salary :");
+scanf("%d",&basic);
+if(basic>=20000)
+{
+ta=500;
+da=200;
+pf=200;
+}
+else
+if(basic>=10000)
+{
+ta=200;
+da=300;
+pf=100;
+}
+else
+if(basic>=5000)
+{
+ta=100;
+da=100;
+pf=100;
+}
+else
+{
+printf("Invalid entry");
+exit(0);
+}
+net=(basic+ta+da)-pf;
+printf("%d", net);
+}
+62. Write a program to display :
+*
+***
+*****
+*******
+*********
+******
+***
+main()
+{
+int line,star=1,space,i,j,k;
+printf("Enter the no of line :\n");
+scanf("%d",&line);
+printf("Enter the no of space\n");
+scanf("%d",&space);
+for(i=0;i<line;i++)
+{
+for(j=0;j<space;j++)
+{
+printf(" ");
+}
+for(k=0;k<star;k++)
+{
+printf("*");
+}
+if(i<line/2)
+{
+space=space-1;
+star=star+2;
+}
+else
+{
+star=star-2;
+space=space+1;
+}
+printf("\n");
+}
+}
+63. Write a program which will store roll name and age in student structure and address telephone no. In address structure. Implement the nested structure which will store information of ten students and their address and organize data in descending order by their roll no.
+#include "stdio.h"
+#include "stdlib.h"
+#include "fcntl.h"
+#define SIZE 3
+struct address
+{
+char addr[30];
+long int phoneno;
+};
+struct student
+{
+char name[20];
+int roll;
+int age;
+struct address p;
+}__attribute__((__packed__));
+main()
+{
+struct student details[SIZE],temp;
+int loop,outer,inner;
+for(loop = 0;loop<SIZE;loop++)
+{
+printf("Enter name :");
+scanf("%s",details[loop].name);
+printf("Enter roll :");
+scanf("%d",&details[loop].roll);
+printf("Entere Age: ");
+scanf("%d",&details[loop].age);
+printf("Enter address: ");
+scanf("%s",details[loop].p.addr);
+printf("Enter Phone number:");
+scanf("%d",&details[loop].p.phoneno);
+}
+printf("Before Sorting\n");
+for(loop = 0;loop < SIZE;loop++)
+{
+printf("%s\t%d\t%d\t%s\t%d\n",details[loop].name,details[loop].roll,details[loop].age,details[loop].p.addr,details[loop].p.phoneno);
+}
+printf("\n");
+for(outer = 0;outer < SIZE;outer++)
+{
+for(inner = outer + 1;inner < SIZE;inner++)
+{
+if(details[outer].roll > details[inner].roll)
+{
+temp = details[outer];
+details[outer] = details[inner];
+details[inner] = temp;
+}
+}
+}
+printf("After Sorting\n");
+for(loop = 0;loop < SIZE;loop++)
+{
+printf("%s\t%d\t%d\t%s\t%d\n",details[loop].name,details[loop].roll,details[loop].age,details[loop].p.addr,details[loop].p.phoneno);
+}
+printf("\n");
+}
+64. Write a program to store the information of student such as roll, name and course to a file using read & write system call.
+#include "fcntl.h"
+#include "stdio.h"
+struct student
+{
+char name[30];
+int roll;
+int age;
+}__attribute__((__packed__));
+main()
+{
+int handlerStructure, numberOfStudent, loop;
+handlerStructure = open("studentDetails.txt",O_RDWR);
+printf("HOW MANY STUDENT'S INFORMATION :");
+scanf("%d",&numberOfStudent);
+struct student details[numberOfStudent];
+for(loop = 0;loop < numberOfStudent;loop++)
+{
+write(1,"ENTER NAME OF STUDENT :",strlen("ENTER NAME OF STUDENT :"));
+memset(details[loop].name,0,sizeof(details[loop].name));
+read(0,details[loop].name,sizeof(details[loop].name));
+write(1,"ENTER THE ROLL NO. :",strlen("ENTER THE ROLL NO. :"));
+read(0,&details[loop].roll,sizeof(details[loop].roll));
+write(1,"ENTER THE STUDENT'S AGE :",strlen("ENTER THE STUDENT'S AGE :"));
+read(0,&details[loop].age,sizeof(details[loop].age));
+}
+//write(handlerStructure,&details,sizeof(struct student));
+for(loop = 0;loop < numberOfStudent;loop++)
+{
+write(handlerStructure,&details[loop].name,strlen(details[loop].name));
+write(handlerStructure,&details[loop].roll,sizeof(details[loop].roll));
+write(handlerStructure,&details[loop].age,sizeof(details[loop].age));
+}
+loop = 0;
+while(read(handlerStructure,&details[loop],sizeof(struct student)))
+{
+write(1,&details[loop].name,strlen(details[loop].name));
+write(1,&details[loop].roll,sizeof(details[loop].roll));
+write(1,&details[loop].age,sizeof(details[loop].age));
+loop++;
+}
+}
+65. Write a program to count no. of paragraphs, lines, words and characters present in a file.
+78. Program for DFS
+struct xxx
+{
+int node;
+int total;
+int status;
+struct xxx *ad;
+};
+struct xxx p[5];
+main()
+{
+struct xxx *q=0,*r,*m;
+int a[5][5]={
+0,1,1,1,0,
+0,0,0,0,1,
+0,0,0,1,0,
+0,1,0,0,1,
+0,0,0,0,0
+};
+int i,j,k;
+int result[5];
+memset(p,0,sizeof(p));
+//create adjacence list
+for(i=0;i<5;i++)
+{
+p[i].node=i+1;
+for(j=0;j<5;j++)
+{
+if(a[i][j]==1)
+p[i].total++;
+}
+for(k=1;k<=p[i].total;k++)
+{
+printf("Enter adjacence node for %d\n",p[i].node);
+if(q==0)
+{
+q=malloc(sizeof(struct xxx));
+printf("Enter adjacence node :");
+scanf("%d",&q->node);
+q->ad=0;
+p[i].ad=q;
+}
+else
+{
+r=malloc(sizeof(struct xxx));
+printf("Enter adjacence node :");
+scanf("%d",&r->node);
+q->ad=r;
+q=r;
+r->ad=0;
+}
+}
+q=0;
+p[i].total=0;
+}
+//traverse adjacence list
+for(i=0;i<5;i++)
+{
+printf("%d : ",p[i].node);
+if(p[i].ad!=0)
+{
+r=p[i].ad;
+while(r!=0)
+{
+printf("%d -> ",r->node);
+r=r->ad;
+}
+printf("\n");
+}
+}
+q=malloc(sizeof(struct xxx));
+printf("Enter source :");
+scanf("%d",&q->node);
+set_status(q->node);
+p[q->node-1].status=1;
+q->ad=0;
+while(1)
+{
+r=p[q->node-1].ad;
+if(r==0)
+break;
+p[q->node-1].status=1;
+while(r!=0)
+{
+if(r->status==0)
+{
+m=malloc(sizeof(struct xxx));
+m->node=r->node;
+set_status(r->node);
+m->ad=q;
+q=m;
+}
+r=r->ad;
+}
+}
+while(q!=0)
+{
+printf("%d ",q->node);
+q=q->ad;
+}
+}
+set_status(int n)
+{
+struct xxx *r;
+int i;
+for(i=0;i<5;i++)
+{
+r=p[i].ad;
+while(r!=0)
+{
+if(r->node==n)
+r->status=1;
+r=r->ad;
+}
+}
+}
+79. Program for BFS
+struct xxx
+{
+int node;
+int total;
+int status;
+struct xxx *ad;
+};
+struct xxx p[5];
+main()
+{
+struct xxx *q=0,*r,*m,*f;
+int a[5][5]={
+0,1,1,1,0,
+0,0,0,0,1,
+0,0,0,1,0,
+0,1,0,0,1,
+0,0,0,0,0
+};
+int i,j,k;
+int result[5];
+memset(p,0,sizeof(p));
+//create adjacence list
+for(i=0;i<5;i++)
+{
+p[i].node=i+1;
+for(j=0;j<5;j++)
+{
+if(a[i][j]==1)
+p[i].total++;
+}
+for(k=1;k<=p[i].total;k++)
+{
+printf("Enter adjacence node for %d\n",p[i].node);
+if(q==0)
+{
+q=malloc(sizeof(struct xxx));
+printf("Enter adjacence node :");
+scanf("%d",&q->node);
+q->ad=0;
+p[i].ad=q;
+}
+else
+{
+r=malloc(sizeof(struct xxx));
+printf("Enter adjacence node :");
+scanf("%d",&r->node);
+q->ad=r;
+q=r;
+r->ad=0;
+}
+}
+q=0;
+p[i].total=0;
+}
+//traverse adjacence list
+for(i=0;i<5;i++)
+{
+printf("%d : ",p[i].node);
+if(p[i].ad!=0)
+{
+r=p[i].ad;
+while(r!=0)
+{
+printf("%d -> ",r->node);
+r=r->ad;
+}
+printf("\n");
+}
+}
+q=malloc(sizeof(struct xxx));
+printf("Enter source :");
+scanf("%d",&q->node);
+set_status(q->node);
+p[q->node-1].status=1;
+q->ad=0;
+f=q;
+while(1)
+{
+r=p[q->node-1].ad;
+if(r==0)
+break;
+p[q->node-1].status=1;
+while(r!=0)
+{
+if(r->status==0)
+{
+m=malloc(sizeof(struct xxx));
+m->node=r->node;
+set_status(r->node);
+q->ad=m;
+q=m;
+}
+r=r->ad;
+}
+}
+while(f!=0)
+{
+printf("%d ",f->node);
+f=f->ad;
+}
+}
+set_status(int n)
+{
+struct xxx *r;
+int i;
+for(i=0;i<5;i++)
+{
+r=p[i].ad;
+while(r!=0)
+{
+if(r->node==n)
+r->status=1;
+r=r->ad;
+}
+}
+}
+80. Program to search an element using hash table
+main()
+{
+int x[10];
+int k,m=8,i=0,j=0,flag=0;
+int pos;
+memset(x,0,sizeof(x));
+for(i=0;i<8;i++)
+{
+printf("Enter data :");
+scanf("%d",&k);
+pos=(k%m+j)%m;
+if(x[pos]==0)
+x[pos]=k;
+else
+{
+while(x[pos]!=0)
+{
+j++;
+pos=(k%m+j)%m;
+}
+x[pos]=k;
+j=0;
+}
+}
+j=0;
+printf("Enter number to search :");
+scanf("%d",&k);
+pos=(k%m+j)%m;
+if(k==x[pos])
+flag=1;
+else
+{
+while(pos<m)
+{
+pos++;
+if(x[pos]==k)
+{
+flag=1;
+break;
+}
+}
+}
+if(flag==1)
+printf("Found\n");
+else
+printf("Not found\n");
+}
+81. Program to search a string from hast table
+main()
+{
+char x[8][20];
+int i,k,pos,m=8,j=0,f=0;
+char p[20];
+memset(x,0,sizeof(x));
+for(i=0;i<8;i++)
+{
+printf("Enter string :");
+scanf("%s",p);
+k=p[0];
+pos=(k%m+j)%m;
+if(strlen(x[pos])==0)
+strcpy(x[pos],p);
+else
+{
+while(j<m)
+{
+j++;
+pos=(k%m+j)%m;
+if(strlen(x[pos])==0)
+break;
+}
+strcpy(x[pos],p);
+j=0;
+}
+}
+j=0;
+printf("Enter search string :");
+scanf("%s",p);
+k=p[0];
+pos=(k%m+j)%m;
+if(strcmp(x[pos],p)==0)
+f=1;
+else
+while(j<m)
+{
+j++;
+pos=(k%m+j)%m;
+if(strcmp(x[pos],p)==0)
+{
+f=1;
+break;
+}
+}
+if(f==1)
+printf("Found");
+else
+printf("Not found");
+}
+82. Program to search an element using hash table using chaning
+struct xxx
+{
+int data;
+struct xxx *ad;
+};
+main()
+{
+struct xxx p[10],*q,*r;
+int i,k,m=10,pos,flag=0;
+memset(p,0,sizeof(p));
+for(i=0;i<10;i++)
+{
+printf("Enter element :");
+scanf("%d",&k);
+pos=k%m;
+if(p[pos].data==0)
+{
+p[pos].data=k;
+}
+else
+{
+if(p[pos].ad==0)
+{
+q=malloc(sizeof(struct xxx));
+p[pos].ad=q;
+q->data=k;
+q->ad=0;
+}
+else
+{
+r=p[pos].ad;
+while(r->ad!=0)
+{
+r=r->ad;
+}
+q=malloc(sizeof(struct xxx));
+q->data=k;
+q->ad=0;
+r->ad=q;
+}
+}
+}
+printf("Enter number to search:");
+scanf("%d",&k);
+pos=k%m;
+if(k==p[pos].data)
+flag=1;
+else
+{
+r=p[pos].ad;
+while(r!=0)
+{
+if(k==r->data)
+{
+flag=1;
+break;
+}
+r=r->ad;
+}
+}
+if(flag==1)
+printf("Found\n");
+else
+printf("Not found\n");
+}
+83. Shortmest path using warshal's algorith
+main()
+{
+int a[6][6]={
+0,5,3,99,1,99,
+99,0,99,5,99,99,
+99,99,0,99,2,2,
+99,99,3,0,99,3,
+99,2,99,1,0,99,
+99,99,99,99,99,0
+};
+int i,j,k;
+int p[6][6];
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+if(a[i][j]==0)
+p[i][j]=0;
+else
+p[i][j]=a[i][j];
+}
+}
+//find shortest path
+for(k=0;k<6;k++)
+{
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+if(p[i][j]<=p[i][k] + p[k][j])
+p[i][j]=p[i][j];
+else
+p[i][j]=p[i][k]+p[k][j];
+}
+}
+}
+//traverse shortest path
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+printf("%d ",p[i][j]);
+}
+printf("\n");
+}
+}
+84. Shortest path using dijkstra's algorith
+main()
+{
+int x[8];
+int y[8];
+int i,j,label,s,c=1;
+int flag[8];
+int a[8][8]={
+0,100,3,100,100,100,3,100,
+100,0,100,100,100,100,2,5,
+100,100,0,3,100,100,100,100,
+100,100,100,0,100,1,100,100,
+100,2,100,100,0,2,100,2,
+100,100,100,100,100,0,6,1,
+100,2,4,4,1,100,0,100,
+100,100,100,5,100,100,100,0
+};
+memset(flag,0,sizeof(flag));
+printf("Enter source:");
+scanf("%d",&label);
+flag[label]=1;
+for(i=0;i<8;i++)
+{
+x[i]=a[label][i];
+}
+while(c<8)
+{
+label=smallest(x,flag);
+s=x[label];
+for(i=0;i<8;i++)
+{
+y[i]=a[label][i]+s;
+if(x[i]>y[i])
+x[i]=y[i];
+}
+flag[label]=1;
+c++;
+}
+for(i=0;i<8;i++)
+{
+printf("%d ",x[i]);
+}
+}
+int smallest(int x[],int flag[])
+{
+int i,j,k;
+for(i=0;i<8;i++)
+{
+if(flag[i]!=1)
+{
+k=x[i];
+break;
+}
+}
+for(i=0;i<8;i++)
+{
+if(flag[i]!=1)
+if(x[i]<k)
+{
+k=x[i];
+j=i;
+}
+}
+return j;
+}
+85. Find the path matrix of Graph
+main()
+{
+int a[6][6]={
+0,1,1,0,1,0,
+0,0,0,1,0,0,
+0,0,0,0,1,1,
+0,0,1,0,0,1,
+0,1,0,1,0,0,
+0,0,0,0,0,0
+};
+int i,j,k;
+int p[6][6];
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+if(a[i][j]==0)
+p[i][j]=0;
+else
+p[i][j]=1;
+}
+}
+//calculate path matrix
+for(k=0;k<6;k++)
+{
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+p[i][j]=p[i][j]|(p[i][k] & p[k][j]);
+}
+}
+}
+//visit path matrix
+for(i=0;i<6;i++)
+{
+for(j=0;j<6;j++)
+{
+printf("%d ",p[i][j]);
+}
+printf("\n");
+}
+}
+86. Program to read the current date and time
+#include<time.h>
+main()
+{
+struct tm *k;
+unsigned long int t;
+int h,m,s;
+int dd,mm,yy;
+t = time(0);
+k = localtime(&t);
+h = k->tm_hour;
+m = k->tm_min;
+s = k->tm_sec;
+dd = k->tm_mday;
+mm = k->tm_mon+1;
+yy = k->tm_year+1900;
+printf("Time : %d : %d : %d\n",h,m,s);
+printf("Date : %d : %d : %d\n",dd,mm,yy);
+}
+87. Program to read all files from current directory
+#include "dirent.h"
+main()
+{
+DIR *p;
+struct dirent *q;
+p = opendir("/home/satyam/Desktop/demo");
+while((q=readdir(p)) != 0)
+{
+if(q->d_name[0] != '.')
+printf("%s\n",q->d_name);
+}
+}
+
+		
+		
+JDBC:
+	01. company ( company_id, name, description, primary_contact_attendee_id)
+	02. presentation ( presentation_id, booked_company_id, booked_room_id, start_time, end_time )
+	03. room ( room_id, floor_num, seat_capacity )
+	04. attendee ( attendee_id, first_name, last_name, phone, email, vip )
+	05. presentation_attendance ( ticket_id, presentation_id, attendee_id )
+	06. employee ( id, employee_name, employee_num, date_hired, city_id )
+	07. salaried_employee ( id, annual_salary, employee_id )
+	08. city ( id, city )
+	09. hourly_employee ( id, hourly_rate, employee_id )
+	10. order_items ( order_id, product_id, quantity )
+	11. orders ( id, user_id, status, created_at )
+	12. users ( id, full_name, email, gender, date_of_birth, country_code, created_at )
+	13. merchants ( id, merchant_name, admin_id, country_code, created_at )
+	14. products ( id, merchant_id, name, price, status, created_at )
+	15. countries ( code, name, continent_name )
+	16. brands ( id, brand_name, thumbnails )
+	17. categorys ( id, category_name, thumbnails )
+	18. collections ( id, collection_name, thumbnails )
+	19. base_relation_table ( id, brands_id, category_id, collection_id)
+	20. pattern ( id, option_name )
+	21. product ( id, product_name, description, base_relation_table, pattern_id )
+	22. product_option_relation ( product_id, option_id )
+	23. finish ( id, finish_name )
+	24. product_variant ( variant_id, product_id, finish_id, colors_id, metadata, thumbnails )
+	25. option_table ( id, option_name )
+	option_values ( id, option_id, value_name )
+	colors ( id, color_name )
+	dimensions ( id, dimension_value )
+	dimension_has_product_variant ( dimension_id, product_id, variant_id )
+	variant_value ( product_id, option_id, value_id, dimension_id, variant_id, price, sku )
+	customers ( customer_id, first_name, last_name, class, door_num, address1 address2, city, 
+				state, postalcode, country, phone, email, voice_mail, password, credit_card, credit_card_type_id, card_exp_month, card_exp_yr, billing_address, billing_city, billing_region, billing_postalcode, billing_country, ship_address, ship_city, ship_region, ship_postalcode, ship_country, date_entered )				
+	suppliers ( supplier_id, company_name, contact_f_name, contact_l_name, contact_title,
+				address1, address2, city, state, postalcode, country, phone, fax, email,
+				url, payment_methods, discount_type, type_goods_, notes, discount_availabe,
+				current_order, logo, customer_id )
+				
+	plz create model, repository, service and controller classes 
+	and do curd operations	
+	curd -> 
+	  c - create
+	  u - update
+	  r - read
+	  d - delete 
+	in read do findAll, findById
+	
+
+jvm:
+	jconsole 
+		to run this in cmd type jconsole and enter
+	
+	visualgc
+	
+	
