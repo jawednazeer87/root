@@ -2,36 +2,27 @@ package org.la.core.java.student.arfaz.assignment_5;
 
 import java.util.Scanner;
 
-/*  wap to find the index of an array element(here u have to take any number and check that number is 
-present inside an array or not, 
-if 	not print -1, if present then print its index means of that element)?*/
+/* 
+	28) wap to remove a specific element from an array?  */
 
 public class TwentyEightProgram {
 
 	public static void main(String[] args) {
+		int arr[]= {0,80,70,60,10,50,0} ;
+		
+		
+		int targetIndex = 0;
+		for( int sourceIndex = 0;  sourceIndex < arr.length;  sourceIndex++ )
+		{
+		    if( arr[sourceIndex] != 0 )
+		        arr[targetIndex++] = arr[sourceIndex];
+		}
+		for(int i=0;i<targetIndex;i++)
+			System.out.print(arr[i]+" ");
 
-			int arr[]= {10, 20, 20, 10, 10, 20, 5, 20} , i=0;
-		Scanner s =new Scanner(System.in);
-	int n= s.nextInt(),f=0;
-		
-		for( i=0;i<arr.length;i++) {
-			
-					if(n==arr[i])  {
-						f=1;
-						break;
-				
-					}
-											
-									
-	  	  }
+
+     	
 	
-		
-		if(f==1)
-			System.out.println(i+" index "+n+" has found");
-		else
-			System.out.println("not found");
-         	
-		
-	}
+}
 
 }
