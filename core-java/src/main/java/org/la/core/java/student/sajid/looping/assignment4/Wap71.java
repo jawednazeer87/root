@@ -6,13 +6,10 @@ public class Wap71 {
 		int givenNum = 496;
 		int sum=0;
 		
-		for(int i=1;i<=givenNum/2;i++) {
-			System.out.println("value of i: "+i);
-			
-			if(givenNum%i == 0){
-			
-			sum=sum+i;
-			System.out.println("Value of sum: "+sum);
+		for(int i=1;i<givenNum;i++) {
+					
+			if(givenNum%i == 0){			
+			sum=sum+i;			
 			}
 		}
 		

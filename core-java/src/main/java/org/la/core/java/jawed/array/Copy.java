@@ -20,5 +20,7 @@ public class Copy {
 		}
 		t[0] = 13222;
 		log.info("s[0]: "+s[0]);
+		log.error("it is an error message");
+		log.debug("it is an error message");
 	}
 }

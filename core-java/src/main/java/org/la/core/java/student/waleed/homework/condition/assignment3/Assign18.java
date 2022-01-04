@@ -4,6 +4,8 @@ public class Assign18 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		int marks = 51;
         if( marks > 70 )
             System.out.println("Distinction");

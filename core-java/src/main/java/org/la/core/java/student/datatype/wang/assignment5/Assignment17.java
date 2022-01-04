@@ -1,11 +1,15 @@
 package org.la.core.java.student.datatype.wang.assignment5;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Arrays;
 
 public class Assignment17 {
     /*
    17) wap to copy two arrays into one array
     */
+    static Logger log = LoggerFactory.getLogger(Assignment17.class);
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5};
         int[] arr2 = {1, 1, 1};
@@ -17,6 +21,6 @@ public class Assignment17 {
         for (int i = 0; i < arr2.length; i++) {
             arrNew[j++] = arr2[i];
         }
-        System.out.println("Arrays.toString(arrNew) = " + Arrays.toString(arrNew));
+        log.info("Arrays.toString(arrNew) = " + Arrays.toString(arrNew));
     }
 }
