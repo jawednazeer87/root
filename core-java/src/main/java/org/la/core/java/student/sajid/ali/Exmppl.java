@@ -1,4 +1,4 @@
-package org.la.core.java.student.sajidAli;
+package org.la.core.java.student.sajid.ali;
 
 public class Exmppl {
 	public static void main(String[] args) {
