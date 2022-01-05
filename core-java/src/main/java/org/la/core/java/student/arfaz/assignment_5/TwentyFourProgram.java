@@ -7,24 +7,23 @@ public class TwentyFourProgram {
 
 	public static void main(String[] args) {
 
-			int arr[]= {10, 20, 20} , i=0,k=0;
+			int arr[]= {10, 20, 20,30,30}, j=0;
+		int []t = new int[arr.length];
 		
-		
-		for( i=0;i<arr.length;i++) {
+		for(int i=0;i<arr.length-1;i++) {
 			
-					k=0;
-						if(arr[i]!=arr[k])  {
+						if(arr[i]!=arr[i+1])  {
 							
-							arr[i]=arr[i+1];
+							t[j]=arr[i];
+							j++;
 						}
 						
-						k++;
 					
 					
 									
 	  	  }
-		
-		for(int res:arr)  {
+		t[j]=arr[arr.length-1];
+		for(int res:t)  {
 			System.out.println(res);
 		}
 
