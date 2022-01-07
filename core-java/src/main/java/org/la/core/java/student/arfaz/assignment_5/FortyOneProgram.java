@@ -22,5 +22,23 @@ public class FortyOneProgram {
 					System.out.println(a);
 					
 	}
+	
 
 }
+
+
+//char chr [ ] = {'A', 'B', 'D','E','F', 'G', 'H', 'I','N'};
+//
+//for (int i =0 ;i<chr.length; i++)
+// {
+//	 if(chr[i]>='A' && chr[i]<='Z') 
+//	 {
+//		 chr[i]=   (char)(chr[i] +32);
+// System.out.print(chr[i]+" ");
+//	 }
+//	 
+//	}
+//for (char arr:chr)
+//{
+//	 System.out.print(arr+" ");
+//    }
