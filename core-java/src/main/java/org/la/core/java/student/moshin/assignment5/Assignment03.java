@@ -1,6 +1,6 @@
 package org.la.core.java.student.moshin.assignment5;
 
-public class Assignment003 {
+public class Assignment03 {
 	
 	public static void main(String[] args) {
 		
