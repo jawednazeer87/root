@@ -4,24 +4,18 @@ public class Program27 {
 
 	public static void main(String[] args) {
 		/*
-		void printStarFromRight(int n)
-		print star pattern from right
+		void printStarReverse(int n)
+		print star pattern in decrease order 
 		 */
-		printStarFromRight(6);
+		printStarReverse(6);
 	}
 	
-	static void printStarFromRight(int a) {
-		int i,j;
-        for ( i = 1; i <= a; i++) {
-            for (j = a; j > i; j--) {
-                System.out.print(" ");
-            }
-            for ( j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println("");
-        }
+	static void printStarReverse(int a) {
+		for(int i= a;i>=1;i--) {
+			for(int j=i;j>=1;j--) {
+			System.out.print("*");
+			}
+			System.out.println("");
 		}
-	
-
+		}
 }

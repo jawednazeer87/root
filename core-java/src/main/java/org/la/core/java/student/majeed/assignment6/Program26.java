@@ -11,13 +11,15 @@ public class Program26 {
 	}
 	
 	static void printStarFromRight(int a) {
-		for(int i= a;i>=1;i--) {
-			for(int j=i;j>=1;j--) {
-			System.out.print("*");
-			}
-			System.out.println("");
+		int i,j;
+        for ( i = 1; i <= a; i++) {
+            for (j = a; j > i; j--) {
+                System.out.print(" ");
+            }
+            for ( j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
 		}
-		}
-	
-
 }

@@ -21,6 +21,4 @@ public class Program31 {
 	        }
 	       return countNumOnes;
 		}
-	
-
 }
