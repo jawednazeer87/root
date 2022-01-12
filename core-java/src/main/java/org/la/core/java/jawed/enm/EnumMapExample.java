@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.la.core.java.jawed.enm;
 
 import java.util.EnumMap;
