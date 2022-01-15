@@ -8,7 +8,7 @@ public class Assign27 {
 		
 		
 
-        int a[] = {7,11,99,200,8,100,200,500};
+        int a[] = {7,11,200,1999,8,100,99,500};
      
         int index =0;
         for(int i = 0; i < a.length; i++)
@@ -16,12 +16,15 @@ public class Assign27 {
      
             if(a[i] == 99) {
             index = i;
-        System.out.println(" Index  = "+ index);
-        }  
-            
+            break;
+  
+        } 
+        }
+            if(a[index] == 99) {
+             System.out.println(" Index  = "+ index);  }
         else {
         	System.out.println("-1" );}
-	}
+	
 
 }
 }

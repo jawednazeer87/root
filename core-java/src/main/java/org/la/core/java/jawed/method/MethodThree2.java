@@ -6,7 +6,7 @@ public class MethodThree2 {
 	public static void main(String[] jhj) {
 		int[] s = getArray();
 		for(int a : s) {
-			System.out.println("sum: "+a);
+			System.out.println("a: "+a);
 		}
 	}
 	

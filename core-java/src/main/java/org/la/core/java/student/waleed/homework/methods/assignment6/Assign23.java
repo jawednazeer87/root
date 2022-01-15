@@ -1,11 +1,15 @@
-package org.la.core.java.student.waleed.homework.loop.assignment4;
+package org.la.core.java.student.waleed.homework.methods.assignment6;
 
-public class Assign41FibonacciSeries {
+public class Assign23 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-     
-		int n = 5;
+		
+		int n =21;
+		fibonocci( n);
+		
+		}
+	
+		static void fibonocci(int n) {
 		int firstTerm = 0, secondTerm = 1;
 	    System.out.println("Fibonacci Series till " + n + " terms:");
 
@@ -21,4 +25,6 @@ public class Assign41FibonacciSeries {
 		
 	}
 
-}
+	}
+
+

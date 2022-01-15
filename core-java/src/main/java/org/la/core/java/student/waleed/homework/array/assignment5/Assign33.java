@@ -8,7 +8,7 @@ public class Assign33 {
 	
 		//The easy way to find the second smallest number is 
 				//1- sort of the array 
-				//2- size/length  of the aray -7
+				//2- size/length  of the array -7
 				
 				int a[] = {7,11,20,30,100,99,45,88};
 				Arrays.sort(a);
@@ -17,7 +17,7 @@ public class Assign33 {
 			 
 				
 				
-			  // Anther way to sove is as below
+			  // Anther way to sovle is as below
 			  
 			  
 				int b[] = {11,40,507,300,440,90,1};
