@@ -9,7 +9,7 @@ public class Assign32 {
 
 		//The easy way to find the second highest number is 
 		//1- sort of the array 
-		//2- size/length  of the aray -2
+		//2- size/length  of the array -2
 		
 		int a[] = {7,11,555,7,100,99,45,201};
 		Arrays.sort(a);
@@ -18,7 +18,7 @@ public class Assign32 {
 	 
 		
 		
-	  // Anther way to sove is as below
+	  // Anther way to solve is as below
 	  
 	  
 		int b[] = {11,40,507,300,440,90,1};

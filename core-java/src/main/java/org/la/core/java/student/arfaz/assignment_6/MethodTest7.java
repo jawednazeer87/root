@@ -14,6 +14,7 @@ public class MethodTest7
     
     public static void sum(int a, int b)
     {
+    	int c=0;
         System.out.println("a = " + a + " b = " + b);
         c = a + b;
     }

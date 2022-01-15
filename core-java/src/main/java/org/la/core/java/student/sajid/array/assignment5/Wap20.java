@@ -7,16 +7,16 @@ public class Wap20 {
 		
 		public static void main(String[] args) {
 	        int[] a = {1, 2, 3, 4};
-	        int[] b = {1, 2, 3, 4};	        
+	        int[] b = {1, 2, 4, 4};	        
+	        
+	        
 	        
 	        boolean isEqual=true;
 	        
 	        for (int i = 0; i < a.length; i++) {
-	            for (int j = i ; j < b.length; j++) {
+	            for (int j = i ; j <= i; j++) {
 	                if (a[i] != b[j])
 	                	isEqual = false;
-	                System.out.println("Value of i "+a[i]);
-	                System.out.println("Value of j "+a[j]);
 	            }
 	        }
 

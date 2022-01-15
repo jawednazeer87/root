@@ -10,7 +10,7 @@ public class Assign50 {
 		
 		//The easy way to find the smallest number and largest  is 
 		//1- sort of the array 
-		//2- size/length  of the aray -n for smallest for largest length of  array -1
+		//2- size/length  of the array -n for smallest for largest length of  array -1
 		
 		int a[] = {20,-898,80,700,-100,5000,54,1};
 		Arrays.sort(a);
@@ -20,7 +20,7 @@ public class Assign50 {
 		  
 		  System.out.println("---------------------------------------------------- ");
 		  
-		  //Anothe way to find them  as bellow
+		  //Another way to find them  as bellow
 		  int big = 9;
 		  int small = 20;
 			for(int i=0 ; i<=a.length-1 ; i++) {

@@ -6,7 +6,7 @@ public class Wap48 {
 		int a = 3;
 		int b = ++a;
 		
-		System.out.println("Value of a: "+a+ " Value of b: "+b);
+		System.out.println("Value of b: "+b);
 
 	}
 

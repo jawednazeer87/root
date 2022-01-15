@@ -11,10 +11,10 @@ public class PrintAllBits {
 
 	public static void main(String[] args) {
 		
-		byte num1=127;
+		byte num1=10;
 		//printAllBitsByte(num1);			//print 8 bits representation
-		//printAllBitsChar('A');				//print 16 bits representation
-		printAllBitsInt(-1);				//print 32 bits representation
+		printAllBitsChar('A');				//print 16 bits representation
+		//printAllBitsInt(-1);				//print 32 bits representation
 	}
 	static void printAllBitsByte(Byte b) {
 		for(int i=7 ; i>=0 ; i--) {

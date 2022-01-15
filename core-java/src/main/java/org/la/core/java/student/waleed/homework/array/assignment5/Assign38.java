@@ -19,7 +19,7 @@ public class Assign38 {
 				  
 				  System.out.println("---------------------------------------------------- ");
 				  
-				  //Anothe way to find them  as bellow
+				  //Another way to find them  as bellow
 				  int big = 9;
 				  int small = 20;
 					for(int i=0 ; i<=a.length-1 ; i++) {

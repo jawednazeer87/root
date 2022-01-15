@@ -19,7 +19,7 @@ public class Assign25 {
 	            sum+=a[i];
 	        }
 	        av=sum/n;
-	        {System.out.print("Avrage ="+ av );}
+	        {System.out.print("Average ="+ av );}
 	                
 	    
 	}

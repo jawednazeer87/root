@@ -7,13 +7,14 @@ public class MethodTest9
     {
         float m = 34;
         float n = 56;
-        float o = sum(m, n);
-        System.out.println("o = " + o);
+//        float o = sum(m, n);
+        sum(m,n);
+//        System.out.println("o = " + o);
     }
     
     public static void sum(float m, float n)
     {
         System.out.println("m = " + m + " n = " + n);
-        return m + n;
+//        return m + n;
     }
 }
