@@ -6,7 +6,7 @@ public class MethodTest5
     public static void main(String s[])
     {
         int a = 34;
-        int b = 56;
+        int b = 56,c=0;
         sum(a, b);
         System.out.println("c = " + c);
     }
