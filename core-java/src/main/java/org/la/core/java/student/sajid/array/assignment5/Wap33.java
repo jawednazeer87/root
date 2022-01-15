@@ -21,7 +21,7 @@ public class Wap33 {
 			}	
 		}
 
-		System.out.print("Second smallest number in the int array is: "+temp1);
+		System.out.print("Second smallest number in the array is: "+temp1);
 
 	}
 

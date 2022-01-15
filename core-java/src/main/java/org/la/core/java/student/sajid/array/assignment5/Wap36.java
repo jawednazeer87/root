@@ -34,7 +34,7 @@ public class Wap36 {
 	            System.out.print(arr1[i]+" ");
 	        }
 	        
-	        System.out.println("Size of new array is: "+arr1.length);
+	        System.out.println("Size ofnew array is: "+arr1.length);
 		
 	}
 

@@ -21,7 +21,7 @@ public class Wap32 {
 			}	
 		}
 
-		System.out.print("Second greatest number in the int array is: "+temp1);
+		System.out.print("Second greatest number in int array is: "+temp1);
 	}
 
 }

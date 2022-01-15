@@ -11,7 +11,7 @@ public class Wap35 {
 				temp=false;
 		}
 			if(temp==true) {
-			System.out.println("Array does not Contains 0 or -1");
+			System.out.println("Array doesn't Contains 0 or -1");
 			}else
 				System.out.println("Array Contains 0 or -1");
 						

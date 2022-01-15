@@ -26,7 +26,7 @@ public class Wap34 {
 
 		//print values from the array
 		for(int i=0;i<a.length;i++) {
-		System.out.println("After array a["+i+"]: "+a[i]);
+		System.out.println("After arr a["+i+"]: "+a[i]);
 		}	
 
 	}
