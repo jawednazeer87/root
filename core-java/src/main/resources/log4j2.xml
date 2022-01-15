@@ -6,9 +6,9 @@
 				pattern="%d{dd-MM-yyyy HH:mm:ss,SSS} %-5p  %c{7} - %m%n" />
 		</Console>
 		<RollingFile name="RollingFile"
-			filePattern="G:/students/student-2/logs/logs.%d{dd-MM-yyyy}.log">
+			filePattern="E:/JavaClass/student/logs/logs.%d{dd-MM-yyyy}.log">
 			<PatternLayout>
-				<Pattern>%d{dd/MM/yyyy HH:mm:ss,SSS} %-5p - %m%n</Pattern>
+				<Pattern>%d{dd-MM-yyyy HH:mm:ss,SSS} %-5p %c{7} - %m%n</Pattern>
 			</PatternLayout>
 			<Policies>
 				<SizeBasedTriggeringPolicy size="5MB" />
@@ -17,10 +17,10 @@
 	</Appenders>
 
 	<Loggers>
-	 <Logger name="org.la" additivity="false">
-            <AppenderRef ref="RollingFile" />
-            <AppenderRef ref="console" />
-        </Logger>
+		<Logger name="org.la" additivity="false">
+			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="console" />
+		</Logger>
 		<Root level="debug">
 			<AppenderRef ref="console" />
 		</Root>
