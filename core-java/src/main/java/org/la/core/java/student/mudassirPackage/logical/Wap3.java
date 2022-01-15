@@ -5,7 +5,7 @@ public class Wap3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-
+        // logical operator
 		int x=1, y=2;
 		boolean b = x==y && y++==3;
 		System.out.println("x: "+x);
