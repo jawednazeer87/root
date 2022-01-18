@@ -799,6 +799,16 @@ BitWise operators:
 	51.	wap to left shift int n=71 by 8 times and print result
 	52.	wap to left shift int n=39 by 2 times and print result
 	53.	wap to left shift int n=1 by 9 times and print result
+	54.	int res = ~1;
+		sop(res);
+	55.	int res = ~10;
+		sop(res);
+	56.	int res = ~19;
+		sop(res);
+	57.	int res = ~20;
+		sop(res);
+	58.	int res = ~58;
+		sop(res);
 		
 		
 if-else
