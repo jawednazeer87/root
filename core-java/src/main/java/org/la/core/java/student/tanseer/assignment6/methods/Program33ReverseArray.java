@@ -23,11 +23,11 @@ public class Program33ReverseArray
 	static char[] reverse(char[] a)
 	{
 		char[] result = new char[a.length];
-		int j = 0;
+		int index = 0;
 		for(int i = a.length - 1; i >= 0 ;i--)
 		{
-			result[j] = a[i];
-			j++;
+			result[index] = a[i];
+			index ++;
 		}
 		return result;
 	}

@@ -6,7 +6,7 @@ package org.la.core.java.student.tanseer.assignment6.methods;
 
 		  
  */
-public class Program25PatternStarFromRight 
+public class Program24IncreasingStar 
 {
 
 	public static void main(String[] args) 
