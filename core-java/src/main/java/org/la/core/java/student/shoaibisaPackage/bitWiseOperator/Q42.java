@@ -5,7 +5,7 @@ public class Q42 {
 		// TODO Auto-generated method stub
 		int n = 1;
 		
-		int res = n<<2; //right shift
+		int res = n>>2; //right shift
 		System.out.print(res);
 	}
 }

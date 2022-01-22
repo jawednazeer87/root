@@ -6,7 +6,7 @@ public class Q41 {
 		// TODO Auto-generated method stub
 		int n = 3;
 		
-		int res = n<<1; //right shift
+		int res = n>>1; //right shift
 		System.out.print(res);
 	}
 

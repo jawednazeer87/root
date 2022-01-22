@@ -5,7 +5,7 @@ public class Q46 {
 		// TODO Auto-generated method stub
 		int n = 20;
 		
-		int res = n<<5; //right shift
+		int res = n>>5; //right shift
 		System.out.print(res);
 	}
 }
