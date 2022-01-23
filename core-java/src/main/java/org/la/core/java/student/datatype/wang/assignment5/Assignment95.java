@@ -14,7 +14,7 @@ public class Assignment95 {
         if (a != 1 || b++ == 3) {
             log.info("hello world");
         }
-        log.info("a = " + a);
-        log.info("b = " + b);
+        log.info("a:{},b:{}",a,b);
+log.error("it is a error sms");
     }
 }
