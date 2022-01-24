@@ -1,0 +1,13 @@
+package org.la.core.java.student.datatype.Sahil;
+
+public class c64 {
+
+    public static void main(String[] args) {
+
+        int a = 3, pow = 5, result = 1;
+        for (int i = 0; i < pow; i++) {
+            result *= a;
+        }
+        System.out.println("result = " + result);
+    }
+}
