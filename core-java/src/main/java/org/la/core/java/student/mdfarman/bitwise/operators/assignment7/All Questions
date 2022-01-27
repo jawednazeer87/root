@@ -1,0 +1,117 @@
+BitWise operators:
+	what will be the output of
+	1.	int n = 10;
+		int res = n>>2;
+		sop(res);
+	2.	int n = 1;
+		int res = n>>1;
+		sop(res);
+	3.	int n = 128;
+		int res = n>>3;
+		sop(res);
+	4.	int n = 21;
+		int res = n>>0;
+		sop(res);
+	5.	int n = 65;
+		int res = n>>5;
+		sop(res);	
+	6.	int n = 123;
+		int res = n<<4;
+		sop(res);
+	7.	int n = 5;
+		int res = n<<3;
+		sop(res);
+	8.	int n = 21;
+		int res = n<<2;
+		sop(res);
+	9.	int n = 23;
+		int res = n<<2;
+		sop(res);
+	10.	int n = 43;
+		int res = n<<1;
+		sop(res);
+	11.	byte x = 100;
+		byte res = (byte)(x << 3);
+		sop(res);
+	12.	byte x = 11;
+		byte res = (byte)(x << 2);
+		sop(res);
+	13.	byte x = 12;
+		byte res = (byte)(x << 1);
+		sop(res);
+	14.	byte x = 112;
+		byte res = (byte)(x << 4);
+		sop(res);
+	15.	byte x = 99;
+		byte res = (byte)(x << 5);
+		sop(res);
+	16.	byte x = 55;
+		byte res = (byte)(x << 0);
+		sop(res);
+	17.	byte x = 1;
+		byte res = (byte)(x >> 3);
+		sop(res);
+	18.	byte x = 100;
+		byte res = (byte)(x >> 1);
+		sop(res);
+	19.	byte x = 87;
+		byte res = (byte)(x >> 5);
+		sop(res);
+	20.	byte x = 125;
+		byte res = (byte)(x >> 6);
+		sop(res);
+	21.	byte x = 45;
+		byte res = (byte)(x >> 4);
+		sop(res);
+	22.	byte x = 64;
+		byte res = (byte)(x >> 6);
+		sop(res);
+	23.	byte x = 1;
+		byte res = (byte)(x << 7);
+		sop(res);
+	24. int res = 10 | 1;
+		sop(res);
+	25.	int res = 1 | 9;
+		sop(res);
+	26.	int res = 73 | 43;
+		sop(res);
+	27.	int res = 10 | 22;
+		sop(res);
+	28.	int res = 19 | 71;
+		sop(res);
+	29.	int res = 42 | 67;
+		sop(res);
+	30.	int res = 39 & 87;
+		sop(res);
+	31.	int res = 12 & 11;
+		sop(res);
+	32.	int res = 90 & 08;
+		sop(res);
+	33.	int res = 20 & 01;
+		sop(res);
+	34.	int res = 012 & 12;
+		sop(res);
+	35.	int res = 11 & 0x11;
+		sop(res);
+	36.	int res = 010 & 0x10;
+		sop(res);
+	37.	int res = 49 & 29;
+		sop(res);
+	38.	int res = 10 & 1;
+		sop(res);
+	39.	int res = 99 & 93;
+		sop(res);
+	40.	wap to right shift int n=3 by 4 times and print result	
+	41.	wap to right shift int n=2 by 1 times and print result
+	42.	wap to right shift int n=1 by 2 times and print result
+	43.	wap to right shift int n=44 by 5 times and print result
+	44.	wap to right shift int n=30 by 1 times and print result
+	45.	wap to right shift int n=51 by 6 times and print result
+	46.	wap to right shift int n=20 by 4 times and print result
+	47.	wap to right shift int n=7 by 7 times and print result
+	48.	wap to left shift int n=9 by 2 times and print result
+	49.	wap to left shift int n=3 by 3 times and print result
+	50.	wap to left shift int n=16 by 4 times and print result
+	51.	wap to left shift int n=71 by 8 times and print result
+	52.	wap to left shift int n=39 by 2 times and print result
+	53.	wap to left shift int n=1 by 9 times and print result
