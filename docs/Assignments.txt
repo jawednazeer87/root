@@ -769,7 +769,7 @@ BitWise operators:
 		sop(res);
 	31.	int res = 12 & 11;
 		sop(res);
-	32.	int res = 90 & 08;
+	32.	int res = 90 & 010;
 		sop(res);
 	33.	int res = 20 & 01;
 		sop(res);
