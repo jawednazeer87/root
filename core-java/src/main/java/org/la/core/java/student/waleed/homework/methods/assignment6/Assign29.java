@@ -6,7 +6,7 @@ public class Assign29 {
 
      
        int a[] = {1,2,1,3,2,1,1,1};
-      int x =1;
+       int x =1;
        int count=  countOnes( a);
        
        System.out.println("Number of Occurrence of the Element " + x+" = "+count);
