@@ -5119,3 +5119,10 @@ jvm:
 	visualgc
 	
 	
+	################################################		INTERVIEW QuestionS		######################################################
+	Java test url:
+			https://app.testdome.com/t?GeneratorId=24
+			http://www.pskills.org/corejava.jsp
+					
+	interview questions:
+			https://www.interviewgrid.com/interview_questions/java/java_objects_classes
