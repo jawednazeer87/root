@@ -7,7 +7,7 @@ public class Program67PrimeNumberOneToN
 	public static void main(String[] args) 
 	{
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter number that you want print prime : ");
+		System.out.println("Enter number till where you want to print prime : ");
 		int n = sc.nextInt();
 		int num ;
 		int i;
