@@ -8,7 +8,7 @@ public class City {
 
 	public int postalcode;
 	public String name;
-	
+	public City() {}
 	public City(int postalcode, String name) {
 		this.postalcode = postalcode;
 		this.name = name;

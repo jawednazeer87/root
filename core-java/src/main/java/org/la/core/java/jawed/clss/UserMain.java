@@ -10,7 +10,7 @@ package org.la.core.java.jawed.clss;
 public class UserMain {
 
 	public static void main(String[] args) {
-		User user = new User();
+		User user = new User();		//uses-a
 		System.out.println("id: "+user.id);
 		System.out.println("name: "+user.name);
 		System.out.println("email: "+user.email);

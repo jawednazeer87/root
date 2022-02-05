@@ -8,7 +8,7 @@ import org.la.core.java.jawed.model.User;
 public class UserMainTwo {
 
 	public static void main(String[] args) {
-		User user = new User();
+		User user = new User();	//uses-a
 		user.setId(1);
 		user.setName("jamal");
 		user.print();
