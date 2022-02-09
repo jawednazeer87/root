@@ -1373,8 +1373,7 @@ import java.util.Scanner;
 
 public class SumTwoNumber
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         int num1, num2;
         
@@ -1389,51 +1388,34 @@ public class SumTwoNumber
         System.out.println("Sum: " + sum);
     }
 
-    public static int getTotal(int number1, int number2)
-    {
+    public static int getTotal(int number1, int number2) {
         return number1 + number2;
     }
 }
-
-
-
-
-
-
 
 Question 2
 Write a method named isEven that accepts an int argument. The method should return true if the argument is even, or false otherwise. Also write a program to test your method.
 Show the answer.
 import java.util.Scanner;
 
-public class TestEven
-{
-    public static void main(String[] args)
-    {
+public class TestEven {
+    public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         int num;
-        
         System.out.print("Enter an integer: ");
         num = console.nextInt();
-                
-        if(isEven(num))
-        {
+        if(isEven(num)){
             System.out.println("Number is even");
         }
-        else
-        {
+        else{
             System.out.println("Number is odd");
         }    
     }
-
-    public static boolean isEven(int number)
-    {
-        if(number % 2 == 0)
-        {
+    public static boolean isEven(int number) {
+        if(number % 2 == 0) {
             return true;
         }
-        else
-        {
+        else{
             return false;
         }
     }
@@ -1444,33 +1426,22 @@ Write a value-returning method, isVowel that returns the value true if a given c
 Show the answer.
 import java.util.Scanner;
 
-public class TestEven
-{
-    public static void main(String[] args)
-    {
+public class TestEven {
+    public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         String sentence;
-        
         System.out.print("Enter a string: ");
         sentence = console.nextLine();
-        
         int count = 0;
-        
-        for(int i = 0; i < sentence.length(); i++)
-        {
-            if(isVowel(sentence.charAt(i)))
-            {
+        for(int i = 0; i < sentence.length(); i++) {
+            if(isVowel(sentence.charAt(i))) {
                 count++;
             }
         }
-        
         System.out.println("Number of vowels: " + count);    
     }
-
-    public static boolean isVowel(char letter)
-    {
-        switch(letter)
-        {
+    public static boolean isVowel(char letter) {
+        switch(letter) {
             case 'a':
             case 'A':
             case 'e':
@@ -1492,89 +1463,62 @@ Question 4
 A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
 Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
 Show the answer.
-public class PrimeNumbers
-{
-    public static void main(String[] args)
-    {        
-        for(int i = 1; i <= 500; i++)
-        {
-            if(isPrime(i))
-            {
+public class PrimeNumbers {
+    public static void main(String[] args) {        
+        for(int i = 1; i <= 500; i++){
+            if(isPrime(i)) {
                 System.out.print(i + " ");
             }
         }    
     }
-
-    public static boolean isPrime(int number)
-    {
-        for(int i = 2; i < number; i++)
-	{
-	    if(number % i == 0)
-            {
+    public static boolean isPrime(int number) {
+        for(int i = 2; i < number; i++) {
+	    if(number % i == 0) {
                 return false;
             }
         }
-        
         return true;
     }
 }
-
 
 Question 5
 A nonnegative integer is called a palindrome if it reads forward and backward in the same way. For example, the numbers 5, 121, 3443, and 123454321 are palindromes. Write a method that takes as input a nonnegative integer and returns true if the number is a palindrome; otherwise, it returns false. Also write a program to test your method.
 Show the answer.
 
 import java.util.Scanner;
-
-public class TestPalindrom
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
-     
+public class TestPalindrom {
+    public static void main(String[] args) {
+        Scanner console = new Scanner(System.in); 
         int num;
-
         System.out.print("Enter a number: ");
         num = console.nextInt();
-        
-        if(isPalindrom(num))
-        {
+        if(isPalindrom(num)) {
             System.out.println("Number is palindrom");
         }
-        else
-        {
+        else {
             System.out.println("Number is not palindrom");
         }
     }
-
-
-    public static boolean isPalindrom(int number)
-    {
+    public static boolean isPalindrom(int number) {
         int temp = number;
         int remainder;
         int reverse = 0;
-        
-        while(temp > 0)
-	{
+        while(temp > 0) {
             remainder = temp % 10;
             temp = temp / 10;
             reverse = reverse * 10 + remainder;
-	}
-        
+		}
         return reverse == number;
     }
 }
 
 6- What will be the output of the following program?
-public class Madam
-{
-    public static void main(String[] args)
-    {
+public class Madam {
+    public static void main(String[] args) {
         int a = 5;
         System.out.println(cube(a));
     }
-    static int cube(int theNum)
-    {
+    static int cube(int theNum) {
         return theNum * theNum * theNum;
     }
 }
@@ -1584,42 +1528,30 @@ sulotion=125
 
 
 7-What will be the output of the following program?
-class Equation1
-{
-    public static void main(String s[])
-    {
+class Equation1 {
+    public static void main(String s[]) {
         int x = 6;
         int y = 3;
         int z = 12;
-
         int w = method1(x, y, z);
-        
         System.out.println("w = " + w);
     }
-
-    public static int method1(int y, int z, int x)
-    {
+    public static int method1(int y, int z, int x) {
         return (x * z) / y;
     }
 }
 
 solution=6
 8- What will be the output of the following program?
-class Equation1
-{
-    public static void main(String s[])
-    {
+class Equation1 {
+    public static void main(String s[]) {
         int x = 6;
         int y = 3;
         int z = 12;
-
         int w = method1(x, y, z);
-        
         System.out.println("w = " + w);
     }
-
-    public static int method1(int x, int y, int z)
-    {
+    public static int method1(int x, int y, int z) {
         return (x * z) / y;
     }
 }
@@ -1628,18 +1560,14 @@ sulotion = 24
 
 
 9- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static int sum(int a, int b)
-    {
+    public static int sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         return a + b;
     }
@@ -1648,22 +1576,16 @@ solution
 a = 34 b = 56
 c = 90
 
-
-
 10- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = 0;
         sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static int sum(int a, int b)
-    {
+    public static int sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         int c = 0;
         c = a + b;
@@ -1671,20 +1593,17 @@ class MethodsTest
         return c;
     }
 }
+
 What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = 0;
         sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static int sum(int a, int b)
-    {
+    public static int sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         int c = 0;
         c = a + b;
@@ -1694,27 +1613,19 @@ class MethodsTest
 }
 
 solution
-
 a = 34 b = 56
 c = 90
 c = 0
 
-
-
-11-
-What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+11- What will be the output of the following program.
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static int sum(int b, int a)
-    {
+    public static int sum(int b, int a) {
         System.out.println("a = " + a + " b = " + b);
         return a + b;
     }
@@ -1724,18 +1635,14 @@ a = 56 b = 34
 c = 90
 
 12- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static int sum(int a, int b)
-    {
+    public static int sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         int c = a + b
         return c;
@@ -1748,45 +1655,35 @@ Compilation Error
 
 
 13-  What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = 0;
         sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static void sum(int a, int b)
-    {
+    public static void sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         int c = a + b;
     }
 }
 
 solution
-
-
 a = 34 b = 56
 c = 0
 
 
 14- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         int a = 34;
         int b = 56;
         int c = 0;
         sum(a, b);
         System.out.println("c = " + c);
     }
-    
-    public static void sum(int a, int b)
-    {
+    public static void sum(int a, int b) {
         System.out.println("a = " + a + " b = " + b);
         c = a + b;
     }
@@ -1796,21 +1693,15 @@ solution
 Compilation Error
 
 
-
-
 15- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
+class MethodsTest {
+    public static void main(String s[]) {
         float m = 34;
         float n = 56;
         float o = sum(m, n);
         System.out.println("o = " + o);
     }
-    
-    public static void sum(float m, float n)
-    {
+    public static void sum(float m, float n) {
         System.out.println("m = " + m + " n = " + n);
         return m + n;
     }
@@ -1821,29 +1712,20 @@ qestion 4
 A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
 Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
 Show the answer.
-public class PrimeNumbers
-{
-    public static void main(String[] args)
-    {        
-        for(int i = 1; i <= 500; i++)
-        {
-            if(isPrime(i))
-            {
+public class PrimeNumbers {
+    public static void main(String[] args) {        
+        for(int i = 1; i <= 500; i++) {
+            if(isPrime(i)) {
                 System.out.print(i + " ");
             }
         }    
     }
-
-    public static boolean isPrime(int number)
-    {
-        for(int i = 2; i < number; i++)
-	{
-	    if(number % i == 0)
-            {
+    public static boolean isPrime(int number) {
+        for(int i = 2; i < number; i++) {
+	    if(number % i == 0) {
                 return false;
             }
         }
-        
         return true;
     }
 }
@@ -1950,8 +1832,93 @@ Class:
 	int[] addTwoArrays(int[] a, int[] b), void print(int[] p), int sumArray(int a[]), 
 	int findMax(int[] a), int findMin(int[] a), int countNegative(int a[]), int countPositive(int a[]),  
 	
+
+			------------------------------------------------------------------------------------------------------------
+			
+			
+Inheritance:
+	01.	create a parent class Shape having void draw() method create 3 child/subclass which will extends Shape 
+		class and will override draw method.
 	
-			-----------------------------------------------------------------------
+	02.	Create a parent class Book having void read() method create 2 child class of Book class and will override read method.
+	
+	03.	Create a parent class Planet having void name() and void distance(int) methods, create 2 child class which will override
+		both methods of parent class.
+		
+	04.	Create a parent class School having 3 methods, void numStudents(int), String address() and void name(String), 
+		create 5 child class which will override 3 methods of parent class.
+	
+	05.	Create a parent class Employee having 2 different methods 'protected void name()' and 'void child()' create 
+		3 child classes in same package of parent class and also 3 classes with different packages of parent class.
+		Try to override and call from main method where we are going to create object of parent and child class.
+		(refrence of parent class and object of child class like we did in our class, Parent p = new Child(); )
+		
+	06.	Create a class having 4 member fields 
+		private int id;
+		public String name;
+		protected String email;
+		double weight;
+		create a class having main method and create the object of above class and set values to member fields and print
+		member fields.
+	
+	07. Create a class having 4 member methods 
+		private int getId();
+		public String getName();
+		protected void setEmail();
+		void setWeight();
+		create a class having main method and create the object of above class and call all these 4 methods.
+		
+	08.	Create a parent class having 2 methods,  protected void print(), void display(), create 3 child classes 
+		in same package as well as in different packages and try to call from main method. 
+	
+	09.	Create a parent class having 2 methods,  protected void print(), void display(), create a child class which
+		which will override parent methods and will call parent methods using super keyword.
+		
+	10. Create a parent class having 1 default constructor, create a child class which is also having default constructor.
+		create object of child class in a main method and observe behavior.
+	
+	11.	Create a parent class having 1 default constructor, create a child class which is also having default constructor.
+		create again a child class of child class which having again default constructor.
+		create object of child class in a main method and observe behavior.
+		
+	12.	Create a Parent class having a method 'static void fun()' create a child class and try to override statice method 
+		in child class. create object in main method and observe the behavior.
+		
+	13.	Create a Parent class having a method 'protected static void fun()' create a child class and try to override statice method 
+		in child class. create object in main method and observe the behavior. Create two child classes one in same package
+		and one in different packages.
+		
+	14.	Create a parent class having a method void increaseStar(int) override this method in child class.
+		increaseStar will print star in increasing order.
+	
+	15.	Create a parent class having int[] copy(int[]) method, override this method in child class 
+		copy method will copy provided array to new array and will return new array.
+		
+	16.	Create a parent class having boolean compare(String, String) method, this method will compare string,
+		if equal returns true else false;
+	
+	17.	Create a class having method protected int search(String, char), create a child class which will override this method
+		in this method u have to search character in the string if found then return position means location if not found then
+		return -1.
+
+	19. Create a parent class having public String remove(String, char) method, create a child class which will override remove 
+		method. remove method will remove char from the string and will return new string.
+	
+	20.	create a parent class having protected String reverse(String) method, override reverse method in child class
+		reverse method will reverse and return reverse string.
+		
+	21.	create a parent class having protected String uppercase(String) method, override uppercase method in child class
+		convert each character to uppercase and will return uppercase string.
+		
+	22.	create a parent class having protected String lowercase(String) method, override lowercase method in child class
+		convert each character to lowercase and will return lowercase string.
+		
+	23.	create a parent class having protected String concat(String, String, String) method, override concat method in child class
+		which will concat all strings separated by space and will return new concated string.
+		
+	
+	
+			------------------------------------------------------------------------------------------------------------
 	
 ArrayList:
 	1.	create a class User having fields id, name, dob, email. Create an array list of User class and 
@@ -5126,3 +5093,5 @@ jvm:
 					
 	interview questions:
 			https://www.interviewgrid.com/interview_questions/java/java_objects_classes
+	inheritance:	
+		https://www.scientecheasy.com/2021/02/inheritance-interview-questions.html/
