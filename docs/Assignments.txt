@@ -1186,7 +1186,7 @@ for/while loop
 	Star pattern programs - Wap to print the given star patterns.
 	Number pattern programs - Wap to print the given number patterns.
 
-Array
+Array:
 	01) wap to create and print array using without loop
 	02) wap to create and print array using loop
 	03) wap to find length of an array
@@ -1268,9 +1268,14 @@ Array
 	55) wap to print all ascii value of character array
 		Suppose given array is ['a', '5', '7', 'p'] -> answer would be : 97, 53, 55, 112
 	56)	
+	
+	Theory
+		https://javaconceptoftheday.com/java-array-interview-questions-and-answers/
+		https://javahungry.blogspot.com/2019/03/array-interview-questions-and-answers-in-java.html
+		https://javarevisited.blogspot.com/2015/06/top-20-array-interview-questions-and-answers.html#axzz7KS1ktCVc
 		
 		
-String 
+String:
 	How to compare strings?
 	How to search last occurance of a substring inside a substring?
 	How to remove a particular character from a string?
@@ -1280,9 +1285,13 @@ String
 	How to split a string into a number of substrings using space?
 	How to convert a string totally into upper case?
 	How to concatenate two strings?
+	Theory:
+		https://soshace.com/top-20-java-string-interview-questions-and-answers/
+		https://www.baeldung.com/java-string-interview-questions
+		https://www.journaldev.com/1321/java-string-interview-questions-and-answers
 
 
-Method
+Method:
 	void printNegative(int[])
 		method will print all negative number from supplied array
 	void printPositive(int[])
@@ -1916,8 +1925,96 @@ Inheritance:
 	23.	create a parent class having protected String concat(String, String, String) method, override concat method in child class
 		which will concat all strings separated by space and will return new concated string.
 		
+	24. create a parent class having 'protected int id' memeber variable, create a constructor which will accept one int argument, create a 
+		child class which is having only one default constructor. call parent class constrcutor from child class using 
+		super(int) constructor. Create object of child class using parent as reference variable in main method.
+		
+	25.	create a parent class having 'protected int id' and 'private String name' memeber variables, create a constructor which will accept one int 
+		and one String as arguments, create a child class which is having only one default constructor. call parent class constrcutor from child class using super(int, String) constructor. Create object of child class using parent as reference variable in main method.
 	
+	26. create a parent class having 'protected int id' and 'protected String name' memeber variables, and one default constructor.
+		create a child class which will provide getters and setters for parent id and name memeber variables. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	27.	create a parent class having 'protected int id' and 'private String name' memeber variables, and one default constructor.
+		create a child class which will provide getters and setters for parent id memeber variable. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	28.	create a parent class having method protected int addEelements(int[]), override this method in child class. This method will add
+		all elements of array and will return the result.
+		
+	29.	create a parent class having method protected int addOddEelements(int[]), override this method in child class. This method will add
+		only odd number of array and will return the result.
+		
+	30.	create a parent class having method protected int addEvenEelements(int[]), override this method in child class. This method will add
+		only even number of array and will return the result.
+		
+	31.	create a parent class having method protected int addNegativeEelements(int[]), override this method in child class. This method will add
+		only negative number of array and will return the result.
+		
+	32.	create a parent class having method protected int addPositiveEelements(int[]), override this method in child class. This method will add
+		only positive number of array and will return the result.
+		
+	33.	create a parent class having method protected void printPrimeNum(int[]), override this method in child class. This method will only
+		print number of array.
+		
+	34.	create a parent class having method protected int[] findPrimeNum(int[]), override this method in child class. This method will find prime
+		number from provided array then will create a prime number array and will return the prime number array. If not a single prime number found then
+		return null.
+		
+	35.	create a parent class having method protected int[] findNegativeNum(int[]), override this method in child class. This method will find 
+		negative number from provided array then will create a negative number array and will return the negative number array. If not a single 
+		negative number found then return null.
+		
+	36.	create a parent class having method protected int[] findPositiveNum(int[]), override this method in child class. This method will find 
+		positive number from provided array then will create a positive number array and will return the positive number array. If not a single 
+		positive number found then return null.
+		
+	37.	create a parent class having method protected int[] findOddNum(int[]), override this method in child class. This method will find 
+		odd number from provided array then will create a odd number array and will return the odd number array. If not a single 
+		odd number found then return null.
+		
+	38.	create a parent class having method protected int[] findEvenNum(int[]), override this method in child class. This method will find 
+		even number from provided array then will create an even number array and will return the even number array. If not a single 
+		even number found then return null.
+		
+	39.	create a parent class having 3 member variables, all are protected, create a child class which will provide getters and setters to 
+		all 3 member variables of parent class. create object of child class with reference variable of parent class and then set and print 
+		value of child class. 
+		
+	40.	create a parent class having method public void fibonacci(), override method in child class and print fibonacci series.
+
+	41.	create a parent class having method public void prime(int), override method in child class and print given number is prime or not.
+
+	42.	create a parent class having method public int reverse(int), override method in child class return reverse of the number 
+		e.g. ip=12345, op=54321 avoid zero.
+		
+	43.	create a parent class having method public int sumOfDigit(int), override method in child class return sum of digit of the number
+		e.g. ip=1234,  op=10
+		
+	44.	create a parent class having methods all return type is void, increaseStar(int), decreaseStar(int), increaseStarRight(int),
+		decreaseStarRight(int), pyramid(int), reversePyramid(int), diamond(int). Create a child which will override all these methods
+		and will print star. 
+
+	45.	create a parent class which has method public void print(), override print method in child class and print a to z.
+
+	46.	create a parent class which has method public void print(), override print method in child class and print A to Z.
+
+	47.	create a parent class which has method public void print(int n), override print method in child class and all even numbers 
+		less than n(format argument that we passed to the method).
+		
+	48.	create a parent class which has method public void print(int n), override print method in child class and all odd numbers 
+		less than n(format argument that we passed to the method).
+		
+	49.	create a parent class which has method public void table(int n), override table method in child class and print table of n 
+		from 1 to 10.
+		
+	50.	create a parent class which has method public int firstDigit(int n), public int lasstDigit(int n) override these methods
+		in child class firstDigit will return first digit of int n and lastDigit will return last digit of int n.
 	
+		
+		
+		
 			------------------------------------------------------------------------------------------------------------
 	
 ArrayList:
@@ -5095,3 +5192,8 @@ jvm:
 			https://www.interviewgrid.com/interview_questions/java/java_objects_classes
 	inheritance:	
 		https://www.scientecheasy.com/2021/02/inheritance-interview-questions.html/
+		
+	String:
+		https://soshace.com/top-20-java-string-interview-questions-and-answers/
+		https://www.baeldung.com/java-string-interview-questions
+		https://www.journaldev.com/1321/java-string-interview-questions-and-answers
