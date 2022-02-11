@@ -4,6 +4,7 @@ public class Company1main {
 
 	public static void main(String[] args) {
 		Company1 company = new Company1();
+		
 		company.setCompanyId(1587);
 		company.setName("Ansari Dept");
 		company.setDescription("Development Company");

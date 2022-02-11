@@ -9,8 +9,8 @@ public class Company1 {
 			public int getCompanyId() {
 				return companyId;
 			}
-			public void setCompanyId(int companyId) {
-				this.companyId = companyId;
+			public void setCompanyId(int companyid) {
+				this.companyId = companyid;
 			}
 			public String getName() {
 				return name;
