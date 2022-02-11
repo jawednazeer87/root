@@ -1,7 +1,5 @@
 package org.la.core.java.student.moshin.assignment8;
 
-import org.la.core.java.student.moshin.assignment8.Company1;
-
 public class Company1main {
 
 	public static void main(String[] args) {
