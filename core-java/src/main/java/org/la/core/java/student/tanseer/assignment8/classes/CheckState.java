@@ -16,15 +16,16 @@ public class CheckState
 		this.sName = sName;
 	}
 	
+	public String getState()
+	{
+		return sName;
+	}
+	
 	public void setCityName(CheckCity city)
 	{
 		this.city = city;
 	}
 	
-	public String getState()
-	{
-		return sName;
-	}
 	public CheckCity getCity()
 	{
 		return city;
