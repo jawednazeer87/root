@@ -40,7 +40,7 @@
 		setters for all member variables. Create object of Brands class in other class inside main method
 		and set all member values and print all member values using getters.
 		
-	17.	Create a class Categorys having member variables id, categoryName, thumbnails. create getters and 
+	17.	Create a class Categories having member variables id, categoryName, thumbnails. create getters and 
 		setters for all member variables. Create object of Categorys class in other class inside main method and set all member values and print all member values using getters.
 		
 	18.	Create a class Stuff having member variables id, stuffName, thumbnails. create getters and 
