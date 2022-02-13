@@ -41,9 +41,9 @@ public class PatternPrinting {
 			for(int j=1;j<=i; j++) {
 				System.out.print("*");
 			}
-			System.out.println(); //For New line after one pattern
+			System.out.println(); 
 		}
-        System.out.println();
+        System.out.println();//For New line after one pattern
 	}
 	static  void decreasingStar(int b)  {
 		for(int i=1;i<=b;i++)      {

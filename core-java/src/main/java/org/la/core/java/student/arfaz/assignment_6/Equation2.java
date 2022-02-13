@@ -3,7 +3,7 @@ package org.la.core.java.student.arfaz.assignment_6;
 
 public class Equation2
 {
-    public static void main(String s[])
+    public static void main(String[] s)
     {
         int x = 6;
         int y = 3;
