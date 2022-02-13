@@ -14,7 +14,7 @@ public class Company {
 		regNum = 1;
 		name = "";
 		address = "";
-		System.out.println("constructor called");
+		System.out.println("constructor called-1");
 	}
 	public Company(int regNum, String name, String address) {
 		this.regNum = regNum;
