@@ -1,0 +1,160 @@
+Inheritance
+	01.	create a parent class Shape having void draw() method create 3 child/subclass which will extends Shape 
+		class and will override draw method.
+	
+	02.	Create a parent class Book having void read() method create 2 child class of Book class and will override read method.
+	
+	03.	Create a parent class Planet having void name() and void distance(int) methods, create 2 child class which will override
+		both methods of parent class.
+		
+	04.	Create a parent class School having 3 methods, void numStudents(int), String address() and void name(String), 
+		create 5 child class which will override 3 methods of parent class.
+	
+	05.	Create a parent class Employee having 2 different methods 'protected void name()' and 'void child()' create 
+		3 child classes in same package of parent class and also 3 classes with different packages of parent class.
+		Try to override and call from main method where we are going to create object of parent and child class.
+		(refrence of parent class and object of child class like we did in our class, Parent p = new Child(); )
+		
+	06.	Create a class having 4 member fields 
+		private int id;
+		public String name;
+		protected String email;
+		double weight;
+		create a class having main method and create the object of above class and set values to member fields and print
+		member fields.
+	
+	07. Create a class having 4 member methods 
+		private int getId();
+		public String getName();
+		protected void setEmail();
+		void setWeight();
+		create a class having main method and create the object of above class and call all these 4 methods.
+		
+	08.	Create a parent class having 2 methods,  protected void print(), void display(), create 3 child classes 
+		in same package as well as in different packages and try to call from main method. 
+	
+	09.	Create a parent class having 2 methods,  protected void print(), void display(), create a child class which
+		which will override parent methods and will call parent methods using super keyword.
+		
+	10. Create a parent class having 1 default constructor, create a child class which is also having default constructor.
+		create object of child class in a main method and observe behavior.
+	
+	11.	Create a parent class having 1 default constructor, create a child class which is also having default constructor.
+		create again a child class of child class which having again default constructor.
+		create object of child class in a main method and observe behavior.
+		
+	12.	Create a Parent class having a method 'static void fun()' create a child class and try to override statice method 
+		in child class. create object in main method and observe the behavior.
+		
+	13.	Create a Parent class having a method 'protected static void fun()' create a child class and try to override statice method 
+		in child class. create object in main method and observe the behavior. Create two child classes one in same package
+		and one in different packages.
+		
+	14.	Create a parent class having a method void increaseStar(int) override this method in child class.
+		increaseStar will print star in increasing order.
+	
+	15.	Create a parent class having int[] copy(int[]) method, override this method in child class 
+		copy method will copy provided array to new array and will return new array.
+		
+	16.	Create a parent class having boolean compare(String, String) method, this method will compare string,
+		if equal returns true else false;
+	
+	17.	Create a class having method protected int search(String, char), create a child class which will override this method
+		in this method u have to search character in the string if found then return position means location if not found then
+		return -1.
+
+	19. Create a parent class having public String remove(String, char) method, create a child class which will override remove 
+		method. remove method will remove char from the string and will return new string.
+	
+	20.	create a parent class having protected String reverse(String) method, override reverse method in child class
+		reverse method will reverse and return reverse string.
+		
+	21.	create a parent class having protected String uppercase(String) method, override uppercase method in child class
+		convert each character to uppercase and will return uppercase string.
+		
+	22.	create a parent class having protected String lowercase(String) method, override lowercase method in child class
+		convert each character to lowercase and will return lowercase string.
+		
+	23.	create a parent class having protected String concat(String, String, String) method, override concat method in child class
+		which will concat all strings separated by space and will return new concated string.
+
+
+26. create a parent class having 'protected int id' and 'protected String name' memeber variables, and one default constructor.
+		create a child class which will provide getters and setters for parent id and name memeber variables. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	27.	create a parent class having 'protected int id' and 'private String name' memeber variables, and one default constructor.
+		create a child class which will provide getters and setters for parent id memeber variable. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	28.	create a parent class having method protected int addEelements(int[]), override this method in child class. This method will add
+		all elements of array and will return the result.
+		
+	29.	create a parent class having method protected int addOddEelements(int[]), override this method in child class. This method will add
+		only odd number of array and will return the result.
+		
+	30.	create a parent class having method protected int addEvenEelements(int[]), override this method in child class. This method will add
+		only even number of array and will return the result.
+		
+	31.	create a parent class having method protected int addNegativeEelements(int[]), override this method in child class. This method will add
+		only negative number of array and will return the result.
+		
+	32.	create a parent class having method protected int addPositiveEelements(int[]), override this method in child class. This method will add
+		only positive number of array and will return the result.
+		
+	33.	create a parent class having method protected void printPrimeNum(int[]), override this method in child class. This method will only
+		print number of array.
+		
+	34.	create a parent class having method protected int[] findPrimeNum(int[]), override this method in child class. This method will find prime
+		number from provided array then will create a prime number array and will return the prime number array. If not a single prime number found then
+		return null.
+		
+	35.	create a parent class having method protected int[] findNegativeNum(int[]), override this method in child class. This method will find 
+		negative number from provided array then will create a negative number array and will return the negative number array. If not a single 
+		negative number found then return null.
+		
+	36.	create a parent class having method protected int[] findPositiveNum(int[]), override this method in child class. This method will find 
+		positive number from provided array then will create a positive number array and will return the positive number array. If not a single 
+		positive number found then return null.
+		
+	37.	create a parent class having method protected int[] findOddNum(int[]), override this method in child class. This method will find 
+		odd number from provided array then will create a odd number array and will return the odd number array. If not a single 
+		odd number found then return null.
+		
+	38.	create a parent class having method protected int[] findEvenNum(int[]), override this method in child class. This method will find 
+		even number from provided array then will create an even number array and will return the even number array. If not a single 
+		even number found then return null.
+		
+	39.	create a parent class having 3 member variables, all are protected, create a child class which will provide getters and setters to 
+		all 3 member variables of parent class. create object of child class with reference variable of parent class and then set and print 
+		value of child class. 
+		
+	40.	create a parent class having method public void fibonacci(), override method in child class and print fibonacci series.
+
+	41.	create a parent class having method public void prime(int), override method in child class and print given number is prime or not.
+
+	42.	create a parent class having method public int reverse(int), override method in child class return reverse of the number 
+		e.g. ip=12345, op=54321 avoid zero.
+		
+	43.	create a parent class having method public int sumOfDigit(int), override method in child class return sum of digit of the number
+		e.g. ip=1234,  op=10
+		
+	44.	create a parent class having methods all return type is void, increaseStar(int), decreaseStar(int), increaseStarRight(int),
+		decreaseStarRight(int), pyramid(int), reversePyramid(int), diamond(int). Create a child which will override all these methods
+		and will print star. 
+
+	45.	create a parent class which has method public void print(), override print method in child class and print a to z.
+
+	46.	create a parent class which has method public void print(), override print method in child class and print A to Z.
+
+	47.	create a parent class which has method public void print(int n), override print method in child class and all even numbers 
+		less than n(format argument that we passed to the method).
+		
+	48.	create a parent class which has method public void print(int n), override print method in child class and all odd numbers 
+		less than n(format argument that we passed to the method).
+		
+	49.	create a parent class which has method public void table(int n), override table method in child class and print table of n 
+		from 1 to 10.
+		
+	50.	create a parent class which has method public int firstDigit(int n), public int lasstDigit(int n) override these methods
+		in child class firstDigit will return first digit of int n and lastDigit will return last digit of int n.
