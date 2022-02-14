@@ -84,7 +84,7 @@
 	32.	Create a class Suppliers having member variables supplierId, companyName, contact_fName, contact_lName, contact_title, address1, address2, city, state, postalcode, country, phone, fax, email,
 	url, paymentMethods, discountType, typeGoods_, notes, discountAvailabe, currentOrder, logo, customerId. create getters and setters for all member variables. Create object of Suppliers class in other class inside main method and set all member values and print all member values using getters.
 						
-	33.	creat a class having name Pattern, then add methods to print all patterns like increaseStar, decreaseStar, increaseStartFromRight, decreaseStartFromRight, diamond, pyramid, reversePyramid.
+	33.	create a class having name Pattern, then add methods to print all patterns like increaseStar, decreaseStar, increaseStartFromRight, decreaseStartFromRight, diamond, pyramid, reversePyramid.
 	All these methods will accept one int argument and will not return anything.
 	
 	34. create a class of name Arithmetic, add methods like add, sub, div, prod, fibonacci, prime, factorial. Plz make these methods return type and arguments according to your wish.
