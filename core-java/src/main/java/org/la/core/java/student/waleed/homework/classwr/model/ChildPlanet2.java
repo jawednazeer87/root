@@ -10,6 +10,7 @@ public class ChildPlanet2 extends Planet {
 	public void name() {
 		System.out.println(" From child2, planet's name");
 	}
+	@Override
 	public void distance() {
 		System.out.println(" From child2, planet's distance");
 	}
