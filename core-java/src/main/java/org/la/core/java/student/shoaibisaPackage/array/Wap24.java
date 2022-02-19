@@ -3,13 +3,17 @@ import java.util.Scanner;
 
 public class Wap24 {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  int n,i,temp;
-		  int[] a = new int[10];
+		  
 		  Scanner sc = new Scanner(System.in); 
+		  
 		  System.out.print(" enter the number of element ");
 		  n = sc.nextInt();
+		  int j = n;
+		  int[] a = new int[n];
 		  System.out.print("  Enter the element of array ");
 		  for(i=0;i<n;i++)
 		  {
@@ -21,16 +25,21 @@ public class Wap24 {
 			  System.out.print(a[i]+" ");
 		  }
 		  
-		  for(i=0;i<=n/2-1;i++)
+		  for(i=0;i<=j;i++,j--)
 		  {
 		    temp=a[i];
-		    a[i]=a[n-1];
-		    a[n-1]=temp;
-		    n--;
+		    a[i]=a[j-1];
+		    a[j-1]=temp;
+		    
 		  }
-		  System.out.print(" reverse of array is ");
+		  System.out.print("\n reverse of array is ");
 		  for(i=0;i<n;i++)
 			  System.out.print(a[i]+" ");
+		  
+		  
+		  sc.close();
 	}
+	
+	
 
 }
