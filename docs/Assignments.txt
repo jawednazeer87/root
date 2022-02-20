@@ -2012,8 +2012,273 @@ Inheritance:
 	50.	create a parent class which has method public int firstDigit(int n), public int lasstDigit(int n) override these methods
 		in child class firstDigit will return first digit of int n and lastDigit will return last digit of int n.
 	
+
+			------------------------------------------------------------------------------------------------------------
+
+
+Abstract class:
+	01.	create an abstract parent class Shape having abstract void draw() method create 3 child/subclass which will extends Shape 
+		class and will override draw method.
+	
+	02.	Create  an abstract parent class Book having  abstract void read() method create 2 child class of Book class and will override read method.
+	
+	03.	Create  an abstract parent class Planet having abstract  void name() and abstract  void distance(int) methods, create 2 child class which will 
+		override both methods of parent class.
+		
+	04.	Create  an abstract parent class School having 3 methods,  abstract void numStudents(int),  abstract String address() and void name(String), 
+		create 5 child class which will override 3 methods of parent class.
+	
+	05.	Create  an abstract parent class Employee having 2 different methods 'protected void name()' and ' abstract void child()' create 
+		3 child classes in same package of parent class and also 3 classes with different packages of parent class.
+		Try to override and call from main method where we are going to create object of parent and child class.
+		(refrence of parent class and object of child class like we did in our class, Parent p = new Child(); )
+		
+	06.	Create an abstract class having 4 member fields 
+		private int id;
+		public String name;
+		protected String email;
+		double weight;
+		create a class having main method and create the object of above class and set values to member fields and print
+		member fields.
+	
+	07. Create an abstract class having 4 member methods 
+		 abstract private int getId();
+		public String getName();
+		 abstract protected void setEmail();
+		void setWeight();
+		create a class having main method and create the object of above class and call all these 4 methods.
+		
+	08.	Create an abstract parent class having 2 methods,  protected void print(),  abstract void display(), create 3 child classes 
+		in same package as well as in different packages and try to call from main method. 
+	
+	09.	Create an abstract parent class having 2 methods,  protected void print(),  abstract void display(), create a child class which
+		which will override parent methods and will call parent print methods using super keyword.
+		
+	10. Create an abstract parent class having 1 default constructor, create a child class which is also having default constructor.
+		create object of child class in a main method and observe behavior.
+	
+	11.	Create an abstract parent class having 1 default constructor, create a child class which is also having default constructor.
+		create again a child class of child class which having again default constructor.
+		create object of child class in a main method and observe behavior.
+		
+	12.	Create an abstract Parent class having a method ' abstract void fun()' create a child class and try to override method 
+		in child class. create object in main method and observe the behavior.
+		
+	13.	Create an abstract Parent class having a method ' abstract  void fun()' create a child class and try to override method 
+		in child class. create object in main method and observe the behavior. Create two child classes one in same package
+		and one in different packages.
+		
+	14.	Create an abstract parent class having a method  abstract void increaseStar(int) override this method in child class.
+		increaseStar will print star in increasing order.
+	
+	15.	Create an abstract parent class having  abstract int[] copy(int[]) method, override this method in child class 
+		copy method will copy provided array to new array and will return new array.
+		
+	16.	Create an abstract parent class having  abstract boolean compare(String, String) method, this method will compare string,
+		if equal returns true else false;
+	
+	17.	Create an abstract class having method  abstract  int search(String, char), create a child class which will override this method,
+		in this method u have to search character in the string if found then return position means location if not found then return -1.
+
+	19. Create an abstract parent class having public  abstract String remove(String, char) method, create a child class which will override remove 
+		method. remove method will remove char from the string and will return new string.
+	
+	20.	create an abstract parent class having  abstract  String reverse(String), void print() method, override reverse method in child class
+		reverse method will reverse and return reverse string.
+		
+	21.	create an abstract parent class having  abstract String uppercase(String), void display(String) method, override uppercase method in child class
+		convert each character to uppercase and will return uppercase string.
+		
+	22.	create an abstract parent class having  abstract  String lowercase(String), void display(String) method, override lowercase method in child 
+		class convert each character to lowercase and will return lowercase string.
+		
+	23.	create an abstract parent class having abstract String concat(String, String, String), void display(String) method, override concat method in 
+		child class which will concat all strings separated by space and will return new concated string.
+		
+	24. create an abstract parent class having 'protected int id' member variable, create a constructor which will accept one int argument, 
+		create a child class which is having only one default constructor. call parent class constrcutor from child class using 
+		super(int) constructor. Create object of child class using parent as reference variable in main method.
+		
+	25.	create an abstract parent class having 'protected int id' and 'private String name' member variables, abstract void display(int, String),
+		create a constructor which will accept one int and one String as arguments, create a child class which is having only one default constructor. call parent class constrcutor from child class using super(int, String) constructor. Create object of child class using parent as reference variable in main method, override display method and print values of int and string.
+	
+	26. create an abstract parent class having 'protected int id' and 'protected String name' member variables, and one default constructor.
+		abstract int getId(), abstract void setId(int id),  abstract String getName(), abstract void setName(String name), 
+		create a child class which will override getters and setters for parent id and name memeber variables. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	27.	create an abstract parent class having 'protected int id' and 'private String name' memeber variables, and one default constructor.
+		create a child class which will provide getters and setters for parent id memeber variable. Create object of child using 
+		parent refrence variable and set id value and then print id value. In same package and in different package.
+		
+	28.	create an abstract parent class having method protected int addEelements(int[]), override this method in child class and make it public
+		This method will add all elements of array and will return the result, call this method from different package from main method.
+		
+	29.	create an abstract parent class having method protected int addOddEelements(int[]), override this method in child class and make it public.
+		This method will add only odd number of array and will return the result, call this method from different package from main method.
+		
+	30.	create an abstract parent class having method protected int addEvenEelements(int[]), override this method in child class and make it public. 
+		This method will add only even number of array and will return the result, call this method from different package from main method.
+		
+	31.	create an abstract parent class having method protected int addNegativeEelements(int[]), override this method in child class make it public. 
+		This method will add only negative number of array and will return the result, call this method from different package from main method.
+		
+	32.	create an abstract parent class having method protected int addPositiveEelements(int[]), override this method in child class make it public. 
+		This method will add only positive number of array and will return the result, call this method from different package from main method.
+		
+	33.	create an abstract parent class having method protected void printPrimeNum(int[]), override this method in child class make it public. 
+		This method will only print number of array, call this method from different package from main method.
+		
+	34.	create an abstract parent class having method protected int[] findPrimeNum(int[]), override this method in child class make it public. 
+		This method will find prime number from provided array then will create a prime number array and will return the prime number array. If not a single prime number found then return null, call this method from different package from main method.
+		
+	35.	create an abstract parent class having method protected int[] findNegativeNum(int[]), override this method in child class make it public. 
+		This method will find negative number from provided array then will create a negative number array and will return the negative number array. 
+		If not a single negative number found then return null, call this method from different package from main method.
+		
+	36.	create an abstract parent class having method protected int[] findPositiveNum(int[]), override this method in child class make it public. 
+		This method will find positive number from provided array then will create a positive number array and will return the positive number array.
+		If not a single positive number found then return null, call this method from different package from main method.
+		
+	37.	create an abstract parent class having method protected int[] findOddNum(int[]), override this method in child class make it public. 
+		This method will find odd number from provided array then will create a odd number array and will return the odd number array. If not a 
+		single odd number found then return null, call this method from different package from main method.
+		
+	38.	create an abstract parent class having method protected int[] findEvenNum(int[]), override this method in child class make it public. 
+		This method will find even number from provided array then will create an even number array and will return the even number array. If not 
+		a single even number found then return null, call this method from different package from main method.
+		
+	39.	create an abstract parent class having 3 member variables, all are protected, create a child class which will provide getters and setters to 
+		all 3 member variables of parent class. create object of child class with reference variable of parent class and then set and print 
+		value of child class. 
+		
+	40.	create an abstract parent class having method public abstract void fibonacci(), override method in child class and print fibonacci series.
+
+	41.	create an abstract parent class having method public abstract void prime(int), override method in child class and print given number is 
+		prime or not.
+
+	42.	create an abstract parent class having method public abstract int reverse(int), override method in child class return reverse of the number 
+		e.g. ip=12345, op=54321 avoid zero.
+		
+	43.	create an abstract parent class having method public abstract int sumOfDigit(int), override method in child class return sum of digit 
+		of the number e.g. ip=1234,  op=10
+		
+	44.	create an abstract parent class having methods all return type is void, access specifier public and abstract, increaseStar(int), 
+		decreaseStar(int), increaseStarRight(int), decreaseStarRight(int), pyramid(int), reversePyramid(int), diamond(int). 
+		Create a child which will override all these methods and will print star. 
+
+	45.	create an abstract parent class which has method public abstract void print(), override print method in child class and print a to z.
+
+	46.	create an abstract parent class which has method public abstract void print(), override print method in child class and print A to Z.
+
+	47.	create an abstract parent class which has method public abstract void print(int n), override print method in child class and all even numbers 
+		less than n(format argument that we passed to the method).
+		
+	48.	create an abstract parent class which has method public abstract void print(int n), override print method in child class and all odd numbers 
+		less than n(format argument that we passed to the method).
+		
+	49.	create an abstract parent class which has method public abstract void table(int n), override table method in child class and print table 
+		of n from 1 to 10.
+		
+	50.	create an abstract parent class which has method public abstract int firstDigit(int n), public abstract int lasstDigit(int n) 
+		override these methods in child class firstDigit will return first digit of int n and lastDigit will return last digit of int n.
 		
 		
+	51. Create an abstract (parent) class with method 'public abstract void sendMessage()'. This abstract class should have 2 subclasses and 
+		both have methods with the same name that prints a text. Call these methods to print the output.
+	
+	52. We want to print the numbers from 1 to 10. Create an abstract class with method 'increase()'. Create a subclass that has a method of the same name that uses for loop to print numbers from 1 to 10. Call that method to print the output.
+	
+	53. We want to print alphabets. Create an abstract class with abstract method 'public abstract void printLetter()' and create 2 subclasses, 
+		one subclass has a method that prints alphabet in capital letters, and the other subclass has a method that prints alphabet in small letters. Call these methods to print the output.
+	
+	54. We want to display the balance of 2 bank accounts. Create an abstract class that has method getBalance() and it is inherited by two
+		subclasses, each having their own method with the same name and each method prints a specific amount (amount should be double data type). 
+		Then create objects of each subclass to print out the balance of each.
+	
+	55. Create an abstract class that has an abstract method 'getDetails()' which takes 2 parameters name and age. Create a subclass that has 
+		a method that inherits the abstract method and prints out a text that contains the name and age. Call that method and pass the name 
+		and age and print output.
+	
+	56. Create an abstract class with an abstract method (printAbstract) and a non-abstract method (printNonAbstract) which prints a message. 
+		Create a subclass that inherits the abstract class which has a method with the same name as the abstract method. Create an object and 
+		use it to call both the abstract and non-abstract methods.
+	
+	57. We want to calculate the area of a square and the area of a circle. Create an abstract class which has 2 abstract methods
+		one method takes one parameter (call it length) and calculates the area of square. The other method takes one parameter 
+		(call it radius) and calculates the area of a radius. Create a subclass which contains the 2 methods for calculating area of square 
+		and area of circle. Next, create an object and use it to call both methods and print the output of the calculation.
+	
+	58. What is the output:
+	
+	abstract class AbstractClass {
+	
+		abstract void getFirstMethod();
+
+		public void getSecondMethod() {
+			System.out.println("second method");
+			getFirstMethod();
+		}
+	}
+	
+	abstract class Subclass1 extends AbstractClass {
+
+		@Override
+		public void getFirstMethod() {
+			System.out.println("first method");
+		}
+
+		abstract void getThirdMethod();
+	}
+	
+	public class Subclass2 extends Subclass1 {
+
+		public void getThirdMethod() {
+			System.out.println("third method");
+		}
+	}
+	
+	
+	9. Will this print the output? If not, provide the reason.
+	
+	abstract class Shape {
+	
+		abstract void getShape() {
+			System.out.println("circle");
+		}
+	}
+	
+	abstract class Rectangle extends Shape {
+
+		@Override
+		public void getShape() {
+			System.out.println("circle");
+		}
+	}
+	
+	10. What's wrong with this program?
+	
+	abstract class Vehicle {
+	
+		abstract String buildVehicle();
+	}
+	
+	abstract class Rectangle extends Shape {
+
+		@Override
+		public void buildVehicle() {
+			System.out.println("bike");
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		Vehicle vehicle = new Vehicle();
+		vehicle.buildVehicle();
+		
+	}
+	
+
 		
 			------------------------------------------------------------------------------------------------------------
 	
