@@ -1,4 +1,4 @@
-package org.la.core.java.student.IncrementDecre.arfaz;
+package org.la.core.java.student.arfaz.IncrementDecre;
 
 public class SixtePro {
 

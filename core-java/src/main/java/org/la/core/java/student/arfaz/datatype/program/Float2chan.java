@@ -1,4 +1,4 @@
-package org.la.core.java.student.datatype.program.arfaz;
+package org.la.core.java.student.arfaz.datatype.program;
 
 public class Float2chan {
 
