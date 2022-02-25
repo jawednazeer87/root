@@ -1,29 +1,23 @@
 package org.la.core.java.student.wang.assignment9.SchoolTask;
 
 public class School {
-    public int a;
-    public String address, b;
+    String address;
 
-    public School(int a, String address, String b) {
-        this.a = a;
-        this.address = address;
-        this.b = b;
-    }
-
-    public void numStudents(int a) {
-        this.a = a;
+    public void numStudents(int numOfStudents) {
+        System.out.println("numOfStudents = " + numOfStudents);
     }
 
     ;
 
     public String address() {
+        address = "300 N Main Ave, Alhambra ";
         return address;
     }
 
     ;
 
-    public void name(String b) {
-        this.b = b;
+    public void name(String nameOfSchool) {
+        System.out.println("nameOfSchool = " + nameOfSchool);
     }
 
     ;

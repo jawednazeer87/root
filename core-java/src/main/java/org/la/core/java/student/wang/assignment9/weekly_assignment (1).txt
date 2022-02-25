@@ -13,7 +13,7 @@ Inheritance
 	05.	Create a parent class Employee having 2 different methods 'protected void name()' and 'void child()' create 
 		3 child classes in same package of parent class and also 3 classes with different packages of parent class.
 		Try to override and call from main method where we are going to create object of parent and child class.
-		(refrence of parent class and object of child class like we did in our class, Parent p = new Child(); )
+		(reference of parent class and object of child class like we did in our class, Parent p = new Child(); )
 		
 	06.	Create a class having 4 member fields 
 		private int id;
@@ -30,28 +30,20 @@ Inheritance
 		void setWeight();
 		create a class having main method and create the object of above class and call all these 4 methods.
 		
-	08.	Create a parent class having 2 methods,  protected void print(), void display(), create 3 child classes 
-		in same package as well as in different packages and try to call from main method. 
+	08.	Create a parent class having 2 methods,  protected void print(), void display(), create 3 child classes in same package as well as in different packages and try to call from main method. 
 	
-	09.	Create a parent class having 2 methods,  protected void print(), void display(), create a child class which
-		which will override parent methods and will call parent methods using super keyword.
+	09.	Create a parent class having 2 methods,  protected void print(), void display(), create a child class which will override parent methods and will call parent methods using super keyword.
 		
 	10. Create a parent class having 1 default constructor, create a child class which is also having default constructor.
 		create object of child class in a main method and observe behavior.
 	
-	11.	Create a parent class having 1 default constructor, create a child class which is also having default constructor.
-		create again a child class of child class which having again default constructor.
-		create object of child class in a main method and observe behavior.
+	11.	Create a parent class having 1 default constructor, create a child class which is also having default constructor. create again a child class of child class which having again default constructor. create object of child class in a main method and observe behavior.
 		
-	12.	Create a Parent class having a method 'static void fun()' create a child class and try to override statice method 
-		in child class. create object in main method and observe the behavior.
+	12.	Create a Parent class having a method 'static void fun()' create a child class and try to override statice method in child class. create object in main method and observe the behavior.
 		
-	13.	Create a Parent class having a method 'protected static void fun()' create a child class and try to override statice method 
-		in child class. create object in main method and observe the behavior. Create two child classes one in same package
-		and one in different packages.
+	13.	Create a Parent class having a method 'protected static void fun()' create a child class and try to override statice method in child class. create object in main method and observe the behavior. Create two child classes one in same package and one in different packages.
 		
-	14.	Create a parent class having a method void increaseStar(int) override this method in child class.
-		increaseStar will print star in increasing order.
+	14.	Create a parent class having a method void increaseStar(int) override this method in child class. increaseStar will print star in increasing order.
 	
 	15.	Create a parent class having int[] copy(int[]) method, override this method in child class 
 		copy method will copy provided array to new array and will return new array.
