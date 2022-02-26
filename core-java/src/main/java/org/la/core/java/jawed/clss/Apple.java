@@ -5,7 +5,7 @@ package org.la.core.java.jawed.clss;
  *
  */
 public class Apple {
-	private int weight;
+	private Integer weight;
 	private String taste;
 	private String color;
 	/**
@@ -22,7 +22,7 @@ public class Apple {
 	/**
 	 * @return the weight
 	 */
-	public int getWeight() {
+	public Integer getWeight() {
 		return weight;
 	}
 	/**
@@ -61,4 +61,12 @@ public class Apple {
 		return "{weight: "+weight+", taste: "+taste+", color: "+color+"}";
 	}
 	
+	@Override
+	public int hashCode() {
+		return 1;
+	}
+	@Override
+	public boolean equals(Object o) {
+		return true;
+	}
 }
