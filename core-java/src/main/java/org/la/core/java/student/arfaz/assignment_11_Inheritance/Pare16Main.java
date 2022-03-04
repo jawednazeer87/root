@@ -8,7 +8,7 @@ public class Pare16Main {
 	
 	public static void main(String[] args) {
 		Pare16 pa = new Pare16();
-	System.out.println(pa.compare("arfaz",""));
+	System.out.println(pa.compare("arfaz","arfaz"));
 	}	  	
 }
 	
