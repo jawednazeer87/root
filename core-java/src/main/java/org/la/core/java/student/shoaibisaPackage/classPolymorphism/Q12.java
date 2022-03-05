@@ -2,7 +2,7 @@ package org.la.core.java.student.shoaibisaPackage.classPolymorphism;
 
 class Parent{
 	static void fun() {
-		System.out.println("Paent fun");
+		System.out.println("Parent fun");
 	}
 }
 
