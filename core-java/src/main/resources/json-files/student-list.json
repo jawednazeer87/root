@@ -1,0 +1,202 @@
+[
+	{
+		"id": 1,
+		"age": 10,
+		"roll": "1234-ab",
+		"name": "naem othman",
+		"email": "naem@mail.com",
+		"school": "yamin school",
+		"standard": "5",
+		"weight": 29
+	},
+	{
+		"id": 2,
+		"age": 9,
+		"roll": "12-ab",
+		"name": "hamza",
+		"email": "hamza@mail.com",
+		"school": "yamin school",
+		"standard": "4",
+		"weight": 22
+	},
+	{
+		"id": 3,
+		"age": 13,
+		"roll": "34-ab",
+		"name": "jalil",
+		"email": "jalil@mail.com",
+		"school": "md jan high school",
+		"standard": "8",
+		"weight": 32
+	},
+	{
+		"id": 4,
+		"age": 12,
+		"roll": "134-ab",
+		"name": "tanweer",
+		"email": "tanweer@mail.com",
+		"school": "md jan high school",
+		"standard": "7",
+		"weight": 35
+	},
+	{
+		"id": 5,
+		"age": 12,
+		"roll": "124-ab",
+		"name": "shabbir",
+		"email": "shabbir@mail.com",
+		"school": "md jan high school",
+		"standard": "6",
+		"weight": 30
+	},
+	{
+		"id": 6,
+		"age": 15,
+		"roll": "123-ab",
+		"name": "nayab",
+		"email": "nayab@mail.com",
+		"school": "md jan high school",
+		"standard": "10",
+		"weight": 41
+	},
+	{
+		"id": 7,
+		"age": 16,
+		"roll": "534-ab",
+		"name": "sarfaraz",
+		"email": "sarfaraz@mail.com",
+		"school": "wahed high school",
+		"standard": "10",
+		"weight": 50
+	},
+	{
+		"id": 8,
+		"age": 14,
+		"roll": "24-ab",
+		"name": "sahir",
+		"email": "sahir@mail.com",
+		"school": "wahed high school",
+		"standard": "9",
+		"weight": 48
+	},
+	{
+		"id": 9,
+		"age": 17,
+		"roll": "14-ab",
+		"name": "vijay",
+		"email": "vijay@mail.com",
+		"school": "banaras high school",
+		"standard": "11",
+		"weight": 49.4
+	},
+	{
+		"id": 10,
+		"age": 18,
+		"roll": "16-ab",
+		"name": "ajay",
+		"email": "ajay@mail.com",
+		"school": "banaras high school",
+		"standard": "12",
+		"weight": 40
+	},
+	{
+		"id": 11,
+		"age": 7,
+		"roll": "1-ab",
+		"name": "shamim",
+		"email": "shamim@mail.com",
+		"school": "yamin school",
+		"standard": "3",
+		"weight": 19
+	},
+	{
+		"id": 12,
+		"age": 6,
+		"roll": "322-ab",
+		"name": "hamza",
+		"email": "hamza@mail.com",
+		"school": "yamin school",
+		"standard": "2",
+		"weight": 20
+	},
+	{
+		"id": 13,
+		"age": 13,
+		"roll": "323-ab",
+		"name": "asghar",
+		"email": "asghar@mail.com",
+		"school": "dhaka high school",
+		"standard": "7",
+		"weight": 31
+	},
+	{
+		"id": 14,
+		"age": 19,
+		"roll": "324-ab",
+		"name": "aslam",
+		"email": "aslam@mail.com",
+		"school": "dhaka high school",
+		"standard": "12",
+		"weight": 37
+	},
+	{
+		"id": 15,
+		"age": 11,
+		"roll": "325-ab",
+		"name": "tanzeem",
+		"email": "tanzeem@mail.com",
+		"school": "dhaka high school",
+		"standard": "5",
+		"weight": 30
+	},
+	{
+		"id": 16,
+		"age": 15,
+		"roll": "326-ab",
+		"name": "taimur",
+		"email": "taimur@mail.com",
+		"school": "banaras high school",
+		"standard": "9",
+		"weight": 41
+	},
+	{
+		"id": 17,
+		"age": 18,
+		"roll": "327-ab",
+		"name": "sameer",
+		"email": "sameer@mail.com",
+		"school": "tagore high school",
+		"standard": "11",
+		"weight": 50
+	},
+	{
+		"id": 18,
+		"age": 16,
+		"roll": "328-ab",
+		"name": "sanjay",
+		"email": "sanjay@mail.com",
+		"school": "tagore high school",
+		"standard": "12",
+		"weight": 45
+	},
+	{
+		"id": 19,
+		"age": 16,
+		"roll": "329-ab",
+		"name": "sumitha",
+		"email": "sumitha@mail.com",
+		"school": "jain high school",
+		"standard": "11",
+		"weight": 45
+	},
+	{
+		"id": 20,
+		"age": 12,
+		"roll": "330-ab",
+		"name": "amar",
+		"email": "amar@mail.com",
+		"school": "jain high school",
+		"standard": "6",
+		"weight": 30
+	}
+]

@@ -23,6 +23,5 @@ public class EmployeeMain {
 		int id = employee1.getId();
 		employee1.setName("asif");
 		System.out.println("name: "+employee1.getName());
-		
 	}
 }

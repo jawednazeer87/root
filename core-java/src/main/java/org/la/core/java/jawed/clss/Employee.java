@@ -52,4 +52,8 @@ public class Employee {
 	public void setDob(LocalDate d) {
 		dob = d;
 	}
+	@Override
+	public String toString() {
+		return "{id: " + id + ", salary: " + salary + ", name: " + name + ", dob: " + dob + "}";
+	}
 }
