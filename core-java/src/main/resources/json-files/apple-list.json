@@ -1,0 +1,122 @@
+[
+	{
+		"weight": 10,
+		"taste": "sweet",
+		"color": "red"
+	},
+	{
+		"weight": 20,
+		"taste": "bland",
+		"color": "green"
+	},
+	{
+		"weight": 12,
+		"taste": "sweet",
+		"color": "red"
+	},
+	{
+		"weight": 17,
+		"taste": "bland",
+		"color": "green"
+	},
+	{
+		"weight": 30,
+		"taste": "sweet",
+		"color": "green"
+	},
+	{
+		"weight": 21,
+		"taste": "bland",
+		"color": "green"
+	},
+	{
+		"weight": 31,
+		"taste": "sweet",
+		"color": "red"
+	},
+	{
+		"weight": 13,
+		"taste": "sour",
+		"color": "green"
+	},
+	{
+		"weight": 22,
+		"taste": "sour",
+		"color": "green"
+	},
+	{
+		"weight": 32,
+		"taste": "bland",
+		"color": "red"
+	},
+	{
+		"weight": 19,
+		"taste": "sour",
+		"color": "yellow"
+	},
+	{
+		"weight": 18,
+		"taste": "sour",
+		"color": "red"
+	},
+	{
+		"weight": 24,
+		"taste": "bland",
+		"color": "yellow"
+	},
+	{
+		"weight": 21,
+		"taste": "bland",
+		"color": "yellow"
+	},
+	{
+		"weight": 22,
+		"taste": "tawdry",
+		"color": "yellow"
+	},
+	{
+		"weight": 11,
+		"taste": "bland",
+		"color": "yellow"
+	},
+	{
+		"weight": 10,
+		"taste": "tawdry",
+		"color": "red"
+	},
+	{
+		"weight": 19,
+		"taste": "sour",
+		"color": "yellow"
+	},
+	{
+		"weight": 25,
+		"taste": "bland",
+		"color": "green"
+	},
+	{
+		"weight": 29,
+		"taste": "sour",
+		"color": "green"
+	},
+	{
+		"weight": 35,
+		"taste": "tawdry",
+		"color": "yellow"
+	},
+	{
+		"weight": 32,
+		"taste": "sour",
+		"color": "green"
+	},
+	{
+		"weight": 39,
+		"taste": "sweet",
+		"color": "red"
+	},
+	{
+		"weight": 40,
+		"taste": "sour",
+		"color": "red"
+	}
+]

@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.la.core.java.jawed.clss.Apple;
+import org.la.core.java.jawed.common.Constants;
 
 /**
  * @author jawednazeer
@@ -15,6 +16,10 @@ import org.la.core.java.jawed.clss.Apple;
  */
 public class AppleUtil {
 
+	
+	public static List<org.la.core.java.jawed.model.Apple> getList2(){
+		return GSONGenericUtil.getList(Constants.APPLE_LIST_FILE_NAME, org.la.core.java.jawed.model.Apple[].class);
+	}
 	
 	public static Map<Apple, String> getMap(){
 		Apple apple1 = new Apple(50, "sweet", "red");

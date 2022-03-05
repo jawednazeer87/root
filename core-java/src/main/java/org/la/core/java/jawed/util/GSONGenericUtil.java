@@ -6,12 +6,12 @@ package org.la.core.java.jawed.util;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
+import java.util.Arrays;
 import java.util.List;
 
 import org.la.core.java.jawed.common.Constants;
 
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
 /**
  * @author jawednazeer
@@ -38,17 +38,16 @@ public class GSONGenericUtil {
 		return t;
 	}
 
-	public static <P> List<P> getList(String fileName) {
+	public static <P> List<P> getList(String fileName, Class<P[]> clazz) {
 		Gson gson = new Gson();
 		String filePath = Constants.JSON_DIRECTORY_PATH + fileName;
-		List<P> student = null;
+		P[] array = null;
 		try (Reader reader = new FileReader(filePath)) {
 			// Convert JSON File to Java Object
-			student = gson.fromJson(reader, new TypeToken<List<P>>() {
-			}.getType());
+			array = gson.fromJson(reader, clazz);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return student;
+		return Arrays.asList(array);
 	}
 }

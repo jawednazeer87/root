@@ -1,6 +1,5 @@
 package org.la.core.java.jawed.util;
 
-import org.la.core.java.jawed.common.Constants;
 import org.la.core.java.jawed.model.Student;
 import org.la.core.java.jawed.model.dto.StudentDTO;
 

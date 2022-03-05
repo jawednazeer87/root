@@ -10,4 +10,8 @@ public class AppleFilter {
 		return apple.getColor().equalsIgnoreCase("green");
 	}
 	
+	public static boolean isRed(Apple apple) {
+		return apple.getColor().equalsIgnoreCase("red");
+	}
+	
 }

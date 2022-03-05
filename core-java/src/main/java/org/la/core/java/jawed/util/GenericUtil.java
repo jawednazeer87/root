@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class GenericUtil {
 	public static <T> void print(List<T> list) {
-		System.out.print("[");
+		System.out.println("[");
 		for(T t : list) {
 			System.out.println(t);
 		}

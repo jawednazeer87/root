@@ -10,7 +10,7 @@ import org.la.core.java.jawed.clss.Apple;
  * @author jawednazeer
  *
  */
-public class ApplFilterUtil {
+public class AppleFilterUtil {
 
 	//filter red apple
 	public static List<Apple> getRed(List<Apple> appleList){
