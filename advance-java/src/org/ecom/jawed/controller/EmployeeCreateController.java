@@ -19,7 +19,7 @@ public class EmployeeCreateController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		String destination = ProjectConstants.JSP_FOLDER_PATH + "asif/employee-create.jsp";
+		String destination = ProjectConstants.JSP_FOLDER_PATH + "jawed/employee-create.jsp";
 		RequestDispatcher requestDispatcher = request.getRequestDispatcher(destination);
 		System.out.println("employee add do get");
 		requestDispatcher.forward(request, response);
@@ -52,7 +52,7 @@ public class EmployeeCreateController extends HttpServlet {
 		employeeService.connectionClose();
 		
 		//to avoid form submission
-		response.sendRedirect("/advance-java/employee/list/asif");  
+		response.sendRedirect("/advance-java/employee/list/jawed");  
 	}
 	
 }
