@@ -18,6 +18,7 @@ public class CopyArray
 			System.out.print(arr +" ");
 		}
 		System.out.println();
+		
 		for(int i = 0; i < a.length ; i++)
 		{
 			b[i] = a[i];
