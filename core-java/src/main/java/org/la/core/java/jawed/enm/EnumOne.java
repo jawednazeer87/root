@@ -1,5 +1,7 @@
 package org.la.core.java.jawed.enm;
 
+import java.util.Arrays;
+
 /**
  * @author jawednazeer
  *
@@ -10,9 +12,15 @@ public class EnumOne {
 	enum Day {
 		SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY
 	}
+	
 	public static void main(String[] args) {
-		tellItLikeItIs(Day.SUNDAY);
+		//Arrays.stream(Day.values()).forEach(day-> System.out.println(day.ordinal()+" : "+day));
+		
+		//System.out.println(Day.TUESDAY.ordinal());
+		Day d = Day.FRIDAY;
+		tellItLikeItIs(d);
 	}
+	
 	static void tellItLikeItIs(Day day) {
 		switch (day) {
 			case SUNDAY:

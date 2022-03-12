@@ -54,11 +54,21 @@ create table credit_card(
 
 create table employee(
 	id int(5) auto_increment primary key,
-	name varchar(45) not null,
-	age int(5),
-	salary varchar(45)
+    company_id int(5),
+	first_name varchar(50) not null,
+    last_name varchar(50) not null,
+    salary double,
+	dob date,
+	gender boolean
 );	
 
+create table company(
+	id int(5) auto_increment primary key,
+	company_name varchar(50) not null,
+    founder_name varchar(50) not null,
+    registration_num varchar(50) not null,
+    yearly_turnover double
+);	
 
 create table employeefive(
 	id int(5) auto_increment primary key,

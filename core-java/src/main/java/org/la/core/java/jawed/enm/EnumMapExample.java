@@ -9,7 +9,7 @@ import java.util.EnumMap;
 public class EnumMapExample {
 
 	public static void main(String[] args) {
-		EnumMap<Level, String> enumMap = new EnumMap<Level, String>(Level.class);
+		EnumMap<Level, String> enumMap = new EnumMap<>(Level.class);
 		enumMap.put(Level.HIGH  , "High level");
 		enumMap.put(Level.MEDIUM, "Medium level");
 		enumMap.put(Level.LOW   , "Low level");
