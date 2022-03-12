@@ -1,4 +1,4 @@
-package org.ecom.asif.controller;
+package org.ecom.jawed.controller;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ecom.asif.model.Employee;
-import org.ecom.asif.service.EmployeeService;
+import org.ecom.jawed.model.Employee;
+import org.ecom.jawed.service.EmployeeService;
 import org.ecom.constant.ProjectConstants;
 
 public class EmployeeCreateController extends HttpServlet {

@@ -1,7 +1,7 @@
 <%@page import="org.ecom.model.Address"%>
 <%@page import="org.ecom.model.MoneyDetail"%>
 <%@page import="java.util.List"%>
-<%@page import="org.ecom.asif.model.User"%>
+<%@page import="org.ecom.jawed.model.User"%>
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %> 
 
 <div class='text-center'>

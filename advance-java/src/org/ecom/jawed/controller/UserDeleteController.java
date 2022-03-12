@@ -1,4 +1,4 @@
-package org.ecom.asif.controller;
+package org.ecom.jawed.controller;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ecom.asif.service.UserService;
+import org.ecom.jawed.service.UserService;
 
 public class UserDeleteController extends HttpServlet {
 

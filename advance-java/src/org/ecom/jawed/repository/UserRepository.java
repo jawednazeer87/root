@@ -1,4 +1,4 @@
-package org.ecom.asif.repository;
+package org.ecom.jawed.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ecom.asif.model.User;
+import org.ecom.jawed.model.User;
 
 public class UserRepository {	//DAO Data Access Object
 

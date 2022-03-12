@@ -1,4 +1,4 @@
-package org.ecom.asif.model;
+package org.ecom.jawed.model;
 
 import java.io.Serializable;
 

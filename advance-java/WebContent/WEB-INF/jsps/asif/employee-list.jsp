@@ -1,4 +1,4 @@
-<%@ page import="org.ecom.asif.model.Employee"%>
+<%@ page import="org.ecom.jawed.model.Employee"%>
 <%@ page import="java.util.List"%>
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %>
 <div class='text-center'>

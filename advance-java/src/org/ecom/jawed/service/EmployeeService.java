@@ -1,11 +1,11 @@
- package org.ecom.asif.service;
+ package org.ecom.jawed.service;
 
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.ecom.asif.model.Employee;
-import org.ecom.asif.repository.EmployeeRepository;
+import org.ecom.jawed.model.Employee;
+import org.ecom.jawed.repository.EmployeeRepository;
 import org.ecom.util.GetSqlConnection;
 
 public class EmployeeService {
