@@ -20,18 +20,15 @@ private Connection con = null;
 		GetSqlConnection.connectionClose();
 	}
 	
-	public List<Employee> getAllEmployee(){
-		
+	public List<Employee> getAll(){
 		List<Employee> employeeList = new ArrayList<>();
-		
 		if(con!=null) {
 			employeeList = EmployeeRepository.getAll(con);
 		}
-		
 		return employeeList;
 	}
 	
-	public Employee findEmployeeById(int id){
+	public Employee findById(int id){
 		
 		Employee employee = null;
 		
@@ -42,19 +39,19 @@ private Connection con = null;
 		return employee;
 	}
 	
-	public int deleteEmployeeById(int employeeId) {
+	public int deleteById(int employeeId) {
 		return EmployeeRepository.deleteById(con, employeeId);
 	}
 	
-	public void createEmployee(Employee employee) {
+	public void create(Employee employee) {
 		EmployeeRepository.create(con, employee);
 	}
 	
-	public void updateEmployee(Employee employee) {
+	public void update(Employee employee) {
 		EmployeeRepository.update(con, employee);
 	}
 
-	public List<Employee> getEmployeeByName(String firstName) {
+	public List<Employee> getByName(String firstName) {
 		return EmployeeRepository.getByFirstName(con, firstName);
 	}
 

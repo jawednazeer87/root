@@ -13,10 +13,26 @@ public class EmployeeDTO implements Serializable{
 	private String lastName;
 	private Double salary;
 	private Date dob;
-	private String gender;
+	private String genderValue;
 	private Integer age;
 	private String name;
+	private String dobString;
+	private boolean gender;
 	
+	/**
+	 * @return the gender
+	 */
+	public boolean isGender() {
+		return gender;
+	}
+
+	/**
+	 * @param gender the gender to set
+	 */
+	public void setGender(boolean gender) {
+		this.gender = gender;
+	}
+
 	/**
 	 * @return the id
 	 */
@@ -106,15 +122,15 @@ public class EmployeeDTO implements Serializable{
 	/**
 	 * @return the gender
 	 */
-	public String getGender() {
-		return gender;
+	public String getGenderValue() {
+		return genderValue;
 	}
 
 	/**
 	 * @param gender the gender to set
 	 */
-	public void setGender(String gender) {
-		this.gender = gender;
+	public void setGenderValue(String genderValue) {
+		this.genderValue = genderValue;
 	}
 
 	/**
@@ -145,8 +161,23 @@ public class EmployeeDTO implements Serializable{
 		this.name = name;
 	}
 
+	/**
+	 * @return the dobString
+	 */
+	public String getDobString() {
+		return dobString;
+	}
+
+	/**
+	 * @param dobString the dobString to set
+	 */
+	public void setDobString(String dobString) {
+		this.dobString = dobString;
+	}
+
 	@Override
 	public String toString() {
-		return "{id: "+id+", firstName: "+firstName+", lastName: "+lastName+", salary:  "+salary+ ", dob: "+dob+ ", gender: "+gender+"}";
+		return "{id: "+id+", firstName: "+firstName+", lastName: "+lastName+", salary:  "+salary+ 
+				", dob: "+dob+ ", gender: "+genderValue+", age: "+age+"}";
 	}
 }

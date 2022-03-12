@@ -3,6 +3,8 @@ package org.jn.adv.jawed.jdbc.model;
 import java.io.Serializable;
 import java.util.Date;
 
+
+//POJO - Plain Old Java Object
 public class Employee implements Serializable{
 
 	private static final long serialVersionUID = -1443814004539007341L;
