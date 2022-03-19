@@ -19,7 +19,7 @@ public class UserUtil {
 		return null;
 	}
 	
-	public static List<User> getList(){
+	public static List<User> getList(){ 
 		User u1 = new User(1, "a");
 		User u2 = new User(2, "b");
 		User u3 = new User(3, "c");

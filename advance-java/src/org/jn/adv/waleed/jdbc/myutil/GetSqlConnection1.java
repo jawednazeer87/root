@@ -1,11 +1,19 @@
-package org.jn.adv.jawed.jdbc.util;
+package org.jn.adv.waleed.jdbc.myutil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class GetSqlConnection {
-
+/**
+ * @author Waleed Rizq
+ *
+ * @date Mar 13, 2022
+ */
+public class GetSqlConnection1 {
+	
+	
+	
+	
 	private static Connection con = null;
 
 	public static Connection connectionOpen() {
@@ -13,7 +21,7 @@ public class GetSqlConnection {
 		try {
 			//Class.forName("com.mysql.jdbc.Driver");
 			// here student is database name, root is username and password
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb?serverTimezone=UTC", "root", "root");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student?useSSL=false", "root", "root");
 
 			if (con != null) {
 				System.out.println("connected with mysql successfully");
@@ -41,4 +49,5 @@ public class GetSqlConnection {
 		}
 	}
 	
+
 }
