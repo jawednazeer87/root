@@ -5,9 +5,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Date;
+import java.sql.Date;
 import org.jn.adv.jawed.jdbc.model.Employee;
 
 public class EmployeeRepository {
@@ -33,7 +34,7 @@ public class EmployeeRepository {
 					employee.setFirstName(rs.getString("first_name"));
 					employee.setLastName(rs.getString("last_name"));
 					employee.setSalary(rs.getDouble("salary"));
-					employee.setDob(rs.getDate("dob"));
+					employee.setDob(rs.getDate("dob").toLocalDate());
 					employee.setGender(rs.getBoolean("gender"));
 					employeeList.add(employee);
 				}
@@ -85,7 +86,7 @@ public class EmployeeRepository {
 					employee.setFirstName(rs.getString("first_name"));
 					employee.setLastName(rs.getString("last_name"));
 					employee.setSalary(rs.getDouble("salary"));
-					employee.setDob(rs.getDate("dob"));
+					employee.setDob(rs.getDate("dob").toLocalDate());
 					employee.setGender(rs.getBoolean("gender"));
 				}
 			}
@@ -122,9 +123,6 @@ public class EmployeeRepository {
 		
 		try{  
 			
-			//conversion from java.util.Date to java.sql.Date
-			//java.sql.Date sqlDate = new java.sql.Date(employee.getDob().getTime());
-			
 			String query = 	  "INSERT INTO employee(company_id, first_name, last_name, salary, dob, gender) "
 							+ " VALUES (?, ?, ?, ?, ?, ?)";
 			pStatement = con.prepareStatement(query);
@@ -132,7 +130,7 @@ public class EmployeeRepository {
 			pStatement.setString(2, employee.getFirstName());
 			pStatement.setString(3, employee.getLastName());
 			pStatement.setDouble(4, employee.getSalary());
-			pStatement.setDate(5, new java.sql.Date(employee.getDob().getTime()));
+			pStatement.setDate(5, Date.valueOf(employee.getDob()));
 			pStatement.setBoolean(6, employee.getGender());
 			int executeUpdate = pStatement.executeUpdate();
 			
@@ -178,7 +176,7 @@ public class EmployeeRepository {
 			pStatement.setString(2, employee.getFirstName());
 			pStatement.setString(3, employee.getLastName());
 			pStatement.setDouble(4, employee.getSalary());
-			pStatement.setDate(5, new java.sql.Date(employee.getDob().getTime()));
+			pStatement.setDate(5, Date.valueOf(employee.getDob()));
 			pStatement.setBoolean(6, employee.getGender());
 			pStatement.setInt(7, employee.getId());
 			int executeUpdate = pStatement.executeUpdate();
@@ -264,7 +262,47 @@ public class EmployeeRepository {
 				employee.setFirstName(rs.getString("first_name"));
 				employee.setLastName(rs.getString("last_name"));
 				employee.setSalary(rs.getDouble("salary"));
-				employee.setDob(rs.getDate("dob"));
+				employee.setDob(rs.getDate("dob").toLocalDate());
+				employee.setGender(rs.getBoolean("gender"));
+				employeeList.add(employee);
+			}
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				if(rs!=null) {
+					rs.close();
+				}
+			} 
+			catch (SQLException e) {
+				e.printStackTrace();
+			}  
+		}
+		return employeeList;
+	}
+	
+	public static List<Employee> getByDobRange(Connection con, LocalDate startDate, LocalDate endDate) {
+		
+		List<Employee> employeeList = new ArrayList<>();
+		String query = " select * from employee where dob between ? and ? "; 
+					 
+		ResultSet rs = null;
+		try(PreparedStatement pStatement = con.prepareStatement(query)) {
+			
+			pStatement.setDate(1, Date.valueOf(startDate));
+			pStatement.setDate(2, Date.valueOf(endDate));
+			
+			rs = pStatement.executeQuery();
+			while(rs.next())  {
+				Employee employee = new Employee();
+				employee.setId(rs.getInt("id"));
+				employee.setCompanyId(rs.getInt("company_id"));
+				employee.setFirstName(rs.getString("first_name"));
+				employee.setLastName(rs.getString("last_name"));
+				employee.setSalary(rs.getDouble("salary"));
+				employee.setDob(rs.getDate("dob").toLocalDate());
 				employee.setGender(rs.getBoolean("gender"));
 				employeeList.add(employee);
 			}

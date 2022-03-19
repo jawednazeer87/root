@@ -1,6 +1,7 @@
 package org.jn.adv.jawed.jdbc.service;
 
 import java.sql.Connection;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -54,5 +55,8 @@ private Connection con = null;
 	public List<Employee> getByName(String firstName) {
 		return EmployeeRepository.getByFirstName(con, firstName);
 	}
-
+	public List<Employee> getByDobRange(LocalDate startDate, LocalDate endDate) {
+		return EmployeeRepository.getByDobRange(con, startDate, endDate);
+	}
+	
 }

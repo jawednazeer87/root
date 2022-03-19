@@ -1,7 +1,10 @@
 package org.jn.adv.jawed.jdbc.dto;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.Period;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public class EmployeeDTO implements Serializable{
 
@@ -12,17 +15,20 @@ public class EmployeeDTO implements Serializable{
 	private String firstName;
 	private String lastName;
 	private Double salary;
-	private Date dob;
+	private LocalDate dob;
 	private String genderValue;
+	@JsonIgnoreProperties(ignoreUnknown = true)
 	private Integer age;
+	@JsonIgnoreProperties(ignoreUnknown = true)
 	private String name;
+	@JsonIgnoreProperties(ignoreUnknown = true)
 	private String dobString;
 	private boolean gender;
 	
 	/**
 	 * @return the gender
 	 */
-	public boolean isGender() {
+	public boolean getGender() {
 		return gender;
 	}
 
@@ -31,6 +37,7 @@ public class EmployeeDTO implements Serializable{
 	 */
 	public void setGender(boolean gender) {
 		this.gender = gender;
+		genderValue = gender? "male" : "female";
 	}
 
 	/**
@@ -108,14 +115,14 @@ public class EmployeeDTO implements Serializable{
 	/**
 	 * @return the dob
 	 */
-	public Date getDob() {
+	public LocalDate getDob() {
 		return dob;
 	}
 
 	/**
 	 * @param dob the dob to set
 	 */
-	public void setDob(Date dob) {
+	public void setDob(LocalDate dob) {
 		this.dob = dob;
 	}
 
@@ -123,6 +130,7 @@ public class EmployeeDTO implements Serializable{
 	 * @return the gender
 	 */
 	public String getGenderValue() {
+		setGenderValue(genderValue);
 		return genderValue;
 	}
 
@@ -130,13 +138,19 @@ public class EmployeeDTO implements Serializable{
 	 * @param gender the gender to set
 	 */
 	public void setGenderValue(String genderValue) {
-		this.genderValue = genderValue;
+		if(genderValue==null) {
+			this.genderValue = gender ? "male" : "female";
+		}
+		else {
+			this.genderValue = genderValue;
+		}
 	}
 
 	/**
 	 * @return the age
 	 */
 	public Integer getAge() {
+		setAge(age);
 		return age;
 	}
 
@@ -144,6 +158,9 @@ public class EmployeeDTO implements Serializable{
 	 * @param age the age to set
 	 */
 	public void setAge(Integer age) {
+		if(age==null) {
+			age = Period.between(dob, LocalDate.now()).getYears();
+		}
 		this.age = age;
 	}
 
@@ -177,7 +194,9 @@ public class EmployeeDTO implements Serializable{
 
 	@Override
 	public String toString() {
+		setGenderValue(genderValue);
+		setAge(age);
 		return "{id: "+id+", firstName: "+firstName+", lastName: "+lastName+", salary:  "+salary+ 
-				", dob: "+dob+ ", gender: "+genderValue+", age: "+age+"}";
+				", dob: "+dob+ ", gender: "+gender+", age: "+age+", genderValue: "+genderValue+"}";
 	}
 }

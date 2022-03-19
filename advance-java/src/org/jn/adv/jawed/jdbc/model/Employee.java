@@ -1,7 +1,7 @@
 package org.jn.adv.jawed.jdbc.model;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDate;
 
 
 //POJO - Plain Old Java Object
@@ -14,7 +14,7 @@ public class Employee implements Serializable{
 	private String firstName;
 	private String lastName;
 	private Double salary;
-	private Date dob;
+	private LocalDate dob;
 	private boolean gender;
 
 	/**
@@ -92,14 +92,14 @@ public class Employee implements Serializable{
 	/**
 	 * @return the dob
 	 */
-	public Date getDob() {
+	public LocalDate getDob() {
 		return dob;
 	}
 
 	/**
 	 * @param dob the dob to set
 	 */
-	public void setDob(Date dob) {
+	public void setDob(LocalDate dob) {
 		this.dob = dob;
 	}
 

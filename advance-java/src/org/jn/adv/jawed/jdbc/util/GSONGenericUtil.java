@@ -1,5 +1,8 @@
 package org.jn.adv.jawed.jdbc.util;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.google.gson.Gson;
 
 /**
@@ -12,5 +15,14 @@ public class GSONGenericUtil {
 		Gson gson = new Gson();
 		String json = gson.toJson(object);
 		return gson.fromJson(json, clazz);
+	}
+	
+	public static <S, T> List<T> mapList(List<S> list, Class<T> clazz) {
+		List<T> targetList = new ArrayList<>();
+		for(S s : list) {
+			T t = map(s, clazz);
+			targetList.add(t);
+		}
+		return targetList;
 	}
 }

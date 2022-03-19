@@ -1,17 +1,13 @@
 package org.jn.adv.jawed.jdbc.controller;
 
-import java.time.Instant;
 import java.time.LocalDate;
-import java.time.Period;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-import java.util.Calendar;
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.jn.adv.jawed.jdbc.dto.EmployeeDTO;
 import org.jn.adv.jawed.jdbc.model.Employee;
 import org.jn.adv.jawed.jdbc.service.EmployeeService;
+import org.jn.adv.jawed.jdbc.util.GSONGenericUtil;
 
 /**
  * @author jawednazeer
@@ -21,41 +17,42 @@ public class EmployeeController {
 	static EmployeeService employeeService = new EmployeeService();
 	public static void main(String[] args) {
 		//create();
-		getAll().stream().forEach(employee-> {
-			EmployeeDTO employeeDTO = new EmployeeDTO();
-			employeeDTO.setId(employee.getId());
-			employeeDTO.setCompanyId(employee.getCompanyId());
-			employeeDTO.setFirstName(employee.getFirstName());
-			employeeDTO.setLastName(employee.getLastName());
-			employeeDTO.setDob(employee.getDob());
-			employeeDTO.setSalary(employee.getSalary());
-			employeeDTO.setGenderValue(employee.getGender()?"male":"female");
-			Calendar birthDay = Calendar.getInstance();
-		    birthDay.setTimeInMillis(employee.getDob().getTime());
-		    long currentTime = System.currentTimeMillis();
-		    Calendar now = Calendar.getInstance();
-		    now.setTimeInMillis(currentTime);
-		    employeeDTO.setAge(now.get(Calendar.YEAR) - birthDay.get(Calendar.YEAR));
-			System.out.println(employeeDTO);
-		});
-		
+		//EmployeeDTO dto = GSONGenericUtil.map(getAll().get(5), EmployeeDTO.class);
+		//System.out.println(dto);
+		//getAll().stream().forEach(System.out::println);
+		getByDobRange().stream().forEach(System.out::println);
 	}
 	
 	static void create() {
 		Employee employee = new Employee();
 		employee.setCompanyId(1);
-		employee.setFirstName("noman");
-		employee.setLastName("shareef");
-		employee.setDob(new Date(1985, 7, 21));
-		employee.setSalary(10000.0);
+		employee.setFirstName("anita");
+		employee.setLastName("sarin");
+		LocalDate localDate = LocalDate.of(1985, 07, 21);
+		employee.setDob(localDate);
+		employee.setSalary(90000.0);
 		employee.setGender(true); 			//true-> male, false-> female
 		employeeService.create(employee);
 		employeeService.connectionClose();
 	}
-	static List<Employee> getAll() {
+	
+	static List<EmployeeDTO> getAll() {
 		List<Employee> employeeList = employeeService.getAll();
-		//System.out.println(employeeList);
 		employeeService.connectionClose();
-		return employeeList;
+		final List<EmployeeDTO> dtoList = new ArrayList<>();
+		employeeList.stream().forEach(employee-> {
+			EmployeeDTO dto = GSONGenericUtil.map(employee, EmployeeDTO.class);
+			dtoList.add(dto);
+		});
+		return dtoList;
 	}
+	
+	static List<EmployeeDTO> getByDobRange() {
+		List<Employee> employeeList = employeeService.getByDobRange(LocalDate.of(1980, 01, 10), LocalDate.of(2021, 01, 10));
+		employeeService.connectionClose();
+		List<EmployeeDTO> dtoList = GSONGenericUtil.mapList(employeeList, EmployeeDTO.class);
+		return dtoList;
+	}
+	
+	
 }
