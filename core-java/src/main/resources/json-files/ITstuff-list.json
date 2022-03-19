@@ -1,0 +1,66 @@
+[
+
+{ 
+  "name": "Waleed Rizq",
+   "id": "1ad30079",
+  "position": ["Founder","CTO","Engineer"],
+  "skills": ["NetworkEngineer","java","Cisco Networks","Wirelss","Internet Engineer"],
+"salary":{"2022":3000,"2021":4000,"2020":4500}
+  },
+  
+{"name":"Aiman Madhagi",
+"id":"1ab40087",
+"position":["IT Engineer","Manager","Founder"],
+"skills":["Sql","C++","Oracle",".Net"],
+"salary":{"2022":5000,"2021":4000,"2020":3000}
+},
+
+{"name":"Muhammed Moharram",
+"id":"1ca30091",
+"position":["Founder","CTO","Engineer"],
+"skills":["java","python","node","kotlin"],
+"salary":{"2022":5000,"2021":4500,"2020":3000}
+},
+
+{"name":"Ahmed abdulMouiz",
+"id":"1bc79631",
+"position":["IT Engineer","Head of department","CTO"],
+"skills":["java","python","Oracle","kotlin"],
+"salary":{"2022":4000,"2021":3200,"2020":2700}
+},
+
+{"name":"Yusri Ahmed",
+"id":"1ab40001",
+"position":["IT Engineer","Director","CTO"],
+"skills":["java","Oracle","Sql","C++"],
+"salary":{"2022":5500,"2021":4000,"2020":3500}
+},
+
+{"name":"Owais Waleed",
+"id":"1abc30099",
+"position":["Founder","CTO","Engineer"],
+"skills":["Network Engineer,java","python","node","kotlin"],
+"salary":{"2022":9000,"2021":6000,"2010":5000}
+},
+
+{"name":"Luai Mohammed",
+"id":"1a30079",
+"position":["IT Engineer","CTO","Engineer"],
+"skills":["java","python","node","kotlin"],
+"salary":{"2022":65000,"2021":4000,"2020":3700.00}
+}
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
