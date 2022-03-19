@@ -4,7 +4,8 @@ public class JavaMathStaticObjects {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print(Math.sqrt(16));
+		System.out.print(Math.sqrt(33));
+		
 	}
 
 }
