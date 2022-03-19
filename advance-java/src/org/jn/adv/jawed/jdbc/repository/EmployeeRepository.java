@@ -28,14 +28,7 @@ public class EmployeeRepository {
 			
 			if(rs!=null) {
 				while(rs.next())  {
-					Employee employee = new Employee();
-					employee.setId(rs.getInt("id"));
-					employee.setCompanyId(rs.getInt("company_id"));
-					employee.setFirstName(rs.getString("first_name"));
-					employee.setLastName(rs.getString("last_name"));
-					employee.setSalary(rs.getDouble("salary"));
-					employee.setDob(rs.getDate("dob").toLocalDate());
-					employee.setGender(rs.getBoolean("gender"));
+					Employee employee = createObject(rs);
 					employeeList.add(employee);
 				}
 			}
@@ -80,14 +73,7 @@ public class EmployeeRepository {
 			
 			if(rs!=null) {
 				while(rs.next())  {
-					employee = new Employee();
-					employee.setId(employeeId);
-					employee.setCompanyId(rs.getInt("company_id"));
-					employee.setFirstName(rs.getString("first_name"));
-					employee.setLastName(rs.getString("last_name"));
-					employee.setSalary(rs.getDouble("salary"));
-					employee.setDob(rs.getDate("dob").toLocalDate());
-					employee.setGender(rs.getBoolean("gender"));
+					employee = createObject(rs);
 				}
 			}
 		} 
@@ -166,9 +152,6 @@ public class EmployeeRepository {
 		
 		try{  
 			
-			//conversion from java.util.Date to java.sql.Date
-		//	java.sql.Date sqlDate = new java.sql.Date(employee.getDob().getTime());
-			
 			String query = 	  " update employee set company_id=?, first_name=?, last_name=?, salary=?, dob=?, gender=? "
 							+ " where id=? ";
 			pStatement = con.prepareStatement(query);
@@ -242,6 +225,18 @@ public class EmployeeRepository {
 		return executeUpdate;
 	}
 
+	private static Employee createObject(ResultSet rs) throws SQLException {
+		Employee employee = new Employee();
+		employee.setId(rs.getInt("id"));
+		employee.setCompanyId(rs.getInt("company_id"));
+		employee.setFirstName(rs.getString("first_name"));
+		employee.setLastName(rs.getString("last_name"));
+		employee.setSalary(rs.getDouble("salary"));
+		employee.setDob(rs.getDate("dob").toLocalDate());
+		employee.setGender(rs.getBoolean("gender"));
+		return employee;
+	}
+	
 	public static List<Employee> getByFirstName(Connection con, String firstName) {
 		
 		System.out.println("firstName: "+firstName);
@@ -251,19 +246,10 @@ public class EmployeeRepository {
 					 
 		ResultSet rs = null;
 		try(PreparedStatement pStatement = con.prepareStatement(query)) {
-			
 			pStatement.setString(1,  "%" + firstName + "%");
-			
 			rs = pStatement.executeQuery();
 			while(rs.next())  {
-				Employee employee = new Employee();
-				employee.setId(rs.getInt("id"));
-				employee.setCompanyId(rs.getInt("company_id"));
-				employee.setFirstName(rs.getString("first_name"));
-				employee.setLastName(rs.getString("last_name"));
-				employee.setSalary(rs.getDouble("salary"));
-				employee.setDob(rs.getDate("dob").toLocalDate());
-				employee.setGender(rs.getBoolean("gender"));
+				Employee employee = createObject(rs);
 				employeeList.add(employee);
 			}
 		}
@@ -296,14 +282,7 @@ public class EmployeeRepository {
 			
 			rs = pStatement.executeQuery();
 			while(rs.next())  {
-				Employee employee = new Employee();
-				employee.setId(rs.getInt("id"));
-				employee.setCompanyId(rs.getInt("company_id"));
-				employee.setFirstName(rs.getString("first_name"));
-				employee.setLastName(rs.getString("last_name"));
-				employee.setSalary(rs.getDouble("salary"));
-				employee.setDob(rs.getDate("dob").toLocalDate());
-				employee.setGender(rs.getBoolean("gender"));
+				Employee employee = createObject(rs);
 				employeeList.add(employee);
 			}
 		}

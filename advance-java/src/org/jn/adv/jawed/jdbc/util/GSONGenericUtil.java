@@ -17,9 +17,9 @@ public class GSONGenericUtil {
 		return gson.fromJson(json, clazz);
 	}
 	
-	public static <S, T> List<T> mapList(List<S> list, Class<T> clazz) {
+	public static <S, T> List<T> mapList(List<S> srcList, Class<T> clazz) {
 		List<T> targetList = new ArrayList<>();
-		for(S s : list) {
+		for(S s : srcList) {
 			T t = map(s, clazz);
 			targetList.add(t);
 		}

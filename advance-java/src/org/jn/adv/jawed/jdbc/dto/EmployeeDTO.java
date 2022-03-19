@@ -4,8 +4,6 @@ import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 public class EmployeeDTO implements Serializable{
 
 	private static final long serialVersionUID = -1443814004539007341L;
@@ -17,11 +15,8 @@ public class EmployeeDTO implements Serializable{
 	private Double salary;
 	private LocalDate dob;
 	private String genderValue;
-	@JsonIgnoreProperties(ignoreUnknown = true)
 	private Integer age;
-	@JsonIgnoreProperties(ignoreUnknown = true)
 	private String name;
-	@JsonIgnoreProperties(ignoreUnknown = true)
 	private String dobString;
 	private boolean gender;
 	
