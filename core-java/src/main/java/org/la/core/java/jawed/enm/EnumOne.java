@@ -28,7 +28,7 @@ public class EnumOne {
 				break;
 			case MONDAY:
 				System.out.println("Mondays");
-				break;
+				break; 
 			case TUESDAY:
 				System.out.println("TUESDAY");
 				break;
