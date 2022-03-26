@@ -6,7 +6,7 @@ public class PrimeTillN {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int m,n,flag=0,i,j;
+		int m,n,flag=0,i,j,count=0;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -22,9 +22,11 @@ public class PrimeTillN {
 				
 			}
 			if(flag==0) {
+				count++;
 				System.out.println("Prime "+j);
 			}
 		}
+		System.out.println("Total Prime "+count);
 	}
 
 }
