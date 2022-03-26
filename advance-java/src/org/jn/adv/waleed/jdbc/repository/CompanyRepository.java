@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import org.jn.adv.waleed.jdbc.model.Company;
+import org.jn.adv.waleed.jdbc.model.Employee;
 
 
 
@@ -124,6 +125,135 @@ public static void create(Connection con, Company company) {
 			}
 		}
 	}
-	
 
+public static Company findById(Connection con, int id) {
+
+	System.out.println("-----------findCompanyId id: "+id);
+
+	ResultSet rs = null;
+	Company company = null;
+	PreparedStatement pStatement = null;
+	
+	try {
+		String query = " select * from company where id=? ";
+		pStatement = con.prepareStatement(query);
+		pStatement.setLong(1, id);
+		rs = pStatement.executeQuery();
+		
+		if(rs!=null) {
+			while(rs.next())  {
+				company = new Company();
+				company.setId(id);
+				company.setCompanyName(rs.getString("company_name"));
+				company.setFounderName(rs.getString("founder_name"));
+				company.setRegistrationNum(rs.getString("registration_num"));
+				company.setYearlyTurnover(rs.getDouble("yearly_turnover"));
+				
+			}
+		}
+	} 
+	catch (Exception e) {
+		e.printStackTrace();
+	} 
+	finally {
+		try {
+			if(pStatement!=null) {
+				pStatement.close();
+			}
+		} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}  
+		try {
+			if(rs!=null) {
+				rs.close();
+			}
+		} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}  
+	}
+	return company;
+}
+
+public static void update(Connection con, Company company) {
+	
+	System.out.println("-----------updateCompany------------");
+	
+	PreparedStatement pStatement = null;
+	
+	try{  
+		
+	;
+		
+		String query = 	  " update company set id=?, company_name=?, founder_name=?, registration_num=?, yearly_turnover=? "
+						+ " where id= 127 ";
+		pStatement = con.prepareStatement(query);
+		pStatement.setInt(1, company.getId());
+		pStatement.setString(2, company.getCompanyName());
+		pStatement.setString(3, company.getFounderName());
+		pStatement.setString(4, company.getRegistrationNum());
+		pStatement.setDouble(5, company.getYearlyTurnover());
+		int executeUpdate = pStatement.executeUpdate();
+		
+		if(executeUpdate>0) {
+			System.out.println("data updated successfully: "+executeUpdate);
+		}
+		else {
+			System.out.println("failed to update data: "+executeUpdate);
+		}
+	}
+	catch(SQLException se){
+	      se.printStackTrace();
+	}
+	catch(Exception e){ 
+		System.out.println(e);
+	} 
+	finally {
+		try {
+			if(pStatement!=null) {
+				pStatement.close();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
+
+public static int deleteById(Connection con, int id) {
+
+	System.out.println("-----------deleteCompanyById Companyid: "+id);
+	
+	int executeUpdate = 0;
+	PreparedStatement pStatement = null;
+	
+	try {
+		String query = "delete from company where id=?";
+		pStatement = con.prepareStatement(query);
+		pStatement.setInt(1, id);
+		executeUpdate = pStatement.executeUpdate();
+		
+		if(executeUpdate>0) {
+			System.out.println("data deleted successfully: "+executeUpdate);
+		}
+		else {
+			System.out.println("failed to delete data: "+executeUpdate);
+		}
+	} 
+	catch (Exception e) {
+		e.printStackTrace();
+	} 
+	finally {
+		try {
+			if(pStatement!=null) {
+				pStatement.close();
+			}
+		} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}  
+	}
+	
+	return executeUpdate;
+}
 }

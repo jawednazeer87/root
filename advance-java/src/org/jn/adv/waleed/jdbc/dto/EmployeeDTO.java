@@ -1,5 +1,7 @@
 package org.jn.adv.waleed.jdbc.dto;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
 
 /**
@@ -15,7 +17,7 @@ public class EmployeeDTO {
 	private String firstName;
 	private String lastName;
 	private Double salary;
-	private Date dob;
+	private LocalDate dob;
 	private String genderValue;
 	private Integer age;
 	private String name;
@@ -51,22 +53,32 @@ public class EmployeeDTO {
 	public void setSalary(Double salary) {
 		this.salary = salary;
 	}
-	public Date getDob() {
+	public LocalDate getDob() {
 		return dob;
 	}
-	public void setDob(Date dob) {
+	public void setDob(LocalDate dob) {
 		this.dob = dob;
 	}
 	public String getGenderValue() {
+		setGenderValue(genderValue);
 		return genderValue;
 	}
 	public void setGenderValue(String genderValue) {
-		this.genderValue = genderValue;
+		if(genderValue==null) {
+			this.genderValue = gender ? "male" : "female";
+		}
+		else {
+			this.genderValue = genderValue;
+		}
 	}
 	public Integer getAge() {
+		setAge(age);
 		return age;
 	}
 	public void setAge(Integer age) {
+		if(age==null) {
+			age = Period.between(dob, LocalDate.now()).getYears();
+		}
 		this.age = age;
 	}
 	public String getName() {
@@ -89,6 +101,8 @@ public class EmployeeDTO {
 	}
 	@Override
 	public String toString() {
+		setGenderValue(genderValue);
+		setAge(age);
 		return "EmployeeDTO [id=" + id + ", companyId=" + companyId + ", firstName=" + firstName + ", lastName="
 				+ lastName + ", salary=" + salary + ", dob=" + dob + ", age=" + age + ", name=" + name + ", gender="+genderValue
 				  + "]"+"\r";
