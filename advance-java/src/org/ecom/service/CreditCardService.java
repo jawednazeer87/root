@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.ecom.model.CreditCard;
 import org.ecom.repository.CreditCardRepository;
-import org.ecom.util.GetSqlConnection;
+import org.jn.adv.jawed.util.GetSqlConnection;
 
 public class CreditCardService {
 

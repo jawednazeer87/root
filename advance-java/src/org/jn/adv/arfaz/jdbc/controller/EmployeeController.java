@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.jn.adv.jawed.jdbc.dto.EmployeeDTO;
+import org.jn.adv.jawed.util.GSONGenericUtil;
 import org.jn.adv.arfaz.jdbc.model.Employee;
 import org.jn.adv.arfaz.jdbc.service.EmployeeService;
-import org.jn.adv.jawed.jdbc.util.GSONGenericUtil;
 
 public class EmployeeController {
 

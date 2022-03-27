@@ -28,99 +28,19 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Asif
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+		        	aria-haspopup="true" aria-expanded="false">
+		          Jawed
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/advance-java/user/list/asif">User</a>
-		          <a class="dropdown-item" href="/advance-java/employee/list/asif">Employee</a>
+		          <a class="dropdown-item" href="/advance-java/jawed/user/list">User</a>
+		          <a class="dropdown-item" href="/advance-java/jawed/employee/list">Employee</a>
 		          <a class="dropdown-item" href="#">Something else here</a>
 		        </div>
 		      </li>
 		      <li class="nav-item dropdown active">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		          Tahir D
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Noorain
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Aameen
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Abdul R
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Bakeel
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Elhadj
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/advance-java/user/list/elhadj">User</a>
-		          <a class="dropdown-item" href="/advance-java/employee/list/elhadj">Employee</a>
-		          <a class="dropdown-item" href="/advance-java/student/list/elhadj">Student</a>
-		          <a class="dropdown-item" href="/advance-java/worker/list/elhadj">Worker</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Jamal
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">User</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Nizam
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
-		          <a class="dropdown-item" href="#">Another action</a>
-		          <a class="dropdown-item" href="#">Something else here</a>
-		        </div>
-		      </li>
-		      <li class="nav-item dropdown active">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Sajid
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 		          <a class="dropdown-item" href="#">Action</a>

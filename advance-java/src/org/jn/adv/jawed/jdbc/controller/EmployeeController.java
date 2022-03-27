@@ -7,7 +7,7 @@ import java.util.List;
 import org.jn.adv.jawed.jdbc.dto.EmployeeDTO;
 import org.jn.adv.jawed.jdbc.model.Employee;
 import org.jn.adv.jawed.jdbc.service.EmployeeService;
-import org.jn.adv.jawed.jdbc.util.GSONGenericUtil;
+import org.jn.adv.jawed.util.GSONGenericUtil;
 
 /**
  * @author jawednazeer

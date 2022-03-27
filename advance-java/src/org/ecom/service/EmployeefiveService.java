@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.ecom.model.Employeefive;
 import org.ecom.repository.EmployeefiveRepository;
-import org.ecom.util.GetSqlConnection;
+import org.jn.adv.jawed.util.GetSqlConnection;
 
 public class EmployeefiveService {
 

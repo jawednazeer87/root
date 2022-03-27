@@ -1,4 +1,4 @@
-<%@page import="org.ecom.jawed.model.User"%>
+<%@page import="org.jn.adv.jawed.jdbc.model.User"%>
 <%@page import="java.util.List"%>
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %> 
 	
@@ -13,7 +13,7 @@
 				<a class="btn btn-outline-dark mx-3" href="/advance-java" role="button">Home</a>
 			</div>
 			<div class="col-sm">
-				<form action="/advance-java/user/add/asif">
+				<form action="/advance-java/jawed/user/add">
 					<div class="form-group mx-sm-3 mb-2 container">
 						<input type="submit" value="Add User" style="float: right;" class="btn btn-primary" />
 					</div>
@@ -27,10 +27,21 @@
 <br />
 
 <div>
-	<form action="/advance-java/user/search/asif" class="form-inline">
+	<form action="/advance-java/jawed/user/search" class="form-inline">
 		<div class="form-group mx-sm-3 mb-2 container">
 			<label for="name" class="mr-2">Search By Name</label>
 	    	<input type="text" class="form-control mx-2" id="name" placeholder="Enter Name" name="name" />
+	    	<input type="submit" value="Search" class="btn btn-outline-primary mx-2" />
+		</div>
+	</form>
+</div>
+
+<div>
+	<form action="/advance-java/jawed/user/date/range/search" class="form-inline">
+		<div class="form-group mx-sm-3 mb-2 container mt-4">
+			<label for="name" class="mr-2">Search By Date Range</label>
+	    	<input type="text" name="startDate" class="form-control" id="datepicker" placeholder="Enter Start Date">
+			<input type="text" name="endDate" class="form-control ml-3" id="datepicker2"	placeholder="Enter End Date">
 	    	<input type="submit" value="Search" class="btn btn-outline-primary mx-2" />
 		</div>
 	</form>
@@ -56,7 +67,7 @@
 					%>
 						<tr>
 							<td>
-								<a href="/advance-java/user/detail/asif?userId=<%= user.getId() %>">
+								<a href="/advance-java/jawed/user/detail?userId=<%= user.getId() %>">
 									<%= user.getFirstName() %>
 								</a>
 							</td>
@@ -65,11 +76,11 @@
 							<td>
 								<div class="row">
 									<div class="col-sm-3">
-										<a href="/advance-java/user/delete/asif?userId=<%= user.getId() %>" 
+										<a href="/advance-java/jawed/user/delete?userId=<%= user.getId() %>" 
 											class="btn btn-danger">Delete</a>
 									</div>
 									<div class="col-sm-3">
-										<a href="/advance-java/user/update/asif?userId=<%= user.getId() %>"
+										<a href="/advance-java/jawed/user/update?userId=<%= user.getId() %>"
 											class="btn btn-secondary">Update</a>
 									</div>
 								</div>

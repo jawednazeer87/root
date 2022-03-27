@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.jn.adv.jawed.jdbc.model.Employee;
 import org.jn.adv.jawed.jdbc.repository.EmployeeRepository;
-import org.jn.adv.jawed.jdbc.util.GetSqlConnection;
+import org.jn.adv.jawed.util.GetSqlConnection;
 
 public class EmployeeService {
 
