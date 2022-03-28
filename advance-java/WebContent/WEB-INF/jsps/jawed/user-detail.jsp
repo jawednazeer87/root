@@ -1,7 +1,7 @@
 <%@page import="org.ecom.model.Address"%>
 <%@page import="org.ecom.model.MoneyDetail"%>
 <%@page import="java.util.List"%>
-<%@page import="org.ecom.jawed.model.User"%>
+<%@page import="org.jn.adv.jawed.jdbc.model.User"%>
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %> 
 
 <div class='text-center'>
@@ -14,7 +14,7 @@
 <div>
 	<h2>
 		<a class="btn btn-outline-dark mx-3" href="/advance-java" role="button">Home</a>
-		<a class="btn btn-link mx-3" href="/advance-java/user/list/asif" role="button">Back</a>
+		<a class="btn btn-link mx-3" href="/advance-java/jawed/user/list" role="button">Back</a>
 	</h2>
 </div>
 

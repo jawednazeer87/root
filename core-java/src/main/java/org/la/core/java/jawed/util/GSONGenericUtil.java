@@ -35,7 +35,7 @@ public class GSONGenericUtil {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return t;
+		return t; 
 	}
 
 	public static <P> List<P> getList(String fileName, Class<P[]> clazz) {

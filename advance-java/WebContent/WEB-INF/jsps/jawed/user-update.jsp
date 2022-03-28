@@ -1,21 +1,24 @@
-<%@page import="org.ecom.jawed.model.User"%>
+<%@page import="org.jn.adv.jawed.jdbc.dto.UserDTO"%>
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %> 
+
 <div class='text-center'>
 	<h1 class="display-1">User</h1>
 </div>
 <div>
 	<h2>
 		<a class="btn btn-outline-dark mx-3" href="/advance-java" role="button">Home</a>
-		<a class="btn btn-link mx-3" href="/advance-java/user/list/asif" role="button">Back</a>
+		<a class="btn btn-link mx-3" href="/advance-java/jawed/user/list" role="button">Back</a>
 	</h2>
 </div>
 <%
-	User user = (User)request.getAttribute("user");
+	UserDTO user = (UserDTO)request.getAttribute("user");
 %>
+
 <div class='text-center mb-3'>
 	<h3><medium class="text-muted">Update User</medium></h3>
 </div>
-<form action="/advance-java/user/update/asif" method="post" class="container mb-5">
+
+<form action="/advance-java/jawed/user/update" method="post" class="container mb-5">
 
   <input type="hidden" id="userId" name="userId" value="<%= user.getId() %>" />
   <div class="form-group">
@@ -44,8 +47,8 @@
 	</div>  
 	<div class="form-group">
 		<label for="datepicker">Date Of Birth</label>
-		<input type="text" name="dob" class="form-control" name="datepicker" id="datepicker" 
-				value="<%= user.getDob() %>" aria-describedby="datepickerHelp" placeholder="Enter Dob">
+		<input type="text" name="dob" class="form-control" id="datepicker" 
+				value="<%= user.getDobString() %>" aria-describedby="datepickerHelp" placeholder="Enter Dob">
 		<small id="datepickerHelp" class="form-text text-muted">
 			Please provide dob
 		</small>
@@ -79,6 +82,7 @@
 		</small>
 	</div>   
   	<input type="submit" value="Submit" class="btn btn-primary">
-  	<a class="btn btn-dark mx-3" href="/advance-java/user/list/asif" role="button">Cancel</a>
+  	<a class="btn btn-dark mx-3" href="/advance-java/jawed/user/list" role="button">Cancel</a>
 </form> 
+
 <%@ include file="/WEB-INF/jsps/common/footer.jsp" %> 

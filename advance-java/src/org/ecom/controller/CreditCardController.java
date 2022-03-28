@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ecom.constant.ProjectConstants;
+import org.jn.adv.jawed.constant.ProjectConstants;
 import org.ecom.model.CreditCard;
 import org.ecom.service.CreditCardService;
 

@@ -19,7 +19,9 @@ public class CompanyController {
 	public static void main(String[] args) {
 		//create ();
 		getAll();
-		
+		//findById();
+		//update();
+		//deleteById();
 		//CompanyService companyService = new CompanyService();
 		//List<Company> companyList= companyService.getAll();
 		//System.out.println(companyList);
@@ -35,10 +37,10 @@ public class CompanyController {
 		
 		Company company = new Company();
 		//company.setId(1788);
-		company.setCompanyName("ARhamah");
-		company.setFounderName("Aiman");
-		company.setRegistrationNum("A1B20047");
-		company.setYearlyTurnover(1100000.0);;
+		company.setCompanyName("ALRhamah");
+		company.setFounderName("Waleed Rizq");
+		company.setRegistrationNum("A1B20099A");
+		company.setYearlyTurnover(2000000.0);;
 		companyService.create(company);
 		companyService.connectionClose();
 	}
@@ -48,5 +50,29 @@ public class CompanyController {
 		System.out.println(companyList);
 				companyService.connectionClose();
 				
+	}
+	
+	static void findById() {
+		Company company = new Company();
+	company= companyService.findById(123);
+		System.out.println(company);
+		companyService.connectionClose();
+	}
+	
+	static void update() {
+		Company company = new Company();
+		company.setId(3210);
+	    company.setCompanyName("Rouba");
+		company.setFounderName("Owais Waleed");
+		company.setRegistrationNum("AbI3270X");
+		company.setYearlyTurnover(2000000.0);
+		
+		companyService.update(company);
+		companyService.connectionClose();
+	}
+	static void deleteById() {
+	
+		System.out.println(companyService.deleteById(3218));
+		companyService.connectionClose();
 	}
 }

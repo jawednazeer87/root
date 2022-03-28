@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.ecom.model.MoneyDetail;
 import org.ecom.repository.MoneyDetailRepository;
-import org.ecom.util.GetSqlConnection;
+import org.jn.adv.jawed.util.GetSqlConnection;
 
 public class MoneyDetailService {
 

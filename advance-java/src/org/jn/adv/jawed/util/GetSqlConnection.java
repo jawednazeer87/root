@@ -11,7 +11,9 @@ public class GetSqlConnection {
 	public static Connection connectionOpen() {
 
 		try {
+
 			//Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			// here student is database name, root is username and password
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb?serverTimezone=UTC", "root", "root");
 

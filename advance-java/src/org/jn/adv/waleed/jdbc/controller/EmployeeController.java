@@ -102,5 +102,11 @@ public class EmployeeController {
 		System.out.println(employee);
 		employeeService.connectionClose();
 	}
+	static void deleteById() {
+		Employee employee = new Employee();
+	employee= employeeService.findById(123);
+		System.out.println(employee);
+		employeeService.connectionClose();
+	}
 	
 }

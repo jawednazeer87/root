@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" name="Student" packages="">
+	<Appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{dd-MM-yyyy HH:mm:ss,SSS} %-5p  %c{7} - %m%n" />
+		</Console>
+		<RollingFile name="RollingFile"
+			filePattern="G:/students/student-2/logs/logs.%d{dd-MM-yyyy}.log">
+			<PatternLayout>
+				<Pattern>%d{dd-MM-yyyy HH:mm:ss,SSS} %-5p %c{7} - %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="5MB" />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="org.la" additivity="false">
+			<AppenderRef ref="RollingFile" />
+			<AppenderRef ref="console" />
+		</Logger>
+		<Root level="debug">
+			<AppenderRef ref="console" />
+		</Root>
+	</Loggers>
+</Configuration>
