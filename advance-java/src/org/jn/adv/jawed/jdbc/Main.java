@@ -1,6 +1,6 @@
 package org.jn.adv.jawed.jdbc;
 
-import org.jn.adv.jawed.jdbc.util.GetSqlConnection;
+import org.jn.adv.jawed.util.GetSqlConnection;
 
 /**
  * @author jawednazeer

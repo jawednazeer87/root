@@ -1,4 +1,4 @@
-package org.jn.adv.jawed.jdbc.util;
+package org.jn.adv.jawed.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
