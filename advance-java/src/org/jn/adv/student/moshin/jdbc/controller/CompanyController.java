@@ -1,12 +1,9 @@
 package org.jn.adv.student.moshin.jdbc.controller;
 
-import java.util.Date;
 import java.util.List;
 
-import org.jn.adv.waleed.jdbc.model.Company;
-import org.jn.adv.waleed.jdbc.model.Employee;
-import org.jn.adv.waleed.jdbc.service.CompanyService;
-import org.jn.adv.waleed.jdbc.service.EmployeeService;
+import org.jn.adv.student.moshin.jdbc.model.Company;
+import org.jn.adv.student.moshin.jdbc.service.CompanyService;
 
 public class CompanyController {
 
