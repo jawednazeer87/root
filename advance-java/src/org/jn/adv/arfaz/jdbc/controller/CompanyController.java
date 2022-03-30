@@ -11,10 +11,10 @@ import org.jn.adv.arfaz.jdbc.service.CompanyService;
 
 public class CompanyController {
 
-	//  It will connect with database and show msg connected
+	// after invoking constructor. It will connect with database and show msg connected
 	static CompanyService companyService = new CompanyService();
 		public static void main(String[] args) {
-//						create();
+//			create();
 //			updateOpera();
 //			getById(3);
 			findAll();

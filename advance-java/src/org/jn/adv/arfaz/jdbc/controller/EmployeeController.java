@@ -10,7 +10,7 @@ import org.jn.adv.arfaz.jdbc.model.Employee;
 import org.jn.adv.arfaz.jdbc.service.EmployeeService;
 
 public class EmployeeController {
-
+	// after invoking constructor. It will connect with database and show msg connected
 	static EmployeeService employeeService = new EmployeeService();
 		public static void main(String[] args) {
 			//create();
