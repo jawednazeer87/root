@@ -4,7 +4,6 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jn.adv.jawed.util.GSONGenericUtil;
 import org.jn.adv.arfaz.jdbc.model.Attendee;
 import org.jn.adv.arfaz.jdbc.service.AttendeeService;
 
