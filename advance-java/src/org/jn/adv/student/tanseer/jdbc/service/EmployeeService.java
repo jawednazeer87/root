@@ -1,6 +1,7 @@
 package org.jn.adv.student.tanseer.jdbc.service;
 
 import java.sql.Connection;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,7 +31,39 @@ public class EmployeeService
 		return employeeList;
 	}
 	
+	public Employee findById(int id){
+		
+		Employee employee = null;
+		
+		if(con!=null) {
+			employee = EmployeeRepository.findById(con, id);
+		}
+		
+		return employee;
+	}
+	
+	public Employee deleteById(int employeeId) {
+		Employee employee = null;
+		
+		if(con!=null) {
+		 employee = EmployeeRepository.deleteById(con, employeeId);
+		}
+		return employee;
+	}
+	
 	public void create(Employee employee) {
 		EmployeeRepository.create(con, employee);
 	}
+	
+	public void update(Employee employee) {
+		EmployeeRepository.update(con, employee);
+	}
+
+	public List<Employee> getByName(String firstName) {
+		return EmployeeRepository.getByFirstName(con, firstName);
+	}
+	public List<Employee> getByDobRange(LocalDate startDate, LocalDate endDate) {
+		return EmployeeRepository.getByDobRange(con, startDate, endDate);
+	}
+	
 }
