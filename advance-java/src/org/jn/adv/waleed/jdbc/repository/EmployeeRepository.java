@@ -11,16 +11,9 @@ import java.util.Scanner;
 
 import org.jn.adv.waleed.jdbc.model.Employee;
 
-
-
-
-
-/**
- * @author Waleed Rizq
- *
- * @date Mar 13, 2022
- */
 public class EmployeeRepository {
+	private static Scanner u;
+
 	public static List<Employee> getAll(Connection con) {
 
 		System.out.println("-----------getAllEmployee------------");
@@ -32,7 +25,7 @@ public class EmployeeRepository {
 		
 		try {
 			stmt = con.createStatement();
-			Scanner u = new Scanner(System.in);
+			u = new Scanner(System.in);
 			System.out.println("Please enter the Table name ");
 			String t = u.nextLine();
 			rs = stmt.executeQuery("select * from "+t);
@@ -131,7 +124,7 @@ public class EmployeeRepository {
 		return employee;
 	}
 	
-	public static void create(Connection con, Employee employee) {
+	public static void create(Connection con, org.jn.adv.student.moshin.jdbc.model.Employee employee) {
 		
 		System.out.println("-----------createEmployee------------");
 		
