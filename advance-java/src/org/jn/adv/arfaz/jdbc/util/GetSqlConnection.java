@@ -13,7 +13,7 @@ public class GetSqlConnection {
 		try {
 			//Class.forName("com.mysql.jdbc.Driver");
 			// here student is database name, root is username and password
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employeehire?serverTimezone=UTC", "root", "");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/salaried_employee?serverTimezone=UTC", "root", "");
 
 			if (con != null) {
 				System.out.println("connected with mysql successfully");
