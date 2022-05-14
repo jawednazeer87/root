@@ -10,9 +10,11 @@ create table user(
 	email varchar(50) not null,
 	fatherName varchar(50),
 	gender tinyint(1),
-	country varchar(50)
+	country varchar(50),
+	qualification varchar(75)
 );
 
+alter table user add column qualification varchar(75) default null;
 
 create table address(
 	id int(5) auto_increment primary key,

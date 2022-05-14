@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import org.jn.adv.jawed.jdbc.model.User;
@@ -294,4 +296,23 @@ public class UserRepository {	//DAO Data Access Object
 		}
 		return userList;
 	}
+
+	public List<User> sortByName(Connection con){
+		List<User> userList = getAllUser(con);
+		if(!userList.isEmpty()) {
+			Comparator<User> comparator = (user1, user2) ->  user1.getFirstName().compareTo(user2.getFirstName());
+			Collections.sort(userList, comparator); 
+		}
+		return userList;
+	}
+	
+	public List<User> sortByAge(Connection con){
+		List<User> userList = getAllUser(con);
+		if(!userList.isEmpty()) {
+			Comparator<User> comparator = (user1, user2) ->  user1.getDob().compareTo(user2.getDob());
+			Collections.sort(userList, comparator); 
+		}
+		return userList;
+	}
 }
+ 
