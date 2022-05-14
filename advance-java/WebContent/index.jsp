@@ -53,31 +53,31 @@
 		          <a class="nav-link" href="jawed/user/list">Jawed</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/tahir">Tahir D</a>
+		          <a class="nav-link" href="abdul/user/list">Abdul</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/noorain">Noorain</a>
+		          <a class="nav-link" href="arfaz/user/list">Arfaz</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/nizam">Nizam</a>
+		          <a class="nav-link" href="arman/user/list/f">Farman</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/abdul">Abdul R</a>
+		          <a class="nav-link" href="imam/user/list">Imam</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/jamal">Jamal</a>
+		          <a class="nav-link" href="mohsin/user/list">Mohsin</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/elhadj">Elhadj</a>
+		          <a class="nav-link" href="sahil/user/list">Sahil</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/aameen">Aameen</a>
+		          <a class="nav-link" href="shoib/user/list">Shoib</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/bakeel">Bakeel</a>
+		          <a class="nav-link" href="sajid/user/list">Sajid</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/sajid">Sajid</a>
+		          <a class="nav-link" href="tanseer/user/list">Tanseer</a>
 		        </li>
 		      </ul>
 		    </div>

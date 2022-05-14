@@ -124,7 +124,7 @@ public class EmployeeRepository {
 		return employee;
 	}
 	
-	public static void create(Connection con, org.jn.adv.student.moshin.jdbc.model.Employee employee) {
+	public static void create(Connection con, Employee employee) {
 		
 		System.out.println("-----------createEmployee------------");
 		
