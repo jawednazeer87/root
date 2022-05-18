@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.jn.adv.student.majeed.jdbc.model.Company;
 
-public class CompanyRepository {
+public class CompanyRepository { //DAO Data Access Object
 	
 	public static List<Company> getAll(Connection con) {
 

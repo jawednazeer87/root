@@ -1,45 +1,46 @@
 package org.jn.adv.student.majeed.jdbc.model;
 
 import java.io.Serializable;
-import java.time.LocalDate;
+import java.sql.Timestamp;
 
 public class Presentation implements Serializable {
 
 		private static final long serialVersionUID = -1443814004539007341L;
 		
 		private Integer presentationId;
-		private String  bookedCompanyId ;
-		private String bookedRoomId;
-		private LocalDate  startTime;
-		private LocalDate endTime;
+		private Integer  bookedCompanyId ;
+		private Integer bookedRoomId;
+		private Timestamp  startTime;
+		private Timestamp endTime;
+		
 		public Integer getPresentationId() {
 			return presentationId;
 		}
 		public void setPresentationId(Integer presentationId) {
 			this.presentationId = presentationId;
 		}
-		public String getBookedCompanyId() {
+		public Integer getBookedCompanyId() {
 			return bookedCompanyId;
 		}
-		public void setBookedCompanyId(String bookedCompanyId) {
+		public void setBookedCompanyId(Integer bookedCompanyId) {
 			this.bookedCompanyId = bookedCompanyId;
 		}
-		public String getBookedRoomId() {
+		public Integer getBookedRoomId() {
 			return bookedRoomId;
 		}
-		public void setBookedRoomId(String bookedRoomId) {
+		public void setBookedRoomId(Integer bookedRoomId) {
 			this.bookedRoomId = bookedRoomId;
 		}
-		public LocalDate getStartTime() {
+		public Timestamp getStartTime() {
 			return startTime;
 		}
-		public void setStartTime(LocalDate startTime) {
+		public void setStartTime(Timestamp startTime) {
 			this.startTime = startTime;
 		}
-		public LocalDate getEndTime() {
+		public Timestamp getEndTime() {
 			return endTime;
 		}
-		public void setEndTime(LocalDate endTime) {
+		public void setEndTime(Timestamp endTime) {
 			this.endTime = endTime;
 		}
 		@Override
