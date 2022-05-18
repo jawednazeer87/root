@@ -27,7 +27,7 @@ public class EmployeeController {
 			LocalDate localDate = LocalDate.of(2000, 07, 21);
 			employee.setDob(localDate);
 			employee.setSalary(90000.0);
-			employee.setGender("male"); 			//true-> male, false-> female
+			employee.setGender(true); 			//true-> male, false-> female
 			employeeService.create(employee);
 			employeeService.connectionClose();
 		}

@@ -9,8 +9,8 @@ private Integer id;
 	private String lastName;
 	private Double salary;
 	private LocalDate dob;
-//	private boolean gender;
-	private String gender;
+	private boolean gender;
+	
 
 	/**
 	 * @return the id
@@ -101,14 +101,14 @@ private Integer id;
 	/**
 	 * @return the gender
 	 */
-	public String getGender() {
+	public boolean getGender() {
 		return gender;
 	}
 
 	/**
 	 * @param b the gender to set
 	 */
-	public void setGender(String b) {
+	public void setGender(boolean b) {
 		this.gender = b;
 	}
 

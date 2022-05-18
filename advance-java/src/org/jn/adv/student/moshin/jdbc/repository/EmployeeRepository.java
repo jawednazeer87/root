@@ -117,7 +117,7 @@ public class EmployeeRepository {
 			pStatement.setString(3, employee.getLastName());
 			pStatement.setDouble(4, employee.getSalary());
 			pStatement.setDate(5, Date.valueOf(employee.getDob()));
-			pStatement.setString(6, employee.getGender());
+			pStatement.setBoolean(6, employee.getGender());
 			int executeUpdate = pStatement.executeUpdate();
 			
 			if(executeUpdate>0) {
@@ -160,7 +160,7 @@ public class EmployeeRepository {
 			pStatement.setString(3, employee.getLastName());
 			pStatement.setDouble(4, employee.getSalary());
 			pStatement.setDate(5, Date.valueOf(employee.getDob()));
-			pStatement.setString(6, employee.getGender());
+			pStatement.setBoolean(6, employee.getGender());
 			pStatement.setInt(7, employee.getId());
 			int executeUpdate = pStatement.executeUpdate();
 			
@@ -233,7 +233,7 @@ public class EmployeeRepository {
 		employee.setLastName(rs.getString("last_name"));
 		employee.setSalary(rs.getDouble("salary"));
 		employee.setDob(rs.getDate("dob").toLocalDate());
-		employee.setGender(rs.getString("gender"));
+		employee.setGender(rs.getBoolean("gender"));
 		return employee;
 	}
 	

@@ -1,4 +1,4 @@
-package org.jn.adv.arfaz.jdbc.controller;
+package org.jn.adv.student.moshin.jdbc.controller;
 
 import org.jn.adv.student.moshin.jdbc.model.Company;
 import org.jn.adv.student.moshin.jdbc.service.CompanyService;
@@ -25,10 +25,10 @@ public class CompanyController {
 		static void create() {
 			Company company = new Company();
 			company.setCompanyId(3);
-			company.setName("anita");
+			company.setName("hini");
 //			name, description, primary_contact_attendee_id
-			company.setDescription("I am anita");
-			company.setPrimary_contact_attendee_id(12345679);
+			company.setDescription("I am hini");
+			company.setPrimary_contact_attendee_id(1598754);
 			companyService.create(company);
 			companyService.connectionClose();
 		}
@@ -53,7 +53,7 @@ public class CompanyController {
 			company.setName("moshin");
 //			name, description, primary_contact_attendee_id
 			company.setDescription("I am moshin");
-			company.setPrimary_contact_attendee_id(1487596);
+			company.setPrimary_contact_attendee_id(4587965);
 			companyService.update(company);
 			companyService.connectionClose();
 
