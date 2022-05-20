@@ -13,7 +13,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.jn.adv.student.majeed.jdbc.model.Company;
 import org.jn.adv.student.majeed.jdbc.model.Presentation;
 
 public class PresentationRepository { //DAO Data Access Object

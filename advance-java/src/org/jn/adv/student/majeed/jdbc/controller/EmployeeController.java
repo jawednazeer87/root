@@ -3,8 +3,8 @@ package org.jn.adv.student.majeed.jdbc.controller;
 
 import org.jn.adv.student.majeed.jdbc.model.Employee;
 import org.jn.adv.student.majeed.jdbc.service.EmployeeService;
-import org.jn.adv.student.tanseer.jdbc.dto.EmployeeDTO;
-import org.jn.adv.student.tanseer.jdbc.util.GSONGenericUtil;
+import org.jn.adv.student.majeed.jdbc.dto.EmployeeDTO;
+import org.jn.adv.student.majeed.jdbc.util.GSONGenericUtil;
 
 import java.util.List;
 import java.time.LocalDate;
