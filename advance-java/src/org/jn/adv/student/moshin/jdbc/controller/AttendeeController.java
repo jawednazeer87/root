@@ -1,5 +1,9 @@
 package org.jn.adv.student.moshin.jdbc.controller;
 
+import java.time.LocalDate;
+import java.util.List;
+
+import org.jn.adv.student.moshin.jdbc.dto.AttendeeDTO;
 import org.jn.adv.student.moshin.jdbc.model.Attendee;
 
 public class AttendeeController {
