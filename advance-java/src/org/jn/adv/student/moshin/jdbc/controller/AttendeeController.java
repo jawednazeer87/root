@@ -6,10 +6,11 @@ import java.util.List;
 
 import org.jn.adv.student.moshin.jdbc.dto.AttendeeDTO;
 import org.jn.adv.student.moshin.jdbc.model.Attendee;
+import org.jn.adv.student.moshin.jdbc.service.AttendeeService;
 import org.jn.adv.student.moshin.jdbc.util.GSONGenericUtil;
 
 public class AttendeeController {
-		static Attendee attendeeService = new Attendee();
+		static AttendeeService attendeeService = new AttendeeService();
 		public static void main(String[] args) {
 			create();
 //			AttendeeDTO dto = GSONGenericUtil.map(getAll().get(5), AttendeeDTO.class);
@@ -19,15 +20,15 @@ public class AttendeeController {
 		}
 		
 		static void create() {
-			Attendee attendeee = new Attendee();
-			attendeee.setAttendee_id(1);
-			attendeee.setFirstName("moshin");
-			attendeee.setLastName("ansari");
-			attendeee.setPhone(987548125);
-			attendeee.setEmail("ansari@48752");
-			attendeee.setVip(548);
+			Attendee attendee = new Attendee();
+			attendee.setAttendee_id(1);
+			attendee.setFirstName("moshin");
+			attendee.setLastName("ansari");
+			attendee.setPhone(987548125);
+			attendee.setEmail("ansari@48752");
+			attendee.setVip(548);
 
-			attendeeService.create(attendeee);
+			attendeeService.create(attendee);
 			attendeeService.connectionClose();
 		}
 		
