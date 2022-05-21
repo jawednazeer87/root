@@ -1,10 +1,12 @@
 package org.jn.adv.student.moshin.jdbc.controller;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.jn.adv.student.moshin.jdbc.dto.AttendeeDTO;
 import org.jn.adv.student.moshin.jdbc.model.Attendee;
+import org.jn.adv.student.moshin.jdbc.util.GSONGenericUtil;
 
 public class AttendeeController {
 		static Attendee attendeeService = new Attendee();
@@ -39,13 +41,6 @@ public class AttendeeController {
 			});
 			return dtoList;
 		}
-		
-		static List<AttendeeDTO> getByDobRange() {
-			List<Attendee> attendeeList = attendeeService.getByDobRange(LocalDate.of(1979, 01, 10), 
-																		LocalDate.of(2021, 01, 10));
-			attendeeService.connectionClose();
-			List<AttendeeDTO> dtoList = GSONGenericUtil.mapList(attendeeList, AttendeeDTO.class);
-			return dtoList;
-		}
+	
 
 }

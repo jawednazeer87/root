@@ -28,12 +28,12 @@ public class Presentation_attendanceController {
 			presentation_attendance.setPresentation_id(123);
 			presentation_attendance.setAttendee_id(159);
 			presentation_attendanceService.create(presentation_attendance);
-			Presentation_attendance.connectionClose();
+			presentation_attendanceService.connectionClose();
 		}
 		
 		static List<Presentation_attendanceDTO> getAll() {
 			List<Presentation_attendance> presentation_attendanceList = presentation_attendanceService.getAll();
-			Presentation_attendanceService.connectionClose();
+			presentation_attendanceService.connectionClose();
 			final List<Presentation_attendanceDTO> dtoList = new ArrayList<>();
 			presentation_attendanceList.stream().forEach(presentation_attendance-> {
 				Presentation_attendanceDTO dto = GSONGenericUtil.map(presentation_attendance, Presentation_attendanceDTO.class);
@@ -41,13 +41,5 @@ public class Presentation_attendanceController {
 			});
 			return dtoList;
 		}
-		
-		static List<Presentation_attendanceDTO> getByDobRange() {
-			List<Presentation_attendance> presentation_attendanceList = presentation_attendanceService.getByDobRange(LocalDate.of(1979, 01, 10), 
-																		LocalDate.of(2021, 01, 10));
-			presentation_attendanceService.connectionClose();
-			List<Presentation_attendanceDTO> dtoList = GSONGenericUtil.mapList(presentation_attendanceList, Presentation_attendanceDTO.class);
-			return dtoList;
-		}
-
+	
 }
