@@ -79,6 +79,9 @@
 		        <li class="nav-item active">
 		          <a class="nav-link" href="tanseer/user/list">Tanseer</a>
 		        </li>
+		        <li class="nav-item active">
+		          <a class="nav-link" href="taufiq/user/list">Taufiq</a>
+		        </li>
 		      </ul>
 		    </div>
 		  </div>

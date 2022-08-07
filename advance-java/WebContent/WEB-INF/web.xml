@@ -99,5 +99,25 @@
 		<url-pattern>/jawed/employee/search</url-pattern>
 	</servlet-mapping>
 
+<!-- sahil start -->
+
+
+<!-- sahil end -->
+
+
+
+<!-- taufiq start -->
+
+
+<!-- taufiq end -->
+
+
+
+<!-- tanseer start -->
+
+
+<!-- tanseer end -->
+
+
 
 </web-app>

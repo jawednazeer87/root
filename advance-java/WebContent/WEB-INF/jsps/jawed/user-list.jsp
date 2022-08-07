@@ -56,7 +56,7 @@
 			<th scope="col">First Name</th>
 			<th scope="col">Email</th>
 			<th scope="col">Gender</th>
-			<th scope="col" lass="pl-5">Action</th>
+			<th scope="col" class="pl-5">Action</th>
 		</tr>
 	</thead>
 	<tbody>
