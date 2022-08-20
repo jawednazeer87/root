@@ -98,6 +98,23 @@
 		<servlet-name>employeeJawedSearchServlet</servlet-name>
 		<url-pattern>/jawed/employee/search</url-pattern>
 	</servlet-mapping>
+	
+	
+<!-- tanseer start -->
+
+	<servlet>
+		<servlet-name>usersServlet</servlet-name>
+		<servlet-class> org.jn.adv.student.tanseer.servlet.controller.UsersController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>usersServlet</servlet-name>
+		<url-pattern>/tanseer/user/list</url-pattern>
+	</servlet-mapping>
+
+<!-- tanseer end -->
+
+	
 
 <!-- sahil start -->
 
@@ -113,10 +130,7 @@
 
 
 
-<!-- tanseer start -->
 
-
-<!-- tanseer end -->
 
 
 

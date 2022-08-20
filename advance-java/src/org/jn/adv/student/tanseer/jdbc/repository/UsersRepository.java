@@ -82,25 +82,29 @@ public class UsersRepository {
 			e.printStackTrace();
 		} 
 		finally {
-			try {
-				if(stmt!=null) {
-					stmt.close();
-				}
-			} 
-			catch (SQLException e) {
-				e.printStackTrace();
-			}  
-			try {
-				if(rs!=null) {
-					rs.close();
-				}
-			} 
-			catch (SQLException e) {
-				e.printStackTrace();
-			}  
+			freeResources(stmt, rs);
 		}
 		return usersList;
 		}
+	
+	private static void freeResources(Statement stmt, ResultSet rs) {
+		try {
+			if(stmt!=null) {
+				stmt.close();
+			}
+		} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}  
+		try {
+			if(rs!=null) {
+				rs.close();
+			}
+		} 
+		catch (SQLException e) {
+			e.printStackTrace();
+		}  
+	}
 	
 	private static Users createObject(ResultSet rs) throws SQLException {
 		Users users = new Users();

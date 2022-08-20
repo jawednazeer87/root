@@ -20,14 +20,14 @@ public class UsersController {
 	
 	static void create() {
 		 Users users = new Users();
-		 users.setId(101);
-		 users.setFullName("Tanseer");
-		 users.setEmail("tanseerahmed@gmail.com");
+		 users.setId(102);
+		 users.setFullName("Saquib");
+		 users.setEmail("saquib@gmail.com");
 		 users.setGender(true);
-		 LocalDate localDate = LocalDate.of(1998, 05, 17);
+		 LocalDate localDate = LocalDate.of(1995, 04, 19);
 		 users.setDob(localDate);
 		 users.setCountryCode(560051);
-		 users.setCreatedAt("India");
+		 users.setCreatedAt("Hydrebad");
 		 
 		 usersservice.create(users);
 		 usersservice.connectionClose();
