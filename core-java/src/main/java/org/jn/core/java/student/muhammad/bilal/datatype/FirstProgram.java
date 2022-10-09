@@ -1,4 +1,4 @@
-package org.jn.core.java.student.datatype;
+package org.jn.core.java.student.muhammad.bilal.datatype;
 
 public class FirstProgram {
 
