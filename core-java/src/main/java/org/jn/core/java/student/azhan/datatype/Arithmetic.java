@@ -14,4 +14,5 @@ public class Arithmetic {
 		System.out.println("mul = "+mul);
 		System.out.println("div = "+div);
 	}
+	
 }
