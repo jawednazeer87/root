@@ -8,6 +8,6 @@ public class Variables {
 		double d = 55.333;	//8 bytes
 		float f = 55.333f;	//4 bytes
 		System.out.println("gender: "+gender);
-		System.out.println("b: "+b);
+		System.out.println("b: "+b); 
 	}
 }
