@@ -1,11 +1,11 @@
 package org.jn.core.java.dawood.akram.datatype;
 
-public class Byte {
+public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-           byte b = 20;
-           System.out.println();
+		System.out.println("Hello World!");
+
 	}
 
 }
