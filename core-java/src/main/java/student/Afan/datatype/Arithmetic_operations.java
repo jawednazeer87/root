@@ -3,7 +3,7 @@ package student.Afan.datatype;
 public class Arithmetic_operations {
 
 	public static void main(String[] args) {
-		int a=20;int b=20;int sum=0; int sub=0; int div=0;
+		int a=40;int b=20;int sum=0; int sub=0; int div=0;
         sum=a+b;
         sub=a-b;
         div=a/b;
