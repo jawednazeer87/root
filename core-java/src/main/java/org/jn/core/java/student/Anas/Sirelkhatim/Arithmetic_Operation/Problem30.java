@@ -6,7 +6,7 @@ public class Problem30 {
         
         char var1 = 'C';
         char var2 = 'c';
-        char sum = var1 + var2;
+        int sum = var1 + var2;
         
         System.out.println(sum);
         

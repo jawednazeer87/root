@@ -8,7 +8,7 @@ public class Problem31 {
         float var2 = 16.123f;
         int sum;
         
-        sum = var1 + var2;
+        sum = (int) (var1 + var2);
         
         System.out.println(sum);
 
