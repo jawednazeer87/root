@@ -6,7 +6,7 @@ public class DoubleVariable {
 		// TODO Auto-generated method stub
 
 		// WAP to create a DoubleVariable
-				double num = 5.5;
+				double num = 5.5d;
 				System.out.println("Double Variable num=" + num);
 	}
 
