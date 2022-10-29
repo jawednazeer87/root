@@ -4,11 +4,11 @@ public class CharIntDataTypeExample {
 
 	public static void main(String[] args) {
 		
-		char position = 65;
-		System.out.println("position: "+position);
+		char ch = 65;
+		System.out.println("ch1: "+ch);
 		
-		position = (char)-1;
-		System.out.println("position: "+position);
+		ch = (char)-1;
+		System.out.println("ch2: "+ch);
 		
 		int value = '?';
 		System.out.println("value: "+value);
