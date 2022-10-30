@@ -9,8 +9,8 @@ public class Program7 {
 
 		int num1 = 70;
 		int num2 = 13;
-		int Remainder = (num1 % num2);
-		System.out.println("Remainder= " + Remainder);
+		int remainder = (num1 % num2);
+		System.out.println("Remainder= " + remainder);
 	}
 
 }
