@@ -9,7 +9,7 @@ public class CharAscii {
         System.out.println("ASCII value " +(int)num);
         
         int spc = 32;
-        System.out.println("num");
+        System.out.println(spc);
 
     }
 
