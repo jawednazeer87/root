@@ -6,7 +6,7 @@ public class ArithmeticOp26 {
 		// TODO Auto-generated method stub
 		short s = 10;
         int a = s;
-        s+=10;
+        s = (short)(s + 10);
         System.out.println(s + "," + a);
 	}
 
