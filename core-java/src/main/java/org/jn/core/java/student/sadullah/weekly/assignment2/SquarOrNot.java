@@ -14,7 +14,7 @@ public class SquarOrNot {
 		if (l==w) {
 			System.out.println("This is a square.");
 		} else {
-			System.out.println("This is not a square.");
+			System.out.println("This is a rectangle.");
 		}
 	}
 }
