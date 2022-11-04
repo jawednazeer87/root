@@ -25,6 +25,14 @@ Data type :
 Type Casting:
 	wap to create a char variable but assign an int value and print that variable?
 	wap to create an int variable but assign a char value and print that variable?
+	wap to declare tow char variable and assign a value then add these two variables and print the sum
+	wap to define a byte variable and assign its value to a short type variable and print both values
+	wap to define a short variable and assign its value to a byte type variable and print both variables.
+	wap to define a short variable and assign its value to an int type variable and print both variables.
+	wap to define an int variable and assign its value to a short type variable and print both variables.
+	wap to define a byte variable and assign its value to an int type variable and print both variables.
+	wap to define a double and assing it to a float variable and print both variables
+	
 	
 	what will be the output?
 	
@@ -37,6 +45,19 @@ Type Casting:
 	3.
 		int s = 'a';
 		sop(s);
+		
+	4.
+		double i = 32/5; 
+		sop(i);
+	5.
+		float i = 47/5; 
+		sop(i);
+	6. 
+		int sum = 'A' + ' ';
+		sop(i);
+	7.	
+		int sub = 'a' - ' ';
+		sop(i);
 		
 
 	-------------------------------------------------------------------------------------------------------
@@ -150,11 +171,11 @@ Arithmetic Operation
 	
 	29. wap to add two int variable but assign the result to float variable and print the result?
 	
-	30.	wap to add two char variable and store sum in char variable and print the result?
+	30. wap to add two char variable and store sum in char variable and print the result?
 	
-	31.	wap to add two float variable but assign the result to int variable and print the result?
+	31. wap to add two float variable but assign the result to int variable and print the result?
 	
-	32.	wap to add two double variable but assign the result to int variable and print the result?
+	32. wap to add two double variable but assign the result to int variable and print the result?
 	
 
 	-------------------------------------------------------------------------------------------------------
