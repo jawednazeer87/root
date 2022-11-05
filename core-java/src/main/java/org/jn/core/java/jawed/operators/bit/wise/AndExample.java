@@ -11,5 +11,8 @@ public class AndExample {
 		
 		res = x | y;
 		System.out.println("Or: "+res);
+		
+		res = x ^ y;
+		System.out.println("Xor: "+res);
 	}
 }
