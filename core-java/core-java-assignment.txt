@@ -54,10 +54,17 @@ Type Casting:
 		sop(i);
 	6. 
 		int sum = 'A' + ' ';
-		sop(i);
+		sop(sum);
 	7.	
 		int sub = 'a' - ' ';
-		sop(i);
+		sop(sub);
+	8.
+		int sub = 'a' - ' ';
+		sop((char)sub);
+	9.
+		int sum = 'A' + ' ';
+		sop((char)sum);
+		
 		
 
 	-------------------------------------------------------------------------------------------------------
