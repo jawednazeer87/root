@@ -1077,17 +1077,21 @@ String
 	24.	Wap to remove all upper case letters
 		String s = "aAzZXYcFEDgHIjklMNppc";
 	25.	Wap to determine whether a given string is palindrome
-	26. Wap to remove duplicate characters
+	26. 	Wap to remove duplicate characters
 		String s = "abacddeffi";
 		OP : "abcdefi"
 	27.	Wap to convert String to int
-	28. Wap to convert int to String
+	28. 	Wap to convert int to String
 	29.	Wap to convert String to long
 	30.	Wap to convert long to String
-	31. Wap to convert String to float
+	31. 	Wap to convert String to float
 	32.	Wap to convert float to String
-	33. Wap to convert String to double
+	33. 	Wap to convert String to double
 	34.	Wap to convert double to String
+	35.	Wap to implement Run Length Encoding
+		e.g if input is "aaabbc" then output is "3a2b1c
+		ip-> "aabbbddacd" then op-> "2a3b2d1a1c1d"
+		
 	-------------------------------------------------------------------------------------------------------
 				-------------------------------------------------------------------------------------------------------
 	
