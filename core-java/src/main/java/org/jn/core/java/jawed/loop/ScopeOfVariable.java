@@ -6,9 +6,9 @@ public class ScopeOfVariable {
 		
 		{
 			int i = 10;
-			System.out.println("i: "+i);
+			System.out.println("outside: "+i);
 			{
-				System.out.println("i: "+i);
+				System.out.println("inside: "+i);
 			}
 		}
 		
