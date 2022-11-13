@@ -4,7 +4,7 @@ public class ReverseNum {
 
 	public static void main(String[] args) {
 		
-		int n = 3214;
+		int n = 54321;
 		int res = 0;
 		
 		for(; n>0 ;) {

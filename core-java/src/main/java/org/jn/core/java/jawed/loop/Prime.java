@@ -4,7 +4,7 @@ public class Prime {
 
 	public static void main(String[] args) {
 		
-		int n = 61;
+		int n = 62;
 		int i;
 		for(i=2 ; i<n ; i++) {
 			if(n%i==0) {
