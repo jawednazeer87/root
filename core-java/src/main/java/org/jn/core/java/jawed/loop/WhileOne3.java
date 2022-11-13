@@ -11,7 +11,7 @@ public class WhileOne3 {
 			i+=2;		// i = i + 1 ;
 		}
 		
-		System.out.println("--------  end  -----------");
+		System.out.println("--------  end  -----------: "+i);
 	}
 
 }

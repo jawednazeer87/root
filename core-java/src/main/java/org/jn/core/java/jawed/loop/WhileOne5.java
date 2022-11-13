@@ -11,7 +11,7 @@ public class WhileOne5 {
 			System.out.println(i);
 		}
 		
-		System.out.println("--------  end  -----------");
+		System.out.println("--------  end  -----------: "+i);
 	}
 
 }

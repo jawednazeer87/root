@@ -4,7 +4,7 @@ public class PrintFirst10EvenNaturalNumInfinite {
 
 	public static void main(String[] args) {
 		
-		int i =0, n = 1;
+		int i=0, n = 1;
 		
 		while(true) {
 			if(n%2==0) {
