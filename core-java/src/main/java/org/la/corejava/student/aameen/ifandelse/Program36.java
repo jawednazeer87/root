@@ -8,6 +8,7 @@ public class Program36 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the value : ");
 		int num=sc.nextInt();
+		
 		if(num>=100)
 			System.out.println("Number is not lesser than 100");
 		else
