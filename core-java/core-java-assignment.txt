@@ -1039,7 +1039,10 @@ Array
 		Suppose given array is ['A', '5', 'Z', 'p'] -> this array has 'Z'
 	55)	wap to print all ascii value of character array
 		Suppose given array is ['a', '5', '7', 'p'] -> answer would be : 97, 53, 55, 112
-	56)	
+	56)	wap to create new array in such a way that newArr[i] = sum of (arr[0] to arr[i])
+		e.g given array oa = {1, 2, 3} then resulted array, ra = {1, 3, 6}
+		exlanation ra[0]=oa[0], ra[1] = oa[0] + oa[1], ra[2] = oa[0] + oa[1] + oa[2]
+	57)
 		
 
 	-------------------------------------------------------------------------------------------------------
