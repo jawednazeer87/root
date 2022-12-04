@@ -1,18 +1,16 @@
 package org.jn.core.java.student.Anas.Sirelkhatim.first20;
 
-public class Problem37 {
+public class Problem39 {
 
     public static void main(String[] args) {
         
-        int i = 1;
         
-        while(i <= 10)
+        int i = 50;
+        
+        while (i >= 45)
         {
-            if(i == 3 || i == 7)
-                i++;
             System.out.println(i);
-            i++;
-                
+            i--;
         }
 
     }
