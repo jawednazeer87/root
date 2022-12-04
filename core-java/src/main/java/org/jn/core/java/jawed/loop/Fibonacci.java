@@ -9,7 +9,7 @@ public class Fibonacci {
 		int i = 1;
 		int firstTerm = 0;
 		int secondTerm = 1;
-		while (i <= 5) {
+		while (i <= 8) {
 			System.out.print(firstTerm + ", ");
 			int nextTerm = firstTerm + secondTerm;
 			firstTerm = secondTerm;

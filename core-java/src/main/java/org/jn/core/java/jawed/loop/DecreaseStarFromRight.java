@@ -3,7 +3,7 @@ package org.jn.core.java.jawed.loop;
 public class DecreaseStarFromRight {
 
 	public static void main(String[] args) {
-		int n = 1;
+		int n = 16;
 		for(int j=1 ; j<=n ; j++) {
 			//printing space
 			for(int spc=1 ; spc<j ; spc++) {
