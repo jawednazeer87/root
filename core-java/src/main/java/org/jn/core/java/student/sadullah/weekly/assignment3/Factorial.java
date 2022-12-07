@@ -5,13 +5,15 @@ import java.util.Iterator;
 public class Factorial {
 
 	public static void main(String[] args) {
-
-		int num = 10;
-		int fact = 1;
+		int fact =1;
+		int a [] = {10, 4, 9};
 		
-		for (int i = num ; i >= 1; i--) {
-			fact = fact * i;
+		for (int i = 0; i < a.length; i++) {
+			fact = 1;
+			for (int j = 1; j <= a[i]; j++) {
+				fact *= j;
+			}
+			System.out.println("Factorial of " +a[i] + " is " +fact);
 		}
-		System.out.print(fact);
 	}
 }
