@@ -9,7 +9,6 @@ public class ArrayPrimeNumbers {
 	        if (a[i] == 1)
 	            isPrime = false;
 	        else {
-	            // check to see if the numbers are prime
 	            for (int j = 2; j <= a[i] / 2; j++) {
 	                if (a[i] % j == 0) {
 	                    isPrime = false;
@@ -17,7 +16,6 @@ public class ArrayPrimeNumbers {
 	                }
 	            }
 	        }
-	        // print the number
 	        if (isPrime){
 	            if (a[i] == 0){}
 	            else {
