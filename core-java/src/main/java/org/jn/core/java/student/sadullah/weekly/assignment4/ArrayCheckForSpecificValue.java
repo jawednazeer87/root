@@ -4,7 +4,7 @@ public class ArrayCheckForSpecificValue {
 	public static void main(String[] argrs) {
 		int a [] = {1, 450, 50, 0, 40, 56, 90, 100, 24};
 		
-		int searchValue = 2;
+		int searchValue = 50;
 		
 		boolean matchFound = false;
 		
