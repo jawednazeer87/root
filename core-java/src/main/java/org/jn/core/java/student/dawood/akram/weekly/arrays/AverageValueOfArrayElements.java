@@ -18,7 +18,7 @@ public class AverageValueOfArrayElements {
          for(int i=0;i<a.length;i++) {
         	 sum= sum+a[i];
          }
-         System.out.println(sum);
+         
          average = sum/a.length;
          System.out.println(average);
          scanner.close();
