@@ -14,12 +14,19 @@ public class DuplicatesInArray {
         	  arr[i]= scanner.nextInt();
         	  scanner.nextLine();
           }
-          
+          int countedElement = -1;
           for(int j=0;j<arr.length;j++) {
+        	  int count = 1;
         	  for(int k=j+1;k<arr.length;k++) {
         		  if(arr[j]==arr[k]) {
-        			  System.out.println(arr[k]);      		 
+        			        count++;	
+        			        if(count>1) {
+        			        	arr[k]= countedElement;
+        			        }
         		  }
+        	  }
+        	  if(arr[j]!=countedElement && count>1) {
+        		  System.out.println("Duplicate Element : "+arr[j]);
         	  }
           }
       	
