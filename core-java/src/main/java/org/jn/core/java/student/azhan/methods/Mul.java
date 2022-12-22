@@ -18,5 +18,5 @@ public class Mul {
 	{
 		return x*y;
 	}
-
+ 
 }
