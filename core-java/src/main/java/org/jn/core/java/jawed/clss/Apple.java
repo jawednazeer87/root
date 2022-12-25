@@ -1,6 +1,7 @@
 package org.jn.core.java.jawed.clss;
 
 public class Apple {
+	
 	private Integer weight;
 	private String taste;
 	private String color;
