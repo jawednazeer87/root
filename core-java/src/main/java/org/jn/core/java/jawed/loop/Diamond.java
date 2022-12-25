@@ -3,7 +3,7 @@ package org.jn.core.java.jawed.loop;
 public class Diamond {
 
 	public static void main(String[] args) {
-		int n = 5;
+		int n = 3;
 		for(int i=-n ; i<=n ; i++) {
 			
 			int j=i;

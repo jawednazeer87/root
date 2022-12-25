@@ -6,7 +6,7 @@ public class Question26 {
 		// TODO Auto-generated method stub
 		short s = 10;
         int a = s;
-        s = s + 10;
+        s = (short) (s + 10);	//20
         System.out.println(s + "," + a);
 	
 

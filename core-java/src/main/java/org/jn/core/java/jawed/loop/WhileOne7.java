@@ -7,7 +7,7 @@ public class WhileOne7 {
 		int i = 1;
 		
 		while(i<=5) {
-			System.out.println("Hi: "+i);
+			System.out.println("loop7: "+i);
 		}
 		i++;
 		System.out.println("--------  end  -----------");

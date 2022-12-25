@@ -9,5 +9,10 @@ public class LogicalOperator3 {
 		System.out.println("y: "+y);
 		System.out.println("b: "+b);
 		
+		b = x!=y && y++==3;
+		System.out.println("x: "+x);
+		System.out.println("y: "+y);
+		System.out.println("b: "+b);
+		
 	}
 }

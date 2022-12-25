@@ -3,14 +3,14 @@ package org.jn.core.java.jawed.cond;
 public class SwitchCaseOne {
 
 	public static void main(String[] args) {
-		int a = 7;
+		int a = 1;
 		
 		switch(a) {
 			case 1: 
 				System.out.println("one");
 				break;
 			case 2: 
-				System.out.println("second");
+				System.out.println("two");
 				break;
 			case 3: 
 				System.out.println("three");
