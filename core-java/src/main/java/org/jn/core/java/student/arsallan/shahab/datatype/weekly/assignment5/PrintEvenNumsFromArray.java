@@ -11,7 +11,7 @@ public class PrintEvenNumsFromArray {
 	}
 
 	public static void main(String[] args) {
-		int arr[] = {-1,2,3,-65,34,-9};
+		int[] arr = {-1,2,3,-65,34,-9};
 		printEvenArray(arr);
 	}
 
