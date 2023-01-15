@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.Ternary;
+package org.jn.core.java.student.anas.sirelkhatim.ternary;
 
 import java.util.Scanner;
 

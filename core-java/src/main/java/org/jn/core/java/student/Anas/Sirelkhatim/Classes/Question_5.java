@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.Classes;
+package org.jn.core.java.student.anas.sirelkhatim.classes;
 
 
 class PresentationAttendance

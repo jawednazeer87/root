@@ -1,5 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.datatype;
-
+package org.jn.core.java.student.anas.sirelkhatim.datatype;
 public class firstProgram {
 
     public static void main(String[] args) {

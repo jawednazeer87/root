@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.Arrays;
+package org.jn.core.java.student.anas.sirelkhatim.arrays;
 import java.util.*;
 
 import org.apache.logging.log4j.core.util.ArrayUtils;

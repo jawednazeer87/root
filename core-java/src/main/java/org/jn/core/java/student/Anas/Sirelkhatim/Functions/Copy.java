@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.Functions;
+package org.jn.core.java.student.anas.sirelkhatim.functions;
 import java.util.*;
 
 public class Copy {

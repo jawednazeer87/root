@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.If_Else;
+package org.jn.core.java.student.anas.sirelkhatim.if_else;
 
 public class NumberOrNot {
 //48 57

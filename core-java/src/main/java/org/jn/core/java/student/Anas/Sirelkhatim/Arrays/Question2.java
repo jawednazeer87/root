@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.Arrays;
+package org.jn.core.java.student.anas.sirelkhatim.arrays;
 import java.util.*;
 public class Question2 {
 

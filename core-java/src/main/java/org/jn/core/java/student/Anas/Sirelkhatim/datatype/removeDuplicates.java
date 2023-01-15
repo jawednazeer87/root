@@ -1,5 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.datatype;
-import java.util.*;
+package org.jn.core.java.student.anas.sirelkhatim.datatype;import java.util.*;
 
 public class removeDuplicates{
     public static int removeDuplicates(int arr[], int count){

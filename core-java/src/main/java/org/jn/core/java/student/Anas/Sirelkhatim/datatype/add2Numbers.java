@@ -1,4 +1,4 @@
-package org.jn.core.java.student.Anas.Sirelkhatim.datatype;
+package org.jn.core.java.student.anas.sirelkhatim.datatype;
 
 public class add2Numbers {
 
