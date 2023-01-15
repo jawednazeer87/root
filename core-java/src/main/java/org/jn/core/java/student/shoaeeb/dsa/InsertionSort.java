@@ -12,7 +12,7 @@ public class InsertionSort {
 				arr[j+1]=arr[j];
 				j--; 
 			}
-			arr[i+1]=current;
+			arr[j+1]=current;
 		}
 	}
 	

@@ -8,7 +8,7 @@ public class MangoIntrfceMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MangoIntrfce lambda = mango -> mango.getTaste().equalsIgnoreCase("sweet");
-		Mango[] mangoes = MangoUtil.getMangoes();
+		//Mango[] mangoes = MangoUtil.getMangoes();
 		Mango[] sweetMangoes = MangoUtil.filter(lambda);
 		MangoUtil.print(sweetMangoes);
 		
