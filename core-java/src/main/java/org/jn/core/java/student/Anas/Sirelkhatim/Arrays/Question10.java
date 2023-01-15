@@ -1,4 +1,4 @@
-package org.jn.core.java.student.anas.sirelkhatim.arrays;
+package org.jn.core.java.student.Anas.Sirelkhatim.Arrays;
 
 import java.util.Scanner;
 
