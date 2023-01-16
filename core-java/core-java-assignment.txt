@@ -2258,7 +2258,167 @@ create and extends abstract class
 3.	Language
 	locale, standard -> NANR, ABS
 4.	Animal
+5. public abstract class Shape {
+	  public abstract Double calculateArea();
+	}
+6. public abstract class Valid {
+	  public abstract void demo();
+	}
+7. public abstract class Shape {
+	  public abstract Double calculateArea();
+	}
+8. abstract class Beverages {
+	public void addMilk() {
+		System.out.println("Hot Milk");
+	}
+	abstract void addIngredient();
+}
+9. class Vehicle{
+	public void start(){		
+	}
+	public void stop(){		
+	}
+}
+10. public abstract class MyAbstractProcess {
+
+    public void process() {
+        stepBefore();
+        action();
+        stepAfter();
+    }
+
+    public void stepBefore() {
+        //implementation directly in abstract superclass
+    }
+
+    public abstract void action(); // implemented by subclasses
+
+    public void stepAfter() {
+        //implementation directly in abstract superclass
+    }
+}
+
+11. public 
+abstract class MyAbstractClass{
+    
+    abstract void m();
+    
+}
+12. abstract class TerrestrialAnimals {
+ 
+    void habitat(){   
+           System.out.println("Habitat of Terrestrial animal is land");
+    }
+    
+    abstract void food();
+    
+}
+13. public abstract class Car {
+
+   private String model;
+   private String color;
+   private int maxSpeed;
+
+   public abstract void gas();
+
+   public abstract void brake();
+
+   public String getModel() {
+       return model;
+   }
+
+   public void setModel(String model) {
+       this.model = model;
+   }
+
+   public String getColor() {
+       return color;
+   }
+
+   public void setColor(String color) {
+       this.color = color;
+   }
+
+   public int getMaxSpeed() {
+       return maxSpeed;
+   }
+
+   public void setMaxSpeed(int maxSpeed) {
+       this.maxSpeed = maxSpeed;
+   }
+}
+14. public abstract class Employee {
+	private String name;
+	private String address;
+	private int number;
+	
+	public Employee(String name,String address,int number){
+	System.out.println("Constructing an Employee");
+		this.name = name;
+		this.address = address;
+		this.number = number;
 		
+	}
+	
+	public double computePay(){
+	System.out.println("Inside Employee computePay");	
+		return 0.0;
+	}
+	
+	public void mailCheck(){
+	System.out.println("Mailing a check to "+this.name+" "	
+			+this.address);
+	
+		
+	}
+	
+	public String toString(){
+		return name + " "+address + " "+ number;
+		
+	}
+	
+	public String getName(){
+		return name;
+	}
+	
+	public String getAddress(){
+		return address;
+	}
+	
+	public void setAddress(String newAddress){
+		address = newAddress;
+	}
+	
+	public int getNumber(){
+		return number;
+	}
+}
+15. public abstract class Tree {
+	protected abstract void leaf();
+	protected abstract int amountOxygen();
+	protected abstract void consumeHydrogen(double d);
+	protected void display() {
+		sop("green");
+	}
+  }
+16. public abstract class Monitor {
+	protected abstract void sony();
+	protected abstract void power(float d);
+	protected abstract long pixel();
+	protected abstract void display(String s);
+   } 
+17. public abstract class CustomQueue {
+	protected abstract int peek();
+	protected abstract int poll(float d);
+	protected abstract void add(int i);
+	protected abstract int size();
+   } 
+18. public abstract class CustomList {
+	protected abstract void add(String s);
+	protected abstract void remove(int ind);
+	protected abstract long size();
+	protected abstract void display();
+   }   
 		
 	
 
@@ -2268,6 +2428,36 @@ create and extends abstract class
 
 Interface:
 	implement these interfaces 
+	
+	interface Animals {
+ 
+    abstract void habitat();
+    
+    abstract void food();
+    
+}
+
+	interface Chargeable {
+
+	void charge();
+}
+interface Chargeable {
+
+	void charge();
+}
+abstract class Truck implements Chargeable {
+
+	public abstract void run();
+
+	public void carry() {
+		
+	}
+
+	public void charge() {
+		
+	}
+}
+
 	1.	public interface Series{
 			public void fibonocci();
 			public void pell();
