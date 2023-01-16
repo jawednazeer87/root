@@ -1959,59 +1959,6 @@ Date :
 		String sd1 = "13/10/1987";
 		String sd2 = "11/08/1999";
 	
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-
-	
-
-ArrayList :
-	1.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	2.	create a class Student having fields id, name, dob, email, schoolId. Create an array list of User class and 
-		add 4 user objects inside the list.
-
-	3.	create a class School having fields schoolId, name, registrationDate, medium, address. Create an array list
-		of 	User class and add 6 user objects inside the list.
-
-	4.	create a class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName. 
-		Create an array list of User class and add 7 user objects inside the list.
-
-	5.	create a class Car having fields CarId, model, company, engine, color, type. 
-		Create an array list of User class and  add 5 user objects inside the list.
-
-	6.	create a class Employee having fields id, name, dob, email, designation, joiningDate, resigned 		
-		companyName. Create an array list of User class and  add 10 user objects inside the list.
-
-	7.	create a class Employee having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	8.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	9.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	10.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	11.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	12.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	13.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	14.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	15.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-
-	16.	create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
 
 
 	-------------------------------------------------------------------------------------------------------
@@ -2521,7 +2468,163 @@ Collection
 	List<Character> ss = Arrays.asList(new Character[]{'1', '2', '2', '2', '@', '#', 'O', 'o', '0', '3', '1', '?', '*', 'o', 'e'});
 40. Create a list not having duplicate values from given list
 	List<Double> ss = Arrays.asList(new Double[]{4.5, 3.2, 6.5, 99.0, 33.21, 5.53, 4.33, 4.5, 3.2, 6.5, 1.1, 1.2, 4.4});
-	
+
+41. Create a set of Student class using hashset class
+42. Create a set of Student class using treeset class
+43. Difference between hashset and treeset
+44. Difference between hashmap, linkedhashmap and treemap
+45. Write a Java program to copy a Tree Map content to another Tree Map
+46. Write a Java program to search a key in a Tree Map
+47. Write a Java program to search a value in a Tree Map
+48. Write a Java program to get all keys from the given a Tree Map
+49. Write a Java program to delete all elements from a given Tree Map
+50. Write a Java program to sort keys in Tree Map by using comparator
+51. Write a Java program to get a key-value mapping associated with the greatest key and the least key in a map
+52. Write a Java program to get the first (lowest) key and the last (highest) key currently in a ma
+53. Write a Java program to get a reverse order view of the keys contained in a given map
+54. Write a Java program to get a key-value mapping associated with the greatest key less than or equal to the given key
+55. Write a Java program to get the greatest key less than or equal to the given key
+56. Write a Java program to get the portion of a map whose keys are strictly less than a given key
+57. Write a Java program to get the portion of this map whose keys are less than (or equal to, if inclusive is true) a given key
+58. Write a Java program to get the least key strictly greater than the given key. Return null if there is no such key
+59. Write a Java program to get a key-value mapping associated with the greatest key strictly less than the given key. Return null if there is no such key
+60. Write a Java program to get the greatest key strictly less than the given key. Return null if there is no such key
+61. Write a Java program to remove and get a key-value mapping associated with the least key in a map
+62. Write a Java program to remove and get a key-value mapping associated with the greatest key in this map.
+63. Write a Java program to get the portion of a map whose keys range from a given key (inclusive), to another key (exclusive)
+64. Write a Java program to get the portion of a map whose keys range from a given key to another key
+65. Write a Java program to get a portion of a map whose keys are greater than or equal to a given key.
+66. Write a Java program to get a portion of a map whose keys are greater than to a given key
+67. Write a Java program to get a key-value mapping associated with the least key greater than or equal to the given key. Return null if there is no such key
+68. Write a Java program to get the least key greater than or equal to the given key. Returns null if there is no such key
+69. Write a Java program to count the number of key-value (size) mappings in a map
+70. Write a Java program to copy all of the mappings from the specified map to another map
+71. Write a Java program to remove all of the mappings from a map
+72. Write a Java program to check whether a map contains key-value mappings (empty) or not
+73. Write a Java program to get a shallow copy of a HashMap instance
+74. Write a Java program to test if a map contains a mapping for the specified key
+75. Write a Java program to test if a map contains a mapping for the specified value
+76. Write a Java program to create a set view of the mappings contained in a map
+77. Write a Java program to get a set view of the keys contained in this map
+78. Write a Java program to get a collection view of the values contained in this ma
+79. Write a Java program to insert an element into the array list at the first position
+80. Write a Java program to update specific array element by given element
+81. Write a Java program to remove the third element from a array list
+82. Write a Java program to search an element in a array list
+83. Write a Java program to sort a given array list. Vehicle -> price, manufaturing year, modelName, companyName; sort by using all member variables one by one using comparator.
+84. Write a Java program to copy one array list into another
+85. Write a Java program to shuffle elements in a array list
+86. Write a Java program to reverse elements in a array list.
+87. Write a Java program to extract a portion of a array list
+88. Write a Java program to compare two array lists
+89.  Write a Java program of swap two elements in an array list
+90. Write a Java program to join two array lists
+91. Write a Java program to clone an array list to another array list
+92. Write a Java program to empty an array list
+93. Write a Java program to test an array list is empty or not
+94. Write a Java program to trim the capacity of an array list the current list size
+95. Write a Java program to increase the size of an array list
+96. Write a Java program to replace the second element of a ArrayList with the specified element.
+97. Write a Java program to append the specified element to the end of a linked list
+98. Write a Java program to iterate through all elements in a linked list
+99. Write a Java program to iterate through all elements in a linked list starting at the specified position
+100. Write a Java program to iterate a linked list in reverse order
+101. Write a Java program to insert the specified element at the specified position in the linked list
+102. Write a Java program to insert elements into the linked list at the first and last position
+103. Write a Java program to insert the specified element at the front of a linked list
+104. Write a Java program to insert the specified element at the end of a linked list
+105. Write a Java program to insert some elements at the specified position into a linked list
+106. Write a Java program to get the first and last occurrence of the specified elements in a linked list
+107. Write a Java program to display the elements and their positions in a linked list
+108. Write a Java program to remove a specified element from a linked list
+109. Write a Java program to remove first and last element from a linked list
+110. Write a Java program to remove all the elements from a linked list
+111. Write a Java program of swap two elements in a linked list
+112. Write a Java program to shuffle the elements in a linked list
+113. Write a Java program to join two linked lists
+114. Write a Java program to clone an linked list to another linked list
+115. Write a Java program to remove and return the first element of a linked list
+116. Write a Java program to retrieve but does not remove, the first element of a linked list
+117. Write a Java program to retrieve but does not remove, the last element of a linked list
+118. Write a Java program to check if a particular element exists in a linked list
+119. Write a Java program to convert a linked list to array list
+120. Write a Java program to compare two linked lists
+121. Write a Java program to test an linked list is empty or not
+122. Write a Java program to replace an element in a linked list
+123. Write a Java program to append the specified element to the end of a hash set
+124. Write a Java program to iterate through all elements in a hash list
+125. Write a Java program to get the number of elements in a hash set
+126. Write a Java program to empty an hash set
+127. Write a Java program to test a hash set is empty or not
+128. Write a Java program to clone a hash set to another hash set
+129. Write a Java program to convert a hash set to an array
+130. Write a Java program to convert a hash set to a tree set
+131. Write a Java program to convert a hash set to a List/ArrayList
+132. Write a Java program to compare two hash set
+133. Write a Java program to compare two sets and retain elements which are same on both sets
+134. Write a Java program to remove all of the elements from a hash set
+135. Write a Java program to create a new tree set, add some colors (string) and print out the tree set
+136. Write a Java program to iterate through all elements in a tree set
+137. Write a Java program to add all the elements of a specified tree set to another tree set
+138. Write a Java program to create a reverse order view of the elements contained in a given tree set
+139. Write a Java program to get the first and last elements in a tree set
+140. Write a Java program to clone a tree set list to another tree set
+141. Write a Java program to get the number of elements in a tree set
+142. Write a Java program to compare two tree sets
+143. Write a Java program to find the numbers less than 7 in a tree set
+144. Write a Java program to get the element in a tree set which is greater than or equal to the given element
+145. Write a Java program to get the element in a tree set which is less than or equal to the given element
+146. Write a Java program to get the element in a tree set which is strictly greater than or equal to the given element
+147. Write a Java program to get an element in a tree set which is strictly less than the given element
+148. Write a Java program to retrieve and remove the first element of a tree set
+149. Write a Java program to retrieve and remove the last element of a tree set
+150. Write a Java program to remove a given element from a tree set
+151. Write a Java program to create a new priority queue, add some colors (string) and print out the elements of the priority queue
+152. Write a Java program to iterate through all elements in priority queue
+153. Write a Java program to add all the elements of a priority queue to another priority queue
+154. Write a Java program to insert a given element into a priority queue
+155. Write a Java program to remove all the elements from a priority queue
+156. Write a Java program to count the number of elements in a priority queue
+157. Write a Java program to compare two priority queues
+158. Write a Java program to retrieve the first element of the priority queue
+159. Write a Java program to retrieve and remove the first element
+160. Write a Java program to convert a priority queue to an array containing all of the elements of the queue
+161. Write a Java program to convert a Priority Queue elements to a string representation
+162. Write a Java program to change priorityQueue to maximum priorityqueue
+163. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+164. create a class Student having fields id, name, dob, email, schoolId. Create an array list of User class and 
+		add 4 user objects inside the list.
+165. create a class School having fields schoolId, name, registrationDate, medium, address. Create an array list
+		of 	User class and add 6 user objects inside the list.
+166. create a class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName. 
+		Create an array list of User class and add 7 user objects inside the list.
+167. create a class Car having fields CarId, model, company, engine, color, type. 
+		Create an array list of User class and  add 5 user objects inside the list.
+168. create a class Employee having fields id, name, dob, email, designation, joiningDate, resigned 		
+		companyName. Create an array list of User class and  add 10 user objects inside the list.
+169. create a class Employee having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+170. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+171. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+172. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+173. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+174. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+175. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+176. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+177. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+178. create a class User having fields id, name, dob, email. Create an array list of User class and 
+		add 5 user objects inside the list.
+
+
 	-------------------------------------------------------------------------------------------------------
 		
 JDBC:
