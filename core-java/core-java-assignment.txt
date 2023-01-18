@@ -2258,169 +2258,171 @@ create and extends abstract class
 3.	Language
 	locale, standard -> NANR, ABS
 4.	Animal
+
 5. public abstract class Shape {
 	  public abstract Double calculateArea();
 	}
+Wap to create 5 classes: Triangle, Square, Rectangle, Circle and Hexagon. All these classes will implement and override all mehtods of Shape abstract class.
+
 6. public abstract class Valid {
 	  public abstract void demo();
-	}
-7. public abstract class Shape {
-	  public abstract Double calculateArea();
-	}
+}
+Wap to create 5 classes: Legal, Rule, Regulation, Justice, Principle. All these classes will implement and override all mehtods of Valid abstract class.
+
+7. public abstract class Time {
+	  public abstract Double displayUnit();
+	  public abstract void duration(int d);
+  }
+Wap to create these classes: Hour, Second, Minutes, Day, year, Month, Week. All these classes will implement and override all mehtods of Time abstract class.
+ 
 8. abstract class Beverages {
-	public void addMilk() {
-		System.out.println("Hot Milk");
+	public void addDrink() {
+		System.out.println("Drink added");
 	}
 	abstract void addIngredient();
 }
-9. class Vehicle{
-	public void start(){		
-	}
-	public void stop(){		
-	}
-}
-10. public abstract class MyAbstractProcess {
+Wap to create these classes: HotDrink, ColdDrink, SoftDrink, Milk, Tea, Juice, Coffee. All these classes will implement and override all mehtods of Beverages abstract class.
 
+9. abstract class Vehicle{
+	public void start() {}
+	public void stop() {}
+	public long price() {} 
+	public void power(Double power) {}
+}
+Wap to create these classes: Car, Truck, Lorry, Auto, Matador, Jeep. All these classes will implement and override all mehtods of Vehicle abstract class.
+
+10. public abstract class MyAbstractProcess {
     public void process() {
         stepBefore();
         action();
         stepAfter();
     }
-
-    public void stepBefore() {
-        //implementation directly in abstract superclass
-    }
-
-    public abstract void action(); // implemented by subclasses
-
-    public void stepAfter() {
-        //implementation directly in abstract superclass
-    }
+    public void stepBefore() {}
+    public abstract void action(); 
+    public void stepAfter() {}
 }
+Wap to create these classes: ImplementationOne, ConcreteClass, BaseClass, DerivedClass, ChildClass, TreeClass, Second, Minutes, Day, year, Month, Week. All these classes will implement and override all mehtods of MyAbstractProcess abstract class.
 
-11. public 
-abstract class MyAbstractClass{
-    
-    abstract void m();
-    
-}
+11. public abstract class Tree {
+	    abstract void height(BigDecimal bd);
+	    abstract void width(BigDecimal bd);
+	    abstract void weight(BigDecimal bd);
+	    abstract void quality(String s);
+	    abstract Boolean flower();
+	}
+Wap to create these classes: Acacia, Eucalyptus, Mahogany, Pine, Teak, Neem, Jackfruit, Maple, Oak, Sheesham, Jute. All these classes will implement and override all mehtods of Tree abstract class.
+
 12. abstract class TerrestrialAnimals {
- 
     void habitat(){   
            System.out.println("Habitat of Terrestrial animal is land");
     }
-    
     abstract void food();
-    
+    abstract void color();
+    abstract void weight(BigInteger bi);
+    abstract void height(BigInteger bi);
 }
-13. public abstract class Car {
+Wap to create these classes: Rattlesnake, Hippopotamus, Tiger, Crocodile, GalapagosGiantTortoise, KomodoDragon, MuleDeer, GrizzlyBear, GrayWolf, Red Fox. All these classes will implement and override all mehtods of TerrestrialAnimals abstract class.
 
+13. public abstract class CarDetails {
    private String model;
    private String color;
    private int maxSpeed;
-
    public abstract void gas();
-
    public abstract void brake();
-
    public String getModel() {
        return model;
    }
-
    public void setModel(String model) {
        this.model = model;
    }
-
    public String getColor() {
        return color;
    }
-
    public void setColor(String color) {
        this.color = color;
    }
-
    public int getMaxSpeed() {
        return maxSpeed;
    }
-
    public void setMaxSpeed(int maxSpeed) {
        this.maxSpeed = maxSpeed;
    }
 }
-14. public abstract class Employee {
+Wap to create these classes: Ford, Ferrari, Porsche, Jensen, Lamborghini, Jeep, LandRover, RollsRoyce, Suzuki, Volkswagen, Dodge, McLaren, Cortina, Chevrolet, Seat. All these classes will implement and override all mehtods of CarDetails abstract class.
+
+14. public abstract class Employees {
 	private String name;
 	private String address;
-	private int number;
-	
+	private int number;	
 	public Employee(String name,String address,int number){
 	System.out.println("Constructing an Employee");
 		this.name = name;
 		this.address = address;
-		this.number = number;
-		
-	}
-	
+		this.number = number;		
+	}	
 	public double computePay(){
-	System.out.println("Inside Employee computePay");	
+		System.out.println("Inside Employee computePay");	
 		return 0.0;
-	}
-	
+	}	
 	public void mailCheck(){
 	System.out.println("Mailing a check to "+this.name+" "	
-			+this.address);
-	
+			+this.address);	
 		
 	}
-	
 	public String toString(){
-		return name + " "+address + " "+ number;
-		
+		return name + " "+address + " "+ number;		
 	}
-	
 	public String getName(){
 		return name;
 	}
-	
 	public String getAddress(){
 		return address;
 	}
-	
 	public void setAddress(String newAddress){
 		address = newAddress;
 	}
-	
 	public int getNumber(){
 		return number;
 	}
 }
-15. public abstract class Tree {
-	protected abstract void leaf();
-	protected abstract int amountOxygen();
-	protected abstract void consumeHydrogen(double d);
-	protected void display() {
-		sop("green");
+Wap to create 5 classes: Sales, Production, Marketing, District, Carpenter, Manager, Accounts, Advertising, Staff, Fashion, Information, Print. All these classes will implement and override all mehtods of Employees abstract class.
+
+15. public abstract class Mobile {
+	protected abstract void display();
+	protected abstract int price();
+	protected abstract void Color(double d);
+	protected void screenSize() {
+		sop("10");
 	}
   }
+Wap to create these classes: Samsung, Apple, MI, Jio, LG, Motorolla. All these classes will implement and override all mehtods of Mobile abstract class.
+  
 16. public abstract class Monitor {
 	protected abstract void sony();
 	protected abstract void power(float d);
 	protected abstract long pixel();
 	protected abstract void display(String s);
    } 
+Wap to create these classes: Acer, Asus, Dell, GigaByte, HP, LG, MSI, Samsung, Apple, MI, . All these classes will implement and override all mehtods of Monitor abstract class.
+
 17. public abstract class CustomQueue {
 	protected abstract int peek();
 	protected abstract int poll(float d);
 	protected abstract void add(int i);
 	protected abstract int size();
    } 
+Wap to create these classes: QueueOne, BigQueue, SmallQueue, DayQueue, YearQueue, MonthQueue, WeekQueue. All these classes will implement and override all mehtods of CustomQueue abstract class.
+
 18. public abstract class CustomList {
 	protected abstract void add(String s);
 	protected abstract void remove(int ind);
 	protected abstract long size();
 	protected abstract void display();
    }   
-		
+Wap to create these classes: FirstList, SecondList, MinutesList, DayList, yearList, MonthList, WeekList. All these classes will implement and override all mehtods of Time abstract class.
+
 	
+
 
 
 	-------------------------------------------------------------------------------------------------------
