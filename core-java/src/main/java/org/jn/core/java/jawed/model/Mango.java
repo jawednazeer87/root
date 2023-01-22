@@ -1,4 +1,4 @@
-package org.jn.core.java.student.shoaeeb.model;
+package org.jn.core.java.jawed.model;
 
 public class Mango {
 
