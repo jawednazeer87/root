@@ -1274,7 +1274,6 @@ String
 	7.	How to split a string into a number of substrings using space?
 	8.	How to convert a string totally into upper case?
 	9.	How to concatenate two strings?
-
 	10.	WAP program to reverse word based on space
 		a.	IP -   Hello world how are you
 			OP -   you are how world Hello
@@ -1285,8 +1284,8 @@ String
 	
 	11.	Wap to convert String to char array 
 	12.	Wap to convert char array to String
-	13. Wap to remove all spaces from a string
-	14. Wap to remove spaces those are present at starting and ending of a String
+	13. 	Wap to remove all spaces from a string
+	14. 	Wap to remove spaces those are present at starting and ending of a String
 	15.	Wap to remove all integers from a String 
 	16.	Wap to remove start from a String
 	17.	Wap to remove all special characters from String(Note: accept alphabets lower case or upper case 
@@ -1316,7 +1315,64 @@ String
 	35.	Wap to implement Run Length Encoding
 		e.g if input is "aaabbc" then output is "3a2b1c
 		ip-> "aabbbddacd" then op-> "2a3b2d1a1c1d"
+	36.	Wap to reverse the order of the words in the given string
+		Input: s = “geeks quiz practice code” 
+		Output: s = “code practice quiz geeks”
+		Input: s = “i love programming very much” 
+		Output: s = “much very programming love i” 	
+	37.	Given a set of strings, find the longest common prefix.
+		Input: {"geeksforgeeks", "geeks", "geek", "geezer"}
+		Output: "gee"
+		Input: {"apple", "ape", "april"}
+		Output: "ap"
+	38.	Converting Roman Numerals to Decimal lying between 1 to 3999
+		Input: IX
+		Output: 9
+		IX is a Roman symbol which represents 9 
+		Input: XL
+		Output: 40
+		XL is a Roman symbol which represents 40
+		Input: MCMIV
+		Output: 1904
+		M is a thousand, 
+		CM is nine hundred and 
+		IV is four
+	39.	Converting Decimal Number lying between 1 to 3999 to Roman Numerals
+		Input : 9
+		Output : IX
+		Input : 40
+		Output : XL
+		Input :  1904
+		Output : MCMIV
+	40.	Find the minimum distance between the given two words
+		Input: S = { “the”, “quick”, “brown”, “fox”, “quick”}, word1 = “the”, word2 = “fox”
+		Output: 3
+		Explanation: Minimum distance between the words “the” and “fox” is 3
+		Input: S = {“geeks”, “for”, “geeks”, “contribute”,  “practice”}, word1 = “geeks”, word2 = “practice”
+		Output: 2
+	41.	Shift each character right by one
+		Input: s = "abc"
+		Output: bcd 
+		Here a shifted to b, b shifted to c and c shifted to d
+		if z then after shift it will be a
+	42.	Shift each character left by one
+		Input: s = "abc"
+		Output: zab
+		Here a shifted to z, b shifted to a and c shifted to b
+	43.	Check if two given Strings are Isomorphic to each other
+		Two strings str1 and str2 are called isomorphic if there is a one-to-one mapping possible for every character of 
+		str1 to every character of str2. And all occurrences of every character in ‘str1’ map to the same character in ‘str2’.
+		Input:  str1 = “aab”, str2 = “xxy”
+		Output: True
+		Explanation: ‘a’ is mapped to ‘x’ and ‘b’ is mapped to ‘y’.
+
+		Input:  str1 = “aab”, str2 = “xyz”
+		Output: False
+		Explanation: One occurrence of ‘a’ in str1 has ‘x’ in str2 and other occurrence of ‘a’ has ‘y’.
+	44.	
 		
+		
+	
 	-------------------------------------------------------------------------------------------------------
 				-------------------------------------------------------------------------------------------------------
 	
