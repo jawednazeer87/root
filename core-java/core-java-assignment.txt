@@ -177,81 +177,66 @@ Post/Pre Increment/Decrement
 
 	1.	wap to do pre increment a number and assign its value to other number and print both number
 	2.	wap to do post increment a number and assign its value to other number and print both number
-	
 	3.	wap to do pre increment a number and assign its value to other number and print both numbers, do assignment increment in same line
-	4.	wap to do post increment a number and assign its value to other number and print both numbers, do assignment increment in same line
-	
+	4.	wap to do post increment a number and assign its value to other number and print both numbers, do assignment increment in same line	
 	5.	wap to pre increment a number n multiply with a number and assign product to a variable, print both variables
 	6.	wap to post increment a number n multiply with a number and assign product to a variable, print both variables
 	7.	Repeat all above operations with decrement operators too.
-	
 	8.	int a = 3;
 		int b = ++a;
-		what will be the value of a and b on printing
-	
+		what will be the value of a and b on printing	
 	9.	int a = -3;
 		int b = a++;
-		what will be the value of a and b on printing
-	
+		what will be the value of a and b on printing	
 	10.	int a = 3;
 		int b = ++a;
 		what will be the value of a and b on printing
-	
 	11.	int a = 3;
 		int b = ++a + 9;
 		what will be the value of a and b on printing
-	
 	12.	int a = 3;
 		int b = a++ * 6;
 		what will be the value of a and b on printing
-	
 	13.	int a = 3;
 		int b = a++ / 3;
 		what will be the value of a and b on printing
-	
-	14. int x = 10;
+	14. 	int x = 10;
 		int y = -2;
 		int z = ++x * y++;
 		sop(x);
 		sop(y);
-		sop(z);
-	
-	15. int x = 3;
+		sop(z);	
+	15. 	int x = 3;
 		int y = 2;
 		int z = x++ * y++;
 		sop(x);
 		sop(y);
 		sop(z);
-
-	16. int x = -1;
+	16. 	int x = -1;
 		int y = 2;
 		int z = --x * y++;
 		sop(x);
 		sop(y);
 		sop(z);
-
-	17. int x = 0;
+	17. 	int x = 0;
 		int y = -2;
 		int z = ++x * ++y;
 		sop(x);
 		sop(y);
 		sop(z);
-
-	18. int x = -3;
+	18. 	int x = -3;
 		int y = -2;
 		int z = --x * y--;
 		sop(x);
 		sop(y);
 		sop(z);
-
-	19. int x = 10;
+	19. 	int x = 10;
 		int y = -2;
 		int z = ++x + y++;
 		sop(x);
 		sop(y);
 		sop(z);
-
-	20. int x = 10;
+	20. 	int x = 10;
 		int y = -2;
 		int z = ++x / y++;
 		sop(x);
@@ -265,8 +250,7 @@ Post/Pre Increment/Decrement
 	
 Relational Operator:
 
-	1.	wap to compare two numbers and print the result, >, >=, <, <=, ==, !=
-	
+	1.	wap to compare two numbers and print the result, >, >=, <, <=, ==, !=	
 	2.	int a = 10;
         int b = a - 5;
         System.out.println(a <= b);
@@ -277,15 +261,13 @@ Relational Operator:
         a++;
         b--;
         int c = b % a;
-        System.out.println(c >= b);
-		
+        System.out.println(c >= b);		
 	5.	int a = 10;
 		boolean x = a++==10;
 		boolean y = --a==10;
 		sop(a);
 		sop(x);
-		sop(y);
-	
+		sop(y);	
 	6.	int a = 10;
 		int b = 3;
 		boolean x = a++==10 && ++b==4;
@@ -293,8 +275,7 @@ Relational Operator:
 		sop(a);
 		sop(b);
 		sop(x);
-		sop(y);
-	
+		sop(y);	
 	7.	int a = 10;
 		int b = 3;
 		boolean x = a++==10 && ++b==4;
@@ -302,8 +283,7 @@ Relational Operator:
 		sop(a);
 		sop(b);
 		sop(x);
-		sop(y);
-		
+		sop(y);		
 	8.	int a = -4;
 		int b = 0;
 		boolean x = a< -5 && b==4;
@@ -311,8 +291,7 @@ Relational Operator:
 		sop(a);
 		sop(b);
 		sop(x);
-		sop(y);
-		
+		sop(y);		
 	9.	int a = -1;
 		int b = 1;
 		boolean x = ++a<=0 && ++b>1;
@@ -320,71 +299,58 @@ Relational Operator:
 		sop(a);
 		sop(b);
 		sop(x);
-		sop(y);
-		
+		sop(y);	
 	10.	int a = -1;
 		boolean x = a!=-2 && ++a==0;
 		sop(a);
 		sop(x);
-	
 	11.	int x = 9;
 		sop("result: "+(x==9 && ++x!=9)); 
-
-	12. int x = -5;
-		sop("result: "+(x==-5 && ++x>-5)); 
-	
-	13. int y = -1;
+	12. 	int x = -5;
+		sop("result: "+(x==-5 && ++x>-5)); 	
+	13. 	int y = -1;
 		int x = 5 * y++ ;
 		sop(x);
-		sop(y);
-	
+		sop(y);	
 	14.	int y = -1;
 		int x = -5 * ++y ;
 		sop(x);
-		sop(y);
-		
+		sop(y);	
 	15.	int a=1, b=2, c=-3;
 		int s = ++a + b-- + c%3 ;
 		sop(a);
 		sop(b);
 		sop(c);
-		sop(s);
-	
+		sop(s);	
 	16.	int a=1, b=2, c=-3;
 		int s = a++ + b-- - c++ ;
 		sop(a);
 		sop(b);
 		sop(c);
-		sop(s);
-		
+		sop(s);		
 	17.	int a=1, b=2, c=-3;
 		int s = a++ + b-- * c++ ;
 		sop(a);
 		sop(b);
 		sop(c);
-		sop(s);
-		
+		sop(s);		
 	18.	boolean x = false, y = true;
 		boolean r = x==false;
 		boolean p = y!=true;
 		sop(x);
 		sop(r);
-		sop(p);
-		
+		sop(p);		
 	19.	boolean x = false, y = true;
 		boolean r = x==true;
 		boolean p = y==true;
 		sop(x);
 		sop(r);
 		sop(p);
-
 	20.	boolean x = false, y = true;
 		boolean r = x==false && y!=true;
 		sop(x);
 		sop(y);
 		sop(r);
-		
-	
 	21.	boolean x = false, y = true;
 		boolean r = x && y;
 		sop(r);
@@ -402,145 +368,122 @@ Logical operation
 			sop("hello world");
 		}
 		what will be the value of a and b on printing
-		
-		
 	2.	int a = 1;
 		int b = 2;
 		if(a==1 && ++b==3){
 			sop("hello world");
 		}
-		what will be the value of a and b on printing
-		
+		what will be the value of a and b on printing		
 	3.	int a = 1;
 		int b = 2;
 		if(a!=1 || b++==3){
 			sop("hello world");
 		}
-		what will be the value of a and b on printing
-		
+		what will be the value of a and b on printing	
 	4.	int a = 1;
 		int b = 2;
 		if(a!=1 && b++==3){
 			sop("hello world");
 		}
 		what will be the value of a and b on printing
-	
 	5.	boolean a = true;
-        boolean b = true;
-        boolean c = true;
-        boolean d = false;
-        boolean e = a || !b || c || !d;
-		print a, b, c, d and e
-		
+		boolean b = true;
+		boolean c = true;
+		boolean d = false;
+		boolean e = a || !b || c || !d;
+		print a, b, c, d and e	
 	6.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY & lampX;
-        System.out.println("Lamp switch-on " + result);
-		
+		boolean lampY = true;
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY & lampX;
+		System.out.println("Lamp switch-on " + result);
 	7.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY | lampX;
-        System.out.println("Lamp switch-on " + result);
-		
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY | lampX;
+		System.out.println("Lamp switch-on " + result);
 	8.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
-		
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);		
 	9.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY || result;
-        System.out.println("Lamp switch-on " + result);
-	
+		boolean lampY = true;
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY || result;
+		System.out.println("Lamp switch-on " + result);	
 	10.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = result && lampX;
-        System.out.println("Lamp switch-on " + result);
-		
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = result && lampX;
+		System.out.println("Lamp switch-on " + result);	
 	11.	int c = 0, d = 50, e = 50;
-        boolean b = (c == 1) && (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (++e < 100) && (c == 1);
-        System.out.println("e = " + e);
-		
+		boolean b = (c == 1) && (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (++e < 100) && (c == 1);
+		System.out.println("e = " + e);	
 	12.	int c = 0, e = 50;
-        boolean b = (c == 1) && (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (++e < 100) && (c == 1);
-        System.out.println("e = " + e);
-		
+		boolean b = (c == 1) && (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (++e < 100) && (c == 1);
+		System.out.println("e = " + e);	
 	13.	int c = 0, e = 50;
-        boolean b = (c == 1) || (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (e++ < 100) || (c == 1);
-        System.out.println("e = " + e);
-		
+		boolean b = (c == 1) || (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (e++ < 100) || (c == 1);
+		System.out.println("e = " + e);		
 	14.	int a = 15;
-        int b = a + 5;
-        int c = a + 10;
-        int d = c % a;
-        System.out.println(d);
-	
+		int b = a + 5;
+		int c = a + 10;
+		int d = c % a;
+		System.out.println(d);
 	15.	double d1 = 21.5;
-        double d2 = 0.5;
-        boolean condition = ( d1 / d2 ) < 15;
-        int result = condition ? 77 : 99;
-        System.out.println("result = " + result);
-
+		double d2 = 0.5;
+		boolean condition = ( d1 / d2 ) < 15;
+		int result = condition ? 77 : 99;
+		System.out.println("result = " + result);
 	16.	int a = 27 / 4 + 9;
-        int b = 52 / 6 - 3;
-        int c = 3;
-        c = a++ - b; 
-        a = a * b; 
-        b = b + a; 
-        a = (a < c) ? a % c : c % a; 
-        System.out.println("a = " + a + " b = " + b + " c = " + c);
-		
+		int b = 52 / 6 - 3;
+		int c = 3;
+		c = a++ - b; 
+		a = a * b; 
+		b = b + a; 
+		a = (a < c) ? a % c : c % a; 
+		System.out.println("a = " + a + " b = " + b + " c = " + c);		
 	17.	int a = 7 * 3 + 24 / 3 - 5;
-        int b = (7 * 3) + (24 / 3) - 5;
-        System.out.print(a + ", " + b);
-		
+		int b = (7 * 3) + (24 / 3) - 5;
+		System.out.print(a + ", " + b);	
 	18.	int x = 20;
-        int y = 10;
-        double z = x++ - y * 7 / --y + x * 10;
-        System.out.println(z);
-
+		int y = 10;
+		double z = x++ - y * 7 / --y + x * 10;
+		System.out.println(z);
 	19.	int x = 20;
-        int y = 10;
-        double z = x + y * 7 + y-- + x;
-        System.out.println(z);
-		
+		int y = 10;
+		double z = x + y * 7 + y-- + x;
+		System.out.println(z);	
 	20.	int x = 20;
-        int y = 10;
-        double z = (x + y) * 7 + (--y + x);
-        System.out.println(z);
-		
+		int y = 10;
+		double z = (x + y) * 7 + (--y + x);
+		System.out.println(z);	
 	21.	int c = 20;
-        double kelvin = c + 273.15;
-        System.out.println(kelvin);
-        int Rankine = (int) (c + 273.15 * 9 / 5);
-        System.out.println(Rankine);
-        double delisle = (100 - c) * 3 / 2;
-        System.out.println(delisle);
-	
+		double kelvin = c + 273.15;
+		System.out.println(kelvin);
+		int Rankine = (int) (c + 273.15 * 9 / 5);
+		System.out.println(Rankine);
+		double delisle = (100 - c) * 3 / 2;
+		System.out.println(delisle);
 	22.	double f = 70;
-        double kelvin = (f + 459.67) * 5 / 9;
-        System.out.println((int) kelvin);
-        double newton = (f - 32) * 11 / 60;
-        System.out.println((int) newton);
-
+		double kelvin = (f + 459.67) * 5 / 9;
+		System.out.println((int) kelvin);
+		double newton = (f - 32) * 11 / 60;
+		System.out.println((int) newton);
 	23.	boolean a, b, c;
-        a = b = c = true;
+        	a = b = c = true;
 		System.out.println("a = " + a + " b = " + b + " c = " + c);
 
 	-------------------------------------------------------------------------------------------------------
@@ -585,179 +528,144 @@ if-else
 		d. 50 to 60 - C
 		e. 60 to 80 - B
 		f. Above 80 - A
-		provide marks and print the corresponding grade.
-	
+		provide marks and print the corresponding grade.	
 	11.	wap to find smallest number among 2 numbers
 	12.	wap to find smallest number among 3 numbers
 	13.	Write a program to check whether a given character is lowercase ( a to z ) or uppercase ( A to Z ).
-		Hint: u can use ascii value to solve this issue
-	
+		Hint: u can use ascii value to solve this issue	
 	14.	boolean a, b, c;
-        a = b = c = true;
-        if( !a || ( b && c ) )
-        {
-            System.out.println("If executed");
-        }
-        else
-        {
-            System.out.println("else executed");
-        }
+		a = b = c = true;
+		if(!a || ( b && c )) {
+		    System.out.println("If executed");
+		}
+		else {
+		    System.out.println("else executed");
+		}	
+	15.	if(1 > 2) {
+		    System.out.println(" 1 is greater than 2");
+		}
 		
-	15.	if( 1 > 2 )
-        {
-            System.out.println(" 1 is greater than 2");
-        }
-		
-	16.	if( 1 < 2 )
-        {
-            System.out.println("1 is less than 2");
-        }
-        else
-            System.out.println("2 is less than 1");
-            System.out.println("Hello From IfExample");
-       
+	16.	if( 1 < 2 ) {
+		    System.out.println("1 is less than 2");
+		}
+		else
+		    System.out.println("2 is less than 1");
+		    System.out.println("Hello From IfExample");
 	17.	int marks = 80;
-        if( marks > 70 )
-            System.out.println("Distinction");
-        if( marks > 35 )
-            System.out.println("Pass");
-        else
-            System.out.println("Fail");
-            System.out.println("Better luck next time");
-			
+		if( marks > 70 )
+		    System.out.println("Distinction");
+		if( marks > 35 )
+		    System.out.println("Pass");
+		else
+		    System.out.println("Fail");
+		    System.out.println("Better luck next time");
 	19.	int a = 7 * 3 + 6 / 2 - 5;
-        int b = 21 - 8 + a % 3 * 11;
-        if(a < b)
-        {
-            System.out.println("A is less than B");
-        }
-        if(a = b)
-        {
-            System.out.println("A is equal to B");
-        }
-        if(a > b)
-        {
-            System.out.println("A is greater than B");
-        }
-		
+		int b = 21 - 8 + a % 3 * 11;
+		if(a < b) {
+		    System.out.println("A is less than B");
+		}
+		if(a = b) {
+		    System.out.println("A is equal to B");
+		}
+		if(a > b) {
+		    System.out.println("A is greater than B");
+		}
 	20.	int a = 12 + 21 * 3 - 9 / 2;
-        int b = 14 - 32 * 4 + 175 / 8 - 3;
-        if(++a > 71 && --b < 20)
-        {
-            System.out.println("a = " + a + " b = " + b);
-        }
-        if(b-- == -97 || a-- < 100)
-        {
-            System.out.println("a = " + a + " b = " + b);
-        }
-		
+		int b = 14 - 32 * 4 + 175 / 8 - 3;
+		if(++a > 71 && --b < 20) {
+		    System.out.println("a = " + a + " b = " + b);
+		}
+		if(b-- == -97 || a-- < 100) {
+		    System.out.println("a = " + a + " b = " + b);
+		}
 	21.	float fl = 5.3f;
-        if (fl == 5.3)
-            System.out.println("Both are equal");
-        else
-            System.out.println("Both are not equal");
-			
+		if (fl == 5.3)
+		    System.out.println("Both are equal");
+		else
+		    System.out.println("Both are not equal");	
 	22.	int first = 10, second;
-        if (first < 10)
-            second = 1;
-        if (first >= 10)
-            second = 2;
-        System.out.println("y is " + second);
-		
+		if (first < 10)
+		    second = 1;
+		if (first >= 10)
+		    second = 2;
+		System.out.println("y is " + second);
 	23.	int x = 20;
-        int y = 25;
-        if (++x < (y = y -= 4) || (x = x += 4) > y) {
-            System.out.println(x + "," + y);
-        }
-		
+		int y = 25;
+		if (++x < (y = y -= 4) || (x = x += 4) > y) {
+		    System.out.println(x + "," + y);
+		}	
 	24.	int x = 20;
-        int y = 25;
-        if (++x < (y = y -= 4) || (x = x += 4) > y) {
-            System.out.println(x + " " + y);
-        }
-		
+		int y = 25;
+		if (++x < (y = y -= 4) || (x = x += 4) > y) {
+		    System.out.println(x + " " + y);
+		}
 	25.	boolean x = true;
-        boolean y = false;
-        if (x && y) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
-		
+		boolean y = false;
+		if (x && y) {
+		    System.out.println(true);
+		} else {
+		    System.out.println(false);
+		}
 	26.	boolean x = true;
-        boolean y = false;
-        if (x || y) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
-		
+		boolean y = false;
+		if (x || y) {
+		    System.out.println(true);
+		} else {
+		    System.out.println(false);
+		}
 	27.	float f = 75.0f;
-        double d = 75.0;
-        int i = 75;
-        if( f == d )
-        {
-            if( f == i )
-            {
-                System.out.println("f, d and i are equal");
-            }
-            else
-            {
-                System.out.println("f, d are equal but i is not equal");
-            }
-        }
-        else
-        {
-            System.out.println("f and d are not equal");
-        }
-	
+		double d = 75.0;
+		int i = 75;
+		if(f == d) {
+		    if(f == i) {
+			System.out.println("f, d and i are equal");
+		    }
+		    else
+		    {
+			System.out.println("f, d are equal but i is not equal");
+		    }
+		}
+		else {
+		    System.out.println("f and d are not equal");
+		}
 	28.	boolean male = false;
-        int age = 30;
-        if( male )
-            if( age < 20 )
-                System.out.println("Boy");
-            else
-                System.out.println("Man");
-        else
-            if( age < 20 )
-                System.out.println("Girl");
-            else
-                System.out.println("Woman");
-				
+		int age = 30;
+		if( male )
+		    if( age < 20 )
+			System.out.println("Boy");
+		    else
+			System.out.println("Man");
+		else
+		    if( age < 20 )
+			System.out.println("Girl");
+		    else
+			System.out.println("Woman");	
 	29.	int marks = 50;
-        if( marks > 70 )
-            System.out.println("Distinction");
-        else if( marks > 35 )
-            System.out.println("Pass");
-        else
-            System.out.println("Fail");
-			
+		if( marks > 70 )
+		    System.out.println("Distinction");
+		else if( marks > 35 )
+		    System.out.println("Pass");
+		else
+		    System.out.println("Fail");	
 	30.	int marks = 80;
-        if( marks > 70 )
-        {
-            System.out.println("Distinction");
-            System.out.println("Congratulations");
-        }
-        else if( marks > 35 )
-        {
-            System.out.println("Pass");
-        }
-        else
-        {
-            System.out.println("Fail");
-            System.out.println("Better luck next time");
-        }
-	
+		if( marks > 70 ) {
+		    System.out.println("Distinction");
+		    System.out.println("Congratulations");
+		}
+		else if( marks > 35 ) {
+		    System.out.println("Pass");
+		}
+		else {
+		    System.out.println("Fail");
+		    System.out.println("Better luck next time");
+		}
 	31.	int marks = 50;
-        if( marks >= 70 )
-            System.out.println("Distinction");
-
-        if( marks < 70 && marks >= 35 )
-            System.out.println("Pass");
-
-        if( marks < 35 )
-            System.out.println("Fail");
-			
+		if( marks >= 70 )
+		    System.out.println("Distinction");
+		if( marks < 70 && marks >= 35 )
+		    System.out.println("Pass");
+		if( marks < 35 )
+		    System.out.println("Fail");	
 	32.	boolean a=true, b = false;
 		if (a) {
 			System.out.println("A");
@@ -770,38 +678,37 @@ if-else
 				System.out.println("ELSE");
 			}
 		}
-
-	33. wap to find a given number is negative or not?
-	34. wap to print zero if number zero, 1 if positive and -1 if number is negative
-	35. wap to print odd if number is odd and even if number is even
-	36. wap to check whether number is less than 100 or not
-	37. wap to check whether number is between -100 to 50
-	38. wap to print whether number is divisible by 3 or not
-	39. wap to check whether number divisible by 7
-	40. wap to print hi if number is zero and by if number is 100
-	41. wap to print double if number is a double digit 
-	42. wap to print single if number is single digit
-	43. wap to print ternary if number is 3 digit
-	44. wap to print 100 if number is between 100 to 200
-	45. wap to find greatest number among two numbers
-	46. wap to find greatest number among three numbers
-	47. wap to find least number among two numbers  
-	48. wap to find least number among three numbers
-	49. wap to check whether a given character is capital 'A' or not 
-	50. wap to print 'up' if any given character is upper case
-	51. wap to print 'low' if any given character is lower case
-	52. wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
-	53. wap to check whether a given number is positive and double digit or single digit number 
-	54. wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
-	55. wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
-	56. wap to print all these on basis of give character value
+	33. 	Wap to find a given number is negative or not?
+	34. 	Wap to print zero if number zero, 1 if positive and -1 if number is negative
+	35. 	Wap to print odd if number is odd and even if number is even
+	36. 	Wap to check whether number is less than 100 or not
+	37. 	Wap to check whether number is between -100 to 50
+	38. 	Wap to print whether number is divisible by 3 or not
+	39. 	Wap to check whether number divisible by 7
+	40. 	Wap to print hi if number is zero and by if number is 100
+	41. 	Wap to print double if number is a double digit 
+	42. 	Wap to print single if number is single digit
+	43. 	Wap to print ternary if number is 3 digit
+	44. 	Wap to print 100 if number is between 100 to 200
+	45. 	Wap to find greatest number among two numbers
+	46. 	Wap to find greatest number among three numbers
+	47. 	Wap to find least number among two numbers  
+	48. 	Wap to find least number among three numbers
+	49. 	Wap to check whether a given character is capital 'A' or not 
+	50. 	Wap to print 'up' if any given character is upper case
+	51. 	Wap to print 'low' if any given character is lower case
+	52. 	Wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
+	53. 	Wap to check whether a given number is positive and double digit or single digit number 
+	54. 	Wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
+	55. 	Wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
+	56. 	Wap to print all these on basis of give character value
 		'A' -> Capital
 		'a' -> small 
-	57. wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
-	58. wap to print 'number' if the given character is number else 'non number'
-	59.	wap to print 'star' if the given character is * else print 'no star'
-	60.	wap to print 'at the rate' if the given character is @ else print 'no rate'
-	61.	wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 		
+	57. 	Wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
+	58. 	Wap to print 'number' if the given character is number else 'non number'
+	59.	Wap to print 'star' if the given character is * else print 'no star'
+	60.	Wap to print 'at the rate' if the given character is @ else print 'no rate'
+	61.	Wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 		
 		'world' if number is divisible by 5.
 	
 
@@ -841,7 +748,7 @@ for/while loop
 	29.	wap to print all numbers between 100 to 1 those are divisible by 11 and 3.
 	30.	wap to print all numbers between 1 to 150 multiple of 11.
 	31.	wap to give a condition that loop may be rotate upto 10 but break loop when it rotates uptop 7 times.
-	32. wap to print all lower case alphabets.
+	32. 	wap to print all lower case alphabets.
 	33.	wap to print all upper case alphabets.
 	34.	wap to print all upper case alphabets except vowels.
 	34.	wap to print all lower case alphabets except vowels.
