@@ -2104,99 +2104,96 @@ Class:
 	1.	Create a class Company having member variables companyId, name, description. create getters and 
 		setters for all member variables. Create object of Company class in other class inside main method
 		and set all member values and print all member values using getters.
-	
-	2.	Create a class Presentation having member variables presentationId, bookedCompanyId, bookedRoomId, startTime, endTime. Create getters and setters for all member variables. Create object of Presentation class in other class inside main method and set all member values and print all member values using getters.
-		
+	2.	Create a class Presentation having member variables presentationId, bookedCompanyId, bookedRoomId, startTime, endTime. Create getters and 
+		setters for all member variables. Create object of Presentation class in other class inside main method and set all member values and print 
+		all member values using getters.
 	3.	Create a class Room having member variables roomId, floorNum, seatCapacity. create getters and 
 		setters for all member variables. Create object of Room class in other class inside main method
 		and set all member values and print all member values using getters.
-	
-	4.	Create a class Attendee having member variables attendeeId, firstName, lastName, phone, email, vip. create getters and setters for all member variables. Create object of Attendee class in other class inside main method and set all member values and print all member values using getters.
-	
-	5.	Create a class PresentationAttendance having member variables ticketId, presentationId, attendeeId. create getters and setters for all member variables. Create object of PresentationAttendance class in other class inside main method and set all member values and print all member values using getters.
-	
-	6.	Create a class Employee having member variables id, employeeName, employeeNum, dateHired, cityId. create getters and setters for all member variables. Create object of Employee class in other class inside main method and set all member values and print all member values using getters.
-	
-	7.	Create a class SalariedEmployee having member variables id, annualSalary, employeeId. create getters and setters for all member variables. Create object of SalariedEmployee class in other class inside main method and set all member values and print all member values using getters.
-	
+	4.	Create a class Attendee having member variables attendeeId, firstName, lastName, phone, email, vip. create getters and setters for all 
+		member variables. Create object of Attendee class in other class inside main method and set all member values and print all member values 
+		using getters.	
+	5.	Create a class PresentationAttendance having member variables ticketId, presentationId, attendeeId. create getters and setters for all 
+		member variables. Create object of PresentationAttendance class in other class inside main method and set all member values and print all 
+		member values using getters.	
+	6.	Create a class Employee having member variables id, employeeName, employeeNum, dateHired, cityId. create getters and setters for all member 
+		variables. Create object of Employee class in other class inside main method and set all member values and print all member values using 
+		getters.	
+	7.	Create a class SalariedEmployee having member variables id, annualSalary, employeeId. create getters and setters for all member variables. 
+		Create object of SalariedEmployee class in other class inside main method and set all member values and print all member values using 
+		getters.	
 	8.	Create a class City having member variables id, city. create getters and 
 		setters for all member variables. Create object of City class in other class inside main method
-		and set all member values and print all member values using getters.
-		
-	9.	Create a class HourlyEmployee having member variables id, annualSalary, employeeId . create getters and setters for all member variables. Create object of HourlyEmployee class in other class inside main method and set all member values and print all member values using getters.
-	
+		and set all member values and print all member values using getters.		
+	9.	Create a class HourlyEmployee having member variables id, annualSalary, employeeId . create getters and setters for all member variables. 
+		Create object of HourlyEmployee class in other class inside main method and set all member values and print all member values using getters.
 	10.	Create a class OrderItems having member variables orderId, productId, quantity. create getters and 
-		setters for all member variables. Create object of OrderItems class in other class inside main method and set all member values and print all member values using getters.
-		
-	11.	Create a class Orders having member variables id, userId, status, createdAt. create getters and 
-		setters for all member variables. Create object of Orders class in other class inside main method
-		and set all member values and print all member values using getters.
-		
-	12.	Create a class Users having member variables id, fullName, email, gender, dateOfBirth, countryCode, createdAt. create getters and setters for all member variables. Create object of Users class in other class inside main method and set all member values and print all member values using getters.
-	
-	13.	Create a class Merchants having member variables id, merchantName, adminId, countryCode, createdAt. create getters and setters for all member variables. Create object of Merchants class in other class inside main method and set all member values and print all member values using getters.
-	
-	14.	Create a class Products having member variables id, merchantId, name, price, status, createdAt. create getters and setters for all member variables. Create object of Products class in other class inside main method and set all member values and print all member values using getters.
-	
-	15.	Create a class Countries having member variables code, name, continentName. create getters and 
-		setters for all member variables. Create object of Countries class in other class inside main method and set all member values and print all member values using getters.
-		
-	16.	Create a class Brands having member variables id, brandName, thumbnails. create getters and 
-		setters for all member variables. Create object of Brands class in other class inside main method
-		and set all member values and print all member values using getters.
-		
-	17.	Create a class Categorys having member variables id, categoryName, thumbnails. create getters and 
-		setters for all member variables. Create object of Categorys class in other class inside main method and set all member values and print all member values using getters.
-		
-	18.	Create a class Stuff having member variables id, stuffName, thumbnails. create getters and 
-		setters for all member variables. Create object of Stuff class in other class inside main method
-		and set all member values and print all member values using getters.
-		
-	19.	Create a class BaseRelationTable having member variables id, brandsId, categoryId, collectionId. create getters and setters for all member variables. Create object of BaseRelationTable class in other class inside main method and set all member values and print all member values using getters.
-	
-	20.	Create a class Pattern having member variables id, optionName. create getters and 
-		setters for all member variables. Create object of Pattern class in other class inside main method
-		and set all member values and print all member values using getters.
-		
-	21.	Create a class Product having member variables id, productName, description, baseRelationTable, patternId. create getters and setters for all member variables. Create object of Product class in other class inside main method and set all member values and print all member values using getters.
-	
-	22.	Create a class ProductOptionRelation having member variables productId, optionId. create getters and setters for all member variables. Create object of ProductOptionRelation class in other class inside main method and set all member values and print all member values using getters.
-	
-	23.	Create a class Finish having member variables id, finishName. create getters and 
-		setters for all member variables. Create object of Finish class in other class inside main method
-		and set all member values and print all member values using getters.
-	
-	24.	Create a class ProductVariant having member variables variantId, productId, finishId, colorsId, metadata, thumbnails. create getters and setters for all member variables. Create object of ProductVariant class in other class inside main method and set all member values and print all member values using getters.
-	
-	25.	Create a class OptionTable having member variables id, optionName. create getters and setters for all member variables. Create object of OptionTable class in other class inside main method and set all member values and print all member values using getters.
-	
-	26.	Create a class OptionValues having member variables id, optionId, valueName. create getters and setters for all member variables. Create object of OptionValues class in other class inside main method and set all member values and print all member values using getters.
-	
-	27.	Create a class Colors having member variables id, colorName. create getters and 
-		setters for all member variables. Create object of Colors class in other class inside main method
-		and set all member values and print all member values using getters.
-	
-	28.	Create a class Dimensions having member variables id, dimensionValue. create getters and 
-		setters for all member variables. Create object of Dimensions class in other class inside main method
-		and set all member values and print all member values using getters.
-	
-	29.	Create a class DimensionHasProductVariant having member variables dimensionId, productId, variantId. create getters and setters for all member variables. Create object of DimensionHasProductVariant class in other class inside main method and set all member values and print all member values using getters.
-	
-	30.	Create a class VariantValue having member variables productId, optionId, valueId, dimensionId, variantId, price, sku. create getters and setters for all member variables. Create object of VariantValue class in other class inside main method and set all member values and print all member values using getters.
-	
-	31.	Create a class Customers having member variables customerId, firstName, lastName, class, doorNum, address1, address2, city, state, postalcode, country, phone, email, voiceMail, password, creditCard, creditCardTypeId, cardExpMonth, cardExpYr, billingAddress, billingCity, billingRegion, billingPostalcode, billingCountry, shipAddress, shipCity, shipRegion, shipPostalcode, shipCountry, dateEntered. create getters and setters for all member variables. Create object of Customers class in other class inside main method and set all member values and print all member values using getters.
-		
-	32.	Create a class Suppliers having member variables supplierId, companyName, contact_fName, contact_lName, contact_title, address1, address2, city, state, postalcode, country, phone, fax, email,
-	url, paymentMethods, discountType, typeGoods_, notes, discountAvailabe, currentOrder, logo, customerId. create getters and setters for all member variables. Create object of Suppliers class in other class inside main method and set all member values and print all member values using getters.
-						
-	33.	creat a class having name Pattern, then add methods to print all patterns like increaseStar, decreaseStar, increaseStartFromRight, decreaseStartFromRight, diamond, pyramid, reversePyramid.
-	All these methods will accept one int argument and will not return anything.
-	
-	34. create a class of name Arithmetic, add methods like add, sub, div, prod, fibonacci, prime, factorial. Plz make these methods return type and arguments according to your wish.
-	
-	35. create a class ArrayOperation and add methods like int[] copy(int[] a), int[] reverse(int[] b), 
-	int[] addTwoArrays(int[] a, int[] b), void print(int[] p), int sumArray(int a[]), 
-	int findMax(int[] a), int findMin(int[] a), int countNegative(int a[]), int countPositive(int a[]),  
+		setters for all member variables. Create object of OrderItems class in other class inside main method and set all member values and print 
+		all member values using getters.		
+	11.	Create a class Orders having member variables id, userId, status, createdAt. create getters and setters for all member variables. Create 
+		object of Orders class in other class inside main method and set all member values and print all member values using getters.
+	12.	Create a class Users having member variables id, fullName, email, gender, dateOfBirth, countryCode, createdAt. create getters and setters 
+		for all member variables. Create object of Users class in other class inside main method and set all member values and print all member 
+		values using getters.
+	13.	Create a class Merchants having member variables id, merchantName, adminId, countryCode, createdAt. create getters and setters for all 
+		member variables. Create object of Merchants class in other class inside main method and set all member values and print all member values 
+		using getters.
+	14.	Create a class Products having member variables id, merchantId, name, price, status, createdAt. create getters and setters for all member 
+		ariables. Create object of Products class in other class inside main method and set all member values and print all member values using 
+		getters.
+	15.	Create a class Countries having member variables code, name, continentName. create getters and setters for all member variables. Create 
+		object of Countries class in other class inside main method and set all member values and print all member values using getters.
+	16.	Create a class Brands having member variables id, brandName, thumbnails. create getters and setters for all member variables. Create object 
+		of Brands class in other class inside main method and set all member values and print all member values using getters.		
+	17.	Create a class Categorys having member variables id, categoryName, thumbnails. create getters and setters for all member variables. Create 
+		object of Categorys class in other class inside main method and set all member values and print all member values using getters.
+	18.	Create a class Stuff having member variables id, stuffName, thumbnails. create getters and setters for all member variables. Create object 
+		of Stuff class in other class inside main method and set all member values and print all member values using getters.
+	19.	Create a class BaseRelationTable having member variables id, brandsId, categoryId, collectionId. create getters and setters for all member 
+		variables. Create object of BaseRelationTable class in other class inside main method and set all member values and print all member values 
+		using getters.
+	20.	Create a class Pattern having member variables id, optionName. create getters and setters for all member variables. Create object of Pattern 
+		class in other class inside main method and set all member values and print all member values using getters.
+	21.	Create a class Product having member variables id, productName, description, baseRelationTable, patternId. create getters and setters for 
+		all member variables. Create object of Product class in other class inside main method and set all member values and print all member values 
+		using getters.
+	22.	Create a class ProductOptionRelation having member variables productId, optionId. create getters and setters for all member variables. 
+		Create object of ProductOptionRelation class in other class inside main method and set all member values and print all member values using 
+		getters.
+	23.	Create a class Finish having member variables id, finishName. create getters and setters for all member variables. Create object of Finish 
+		class in other class inside main method and set all member values and print all member values using getters.
+	24.	Create a class ProductVariant having member variables variantId, productId, finishId, colorsId, metadata, thumbnails. create getters and 
+		setters for all member variables. Create object of ProductVariant class in other class inside main method and set all member values and 
+		print all member values using getters.
+	25.	Create a class OptionTable having member variables id, optionName. create getters and setters for all member variables. Create object of 
+		OptionTable class in other class inside main method and set all member values and print all member values using getters.
+	26.	Create a class OptionValues having member variables id, optionId, valueName. create getters and setters for all member variables. Create 
+		object of OptionValues class in other class inside main method and set all member values and print all member values using getters.
+	27.	Create a class Colors having member variables id, colorName. create getters and setters for all member variables. Create object of Colors 
+		class in other class inside main method and set all member values and print all member values using getters.
+	28.	Create a class Dimensions having member variables id, dimensionValue. create getters and setters for all member variables. Create object of 
+		Dimensions class in other class inside main method and set all member values and print all member values using getters.
+	29.	Create a class DimensionHasProductVariant having member variables dimensionId, productId, variantId. create getters and setters for all 
+		member variables. Create object of DimensionHasProductVariant class in other class inside main method and set all member values and print 
+		all member values using getters.
+	30.	Create a class VariantValue having member variables productId, optionId, valueId, dimensionId, variantId, price, sku. create getters and 
+		setters for all member variables. Create object of VariantValue class in other class inside main method and set all member values and print 
+		all member values using getters.
+	31.	Create a class Customers having member variables customerId, firstName, lastName, class, doorNum, address1, address2, city, state, 
+		postalcode, country, phone, email, voiceMail, password, creditCard, creditCardTypeId, cardExpMonth, cardExpYr, billingAddress, billingCity, 
+		billingRegion, billingPostalcode, billingCountry, shipAddress, shipCity, shipRegion, shipPostalcode, shipCountry, dateEntered. create 
+		getters and setters for all member variables. Create object of Customers class in other class inside main method and set all member values 
+		and print all member values using getters.		
+	32.	Create a class Suppliers having member variables supplierId, companyName, contact_fName, contact_lName, contact_title, address1, address2, 
+		city, state, postalcode, country, phone, fax, email, url, paymentMethods, discountType, typeGoods_, notes, discountAvailabe, currentOrder, 
+		logo, customerId. create getters and setters for all member variables. Create object of Suppliers class in other class inside main method 
+		and set all member values and print all member values using getters.				
+	33.	creat a class having name Pattern, then add methods to print all patterns like increaseStar, decreaseStar, increaseStartFromRight, 
+		decreaseStartFromRight, diamond, pyramid, reversePyramid. All these methods will accept one int argument and will not return anything.
+	34. 	create a class of name Arithmetic, add methods like add, sub, div, prod, fibonacci, prime, factorial. Plz make these methods return type and 
+		arguments according to your wish.
+	35. 	create a class ArrayOperation and add methods like int[] copy(int[] a), int[] reverse(int[] b), int[] addTwoArrays(int[] a, int[] b), void 
+		print(int[] p), int sumArray(int a[]), int findMax(int[] a), int findMin(int[] a), int countNegative(int a[]), int countPositive(int a[]),  
 	36.	Create a class InventaoryItem with member variables UUID, int invItem, String title, double price, Date purchaseDate and memeber methods
 		are getters,  and setters, override toString(), hashcode() and equals() methods.
 	37.	Create a class OrderItem with member variables UUID, int orderItem, int quantity and memeber methods are getters,  and setters, override 
@@ -2221,65 +2218,86 @@ Class:
 	47.	Create a class Invoice with member variables UUID, int invoiceNum, Date createDate and memeber methods are getters,  and setters, override 
 		toString(), hashcode() and equals() methods.
 	48.	Create a class Address with member variables UUID, int addressId, String name, String add1, String add2, String city, String state, String 
-		zip and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	49.	Create a class CreditCard with member variables UUID, int cc, int ccNum, String holderName, Date expireDate and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	50.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	51.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	52.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	53.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	54.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	55.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	56.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	57.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	58.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	59.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	60.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	61.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	62.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	63.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	64.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	65.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	66.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	67.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	68.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	69.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	70.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	71.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	72.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	73.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	74.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	75.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	76.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	77.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	78.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	79.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	80.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	81.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	82.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	83.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	84.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	85.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	86.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	87.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	88.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	89.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	90.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	91.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	92.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	93.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	94.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	95.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	96.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	97.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	98.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	99.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+		zip and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	49.	Create a class CreditCard with member variables UUID, int cc, int ccNum, String holderName, Date expireDate and member methods are getters, 
+		and setters, override toString(), hashcode() and equals() methods.
+	50.	Create a class Country with member variables double size, String officialLanguage, double gdp, String[] languages and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	51.	Create a class UNRepresentative with member variables int id, String name, char gender, int age and member methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	52.	Create a class PoliticalParty with member variables int id, String name, String headQuarter, String chariman and member methods are getters, 
+		setters, override toString(), hashcode() and equals() methods.
+	53.	Create a class PresidentialCandidate with member variables int id, String name, char gender, int age and member methods are getters, setters 
+		override toString(), hashcode() and equals() methods.
+	54.	Create a class Student with member variables int studentId, Date birthDate, String gradeLevel and member methods are getters,  and setters, 
+		override toString(), hashcode() and equals() methods.
+	55.	Create a class Course with member variables int id, int size, int teacherId, String textbox and member methods are getters, setters, 
+		override toString(), hashcode() and equals() methods.
+	56.	Create a class Enrollments with member variables int studentId, int courseId, Date admissionDate and member methods are getters, setters, 
+		override toString(), hashcode() and equals() methods.
+	57.	Create a class Course with member variables int courseId, int size, int teacherId, String textbox and member methods are getters, setters, 
+		override toString(), hashcode() and equals() methods.
+	58.	Create a class Products with member variables String color1, String color2, String color3, double price and member methods are getters, 
+		setters, override toString(), hashcode() and equals() methods.
+	59.	Create a class CustomerDimension with member variables int customerId, String customerName, Date dateOfBirth and member methods are getters, 
+		setters, override toString(), hashcode() and equals() methods.
+	60.	Create a class SalesFactTable with member variables int id, String country, Date yearId, int customerId, double valueOfSale and member 
+		methods are getters, setters, override toString(), hashcode() and equals() methods.
+	61.	Create a class CountryDimension with member variables int countryId, String name, BigInteger population and member methods are getters, 
+		setters, override toString(), hashcode() and equals() methods.
+	62.	Create a class YearDimension with member variables int yearId and member methods are getters, setters, override toString(), hashcode() and 
+		equals() methods.
+	63.	Create a class Suppliers with member variables int id, String supplierName, String contactName, String add1, String add2, String city, 
+		String state, String zip, String countryName and member methods are getters, setters, override toString(), hashcode() and equals() methods.
+	64.	Create a class OrdersDesc with member variables int oderId, String salesPerson, Date orderDate, String product, BigInteger quantity, 
+		BigDecimal price, BigDecimal total and member methods are getters, setters, override toString(), hashcode() and equals() methods.
+	65.	Create a class StaffManagers with member variables int employeeId, String name, String department, boolean gender, int age and member 
+		methods are getters, setters, override toString(), hashcode() and equals() methods.
+	66.	Create a class StaffEmployee with member variables int employeeId, String name, String[] skills, char gender, int age and member methods are 
+		getters, setters, override toString(), hashcode() and equals() methods.
+	67.	Create a class StaffContractor with member variables int employeeId, String name, String[] skills, String extraInfo and member methods are 
+		getters, setters, override toString(), hashcode() and equals() methods.
+	68.	Create a class StaffAgents with member variables int agentId, String[] phoneNums, List<String> labourNames, boolean 3rdVendor and member 
+		methods are getters, setters, override toString(), hashcode() and equals() methods.
+	69.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	70.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	71.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	72.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	73.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	74.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	75.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	76.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	77.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	78.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	79.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	80.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	81.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	82.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	83.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	84.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	85.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	86.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	87.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	88.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	89.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	90.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	91.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	92.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	93.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	94.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	95.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	96.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	97.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	98.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	99.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
 	
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
+	
+	
+	
+			-------------------------------------------------------------------------------------------------------
+									Date
+			-------------------------------------------------------------------------------------------------------
 
-	
-	
-Date :
 	1.	Wap to create and print java.util.Date object;
 	2.	Wap to create and print java.sql.Date object;
 	3.	Wap to convert java.util.Date to java.util.Date object;
@@ -2307,70 +2325,56 @@ Date :
 	
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
 
+			-------------------------------------------------------------------------------------------------------
+								Model and Dto class
+			-------------------------------------------------------------------------------------------------------
 
-Model and Dto class
 	1.	create a model class User having fields id, name, dob, email
 		create a dto class UserDto having fields id, name, dob, email
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-	
 	2.	create a model class Student having fields id, name, dob, email, schoolId
 		create a dto class StudentDto having fields id, name, dob, email, schoolId
-		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-	
+		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.	
 	3.	create a model class School having fields schoolId, name, registrationDate, medium, address
 		create a dto class SchoolDto having fields schoolId, name, registrationDate, medium, address
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	4.	create a model class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName
 		create a dto class TeacherDto having fields id, TeacherId, name, dob, email, schoolId, fatherName
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	5.	create a model class Car having fields CarId, model, company, engine, color, type
 		create a dto class CarDto having fields CarId, model, company, engine, color, type
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	6.	create a model class Country having fields countryId, name, independenceDate, email, phoneCode, republicDate
 		create a dto class CountryDto having fields countryId, name, independenceDate, email, phoneCode, republicDate
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	7.	create a model class State having fields stateId, countryId, name, stateCode
 		create a dto class StateDto having fields stateId, countryId, name, stateCode
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	8.	create a model class City having fields cityId, countryId, stateId, name, cityCode
 		create a dto class CityDto having fields cityId, countryId, stateId, name, cityCode
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	9.	create a model class Street having fields streetId, cityId, countryId, stateId, name, address, postcode
 		create a dto class StreetDto having fields streetId, cityId, countryId, stateId, name, address, postcode
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	10.	create a model class Student having fields id, name, dob, email
 		create a dto class StudentDto having fields id, name, dob, email
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	11.	create a model class Student having fields id, name, dob, email
 		create a dto class StudentDto having fields id, name, dob, email
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	12.	create a model class Student having fields id, name, dob, email
 		create a dto class StudentDto having fields id, name, dob, email
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
-
 	13.	create a model class Student having fields id, name, dob, email
 		create a dto class StudentDto having fields id, name, dob, email
 		copy from model to dto class manually as well as automatically using dozerbeanmapper class and print.
 
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-
-
-Abstract class:
+			-------------------------------------------------------------------------------------------------------
+								Abstract class
+			-------------------------------------------------------------------------------------------------------
 
 NANR - method neither return nor accept any argument
 ANR - method will not return but accept any argument
