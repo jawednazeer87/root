@@ -1387,7 +1387,7 @@ Method
 	4.	void printOdd(int[])
 		method will print all odd number from supplied array
 	5.	void printNum(int[], int)
-		method will print number if found in array negative number from supplied array
+		method will print number if found in array from supplied array
 		e.g. if a[]={1,2,3} n b=2 then print 2
 		if a[]={1,2,3} n b=5 then print not found, here 5 is not an array element
 	6.	void copy(int[], int[])
@@ -1396,7 +1396,7 @@ Method
 		create an array and copy supplied array and return that new array
 	8.	int sum(int[])
 		find sum of all elements of an array and return sum
-	9.	int average(int[])
+	9.	double average(int[])
 		find the average of array elements and return average
 	10.	int greatest(int[])
 		find greatest element of an array and return that greatest value
@@ -2197,7 +2197,82 @@ Class:
 	35. create a class ArrayOperation and add methods like int[] copy(int[] a), int[] reverse(int[] b), 
 	int[] addTwoArrays(int[] a, int[] b), void print(int[] p), int sumArray(int a[]), 
 	int findMax(int[] a), int findMin(int[] a), int countNegative(int a[]), int countPositive(int a[]),  
-	
+	36.	Create a class InventaoryItem with member variables UUID, int invItem, String title, double price, Date purchaseDate and memeber methods
+		are getters,  and setters, override toString(), hashcode() and equals() methods.
+	37.	Create a class OrderItem with member variables UUID, int orderItem, int quantity and memeber methods are getters,  and setters, override 
+		toString(), hashcode() and equals() methods.
+	38.	Create a class CartDetail with member variables UUID, int state, Date createDate, int quantity and memeber methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	39.	Create a class ShoppingCart with member variables UUID, int cart, boolean active, Date expireOn and memeber methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	40.	Create a class UserSession with member variables UUID, int session, String ipAddress, int clicks, Date createDate and memeber methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	41.	Create a class Order with member variables UUID, int order, Date orderDate, long totalAmount, String state and memeber methods are getters,  		     and setters, override toString(), hashcode() and equals() methods.
+	42.	Create a class UserAccount with member variables UUID, int account, int id, String pwd, Date createDate, int visits, int transact, int 
+		totTransAmount  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	43.	Create a class OrderItemHistory with member variables UUID, int seq, int amount, String state, String notes, createDate and memeber methods 
+		are getters,  and setters, override toString(), hashcode() and equals() methods.
+	44.	Create a class Shipping with member variables UUID, int shipping, String shipMethod, int shipCharge, String state, Date shipDate and memeber 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	45.	Create a class Payment with member variables UUID, int payment, int amount, String state, Date createDate and memeber methods are getters,  
+		and setters, override toString(), hashcode() and equals() methods.
+	46.	Create a class InvoiceHistory with member variables UUID, int invState, String stateDesc, String notes, Date createDate and memeber methods 
+		are getters,  and setters, override toString(), hashcode() and equals() methods.
+	47.	Create a class Invoice with member variables UUID, int invoiceNum, Date createDate and memeber methods are getters,  and setters, override 
+		toString(), hashcode() and equals() methods.
+	48.	Create a class Address with member variables UUID, int addressId, String name, String add1, String add2, String city, String state, String 
+		zip and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	49.	Create a class CreditCard with member variables UUID, int cc, int ccNum, String holderName, Date expireDate and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	50.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	51.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	52.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	53.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	54.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	55.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	56.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	57.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	58.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	59.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	60.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	61.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	62.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	63.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	64.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	65.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	66.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	67.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	68.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	69.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	70.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	71.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	72.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	73.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	74.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	75.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	76.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	77.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	78.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	79.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	80.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	81.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	82.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	83.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	84.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	85.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	86.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	87.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	88.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	89.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	90.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	91.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	92.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	93.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	94.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	95.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	96.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	97.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	98.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	99.	Create a class UserSession with member variables  and memeber methods are getters,  and setters, override toString(), hashcode() and equals() methods.
 	
 	-------------------------------------------------------------------------------------------------------
 				-------------------------------------------------------------------------------------------------------
