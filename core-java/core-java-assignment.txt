@@ -2294,9 +2294,9 @@ Class:
 	
 	
 	
-			-------------------------------------------------------------------------------------------------------
+		------------------------------------------------------------------------------------------------------------------
 									Date
-			-------------------------------------------------------------------------------------------------------
+		------------------------------------------------------------------------------------------------------------------
 
 	1.	Wap to create and print java.util.Date object;
 	2.	Wap to create and print java.sql.Date object;
@@ -2325,10 +2325,9 @@ Class:
 	
 
 
-
-			-------------------------------------------------------------------------------------------------------
+		------------------------------------------------------------------------------------------------------------------
 								Model and Dto class
-			-------------------------------------------------------------------------------------------------------
+		------------------------------------------------------------------------------------------------------------------
 
 	1.	create a model class User having fields id, name, dob, email
 		create a dto class UserDto having fields id, name, dob, email
@@ -2372,230 +2371,218 @@ Class:
 
 
 
-			-------------------------------------------------------------------------------------------------------
-								Abstract class
-			-------------------------------------------------------------------------------------------------------
 
-NANR - method neither return nor accept any argument
-ANR - method will not return but accept any argument
-NAR - method will return but not accept any argument
-AR - method will return and accept argument
+		------------------------------------------------------------------------------------------------------------------
+								  Abstract class
+		------------------------------------------------------------------------------------------------------------------
 
-ABS -> abstract method
-CON -> conrete method
 
-create and extends abstract class
-1.	Person having abstract methods
-	job, salary, designation -> NANR, ABS
-2.	CollegeDetails
-	feesStructure, duration, specialization ->  NANR, ABS
-	name -> NAR, CON
-3.	Language
-	locale, standard -> NANR, ABS
-4.	Animal
+	NANR - method neither return nor accept any argument
+	ANR - method will not return but accept any argument
+	NAR - method will return but not accept any argument
+	AR - method will return and accept argument
 
-5. public abstract class Shape {
-	  public abstract Double calculateArea();
+	ABS -> abstract method
+	CON -> conrete method
+
+	create and extends abstract class
+	1.	Person having abstract methods
+		job, salary, designation -> NANR, ABS
+	2.	CollegeDetails
+		feesStructure, duration, specialization ->  NANR, ABS
+		name -> NAR, CON
+	3.	Language
+		locale, standard -> NANR, ABS
+	4.	Animal
+	5. 	public abstract class Shape {
+		  public abstract Double calculateArea();
+		}
+		Wap to create 5 classes: Triangle, Square, Rectangle, Circle and Hexagon. All these classes will implement and override all mehtods of Shape 
+		abstract class.
+	6. 	public abstract class Valid {
+			public abstract void demo();
+		}
+		Wap to create 5 classes: Legal, Rule, Regulation, Justice, Principle. All these classes will implement and override all mehtods of Valid 
+		abstract class.
+
+	7. 	public abstract class Time {
+		  	public abstract Double displayUnit();
+		  	public abstract void duration(int d);
+	  	}
+		Wap to create these classes: Hour, Second, Minutes, Day, year, Month, Week. All these classes will implement and override all mehtods of 
+		Time abstract class.
+	8. 	abstract class Beverages {
+			public void addDrink() {
+				System.out.println("Drink added");
+			}
+			abstract void addIngredient();
+		}
+		Wap to create these classes: HotDrink, ColdDrink, SoftDrink, Milk, Tea, Juice, Coffee. All these classes will implement and override all 
+		mehtods of Beverages abstract class.
+	9. 	abstract class Vehicle{
+			public void start() {}
+			public void stop() {}
+			public long price() {} 
+			public void power(Double power) {}
+		}
+		Wap to create these classes: Car, Truck, Lorry, Auto, Matador, Jeep. All these classes will implement and override all mehtods of Vehicle 
+		abstract class.
+	10. 	public abstract class MyAbstractProcess {
+		    public void process() {
+			stepBefore();
+			action();
+			stepAfter();
+		    }
+		    public void stepBefore() {}
+		    public abstract void action(); 
+		    public void stepAfter() {}
+		}
+		Wap to create these classes: ImplementationOne, ConcreteClass, BaseClass, DerivedClass, ChildClass, TreeClass, Second, Minutes, Day, year, 
+		Month, Week. All these classes will implement and override all mehtods of MyAbstractProcess abstract class.
+	11. 	public abstract class Tree {
+		    abstract void height(BigDecimal bd);
+		    abstract void width(BigDecimal bd);
+		    abstract void weight(BigDecimal bd);
+		    abstract void quality(String s);
+		    abstract Boolean flower();
+		}
+		Wap to create these classes: Acacia, Eucalyptus, Mahogany, Pine, Teak, Neem, Jackfruit, Maple, Oak, Sheesham, Jute. All these classes will 
+		implement and override all mehtods of Tree abstract class.
+	12. abstract class TerrestrialAnimals {
+	    void habitat(){   
+		   System.out.println("Habitat of Terrestrial animal is land");
+	    }
+	    abstract void food();
+	    abstract void color();
+	    abstract void weight(BigInteger bi);
+	    abstract void height(BigInteger bi);
 	}
-Wap to create 5 classes: Triangle, Square, Rectangle, Circle and Hexagon. All these classes will implement and override all mehtods of Shape abstract class.
+	Wap to create these classes: Rattlesnake, Hippopotamus, Tiger, Crocodile, GalapagosGiantTortoise, KomodoDragon, MuleDeer, GrizzlyBear, GrayWolf, Red Fox. All these classes will implement and override all mehtods of TerrestrialAnimals abstract class.
 
-6. public abstract class Valid {
-	  public abstract void demo();
-}
-Wap to create 5 classes: Legal, Rule, Regulation, Justice, Principle. All these classes will implement and override all mehtods of Valid abstract class.
-
-7. public abstract class Time {
-	  public abstract Double displayUnit();
-	  public abstract void duration(int d);
-  }
-Wap to create these classes: Hour, Second, Minutes, Day, year, Month, Week. All these classes will implement and override all mehtods of Time abstract class.
- 
-8. abstract class Beverages {
-	public void addDrink() {
-		System.out.println("Drink added");
+	13. public abstract class CarDetails {
+	   private String model;
+	   private String color;
+	   private int maxSpeed;
+	   public abstract void gas();
+	   public abstract void brake();
+	   public String getModel() {
+	       return model;
+	   }
+	   public void setModel(String model) {
+	       this.model = model;
+	   }
+	   public String getColor() {
+	       return color;
+	   }
+	   public void setColor(String color) {
+	       this.color = color;
+	   }
+	   public int getMaxSpeed() {
+	       return maxSpeed;
+	   }
+	   public void setMaxSpeed(int maxSpeed) {
+	       this.maxSpeed = maxSpeed;
+	   }
 	}
-	abstract void addIngredient();
-}
-Wap to create these classes: HotDrink, ColdDrink, SoftDrink, Milk, Tea, Juice, Coffee. All these classes will implement and override all mehtods of Beverages abstract class.
+	Wap to create these classes: Ford, Ferrari, Porsche, Jensen, Lamborghini, Jeep, LandRover, RollsRoyce, Suzuki, Volkswagen, Dodge, McLaren, Cortina, Chevrolet, Seat. All these classes will implement and override all mehtods of CarDetails abstract class.
 
-9. abstract class Vehicle{
-	public void start() {}
-	public void stop() {}
-	public long price() {} 
-	public void power(Double power) {}
-}
-Wap to create these classes: Car, Truck, Lorry, Auto, Matador, Jeep. All these classes will implement and override all mehtods of Vehicle abstract class.
+	14. public abstract class Employees {
+		private String name;
+		private String address;
+		private int number;	
+		public Employee(String name,String address,int number){
+		System.out.println("Constructing an Employee");
+			this.name = name;
+			this.address = address;
+			this.number = number;		
+		}	
+		public double computePay(){
+			System.out.println("Inside Employee computePay");	
+			return 0.0;
+		}	
+		public void mailCheck(){
+		System.out.println("Mailing a check to "+this.name+" "	
+				+this.address);	
 
-10. public abstract class MyAbstractProcess {
-    public void process() {
-        stepBefore();
-        action();
-        stepAfter();
-    }
-    public void stepBefore() {}
-    public abstract void action(); 
-    public void stepAfter() {}
-}
-Wap to create these classes: ImplementationOne, ConcreteClass, BaseClass, DerivedClass, ChildClass, TreeClass, Second, Minutes, Day, year, Month, Week. All these classes will implement and override all mehtods of MyAbstractProcess abstract class.
-
-11. public abstract class Tree {
-	    abstract void height(BigDecimal bd);
-	    abstract void width(BigDecimal bd);
-	    abstract void weight(BigDecimal bd);
-	    abstract void quality(String s);
-	    abstract Boolean flower();
+		}
+		public String toString(){
+			return name + " "+address + " "+ number;		
+		}
+		public String getName(){
+			return name;
+		}
+		public String getAddress(){
+			return address;
+		}
+		public void setAddress(String newAddress){
+			address = newAddress;
+		}
+		public int getNumber(){
+			return number;
+		}
 	}
-Wap to create these classes: Acacia, Eucalyptus, Mahogany, Pine, Teak, Neem, Jackfruit, Maple, Oak, Sheesham, Jute. All these classes will implement and override all mehtods of Tree abstract class.
+	Wap to create 5 classes: Sales, Production, Marketing, District, Carpenter, Manager, Accounts, Advertising, Staff, Fashion, Information, Print. All these classes will implement and override all mehtods of Employees abstract class.
 
-12. abstract class TerrestrialAnimals {
-    void habitat(){   
-           System.out.println("Habitat of Terrestrial animal is land");
-    }
-    abstract void food();
-    abstract void color();
-    abstract void weight(BigInteger bi);
-    abstract void height(BigInteger bi);
-}
-Wap to create these classes: Rattlesnake, Hippopotamus, Tiger, Crocodile, GalapagosGiantTortoise, KomodoDragon, MuleDeer, GrizzlyBear, GrayWolf, Red Fox. All these classes will implement and override all mehtods of TerrestrialAnimals abstract class.
+	15. public abstract class Mobile {
+		protected abstract void display();
+		protected abstract int price();
+		protected abstract void Color(double d);
+		protected void screenSize() {
+			sop("10");
+		}
+	  }
+	Wap to create these classes: Samsung, Apple, MI, Jio, LG, Motorolla. All these classes will implement and override all mehtods of Mobile abstract class.
 
-13. public abstract class CarDetails {
-   private String model;
-   private String color;
-   private int maxSpeed;
-   public abstract void gas();
-   public abstract void brake();
-   public String getModel() {
-       return model;
-   }
-   public void setModel(String model) {
-       this.model = model;
-   }
-   public String getColor() {
-       return color;
-   }
-   public void setColor(String color) {
-       this.color = color;
-   }
-   public int getMaxSpeed() {
-       return maxSpeed;
-   }
-   public void setMaxSpeed(int maxSpeed) {
-       this.maxSpeed = maxSpeed;
-   }
-}
-Wap to create these classes: Ford, Ferrari, Porsche, Jensen, Lamborghini, Jeep, LandRover, RollsRoyce, Suzuki, Volkswagen, Dodge, McLaren, Cortina, Chevrolet, Seat. All these classes will implement and override all mehtods of CarDetails abstract class.
+	16. public abstract class Monitor {
+		protected abstract void sony();
+		protected abstract void power(float d);
+		protected abstract long pixel();
+		protected abstract void display(String s);
+	   } 
+	Wap to create these classes: Acer, Asus, Dell, GigaByte, HP, LG, MSI, Samsung, Apple, MI, . All these classes will implement and override all mehtods of Monitor abstract class.
 
-14. public abstract class Employees {
-	private String name;
-	private String address;
-	private int number;	
-	public Employee(String name,String address,int number){
-	System.out.println("Constructing an Employee");
-		this.name = name;
-		this.address = address;
-		this.number = number;		
-	}	
-	public double computePay(){
-		System.out.println("Inside Employee computePay");	
-		return 0.0;
-	}	
-	public void mailCheck(){
-	System.out.println("Mailing a check to "+this.name+" "	
-			+this.address);	
-		
-	}
-	public String toString(){
-		return name + " "+address + " "+ number;		
-	}
-	public String getName(){
-		return name;
-	}
-	public String getAddress(){
-		return address;
-	}
-	public void setAddress(String newAddress){
-		address = newAddress;
-	}
-	public int getNumber(){
-		return number;
-	}
-}
-Wap to create 5 classes: Sales, Production, Marketing, District, Carpenter, Manager, Accounts, Advertising, Staff, Fashion, Information, Print. All these classes will implement and override all mehtods of Employees abstract class.
+	17. public abstract class CustomQueue {
+		protected abstract int peek();
+		protected abstract int poll(float d);
+		protected abstract void add(int i);
+		protected abstract int size();
+	   } 
+	Wap to create these classes: QueueOne, BigQueue, SmallQueue, DayQueue, YearQueue, MonthQueue, WeekQueue. All these classes will implement and override all mehtods of CustomQueue abstract class.
 
-15. public abstract class Mobile {
-	protected abstract void display();
-	protected abstract int price();
-	protected abstract void Color(double d);
-	protected void screenSize() {
-		sop("10");
-	}
-  }
-Wap to create these classes: Samsung, Apple, MI, Jio, LG, Motorolla. All these classes will implement and override all mehtods of Mobile abstract class.
-  
-16. public abstract class Monitor {
-	protected abstract void sony();
-	protected abstract void power(float d);
-	protected abstract long pixel();
-	protected abstract void display(String s);
-   } 
-Wap to create these classes: Acer, Asus, Dell, GigaByte, HP, LG, MSI, Samsung, Apple, MI, . All these classes will implement and override all mehtods of Monitor abstract class.
-
-17. public abstract class CustomQueue {
-	protected abstract int peek();
-	protected abstract int poll(float d);
-	protected abstract void add(int i);
-	protected abstract int size();
-   } 
-Wap to create these classes: QueueOne, BigQueue, SmallQueue, DayQueue, YearQueue, MonthQueue, WeekQueue. All these classes will implement and override all mehtods of CustomQueue abstract class.
-
-18. public abstract class CustomList {
-	protected abstract void add(String s);
-	protected abstract void remove(int ind);
-	protected abstract long size();
-	protected abstract void display();
-   }   
-Wap to create these classes: FirstList, SecondList, MinutesList, DayList, yearList, MonthList, WeekList. All these classes will implement and override all mehtods of Time abstract class.
+	18. public abstract class CustomList {
+		protected abstract void add(String s);
+		protected abstract void remove(int ind);
+		protected abstract long size();
+		protected abstract void display();
+	   }   
+	Wap to create these classes: FirstList, SecondList, MinutesList, DayList, yearList, MonthList, WeekList. All these classes will implement and override all mehtods of Time abstract class.
 
 	
 
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
+		------------------------------------------------------------------------------------------------------------------
+								  Interface
+		------------------------------------------------------------------------------------------------------------------
 
-Interface:
-	implement these interfaces 
-	
-	interface Animals {
- 
-    abstract void habitat();
-    
-    abstract void food();
-    
-}
-
-	interface Chargeable {
-
-	void charge();
-}
-interface Chargeable {
-
-	void charge();
-}
-abstract class Truck implements Chargeable {
-
-	public abstract void run();
-
-	public void carry() {
-		
-	}
-
-	public void charge() {
-		
-	}
-}
-
-	1.	public interface Series{
+	1.	implement these interfaces 
+		interface Animals {
+	    		abstract void habitat();
+	    		abstract void food();
+		}
+	2.	interface Chargeable {
+			void charge();
+		}
+	3.	interface Chargeable {
+			void charge();
+		}
+	4.	abstract class Truck implements Chargeable {
+			public abstract void run();
+			public void carry() {
+			}
+			public void charge() { }
+		}
+	5.	public interface Series {
 			public void fibonocci();
 			public void pell();
 			public void square();
@@ -2618,181 +2605,132 @@ abstract class Truck implements Chargeable {
 			public void removeAllSpecialChar(String);
 			public void removeLeadingTrailingSpaces(String);
 		}
-
-				
-
-
-1. Create a class with a method that prints "This is super class" and its subclass with another method that prints "This is sub class".
-	Now, create an object for each of the class and call
+	1. 	Create a class with a method that prints "This is super class" and its subclass with another method that prints "This is sub class". Create 
+		an object for each of the class and call
 		1 - method of superclass by object of parent class
 		2 - method of subclass class by object of subclass class
 		3 - method of superclass class by object of subclass class
-
-2. Create a class with a constructor that prints "This is a constructor of super class" and its subclass with its own constructor that
-prints "This is a constructor of subclass". Now, create the following objects and print the output in the console.
+	2. 	Create a class with a constructor that prints "This is a constructor of super class" and its subclass with its own constructor that prints 
+		"This is a constructor of subclass". Create the following objects and print the output in the console.
 		1 - An object of the superclass using the subclass
 		2 - An object of the superclass using the superclass itself
 		3 - An object of the subclass using the subclass itself
-
-3. Create a class with an field with integer value and its subclass with another field with integer value. Now, create object of each class and call
-		
+	3. 	Create a class with an field with integer value and its subclass with another field with integer value. Create object of each class and 
+		call
 		1 - field of the superclass using the subclass
 		2 - field of the superclass using the superclass itself
 		3 - field of the subclass using the subclass itself
-
-4. Create a class with a method print() that prints a message, and a subclass with a method with the same method signature as well that prints another message,
-Now, create an object of each class and call
+	4. 	Create a class with a method print() that prints a message, and a subclass with a method with the same method signature as well that prints 
+		another message, create an object of each class and call
 		1 - method of superclass by object of parent class
 		2 - method of subclass class by object of subclass class
 		3 - method of superclass class by object of subclass class 
-	
-5. Show the output	
-	class A {
-		public void print() {
-			System.out.println("print output from A");
+	5. 	Show the output	
+		class A {
+			public void print() {
+				System.out.println("print output from A");
+			}
 		}
-	}
-	
-	class B extends A {
-		public void print() {
-			System.out.println("print output from B");
+		class B extends A {
+			public void print() {
+				System.out.println("print output from B");
+			}
 		}
-	}
-	
-	class C extends B {
-		public void print() {
-			System.out.println("print output from C");
+		class C extends B {
+			public void print() {
+				System.out.println("print output from C");
+			}
 		}
-	}
-
-	class MainClass {
-		public static void main(String[] args) {
-
-			A obj1 = new A();
-			A obj2 = new B();
-			B obj3 = new B();
-			B obj4 = new C();
-
-			obj1.print();
-			obj2.print();
-			obj3.print();
-			obj4.print();
-			
+		class MainClass {
+			public static void main(String[] args) {
+				A obj1 = new A();
+				A obj2 = new B();
+				B obj3 = new B();
+				B obj4 = new C();
+				obj1.print();
+				obj2.print();
+				obj3.print();
+				obj4.print();
+			}
 		}
-	}
-	
-
-6. What's the output of this:
-	
-	class A {
-		int i = 10;
-	}
-	
-	class B extends A {
-		int i = 20;
-	}
-
-	class MainClass {
-		public static void main(String[] args) {
-
-			A a = new A();
-			A b = new B();
-			B c = new B();
-
-			System.out.println(a.i);
-			System.out.println(b.i);
-			System.out.println(c.i);
+	6. 	What's the output of this:
+		class A {
+			int i = 10;
 		}
-	}
-	
-	
-7. What's the output of this:
-	
-	class A {
-		public A() {
-			System.out.println("Class A Constructor");
+		class B extends A {
+			int i = 20;
 		}
-	}
-	
-	class B extends A {
-		public B() {
-			System.out.println("Class B Constructor");
+		class MainClass {
+			public static void main(String[] args) {
+				A a = new A();
+				A b = new B();
+				B c = new B();
+				System.out.println(a.i);
+				System.out.println(b.i);
+				System.out.println(c.i);
+			}
 		}
-	}
-
-	class MainClass {
-		public static void main(String[] args) {
-
-			A a = new A();
-			A b = new B();
-			B c = new B();
-
+	7. 	What's will be the output:
+		class A {
+			public A() {
+				System.out.println("Class A Constructor");
+			}
 		}
-	}
-	
-8. You have these two classes:
-	
-	class First {
-		public static void printFirst() {
-			System.out.println("First class");
+		class B extends A {
+			public B() {
+				System.out.println("Class B Constructor");
+			}
 		}
-	}
-	
-	class Second extends First {
-		public static void printSecond() {
-			System.out.println("Second class");
+		class MainClass {
+			public static void main(String[] args) {
+				A a = new A();
+				A b = new B();
+				B c = new B();
+			}
 		}
-	}
-
-	class MainClass {
-		public static void main(String[] args) {
-			A.printA();
-			A.printB();
-			B.printA();
-			B.printB();
+	8. 	You have these two classes:
+		class First {
+			public static void printFirst() {
+				System.out.println("First class");
+			}
 		}
-	}
-
-9. Show the output
-
-	class A {
-	
-		int i = 1212;
-	}
-	 
-	class B extends A {
-	{
-		A a;
-	 
-		public B(A a)
-		{
-			this.a = a;
+		class Second extends First {
+			public static void printSecond() {
+				System.out.println("Second class");
+			}
 		}
-	}
-	 
-	public class MainClass
-	{
-		public static void main(String[] args)
-		{
-			A a = new A();
-	 
-			B b = new B(a);
-	 
-			System.out.println(a.i);
-	 
-			System.out.println(b.i);
-	 
-			System.out.println(b.a.i);
-	 
-			b.a.i = 2121;
-	 
-			System.out.println("--------");
-	 
-			System.out.println(a.i);
-	 
-			System.out.println(b.i);
+		class MainClass {
+			public static void main(String[] args) {
+				A.printA();
+				A.printB();
+				B.printA();
+				B.printB();
+			}
 		}
-	}		
+	9. 	Show the output
+		class A {
+			int i = 1212;
+		}	 
+		class B extends A {
+			A a;
+			public B(A a)
+			{
+				this.a = a;
+			}
+		}
+		public class MainClass {
+			public static void main(String[] args) {
+				A a = new A();
+				B b = new B(a);
+				System.out.println(a.i);
+				System.out.println(b.i);
+				System.out.println(b.a.i);
+				b.a.i = 2121;
+				System.out.println("--------");
+				System.out.println(a.i);
+				System.out.println(b.i);
+			}
+		}		
 		Answer :
 			1212
 			1212
@@ -2800,420 +2738,415 @@ Now, create an object of each class and call
 			——–
 			2121
 			1212
-
-		
-10. What will be the output:
-	
-	public class A {
-		int methodOfA(int i) {
-		
-			i /= 10;
-
-			return i;
+	10. 	What will be the output:
+		public class A {
+			int methodOfA(int i) {
+				i /= 10;
+				return i;
+			}
 		}
-	}
-	
-	class B extends A {
-		int methodOfB(int i) {
-		
-			i *= 20;
-
-			return methodOfA(i);
+		class B extends A {
+			int methodOfB(int i) {
+				i *= 20;
+				return methodOfA(i);
+			}
 		}
-	}
-
-	class MainClass {
-		public static void main(String[] args) {
-
-			B b = new B();
-
-			System.out.println(b.methodOfB(100));
-
+		class MainClass {
+			public static void main(String[] args) {
+				B b = new B();
+				System.out.println(b.methodOfB(100));
+			}
 		}
-}
-
-11. You have these two classes:
-
-	class BaseClass() {
-		
-		private void show() {
-			System.out.println("base class");
+	11. 	You have these two classes:
+		class BaseClass() {
+			private void show() {
+				System.out.println("base class");
+			}
 		}
-	}
-	
-	class DerivedClass() extends BaseClass {
-		
-		public void show() { 
-			System.out.println("derived class");
+		class DerivedClass() extends BaseClass {
+			public void show() { 
+				System.out.println("derived class");
+			}
 		}
-	}
-
-create an object of each class. What will be the output and why?
-	
-12. You have these two classes:
-
-	class TheBase() {
-		
-		final void show() {
-			System.out.println("base class");
+		create an object of each class. What will be the output and why?
+	12. 	You have these two classes:
+		class TheBase() {
+			final void show() {
+				System.out.println("base class");
+			}
 		}
-	}
-	
-	class TheBranch() extends TheBase {
-		
-		public void show() {
-			System.out.println("branch class");
+		class TheBranch() extends TheBase {
+			public void show() {
+				System.out.println("branch class");
+			}
 		}
-	}
-
-create an object of each class. What will be the output and why?
-
-13. What's the output of this:
-	class Grandparent {
-		public void Print() {
-			System.out.println("Grandparent's Print()");
+		create an object of each class. What will be the output and why?
+	13. 	What's the output of this:
+		class Grandparent {
+			public void Print() {
+				System.out.println("Grandparent's Print()");
+			}
 		}
-	}
-  
-	class Parent extends Grandparent {
-		public void Print() {
-			System.out.println("Parent's Print()");
+		class Parent extends Grandparent {
+			public void Print() {
+				System.out.println("Parent's Print()");
+			}
 		}
-	}
-	  
-	class Child extends Parent {
-		public void Print() {
-			super.super.Print(); 
-			System.out.println("Child's Print()");
+		class Child extends Parent {
+			public void Print() {
+				super.super.Print(); 
+				System.out.println("Child's Print()");
+			}
 		}
-	}
-	  
-	public class Main {
-		public static void main(String[] args) {
-			Child c = new Child();
-			c.Print();
+		public class Main {
+			public static void main(String[] args) {
+				Child c = new Child();
+				c.Print();
+			}
 		}
-	}
-
-14. Create a class named 'Member' which has the following member variables:
-	name, age, nationality, salary
-	Then create two classes 'Manager' and 'Employee' and both extend 'Member' class. Manager class has member variable 'department' and employee has
-	member variable 'specialization'. 
+	14. 	Create a class named 'Member' which has the following member variables: name, age, nationality, salary
+		Then create two classes 'Manager' and 'Employee' and both extend 'Member' class. Manager class has member variable 'department' and employee 
+		has member variable 'specialization'. 
 		1 - Create an object for Employee and object for manager
 		2 - Assign name, age, nationality, salary and specialization to the employee object
 		3 - Assign name, age, nationality, salary and department to the manager object
-
-15. Create a class named 'Shape' with a method to print "This is This is shape". Then create two other classes named 'Rectangle', 'Circle' inheriting
-the Shape class, both having a method to print "This is rectangular shape" and "This is circular shape" respectively. 
-Create a class 'Square' extending 'Rectangle' with a method to print "Square is a rectangle".
-Now call the method of 'Shape' and 'Rectangle' class by the object of 'Square' class.
-
-
-	-------------------------------------------------------------------------------------------------------
-
-Collection
-
-1.	Convert integer array to integer list
-	int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
-	
-2.	Convert String to char array
-	String s = "Hello, Hi, How are you"
-	
-3.	Convert char array to String
-	char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-
-4.	Convert char array to char list 
-	char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-	
-5.	Convert char array to char list and but dont copy character 'a' to list
-	char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-
-6.	Convert integer array to String list
-	int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
-
-7.	Convert String list to integer list
-	List<String> stringList = Arrays.asList(new String[]{"123", "12", "35", "54", "66", "77", "55", "221", "33"});
-	
-8.	Create a new String list and add these two list to newly created string list. 
-	List<String> stringList = Arrays.asList(new String[]{"123", "12", "35", "54", "66", "77", "55", "221", "33"});
-	List<String> stringList = Arrays.asList(new String[]{"123", "j", "1", "*", "a", "j", "dd", "a", "a"});
-
-9.	Please read about Collections and Arrays util class.
-
-10.	Difference between Collections and Collection ?
-
-11. What is link list?
-
-12. LinkList vs ArrayList?
-13.	When will use LinkList and when we will use ArrayList ?
-14.	Create a set of String 
-15.	Create a set of character
-16. Create a set of boolean
-17. Create a set of float 
-18. Create a set of int
-19.	Describe Set internal implementation ?
-20. Create a map of key int and value also int
-21.	Create a map of key int and value String
-22.	Create a map of key String and value also String	
-23.	Create a map of key String and value int
-24.	Create a map of key int and value char
-25.	Create a map of key char and value int
-26.	Create a model class (POJO), name of the class: Student having two member fields id and name.
-	Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
-	Create a list of Student class then sort the list once using id and once using name separately.
-	For sorting please try to use both way of comparator implemention
-	1. Class will implement comparator interface and will override using name and id respectively
-	2. Using lambda function 
-	
-27. Create a model class (POJO), name of the class: Employee having two member fields designation and name.
-	Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
-	Create a list of Student class then sort the list once using designation and once using name separately.
-	For sorting please try to use both way of comparator implemention
-	1. Class will implement comparator interface and will override using name and designation respectively
-	2. Using lambda function 
-
-28.	Create a model class (POJO), name of the class: User having two member fields userId and email.
-	Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
-	Create a list of Student class then sort the list once using userId and once using email separately.
-	For sorting please try to use both way of comparator implemention
-	1. Class will implement comparator interface and will override using email and userId respectively
-	2. Using lambda function 
-
-29.	Create a model class (POJO), name of the class: ProjectManager having two member fields project and team.
-	Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
-	Create a list of ProjectManager class then sort the list once using project and once using team separately.
-	For sorting please try to use both way of comparator implemention
-	1. Class will implement comparator interface and will override using team and project respectively
-	2. Using lambda function 
-
-30.	Create a model class (POJO), name of the class: Book having two member fields author and subject.
-	Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
-	Create a list of Book class then sort the list once using author and once using subject separately.
-	For sorting please try to use both way of comparator implemention
-	1. Class will implement comparator interface and will override using subject and author respectively
-	2. Using lambda function 
-
-31.	What is hash ?
-32.	Methods inside Object class specially equal and hash method, and toString method.
-33. Can we use our class as a key in map ?
-34. If yes then what would be the criteria to make a class suitable for key in map ?
-35. Difference between hashmap and hashtable
-36. Difference between array and arraylist 
-
-37.	Create a list not having duplicate values from given list 
-	List<Integer> ss = Arrays.asList(new Integer[]{1, 2, 3, 5, 5, 1, 0, -1, -2, -3, 1, 0, -1, -3});
-
-38. Create a list not having duplicate values from given list
-	List<String> stringList = Arrays.asList(new String[]{"abc", "xyz", "abcd", "abc", "hello", "world", "bike", "ant", "world"});
-
-39. Create a list not having duplicate values from given list
-	List<Character> ss = Arrays.asList(new Character[]{'1', '2', '2', '2', '@', '#', 'O', 'o', '0', '3', '1', '?', '*', 'o', 'e'});
-40. Create a list not having duplicate values from given list
-	List<Double> ss = Arrays.asList(new Double[]{4.5, 3.2, 6.5, 99.0, 33.21, 5.53, 4.33, 4.5, 3.2, 6.5, 1.1, 1.2, 4.4});
-
-41. Create a set of Student class using hashset class
-42. Create a set of Student class using treeset class
-43. Difference between hashset and treeset
-44. Difference between hashmap, linkedhashmap and treemap
-45. Write a Java program to copy a Tree Map content to another Tree Map
-46. Write a Java program to search a key in a Tree Map
-47. Write a Java program to search a value in a Tree Map
-48. Write a Java program to get all keys from the given a Tree Map
-49. Write a Java program to delete all elements from a given Tree Map
-50. Write a Java program to sort keys in Tree Map by using comparator
-51. Write a Java program to get a key-value mapping associated with the greatest key and the least key in a map
-52. Write a Java program to get the first (lowest) key and the last (highest) key currently in a ma
-53. Write a Java program to get a reverse order view of the keys contained in a given map
-54. Write a Java program to get a key-value mapping associated with the greatest key less than or equal to the given key
-55. Write a Java program to get the greatest key less than or equal to the given key
-56. Write a Java program to get the portion of a map whose keys are strictly less than a given key
-57. Write a Java program to get the portion of this map whose keys are less than (or equal to, if inclusive is true) a given key
-58. Write a Java program to get the least key strictly greater than the given key. Return null if there is no such key
-59. Write a Java program to get a key-value mapping associated with the greatest key strictly less than the given key. Return null if there is no such key
-60. Write a Java program to get the greatest key strictly less than the given key. Return null if there is no such key
-61. Write a Java program to remove and get a key-value mapping associated with the least key in a map
-62. Write a Java program to remove and get a key-value mapping associated with the greatest key in this map.
-63. Write a Java program to get the portion of a map whose keys range from a given key (inclusive), to another key (exclusive)
-64. Write a Java program to get the portion of a map whose keys range from a given key to another key
-65. Write a Java program to get a portion of a map whose keys are greater than or equal to a given key.
-66. Write a Java program to get a portion of a map whose keys are greater than to a given key
-67. Write a Java program to get a key-value mapping associated with the least key greater than or equal to the given key. Return null if there is no such key
-68. Write a Java program to get the least key greater than or equal to the given key. Returns null if there is no such key
-69. Write a Java program to count the number of key-value (size) mappings in a map
-70. Write a Java program to copy all of the mappings from the specified map to another map
-71. Write a Java program to remove all of the mappings from a map
-72. Write a Java program to check whether a map contains key-value mappings (empty) or not
-73. Write a Java program to get a shallow copy of a HashMap instance
-74. Write a Java program to test if a map contains a mapping for the specified key
-75. Write a Java program to test if a map contains a mapping for the specified value
-76. Write a Java program to create a set view of the mappings contained in a map
-77. Write a Java program to get a set view of the keys contained in this map
-78. Write a Java program to get a collection view of the values contained in this ma
-79. Write a Java program to insert an element into the array list at the first position
-80. Write a Java program to update specific array element by given element
-81. Write a Java program to remove the third element from a array list
-82. Write a Java program to search an element in a array list
-83. Write a Java program to sort a given array list. Vehicle -> price, manufaturing year, modelName, companyName; sort by using all member variables one by one using comparator.
-84. Write a Java program to copy one array list into another
-85. Write a Java program to shuffle elements in a array list
-86. Write a Java program to reverse elements in a array list.
-87. Write a Java program to extract a portion of a array list
-88. Write a Java program to compare two array lists
-89.  Write a Java program of swap two elements in an array list
-90. Write a Java program to join two array lists
-91. Write a Java program to clone an array list to another array list
-92. Write a Java program to empty an array list
-93. Write a Java program to test an array list is empty or not
-94. Write a Java program to trim the capacity of an array list the current list size
-95. Write a Java program to increase the size of an array list
-96. Write a Java program to replace the second element of a ArrayList with the specified element.
-97. Write a Java program to append the specified element to the end of a linked list
-98. Write a Java program to iterate through all elements in a linked list
-99. Write a Java program to iterate through all elements in a linked list starting at the specified position
-100. Write a Java program to iterate a linked list in reverse order
-101. Write a Java program to insert the specified element at the specified position in the linked list
-102. Write a Java program to insert elements into the linked list at the first and last position
-103. Write a Java program to insert the specified element at the front of a linked list
-104. Write a Java program to insert the specified element at the end of a linked list
-105. Write a Java program to insert some elements at the specified position into a linked list
-106. Write a Java program to get the first and last occurrence of the specified elements in a linked list
-107. Write a Java program to display the elements and their positions in a linked list
-108. Write a Java program to remove a specified element from a linked list
-109. Write a Java program to remove first and last element from a linked list
-110. Write a Java program to remove all the elements from a linked list
-111. Write a Java program of swap two elements in a linked list
-112. Write a Java program to shuffle the elements in a linked list
-113. Write a Java program to join two linked lists
-114. Write a Java program to clone an linked list to another linked list
-115. Write a Java program to remove and return the first element of a linked list
-116. Write a Java program to retrieve but does not remove, the first element of a linked list
-117. Write a Java program to retrieve but does not remove, the last element of a linked list
-118. Write a Java program to check if a particular element exists in a linked list
-119. Write a Java program to convert a linked list to array list
-120. Write a Java program to compare two linked lists
-121. Write a Java program to test an linked list is empty or not
-122. Write a Java program to replace an element in a linked list
-123. Write a Java program to append the specified element to the end of a hash set
-124. Write a Java program to iterate through all elements in a hash list
-125. Write a Java program to get the number of elements in a hash set
-126. Write a Java program to empty an hash set
-127. Write a Java program to test a hash set is empty or not
-128. Write a Java program to clone a hash set to another hash set
-129. Write a Java program to convert a hash set to an array
-130. Write a Java program to convert a hash set to a tree set
-131. Write a Java program to convert a hash set to a List/ArrayList
-132. Write a Java program to compare two hash set
-133. Write a Java program to compare two sets and retain elements which are same on both sets
-134. Write a Java program to remove all of the elements from a hash set
-135. Write a Java program to create a new tree set, add some colors (string) and print out the tree set
-136. Write a Java program to iterate through all elements in a tree set
-137. Write a Java program to add all the elements of a specified tree set to another tree set
-138. Write a Java program to create a reverse order view of the elements contained in a given tree set
-139. Write a Java program to get the first and last elements in a tree set
-140. Write a Java program to clone a tree set list to another tree set
-141. Write a Java program to get the number of elements in a tree set
-142. Write a Java program to compare two tree sets
-143. Write a Java program to find the numbers less than 7 in a tree set
-144. Write a Java program to get the element in a tree set which is greater than or equal to the given element
-145. Write a Java program to get the element in a tree set which is less than or equal to the given element
-146. Write a Java program to get the element in a tree set which is strictly greater than or equal to the given element
-147. Write a Java program to get an element in a tree set which is strictly less than the given element
-148. Write a Java program to retrieve and remove the first element of a tree set
-149. Write a Java program to retrieve and remove the last element of a tree set
-150. Write a Java program to remove a given element from a tree set
-151. Write a Java program to create a new priority queue, add some colors (string) and print out the elements of the priority queue
-152. Write a Java program to iterate through all elements in priority queue
-153. Write a Java program to add all the elements of a priority queue to another priority queue
-154. Write a Java program to insert a given element into a priority queue
-155. Write a Java program to remove all the elements from a priority queue
-156. Write a Java program to count the number of elements in a priority queue
-157. Write a Java program to compare two priority queues
-158. Write a Java program to retrieve the first element of the priority queue
-159. Write a Java program to retrieve and remove the first element
-160. Write a Java program to convert a priority queue to an array containing all of the elements of the queue
-161. Write a Java program to convert a Priority Queue elements to a string representation
-162. Write a Java program to change priorityQueue to maximum priorityqueue
-163. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-164. create a class Student having fields id, name, dob, email, schoolId. Create an array list of User class and 
-		add 4 user objects inside the list.
-165. create a class School having fields schoolId, name, registrationDate, medium, address. Create an array list
-		of 	User class and add 6 user objects inside the list.
-166. create a class Teacher having fields id, TeacherId, name, dob, email, schoolId, fatherName. 
-		Create an array list of User class and add 7 user objects inside the list.
-167. create a class Car having fields CarId, model, company, engine, color, type. 
-		Create an array list of User class and  add 5 user objects inside the list.
-168. create a class Employee having fields id, name, dob, email, designation, joiningDate, resigned 		
-		companyName. Create an array list of User class and  add 10 user objects inside the list.
-169. create a class Employee having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-170. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-171. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-172. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-173. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-174. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-175. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-176. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-177. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
-178. create a class User having fields id, name, dob, email. Create an array list of User class and 
-		add 5 user objects inside the list.
+	15. 	Create a class named 'Shape' with a method to print "This is This is shape". Then create two other classes named 'Rectangle', 'Circle' 
+		inheriting the Shape class, both having a method to print "This is rectangular shape" and "This is circular shape" respectively. 
+		Create a class 'Square' extending 'Rectangle' with a method to print "Square is a rectangle". Now call the method of 'Shape' and 'Rectangle' 
+		class by the object of 'Square' class.
 
 
-	-------------------------------------------------------------------------------------------------------
-		
-JDBC:
-	company ( company_id, name, description, primary_contact_attendee_id)
-	presentation ( presentation_id, booked_company_id, booked_room_id, start_time, end_time )
-	room ( room_id, floor_num, seat_capacity )
-	attendee ( attendee_id, first_name, last_name, phone, email, vip )
-	presentation_attendance ( ticket_id, presentation_id, attendee_id )
-	
-	employee ( id, employee_name, employee_num, date_hired, city_id )
-	salaried_employee ( id, annual_salary, employee_id )
-	city ( id, city )
-	hourly_employee ( id, hourly_rate, employee_id )
-	
-	order_items ( order_id, product_id, quantity )
-	orders ( id, user_id, status, created_at )
-	users ( id, full_name, email, gender, date_of_birth, country_code, created_at )
-	merchants ( id, merchant_name, admin_id, country_code, created_at )
-	products ( id, merchant_id, name, price, status, created_at )
-	countries ( code, name, continent_name )
-	
-	brands ( id, brand_name, thumbnails )
-	categorys ( id, category_name, thumbnails )
-	collections ( id, collection_name, thumbnails )
-	base_relation_table ( id, brands_id, category_id, collection_id)
-	pattern ( id, option_name )
-	product ( id, product_name, description, base_relation_table, pattern_id )
-	product_option_relation ( product_id, option_id )
-	finish ( id, finish_name )
-	product_variant ( variant_id, product_id, finish_id, colors_id, metadata, thumbnails )
-	option_table ( id, option_name )
-	option_values ( id, option_id, value_name )
-	colors ( id, color_name )
-	dimensions ( id, dimension_value )
-	dimension_has_product_variant ( dimension_id, product_id, variant_id )
-	variant_value ( product_id, option_id, value_id, dimension_id, variant_id, price, sku )
-	
-	customers ( customer_id, first_name, last_name, class, door_num, address1 address2, city, state, postalcode,
-                country, phone, email, voice_mail, password, credit_card, credit_card_type_id, card_exp_month,
-                card_exp_yr, billing_address, billing_city, billing_region, billing_postalcode, billing_country, ship_address, ship_city, ship_region, ship_postalcode, ship_country, date_entered )				
-	suppliers ( supplier_id, company_name, contact_f_name, contact_l_name, contact_title,
-				address1, address2, city, state, postalcode, country, phone, fax, email,
-				url, payment_methods, discount_type, type_goods_, notes, discount_availabe,
-				current_order, logo, customer_id )
-	
 
-jvm:
+
+
+		------------------------------------------------------------------------------------------------------------------
+								  Collection
+		------------------------------------------------------------------------------------------------------------------
+
+	1.	Convert integer array to integer list
+		int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
+	2.	Convert String to char array
+		String s = "Hello, Hi, How are you"
+	3.	Convert char array to String
+		char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	4.	Convert char array to char list 
+		char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	5.	Convert char array to char list and but dont copy character 'a' to list
+		char[] a = {'a', 'd, 'c', 'b', 'a', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+	6.	Convert integer array to String list
+		int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
+	7.	Convert String list to integer list
+		List<String> stringList = Arrays.asList(new String[]{"123", "12", "35", "54", "66", "77", "55", "221", "33"});
+	8.	Create a new String list and add these two list to newly created string list. 
+		List<String> stringList = Arrays.asList(new String[]{"123", "12", "35", "54", "66", "77", "55", "221", "33"});
+		List<String> stringList = Arrays.asList(new String[]{"123", "j", "1", "*", "a", "j", "dd", "a", "a"});
+	9.	Please read about Collections and Arrays util class.
+	10.	Difference between Collections and Collection ?
+	11. 	What is link list?
+	12.	LinkList vs ArrayList?
+	13.	When will use LinkList and when we will use ArrayList ?
+	14.	Create a set of String 
+	15.	Create a set of character
+	16. 	Create a set of boolean
+	17. 	Create a set of float 
+	18. 	Create a set of int
+	19.	Describe Set internal implementation ?
+	20. 	Create a map of key int and value also int
+	21.	Create a map of key int and value String
+	22.	Create a map of key String and value also String	
+	23.	Create a map of key String and value int
+	24.	Create a map of key int and value char
+	25.	Create a map of key char and value int
+	26.	Create a model class (POJO), name of the class: Student having two member fields id and name.
+		Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
+		Create a list of Student class then sort the list once using id and once using name separately.
+		For sorting please try to use both way of comparator implemention
+		1. Class will implement comparator interface and will override using name and id respectively
+		2. Using lambda function 
+	27. 	Create a model class (POJO), name of the class: Employee having two member fields designation and name.
+		Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
+		Create a list of Student class then sort the list once using designation and once using name separately.
+		For sorting please try to use both way of comparator implemention
+		1. Class will implement comparator interface and will override using name and designation respectively
+		2. Using lambda function 
+	28.	Create a model class (POJO), name of the class: User having two member fields userId and email.
+		Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
+		Create a list of Student class then sort the list once using userId and once using email separately.
+		For sorting please try to use both way of comparator implemention
+		1. Class will implement comparator interface and will override using email and userId respectively
+		2. Using lambda function 
+	29.	Create a model class (POJO), name of the class: ProjectManager having two member fields project and team.
+		Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
+		Create a list of ProjectManager class then sort the list once using project and once using team separately.
+		For sorting please try to use both way of comparator implemention
+		1. Class will implement comparator interface and will override using team and project respectively
+		2. Using lambda function 
+	30.	Create a model class (POJO), name of the class: Book having two member fields author and subject.
+		Create two constructor 1. zero parameter constructor, 2. 2 arguments constructor 
+		Create a list of Book class then sort the list once using author and once using subject separately.
+		For sorting please try to use both way of comparator implemention
+		1. Class will implement comparator interface and will override using subject and author respectively
+		2. Using lambda function 
+	31.	What is hash ?
+	32.	Methods inside Object class specially equal and hash method, and toString method.
+	33. 	Can we use our class as a key in map ?
+	34. 	If yes then what would be the criteria to make a class suitable for key in map ?
+	35. 	Difference between hashmap and hashtable
+	36. 	Difference between array and arraylist 
+	37.	Create a list not having duplicate values from given list 
+		List<Integer> ss = Arrays.asList(new Integer[]{1, 2, 3, 5, 5, 1, 0, -1, -2, -3, 1, 0, -1, -3});
+	38. 	Create a list not having duplicate values from given list
+		List<String> stringList = Arrays.asList(new String[]{"abc", "xyz", "abcd", "abc", "hello", "world", "bike", "ant", "world"});
+	39. 	Create a list not having duplicate values from given list
+		List<Character> ss = Arrays.asList(new Character[]{'1', '2', '2', '2', '@', '#', 'O', 'o', '0', '3', '1', '?', '*', 'o', 'e'});
+	40. 	Create a list not having duplicate values from given list
+		List<Double> ss = Arrays.asList(new Double[]{4.5, 3.2, 6.5, 99.0, 33.21, 5.53, 4.33, 4.5, 3.2, 6.5, 1.1, 1.2, 4.4});
+	41. 	Create a set of Student class using hashset class
+	42. 	Create a set of Student class using treeset class
+	43. 	Difference between hashset and treeset
+	44. 	Difference between hashmap, linkedhashmap and treemap
+	45. 	Write a Java program to copy a Tree Map content to another Tree Map
+	46. 	Write a Java program to search a key in a Tree Map
+	47. 	Write a Java program to search a value in a Tree Map
+	48. 	Write a Java program to get all keys from the given a Tree Map
+	49.	Write a Java program to delete all elements from a given Tree Map
+	50. 	Write a Java program to sort keys in Tree Map by using comparator
+	51. 	Write a Java program to get a key-value mapping associated with the greatest key and the least key in a map
+	52. 	Write a Java program to get the first (lowest) key and the last (highest) key currently in a ma
+	53. 	Write a Java program to get a reverse order view of the keys contained in a given map
+	54. 	Write a Java program to get a key-value mapping associated with the greatest key less than or equal to the given key
+	55. 	Write a Java program to get the greatest key less than or equal to the given key
+	56. 	Write a Java program to get the portion of a map whose keys are strictly less than a given key
+	57. 	Write a Java program to get the portion of this map whose keys are less than (or equal to, if inclusive is true) a given key
+	58. 	Write a Java program to get the least key strictly greater than the given key. Return null if there is no such key
+	59. 	Write a Java program to get a key-value mapping associated with the greatest key strictly less than the given key. Return null if there is 
+		no such key
+	60. 	Write a Java program to get the greatest key strictly less than the given key. Return null if there is no such key
+	61. 	Write a Java program to remove and get a key-value mapping associated with the least key in a map
+	62. 	Write a Java program to remove and get a key-value mapping associated with the greatest key in this map.
+	63. 	Write a Java program to get the portion of a map whose keys range from a given key (inclusive), to another key (exclusive)
+	64. 	Write a Java program to get the portion of a map whose keys range from a given key to another key
+	65. 	Write a Java program to get a portion of a map whose keys are greater than or equal to a given key.
+	66. 	Write a Java program to get a portion of a map whose keys are greater than to a given key
+	67. 	Write a Java program to get a key-value mapping associated with the least key greater than or equal to the given key. Return null if there 
+		is no such key
+	68. 	Write a Java program to get the least key greater than or equal to the given key. Returns null if there is no such key
+	69. 	Write a Java program to count the number of key-value (size) mappings in a map
+	70. 	Write a Java program to copy all of the mappings from the specified map to another map
+	71. 	Write a Java program to remove all of the mappings from a map
+	72. 	Write a Java program to check whether a map contains key-value mappings (empty) or not
+	73. 	Write a Java program to get a shallow copy of a HashMap instance
+	74. 	Write a Java program to test if a map contains a mapping for the specified key
+	75. 	Write a Java program to test if a map contains a mapping for the specified value
+	76. 	Write a Java program to create a set view of the mappings contained in a map
+	77. 	Write a Java program to get a set view of the keys contained in this map
+	78. 	Write a Java program to get a collection view of the values contained in this ma
+	79. 	Write a Java program to insert an element into the array list at the first position
+	80. 	Write a Java program to update specific array element by given element
+	81. 	Write a Java program to remove the third element from a array list
+	82. 	Write a Java program to search an element in a array list
+	83. 	Write a Java program to sort a given array list. Vehicle -> price, manufaturing year, modelName, companyName; sort by using all member 
+		variables one by one using comparator.
+	84. 	Write a Java program to copy one array list into another
+	85. 	Write a Java program to shuffle elements in a array list
+	86. 	Write a Java program to reverse elements in a array list.
+	87. 	Write a Java program to extract a portion of a array list
+	88. 	Write a Java program to compare two array lists
+	89.  	Write a Java program of swap two elements in an array list
+	90. 	Write a Java program to join two array lists
+	91. 	Write a Java program to clone an array list to another array list
+	92. 	Write a Java program to empty an array list
+	93. 	Write a Java program to test an array list is empty or not
+	94. 	Write a Java program to trim the capacity of an array list the current list size
+	95. 	Write a Java program to increase the size of an array list
+	96. 	Write a Java program to replace the second element of a ArrayList with the specified element.
+	97. 	Write a Java program to append the specified element to the end of a linked list
+	98. 	Write a Java program to iterate through all elements in a linked list
+	99. 	Write a Java program to iterate through all elements in a linked list starting at the specified position
+	100. 	Write a Java program to iterate a linked list in reverse order
+	101. 	Write a Java program to insert the specified element at the specified position in the linked list
+	102. 	Write a Java program to insert elements into the linked list at the first and last position
+	103. 	Write a Java program to insert the specified element at the front of a linked list
+	104. 	Write a Java program to insert the specified element at the end of a linked list
+	105. 	Write a Java program to insert some elements at the specified position into a linked list
+	106. 	Write a Java program to get the first and last occurrence of the specified elements in a linked list
+	107. 	Write a Java program to display the elements and their positions in a linked list
+	108. 	Write a Java program to remove a specified element from a linked list
+	109. 	Write a Java program to remove first and last element from a linked list
+	110. 	Write a Java program to remove all the elements from a linked list
+	111. 	Write a Java program of swap two elements in a linked list
+	112. 	Write a Java program to shuffle the elements in a linked list
+	113. 	Write a Java program to join two linked lists
+	114. 	Write a Java program to clone an linked list to another linked list
+	115. 	Write a Java program to remove and return the first element of a linked list
+	116. 	Write a Java program to retrieve but does not remove, the first element of a linked list
+	117. 	Write a Java program to retrieve but does not remove, the last element of a linked list
+	118. 	Write a Java program to check if a particular element exists in a linked list
+	119. 	Write a Java program to convert a linked list to array list
+	120. 	Write a Java program to compare two linked lists
+	121. 	Write a Java program to test an linked list is empty or not
+	122. 	Write a Java program to replace an element in a linked list
+	123. 	Write a Java program to append the specified element to the end of a hash set
+	124. 	Write a Java program to iterate through all elements in a hash list
+	125. 	Write a Java program to get the number of elements in a hash set
+	126. 	Write a Java program to empty an hash set
+	127. 	Write a Java program to test a hash set is empty or not
+	128. 	Write a Java program to clone a hash set to another hash set
+	129. 	Write a Java program to convert a hash set to an array
+	130. 	Write a Java program to convert a hash set to a tree set
+	131. 	Write a Java program to convert a hash set to a List/ArrayList
+	132. 	Write a Java program to compare two hash set
+	133. 	Write a Java program to compare two sets and retain elements which are same on both sets
+	134. 	Write a Java program to remove all of the elements from a hash set
+	135. 	Write a Java program to create a new tree set, add some colors (string) and print out the tree set
+	136. 	Write a Java program to iterate through all elements in a tree set
+	137. 	Write a Java program to add all the elements of a specified tree set to another tree set
+	138. 	Write a Java program to create a reverse order view of the elements contained in a given tree set
+	139. 	Write a Java program to get the first and last elements in a tree set
+	140. 	Write a Java program to clone a tree set list to another tree set
+	141. 	Write a Java program to get the number of elements in a tree set
+	142. 	Write a Java program to compare two tree sets
+	143. 	Write a Java program to find the numbers less than 7 in a tree set
+	144. 	Write a Java program to get the element in a tree set which is greater than or equal to the given element
+	145. 	Write a Java program to get the element in a tree set which is less than or equal to the given element
+	146. 	Write a Java program to get the element in a tree set which is strictly greater than or equal to the given element
+	147. 	Write a Java program to get an element in a tree set which is strictly less than the given element
+	148. 	Write a Java program to retrieve and remove the first element of a tree set
+	149. 	Write a Java program to retrieve and remove the last element of a tree set
+	150. 	Write a Java program to remove a given element from a tree set
+	151. 	Write a Java program to create a new priority queue, add some colors (string) and print out the elements of the priority queue
+	152. 	Write a Java program to iterate through all elements in priority queue
+	153. 	Write a Java program to add all the elements of a priority queue to another priority queue
+	154. 	Write a Java program to insert a given element into a priority queue
+	155. 	Write a Java program to remove all the elements from a priority queue
+	156. 	Write a Java program to count the number of elements in a priority queue
+	157. 	Write a Java program to compare two priority queues
+	158. 	Write a Java program to retrieve the first element of the priority queue
+	159. 	Write a Java program to retrieve and remove the first element
+	160. 	Write a Java program to convert a priority queue to an array containing all of the elements of the queue
+	161. 	Write a Java program to convert a Priority Queue elements to a string representation
+	162. 	Write a Java program to change priorityQueue to maximum priorityqueue
+	163. 	Create a class User having fields id, name, dob, email. Create an array list of User class and add 5 user objects inside the list.
+	164. 	Create a class Student having fields id, name, dob, email, schoolId. Create an array list of User class and add 4 user objects inside the 
+		list.
+	165. 	Create a class School having fields schoolId, name, registrationDate, medium, address. Create an array list of User class and add 6 user 
+		objects inside the list.
+	166. 	Create a class Teacher having fields id, teacherId, name, dob, email, schoolId, fatherName. Create an array list of Teacher class and add 7 
+		user objects inside the list.
+	167. 	Create a class Car having fields carId, model, company, engine, color, type. Create an array list of Car class and  add 5 user objects 
+		inside the list.
+	168. 	Create a class Employee having fields id, name, dob, email, designation, joiningDate, resigned, companyName. Create an array list of 
+		Employee class and  add 10 user objects inside the list.
+	169. 	Create a class EmployeeManager having fields id, name, dob, email. Create an array list of EmployeeManager class and add 5 user objects 
+		inside the list.
+	170. 	Create a class GameUser having fields id, name, dob, email. Create an array list of GameUser class and add 5 GameUser objects inside the 
+		list.
+	171. 	Create a class WebsiteUser having fields id, name, dob, emailId. Create an array list of WebsiteUser class and add 15 WebsiteUser objects 
+		inside the list.
+	172. 	Create a class MonitorCurve having fields id, companyName, modelNum, created_date, companyEmail, screenSize, length, breadth, 
+		customerCareEmail, customerCareNum. Create an array list of MonitorCurve class and add 20 MonitorCurve objects inside the list.
+	173. 	Create a class User MonitorWide fields id, orgName, modelNo, orgEmail, created_date, screenSize, length, breadth. Create an array list of 
+		MonitorWide class and add 20 MonitorWide objects inside the list.
+	174. 	Create a class Pizza having fields id, name, createdDate, expiryDate, type, isHalal, companyEmail. Create an array list of Pizza class and 
+		add 25 Pizza objects inside the list.
+	175. 	Create a class Bread having fields id, name, creatDate, expDate, type, emailOrg. Create an array list of Bread class and add 30 Bread 
+		objects inside the list.
+	176. 	Create a class Water having fields id, name, percentageMineral, isElectrolyteWater. Create an array list of Water class and add 5 Water 
+		objects inside the list.
+	177. 	Create a class Zoo having fields id, name, foundationDate, inaugrationDate, emailZooAuthority, animal(List of name). Create an array list of 
+		Zoo class and add 19 Zoo objects inside the list.
+	178. 	Create a class Bird having fields id, name, dob, color, canFly, weight, height, canSwim, country(list of name). Create an array list of Bird 
+		class and add 5 Bird objects inside the list.	
+
+
+
+
+		------------------------------------------------------------------------------------------------------------------
+								  JDBC
+		------------------------------------------------------------------------------------------------------------------
+
+	1.	attendee ( attendee_id, first_name, last_name, phone, email, vip )
+	2.	aeroplane ( id, name, capacity, company_name, model_name )
+	3.	aeroplane_route_domestice ( id, route_name, departure_date, arrival_date, departure_city, departure_state, arrival_city, arrival_state, 
+		country )
+	4.	aeroplane_route_international ( id, route_name, departure_date, arrival_date, departure_city, departure_state, arrival_city, arrival_state, 
+		country, departure_country,  arrival_country)
+	5.	base_relation_table ( id, brands_id, category_id, collection_id )
+	6.	bird ( id, name, dob, color, canFly, weight, height, canSwim )
+	7.	brands ( id, brand_name, thumbnails )
+	8.	bread ( id, name, creatDate, expDate, type, emailOrg )
+	9.	bus ( id, route_name, bus_num, plate_num, origin, destination )
+	10.	car ( carId, model, company, engine, color, type )
+	11.	cart_details ( UUID, int state, Date createDate, int quantity )
+	12.	categorys ( id, category_name, thumbnails )
+	13.	city ( id, city )
+	14.	client ( name, address, city, state, zip, country, email )
+	15.	collections ( id, collection_name, thumbnails )
+	16.	colors ( id, color_name )
+	17.	company ( company_id, name, description, primary_contact_attendee_id)
+	18.	countries ( code, name, continent_name )
+	19.	courses ( id, name, start_date, end_date, duration, institute_name, faculty_id )
+	20.	customers ( customer_id, first_name, last_name, class, door_num, address1 address2, city, state, postalcode, country, phone, email, 	
+		voice_mail, password, credit_card, credit_card_type_id, card_exp_month, card_exp_yr, billing_address, billing_city, billing_region, 
+		billing_postalcode, billing_country, ship_address, ship_city, ship_region, ship_postalcode, ship_country, date_entered )
+	21.	dimension_has_product_variant ( dimension_id, product_id, variant_id )
+	22.	dimensions ( id, dimension_value )
+	23.	employee ( id, employee_name, employee_num, date_hired, city_id )
+	24.	employee_manager ( id, name, dob, email )
+	25.	faculty ( id, name, subject_id, course_id, highest_qualification, institue_id )
+	26.	family ( id, head_name, num_of_members, language)
+	27.	finish ( id, finish_name )
+	28.	hourly_employee ( id, hourly_rate, employee_id )
+	29.	institute ( id, name, org_name )
+	30.	inventory_item ( variables UUID, int invItem, String title, double price, Date purchaseDate )
+	31.	market (UUID, id, name, is_chain_market, city)
+	32.	merchants ( id, merchant_name, admin_id, country_code, created_at )
+	33.	monitor_curve ( id, companyName, modelNum, created_date, companyEmail, screenSize, length, breadth, customerCareEmail, customerCareNum )
+	34.	monitor_wide ( id, orgName, modelNo, orgEmail, created_date, screenSize, length, breadth )
+	35.	option_table ( id, option_name )
+	36.	option_values ( id, option_id, value_name )
+	37.	order_item_history ( UUID, int seq, int amount, String state, String notes, create_date )
+	38.	order_items ( order_id, product_id, quantity )
+	39.	orders ( id, user_id, status, created_at )
+	40.	outcome ( name, price, quantity_in_stock, quantity_on_order)
+	41.	pattern ( id, option_name )
+	42.	payment ( UUID, int payment, int amount, String state, Date create_date )
+	43.	pizza ( id, name, createdDate, expiryDate, type, isHalal )
+	44.	presentation ( presentation_id, booked_company_id, booked_room_id, start_time, end_time )
+	45.	presentation_attendance ( ticket_id, presentation_id, attendee_id )
+	46.	product ( id, product_name, description, base_relation_table, pattern_id )
+	47.	product_option_relation ( product_id, option_id )
+	48.	products ( id, merchant_id, name, price, status, created_at )	
+	49.	product_variant ( variant_id, product_id, finish_id, colors_id, metadata, thumbnails )
+	50.	room ( room_id, floor_num, seat_capacity )
+	51.	salaried_employee ( id, annual_salary, employee_id )
+	52.	school ( schoolId, name, registrationDate, medium, address )
+	53.	shipping ( UUID, int shipping, String shipMethod, int shipCharge, String state, Date shipDate )
+	54.	shopping_cart ( UUID, int cart, boolean active, Date expireOn )
+	55.	structure ( id, name, create_date, update_date, active )
+	56.	student ( id, name, roll, email_id, dob, father_name, grade, level)
+	57.	subjects ( id, name, category )
+	58.	suppliers ( supplier_id, company_name, contact_f_name, contact_l_name, contact_title, address1, address2, city, state, postalcode, country, 
+		phone, fax, email, url, payment_methods, discount_type, type_goods_, notes, discount_availabe, current_order, logo, customer_id )
+	59.	taxi ( id, color, isLuxury, city, state, plate_num )
+	60.	teacher ( id, teacherId, name, dob, email, schoolId, fatherName )
+	61.	train_express (id, train_num, train_name, arrival_date, arrival_city, arrival_state, departure_date, departure_city, departure_state )
+	62.	train_local (id, train_num, route_name, arrival_date, departure_date, city_name )
+	63.	un_representative ( UUID, id, name, gender, age)
+	64.	user_session ( UUID, int session, String ipAddress, int clicks, Date create_date )
+	65.	users ( id, full_name, email, gender, date_of_birth, country_code, created_at )
+	66.	variant_value ( product_id, option_id, value_id, dimension_id, variant_id, price, sku )
+	67.	water ( id, name, percentageMineral, isElectrolyteWater )
+	68.	wood ( id, name_tree, quality, price )
+	69.	zoo ( id, name, foundationDate, inaugrationDate, emailZooAuthority )
+	70.	zero_balance_acc ( id, name, user_id, expiry_date, created_date, bank_name )
+
+
+
+		------------------------------------------------------------------------------------------------------------------
+								  jvm
+		------------------------------------------------------------------------------------------------------------------
+
 	jconsole 
 		to run this in cmd type jconsole and enter
 	
