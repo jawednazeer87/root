@@ -1,77 +1,68 @@
-Data type :
-	what will be size, type and default value of these variables?
-	int,
-	double,
-	float,
-	long,
-	short,
-	byte,
-	boolean,
-	char
+		------------------------------------------------------------------------------------------------------------------
+								Data type
+		------------------------------------------------------------------------------------------------------------------
 
-	wap to create and print an int variable?
-	wap to create and print a char variable?
-	wap to create and print a float variable?
-	wap to create and print a short variable?
-	wap to create and print a boolean variable?
-	wap to create and print a double variable?
-	wap to create and print a long variable?
+	1.	What will be size, type and default value of these variables?
+		int,
+		double,
+		float,
+		long,
+		short,
+		byte,
+		boolean,
+		char
+
+	4.	Wap to create and print an int variable 15 times with 15 different int values.
+	5.	Wap to create and print a char variable 15 times with 26 different char values.
+	6.	Wap to create and print a float variable 15 times with 15 different float values.
+	7.	Wap to create and print a short variable 15 times with 20 different short values.
+	8.	Wap to create and print a boolean variable 15 times with 2 different boolean values.
+	9.	Wap to create and print a double variable 25 times with 25 different double values.
+	10.	Wap to create and print a long variable 17 times with 15 different long values.
+	11.	Wap to create and print a byte variable 27 times with 25 different byte values.
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
+
+		------------------------------------------------------------------------------------------------------------------
+								Type Casting
+		------------------------------------------------------------------------------------------------------------------
 	
-	
-Type Casting:
-	wap to create a char variable but assign an int value and print that variable?
-	wap to create an int variable but assign a char value and print that variable?
-	wap to declare tow char variable and assign a value then add these two variables and print the sum
-	wap to define a byte variable and assign its value to a short type variable and print both values
-	wap to define a short variable and assign its value to a byte type variable and print both variables.
-	wap to define a short variable and assign its value to an int type variable and print both variables.
-	wap to define an int variable and assign its value to a short type variable and print both variables.
-	wap to define a byte variable and assign its value to an int type variable and print both variables.
-	wap to define a double and assing it to a float variable and print both variables
-	
-	
-	what will be the output?
-	
-	1.	
-		int i = 19/5; 
+	1.	wap to create a char variable but assign an int value and print that variable?
+	2.	wap to create an int variable but assign a char value and print that variable?
+	3.	wap to declare tow char variable and assign a value then add these two variables and print the sum
+	4.	wap to define a byte variable and assign its value to a short type variable and print both values
+	5.	wap to define a short variable and assign its value to a byte type variable and print both variables.
+	6.	wap to define a short variable and assign its value to an int type variable and print both variables.
+	7.	wap to define an int variable and assign its value to a short type variable and print both variables.
+	8.	wap to define a byte variable and assign its value to an int type variable and print both variables.
+	9.	wap to define a double and assing it to a float variable and print both variables
+	10.	what will be the output?
+	11.	int i = 19/5; 
 		sop(i);
-	2.  
-		char a = 65;
+	12.	char a = 65;
 		sop(a);
-	3.
-		int s = 'a';
-		sop(s);
-		
-	4.
-		double i = 32/5; 
+	13.	int s = 'a';
+		sop(s);	
+	14.	double i = 32/5; 
 		sop(i);
-	5.
-		float i = 47/5; 
+	15.	float i = 47/5; 
 		sop(i);
-	6. 
-		int sum = 'A' + ' ';
+	16.	int sum = 'A' + ' ';
 		sop(sum);
-	7.	
-		int sub = 'a' - ' ';
+	17.	int sub = 'a' - ' ';
 		sop(sub);
-	8.
-		int sub = 'a' - ' ';
+	18.	int sub = 'a' - ' ';
 		sop((char)sub);
-	9.
-		int sum = 'A' + ' ';
+	19.	int sum = 'A' + ' ';
 		sop((char)sum);
 		
 		
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
 
-	
-Arithmetic Operation
+		------------------------------------------------------------------------------------------------------------------
+								Arithmetic Operation
+		------------------------------------------------------------------------------------------------------------------
+
 	1.	wap to add two numbers?
 	2.	wap to add three numbers?
 	3.	wap to subtract two numbers?
@@ -87,37 +78,37 @@ Arithmetic Operation
 	13.	what will be output: double x = 14 / 5 ;
 	
 	14.	int x = 15;
-        int y = x % 4;
-        int z = y * 24;
-        System.out.println(z / 2);
+		int y = x % 4;
+		int z = y * 24;
+		System.out.println(z / 2);
 	
 	15.	int i = 34.0;
-        int j = 7;
-        int k = i % j;
-        System.out.println("k = " + k );
+		int j = 7;
+		int k = i % j;
+		System.out.println("k = " + k );
 	
 	16.	int x = 42;
-        double y = 42.25;
+        	double y = 42.25;
 		System.out.println("x mod 10 = " + x % 10 );
-        System.out.println("y mod 10 = " + y % 10 );
+        	System.out.println("y mod 10 = " + y % 10 );
 	
 	17.	int a = 31, b = 40;
-        int c = b - a;
-        b = c % a;        
-        b = b / a;        
-        a = ++c;        
-        b = (a - --b) * c;
+		int c = b - a;
+		b = c % a;        
+		b = b / a;        
+		a = ++c;        
+		b = (a - --b) * c;
 	
 	18.	int num = 69;
-        int days = num % 30;
-        int month = num / 30;
-        System.out.println(month + " Month and " + days + " days");
+		int days = num % 30;
+		int month = num / 30;
+		System.out.println(month + " Month and " + days + " days");
 	
 	19.	int a = 56;
-        int b = -8;
-        int c = a % b;
-        int d = b % a;
-        System.out.println(c + ", " + d);
+		int b = -8;
+		int c = a % b;
+		int d = b % a;
+		System.out.println(c + ", " + d);
 	
 	20.	System.out.println(10 * 5 + 100 * (25 * 11) / (25 * 10) * 10 - 5 + 7 % 2);
 		int zx = (10 * 5 + 100 * (25 * 11));
@@ -125,31 +116,31 @@ Arithmetic Operation
 		System.out.println(zx / yz);
 	
 	21.	int a = 34;
-        double d = 20.5;
-        d+=a;
-        a+=d;
-        d-=a;
-        a-=d;
-        System.out.println(" d = " + ++d );
-        System.out.println(" a = " + a-- );
+		double d = 20.5;
+		d+=a;
+		a+=d;
+		d-=a;
+		a-=d;
+		System.out.println(" d = " + ++d );
+		System.out.println(" a = " + a-- );
 	
 	22.	int a = 4;
-        a++;
-        a += a;
-        --a;
-        a = 7 + a;
-        a *= a;
-        a -= 3;
+		a++;
+		a += a;
+		--a;
+		a = 7 + a;
+		a *= a;
+		a -= 3;
 		System.out.println(" a = " + a );
 	
 	23.	int a = 4;
-        a -= 10;
-        a = -a;
-        a = 7 + a;
-        System.out.println(" a = " + a );
-        a %= a;
-        a = a * a - 3 ;
-        System.out.println(" a = " + a );
+		a -= 10;
+		a = -a;
+		a = 7 + a;
+		System.out.println(" a = " + a );
+		a %= a;
+		a = a * a - 3 ;
+		System.out.println(" a = " + a );
 	
 	24.	int a = -4;
 		a=a+1;        
@@ -159,38 +150,32 @@ Arithmetic Operation
 		System.out.println(" a = " + a );
 	
 	25.	short s = 10;
-        int a = s;
-        s += 10;
-        System.out.println(s + "," + a);
+		int a = s;
+		s += 10;
+		System.out.println(s + "," + a);
 	
 	26.	short s = 10;
-        int a = s;
-        s = s + 10;
-        System.out.println(s + "," + a);
+		int a = s;
+		s = s + 10;
+		System.out.println(s + "," + a);
 	
 	27.	int a = 0152;
-        int b = --a / 2 * 2;
-        System.out.println("a=" + a);
-		
+		int b = --a / 2 * 2;
+		System.out.println("a=" + a);
 
-	
-	28. wap to add two int variable but assign the result to double variable and print the result?
-	
-	29. wap to add two int variable but assign the result to float variable and print the result?
-	
-	30. wap to add two char variable and store sum in char variable and print the result?
-	
-	31. wap to add two float variable but assign the result to int variable and print the result?
-	
-	32. wap to add two double variable but assign the result to int variable and print the result?
+	28. 	Wap to add two int variable but assign the result to double variable and print the result?
+	29. 	Wap to add two int variable but assign the result to float variable and print the result?
+	30. 	Wap to add two char variable and store sum in char variable and print the result?
+	31. 	Wap to add two float variable but assign the result to int variable and print the result?
+	32. 	Wap to add two double variable but assign the result to int variable and print the result?
 	
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-	
-Post/Pre Increment/Decrement
 
+
+		------------------------------------------------------------------------------------------------------------------
+								Post/Pre Increment/Decrement
+		------------------------------------------------------------------------------------------------------------------
+	
 	1.	wap to do pre increment a number and assign its value to other number and print both number
 	2.	wap to do post increment a number and assign its value to other number and print both number
 	
@@ -225,49 +210,49 @@ Post/Pre Increment/Decrement
 		int b = a++ / 3;
 		what will be the value of a and b on printing
 	
-	14. int x = 10;
+	14. 	int x = 10;
 		int y = -2;
 		int z = ++x * y++;
 		sop(x);
 		sop(y);
 		sop(z);
 	
-	15. int x = 3;
+	15. 	int x = 3;
 		int y = 2;
 		int z = x++ * y++;
 		sop(x);
 		sop(y);
 		sop(z);
 
-	16. int x = -1;
+	16. 	int x = -1;
 		int y = 2;
 		int z = --x * y++;
 		sop(x);
 		sop(y);
 		sop(z);
 
-	17. int x = 0;
+	17. 	int x = 0;
 		int y = -2;
 		int z = ++x * ++y;
 		sop(x);
 		sop(y);
 		sop(z);
 
-	18. int x = -3;
+	18. 	int x = -3;
 		int y = -2;
 		int z = --x * y--;
 		sop(x);
 		sop(y);
 		sop(z);
 
-	19. int x = 10;
+	19. 	int x = 10;
 		int y = -2;
 		int z = ++x + y++;
 		sop(x);
 		sop(y);
 		sop(z);
 
-	20. int x = 10;
+	20. 	int x = 10;
 		int y = -2;
 		int z = ++x / y++;
 		sop(x);
@@ -275,25 +260,27 @@ Post/Pre Increment/Decrement
 		sop(z);
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-	
-Relational Operator:
+
+
+		------------------------------------------------------------------------------------------------------------------
+								Relational Operator
+		------------------------------------------------------------------------------------------------------------------
 
 	1.	wap to compare two numbers and print the result, >, >=, <, <=, ==, !=
 	
 	2.	int a = 10;
-        int b = a - 5;
-        System.out.println(a <= b);
-        System.out.println(a > b);
+		int b = a - 5;
+		System.out.println(a <= b);
+		System.out.println(a > b);
+	
 	3.	= is an assignment operator where as == is a relational operator ?
+	
 	4.	int a = 10;
-        int b = 15;
-        a++;
-        b--;
-        int c = b % a;
-        System.out.println(c >= b);
+		int b = 15;
+		a++;
+		b--;
+		int c = b % a;
+		System.out.println(c >= b);
 		
 	5.	int a = 10;
 		boolean x = a++==10;
@@ -399,18 +386,19 @@ Relational Operator:
 		sop(x);
 		sop(y);
 		sop(r);
-		
 	
 	21.	boolean x = false, y = true;
 		boolean r = x && y;
 		sop(r);
 		
 		
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-	
-Logical operation
+		
+
+
+		------------------------------------------------------------------------------------------------------------------
+								Logical operation
+		------------------------------------------------------------------------------------------------------------------
+
 	1.
 		int a = 1;
 		int b = 2;
@@ -418,7 +406,6 @@ Logical operation
 			sop("hello world");
 		}
 		what will be the value of a and b on printing
-		
 		
 	2.	int a = 1;
 		int b = 2;
@@ -442,127 +429,129 @@ Logical operation
 		what will be the value of a and b on printing
 	
 	5.	boolean a = true;
-        boolean b = true;
-        boolean c = true;
-        boolean d = false;
-        boolean e = a || !b || c || !d;
+		boolean b = true;
+		boolean c = true;
+		boolean d = false;
+		boolean e = a || !b || c || !d;
 		print a, b, c, d and e
 		
 	6.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY & lampX;
-        System.out.println("Lamp switch-on " + result);
+		boolean lampY = true;
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY & lampX;
+		System.out.println("Lamp switch-on " + result);
 		
 	7.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY | lampX;
-        System.out.println("Lamp switch-on " + result);
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY | lampX;
+		System.out.println("Lamp switch-on " + result);
 		
 	8.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);
 		
 	9.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY && lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = lampY || result;
-        System.out.println("Lamp switch-on " + result);
+		boolean lampY = true;
+		result = lampY && lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = lampY || result;
+		System.out.println("Lamp switch-on " + result);
 	
 	10.	boolean lampX = false, result;
-        boolean lampY = true;
-        result = lampY || lampX;
-        System.out.println("Lamp switch-on " + result);
-        result = result && lampX;
-        System.out.println("Lamp switch-on " + result);
+		boolean lampY = true;
+		result = lampY || lampX;
+		System.out.println("Lamp switch-on " + result);
+		result = result && lampX;
+		System.out.println("Lamp switch-on " + result);
 		
 	11.	int c = 0, d = 50, e = 50;
-        boolean b = (c == 1) && (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (++e < 100) && (c == 1);
-        System.out.println("e = " + e);
+		boolean b = (c == 1) && (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (++e < 100) && (c == 1);
+		System.out.println("e = " + e);
 		
 	12.	int c = 0, e = 50;
-        boolean b = (c == 1) && (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (++e < 100) && (c == 1);
-        System.out.println("e = " + e);
+		boolean b = (c == 1) && (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (++e < 100) && (c == 1);
+		System.out.println("e = " + e);
 		
 	13.	int c = 0, e = 50;
-        boolean b = (c == 1) || (++e < 100);
-        System.out.println("e = " + e);
-        boolean f = (e++ < 100) || (c == 1);
-        System.out.println("e = " + e);
+		boolean b = (c == 1) || (++e < 100);
+		System.out.println("e = " + e);
+		boolean f = (e++ < 100) || (c == 1);
+		System.out.println("e = " + e);
 		
 	14.	int a = 15;
-        int b = a + 5;
-        int c = a + 10;
-        int d = c % a;
-        System.out.println(d);
+		int b = a + 5;
+		int c = a + 10;
+		int d = c % a;
+		System.out.println(d);
 	
 	15.	double d1 = 21.5;
-        double d2 = 0.5;
-        boolean condition = ( d1 / d2 ) < 15;
-        int result = condition ? 77 : 99;
-        System.out.println("result = " + result);
+		double d2 = 0.5;
+		boolean condition = ( d1 / d2 ) < 15;
+		int result = condition ? 77 : 99;
+		System.out.println("result = " + result);
 
 	16.	int a = 27 / 4 + 9;
-        int b = 52 / 6 - 3;
-        int c = 3;
-        c = a++ - b; 
-        a = a * b; 
-        b = b + a; 
-        a = (a < c) ? a % c : c % a; 
-        System.out.println("a = " + a + " b = " + b + " c = " + c);
+		int b = 52 / 6 - 3;
+		int c = 3;
+		c = a++ - b; 
+		a = a * b; 
+		b = b + a; 
+		a = (a < c) ? a % c : c % a; 
+		System.out.println("a = " + a + " b = " + b + " c = " + c);
 		
 	17.	int a = 7 * 3 + 24 / 3 - 5;
-        int b = (7 * 3) + (24 / 3) - 5;
-        System.out.print(a + ", " + b);
+		int b = (7 * 3) + (24 / 3) - 5;
+		System.out.print(a + ", " + b);
 		
 	18.	int x = 20;
-        int y = 10;
-        double z = x++ - y * 7 / --y + x * 10;
-        System.out.println(z);
+		int y = 10;
+		double z = x++ - y * 7 / --y + x * 10;
+		System.out.println(z);
 
 	19.	int x = 20;
-        int y = 10;
-        double z = x + y * 7 + y-- + x;
-        System.out.println(z);
+		int y = 10;
+		double z = x + y * 7 + y-- + x;
+		System.out.println(z);
 		
 	20.	int x = 20;
-        int y = 10;
-        double z = (x + y) * 7 + (--y + x);
-        System.out.println(z);
+		int y = 10;
+		double z = (x + y) * 7 + (--y + x);
+		System.out.println(z);
 		
 	21.	int c = 20;
-        double kelvin = c + 273.15;
-        System.out.println(kelvin);
-        int Rankine = (int) (c + 273.15 * 9 / 5);
-        System.out.println(Rankine);
-        double delisle = (100 - c) * 3 / 2;
-        System.out.println(delisle);
+		double kelvin = c + 273.15;
+		System.out.println(kelvin);
+		int Rankine = (int) (c + 273.15 * 9 / 5);
+		System.out.println(Rankine);
+		double delisle = (100 - c) * 3 / 2;
+		System.out.println(delisle);
 	
 	22.	double f = 70;
-        double kelvin = (f + 459.67) * 5 / 9;
-        System.out.println((int) kelvin);
-        double newton = (f - 32) * 11 / 60;
-        System.out.println((int) newton);
-
+		double kelvin = (f + 459.67) * 5 / 9;
+		System.out.println((int) kelvin);
+		double newton = (f - 32) * 11 / 60;
+		System.out.println((int) newton);
 	23.	boolean a, b, c;
-        a = b = c = true;
+        	a = b = c = true;
 		System.out.println("a = " + a + " b = " + b + " c = " + c);
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-Ternary:
+
+
+
+		------------------------------------------------------------------------------------------------------------------
+								Ternary
+		------------------------------------------------------------------------------------------------------------------
+
 	1.	wap to print greatest number among two given numbers( with if and without if).
 	2.	wap to print smallest number among two given numbers( with if and without if).
 	3.	wap to print negative number among two given numbers( with if and without if).
@@ -571,11 +560,13 @@ Ternary:
 	6.	wap to print odd number among two given numbers( with if and without if).
 	
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
 
-	
-if-else
+
+
+		------------------------------------------------------------------------------------------------------------------
+								if-else
+		------------------------------------------------------------------------------------------------------------------
+
 	1.	wap to find which number is greater among two numbers
 	2.	wap to find which number is greater among three numbers
 	3.	wap to find a number is odd or even
@@ -593,178 +584,141 @@ if-else
 		e. 60 to 80 - B
 		f. Above 80 - A
 		provide marks and print the corresponding grade.
-	
 	11.	wap to find smallest number among 2 numbers
 	12.	wap to find smallest number among 3 numbers
 	13.	Write a program to check whether a given character is lowercase ( a to z ) or uppercase ( A to Z ).
 		Hint: u can use ascii value to solve this issue
-	
 	14.	boolean a, b, c;
-        a = b = c = true;
-        if( !a || ( b && c ) )
-        {
-            System.out.println("If executed");
-        }
-        else
-        {
-            System.out.println("else executed");
-        }
-		
-	15.	if( 1 > 2 )
-        {
-            System.out.println(" 1 is greater than 2");
-        }
-		
-	16.	if( 1 < 2 )
-        {
-            System.out.println("1 is less than 2");
-        }
-        else
-            System.out.println("2 is less than 1");
-            System.out.println("Hello From IfExample");
-       
+		a = b = c = true;
+		if( !a || ( b && c ) ) {
+		    System.out.println("If executed");
+		}
+		else {
+		    System.out.println("else executed");
+		}	
+	15.	if( 1 > 2 ) {
+		    System.out.println(" 1 is greater than 2");
+		}	
+	16.	if( 1 < 2 ) {
+		    System.out.println("1 is less than 2");
+		}
+		else
+		    System.out.println("2 is less than 1");
+		    System.out.println("Hello From IfExample");
 	17.	int marks = 80;
-        if( marks > 70 )
-            System.out.println("Distinction");
-        if( marks > 35 )
-            System.out.println("Pass");
-        else
-            System.out.println("Fail");
-            System.out.println("Better luck next time");
-			
+		if( marks > 70 )
+		    System.out.println("Distinction");
+		if( marks > 35 )
+		    System.out.println("Pass");
+		else
+		    System.out.println("Fail");
+		    System.out.println("Better luck next time");	
 	19.	int a = 7 * 3 + 6 / 2 - 5;
-        int b = 21 - 8 + a % 3 * 11;
-        if(a < b)
-        {
-            System.out.println("A is less than B");
-        }
-        if(a = b)
-        {
-            System.out.println("A is equal to B");
-        }
-        if(a > b)
-        {
-            System.out.println("A is greater than B");
-        }
-		
+		int b = 21 - 8 + a % 3 * 11;
+		if(a < b) {
+		    System.out.println("A is less than B");
+		}
+		if(a = b) {
+		    System.out.println("A is equal to B");
+		}
+		if(a > b) {
+		    System.out.println("A is greater than B");
+		}	
 	20.	int a = 12 + 21 * 3 - 9 / 2;
-        int b = 14 - 32 * 4 + 175 / 8 - 3;
-        if(++a > 71 && --b < 20)
-        {
-            System.out.println("a = " + a + " b = " + b);
-        }
-        if(b-- == -97 || a-- < 100)
-        {
-            System.out.println("a = " + a + " b = " + b);
-        }
-		
+		int b = 14 - 32 * 4 + 175 / 8 - 3;
+		if(++a > 71 && --b < 20) {
+		    System.out.println("a = " + a + " b = " + b);
+		}
+		if(b-- == -97 || a-- < 100) {
+		    System.out.println("a = " + a + " b = " + b);
+		}	
 	21.	float fl = 5.3f;
-        if (fl == 5.3)
-            System.out.println("Both are equal");
-        else
-            System.out.println("Both are not equal");
-			
+		if (fl == 5.3)
+		    System.out.println("Both are equal");
+		else
+		    System.out.println("Both are not equal");	
 	22.	int first = 10, second;
-        if (first < 10)
-            second = 1;
-        if (first >= 10)
-            second = 2;
-        System.out.println("y is " + second);
-		
+		if (first < 10)
+		    second = 1;
+		if (first >= 10)
+		    second = 2;
+		System.out.println("y is " + second);	
 	23.	int x = 20;
-        int y = 25;
-        if (++x < (y = y -= 4) || (x = x += 4) > y) {
-            System.out.println(x + "," + y);
-        }
-		
+		int y = 25;
+		if (++x < (y = y -= 4) || (x = x += 4) > y) {
+		    System.out.println(x + "," + y);
+		}
 	24.	int x = 20;
-        int y = 25;
-        if (++x < (y = y -= 4) || (x = x += 4) > y) {
-            System.out.println(x + " " + y);
-        }
-		
+		int y = 25;
+		if (++x < (y = y -= 4) || (x = x += 4) > y) {
+		    System.out.println(x + " " + y);
+		}	
 	25.	boolean x = true;
-        boolean y = false;
-        if (x && y) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
-		
+		boolean y = false;
+		if (x && y) {
+		    System.out.println(true);
+		} else {
+		    System.out.println(false);
+		}	
 	26.	boolean x = true;
-        boolean y = false;
-        if (x || y) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
-		
+		boolean y = false;
+		if (x || y) {
+		    System.out.println(true);
+		} else {
+		    System.out.println(false);
+		}
 	27.	float f = 75.0f;
-        double d = 75.0;
-        int i = 75;
-        if( f == d )
-        {
-            if( f == i )
-            {
-                System.out.println("f, d and i are equal");
-            }
-            else
-            {
-                System.out.println("f, d are equal but i is not equal");
-            }
-        }
-        else
-        {
-            System.out.println("f and d are not equal");
-        }
-	
+		double d = 75.0;
+		int i = 75;
+		if( f == d ) {
+		    if( f == i ) {
+			System.out.println("f, d and i are equal");
+		    }
+		    else {
+			System.out.println("f, d are equal but i is not equal");
+		    }
+		}
+		else {
+		    System.out.println("f and d are not equal");
+		}
 	28.	boolean male = false;
-        int age = 30;
-        if( male )
-            if( age < 20 )
-                System.out.println("Boy");
-            else
-                System.out.println("Man");
-        else
-            if( age < 20 )
-                System.out.println("Girl");
-            else
-                System.out.println("Woman");
-				
+		int age = 30;
+		if( male )
+		    if( age < 20 )
+			System.out.println("Boy");
+		    else
+			System.out.println("Man");
+		else
+		    if( age < 20 )
+			System.out.println("Girl");
+		    else
+			System.out.println("Woman");		
 	29.	int marks = 50;
-        if( marks > 70 )
-            System.out.println("Distinction");
-        else if( marks > 35 )
-            System.out.println("Pass");
-        else
-            System.out.println("Fail");
-			
+		if( marks > 70 )
+		    System.out.println("Distinction");
+		else if( marks > 35 )
+		    System.out.println("Pass");
+		else
+		    System.out.println("Fail");			
 	30.	int marks = 80;
-        if( marks > 70 )
-        {
-            System.out.println("Distinction");
-            System.out.println("Congratulations");
-        }
-        else if( marks > 35 )
-        {
-            System.out.println("Pass");
-        }
-        else
-        {
-            System.out.println("Fail");
-            System.out.println("Better luck next time");
-        }
-	
+		if( marks > 70 ) {
+		    System.out.println("Distinction");
+		    System.out.println("Congratulations");
+		}
+		else if( marks > 35 ) {
+		    System.out.println("Pass");
+		}
+		else {
+		    System.out.println("Fail");
+		    System.out.println("Better luck next time");
+		}
 	31.	int marks = 50;
-        if( marks >= 70 )
-            System.out.println("Distinction");
-
-        if( marks < 70 && marks >= 35 )
-            System.out.println("Pass");
-
-        if( marks < 35 )
-            System.out.println("Fail");
-			
+		if( marks >= 70 )
+		    System.out.println("Distinction");
+		if( marks < 70 && marks >= 35 )
+		    System.out.println("Pass");
+		if( marks < 35 )
+		    System.out.println("Fail");			
 	32.	boolean a=true, b = false;
 		if (a) {
 			System.out.println("A");
@@ -777,45 +731,46 @@ if-else
 				System.out.println("ELSE");
 			}
 		}
-
-	33. wap to find a given number is negative or not?
-	34. wap to print zero if number zero, 1 if positive and -1 if number is negative
-	35. wap to print odd if number is odd and even if number is even
-	36. wap to check whether number is less than 100 or not
-	37. wap to check whether number is between -100 to 50
-	38. wap to print whether number is divisible by 3 or not
-	39. wap to check whether number divisible by 7
-	40. wap to print hi if number is zero and by if number is 100
-	41. wap to print double if number is a double digit 
-	42. wap to print single if number is single digit
-	43. wap to print ternary if number is 3 digit
-	44. wap to print 100 if number is between 100 to 200
-	45. wap to find greatest number among two numbers
-	46. wap to find greatest number among three numbers
-	47. wap to find least number among two numbers  
-	48. wap to find least number among three numbers
-	49. wap to check whether a given character is capital 'A' or not 
-	50. wap to print 'up' if any given character is upper case
-	51. wap to print 'low' if any given character is lower case
-	52. wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
-	53. wap to check whether a given number is positive and double digit or single digit number 
-	54. wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
-	55. wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
-	56. wap to print all these on basis of give character value
+	33. 	Wap to find a given number is negative or not?
+	34. 	Wap to print zero if number zero, 1 if positive and -1 if number is negative
+	35. 	Wap to print odd if number is odd and even if number is even
+	36. 	Wap to check whether number is less than 100 or not
+	37. 	Wap to check whether number is between -100 to 50
+	38. 	Wap to print whether number is divisible by 3 or not
+	39. 	Wap to check whether number divisible by 7
+	40. 	Wap to print hi if number is zero and by if number is 100
+	41. 	Wap to print double if number is a double digit 
+	42. 	Wap to print single if number is single digit
+	43. 	Wap to print ternary if number is 3 digit
+	44. 	Wap to print 100 if number is between 100 to 200
+	45. 	Wap to find greatest number among two numbers
+	46. 	Wap to find greatest number among three numbers
+	47. 	Wap to find least number among two numbers  
+	48. 	Wap to find least number among three numbers
+	49. 	Wap to check whether a given character is capital 'A' or not 
+	50. 	Wap to print 'up' if any given character is upper case
+	51. 	Wap to print 'low' if any given character is lower case
+	52. 	Wap to print 'num' if any given character is char numeric e.g. '1' or any such given number
+	53. 	Wap to check whether a given number is positive and double digit or single digit number 
+	54. 	Wap to print kid if age<13, print teenage if age<18 and age>12, and adult if age>18
+	55. 	Wap to print 'capital' if given character is capital letter, else print 'small' if charater is in lower case
+	56. 	Wap to print all these on basis of give character value
 		'A' -> Capital
 		'a' -> small 
-	57. wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
-	58. wap to print 'number' if the given character is number else 'non number'
-	59.	wap to print 'star' if the given character is * else print 'no star'
-	60.	wap to print 'at the rate' if the given character is @ else print 'no rate'
-	61.	wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 'world' if number is divisible by 5.
+	57. 	Wap to print alphabet if the given character is 'alphabet' else print 'non alphabet'
+	58. 	Wap to print 'number' if the given character is number else 'non number'
+	59.	Wap to print 'star' if the given character is * else print 'no star'
+	60.	Wap to print 'at the rate' if the given character is @ else print 'no rate'
+	61.	Wap to print 'hello world' if number is divisible by 3 and 5, print 'hello' if divisible by 3 only, print 'world' if number is divisible by 5.
 	
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
 
-	
-for/while loop
+
+
+		------------------------------------------------------------------------------------------------------------------
+								for/while loop
+		------------------------------------------------------------------------------------------------------------------
+
 	1.	wap to print number from 1 to 10
 	2.	wap to print number from 10 to 1
 	3.	wap to print first five odd numbers.
@@ -897,68 +852,59 @@ for/while loop
 		**
 		***
 		****
-	
 	77.
 		****
 		***
 		**
 		*
-		
 	78.
 		****
 		 ***
 		  **
-		   *
-		   
+		   *		   
 	79.
 		    *
 		   **
 	      	  ***
-	     	 ****
-		 
+	     	 ****		 
 	80.
 		   *
 		  * *
 		 * * *
 		* * * *
-
 	81.
 		* * * * *
 		 * * * *
 		  * * *
 		   * *
 		    *
-	
 	82.
 		1
 		1 2
 		1 2 3
-	
 	83.
 		1
 		2 2
 		3 3 3
-		
 	84.	
 	         1
 	         1 2
 		 1 2 3
-		 
-		
 	85.
 		1
 	       2 2
 	       3 3 3
+	86.	Star pattern programs - Wap to print the given star patterns.
+		Number pattern programs - Wap to print the given number patterns.
 
-	
-	Star pattern programs - Wap to print the given star patterns.
-	Number pattern programs - Wap to print the given number patterns.
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-	
-Array
+
+
+
+		------------------------------------------------------------------------------------------------------------------
+									Array
+		------------------------------------------------------------------------------------------------------------------
+
 	01) 	wap to create and print array using without loop
 	02) 	wap to create and print array using loop
 	03) 	wap to find length of an array
@@ -1042,229 +988,243 @@ Array
 	56)	wap to create new array in such a way that newArr[i] = sum of (arr[0] to arr[i])
 		e.g given array oa = {1, 2, 3} then resulted array, ra = {1, 3, 6}
 		exlanation ra[0]=oa[0], ra[1] = oa[0] + oa[1], ra[2] = oa[0] + oa[1] + oa[2]
-	57. Write a Java program to sort a numeric array and a string array
-	58. Write a Java program to sum values of an array
-	59. Write a Java program to print the following grid
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -                                                                                           
-		- - - - - - - - - -  
-	60. Write a Java program to calculate the average value of array elements
-	61. Write a Java program to calculate the average value of array elements (answer should be in double)
-	62. Write a Java program to test if an array contains a specific value
-	63. Write a Java program to find the index of an array element
-	64. Write a Java program to insert an element (specific position) into an array
-	65. Write a Java program to copy an array by iterating the array
-	66. Write a Java program to find the maximum and minimum value of an array
-	67. Write a Java program to reverse an array of integer values
-	68. Write a Java program to find the duplicate values of an array of integer values
-	69. Write a Java program to find the duplicate values of an array of string values
-	70. Write a Java program to find the common elements between two arrays (string values)
-	71. Write a Java program to find the common elements between two arrays (double values)
-	72. Write a Java program to remove duplicate elements from an array
-	73. Write a Java program to find the second largest element in an array
-	74. Write a Java program to find the second smallest element in an array
-	75. Write a Java program to add two matrices of the same size
-	76. Write a Java program to find all pairs of elements in an array whose sum is equal to a specified number
-	77. Write a Java program to find a missing number in an array, [1,2,3,5,6,7,8,9]
-	78. Write a Java program to find common elements from three array
-	79. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements
-80. Write a Java program to get the difference between the largest and smallest values in an array of integers. The length of the array must be 1 and above
-81. Write a Java program to compute the average value of an array of integers except the largest and smallest values
-82. Write a Java program to check if an array of integers without 0 and -1
-83. Write a Java program to check if the sum of all the 10's in the array is exactly 30. Return false if the condition does not satisfy, otherwise true
-84. Write a Java program to check if an array of integers contains two specified elements 65 and 77
-85. Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
-    Sample array: [20, 20, 30, 40, 50, 50, 50]
-    After removing the duplicate elements the program should return 4 as the new length of the array
-86. Write a Java program to find the length of the longest consecutive elements sequence from a given unsorted array of integers.
-    Sample array: [49, 1, 3, 200, 2, 4, 70, 5]
-    The longest consecutive elements sequence is [1, 2, 3, 4, 5], therefore the program will return its length 5\
-87. Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
-    Sample array: [1,2,4,5,6]
-    Target value: 6
-88. Write a Java program to find all the unique triplets such that sum of all the three elements [x, y, z (x ≤ y ≤ z)] equal to a specified number.
-    Sample array: [1, -2, 0, 5, -1, -4]
-    Target value: 2
-89. Write a Java program to create an array of its anti-diagonals from a given square matrix
-Example:
-Input :
-1 2
-3 4
-Output:
-[
-[1],
-[2, 3],
-[4]
-]
-90. Write a Java program to get the majority element from a given array of integers containing duplicates
-    Majority element: A majority element is an element that appears more than n/2 times where n is the size of the array.
-91. Write a Java program to print all the LEADERS in the array
-    Note: An element is leader if it is greater than all the elements to its right side
-92. Write a Java program to find the two elements from a given array of positive and negative numbers such that their sum is closest to zero.
-93. Write a Java program to find smallest and second smallest elements of a given array
-94. Write a Java program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s
-95. Write a Java program to find all combination of four elements of a given array whose sum is equal to a given value
-96. Write a Java program to count the number of possible triangles from a given unsorted array of positive integers
-    Note: The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than or equal to the length of the third     side.
-97. Write a Java program to cyclically rotate a given array clockwise by on
-98. Write a Java program to check whether there is a pair with a specified sum of a given sorted and rotated array
-99. Write a Java program to find the rotation count in a given rotated sorted array of integers.
-100. Write a Java program to arrange the elements of a given array of integers where all negative integers appear before all the positive integers
-101. Write a Java program to arrange the elements of a given array of integers where all positive integers appear before all the negative integers
-102. Write a Java program to sort an array of positive integers of a given array, in the sorted array the value of the first element should be maximum,    
-     second value should be minimum value, third should be second maximum, fourth second be second minimum and so on
-103. Write a Java program to separate 0s on left side and 1s on right side of an array of 0s and 1s in random order
-104. Write a Java program to separate even and odd numbers of a given array of integers. Put all even numbers first, and then odd numbers
-105. Write a Java program to replace every element with the next greatest element (from right side) in a given array of integers. There is no element next 
-     to the last element, therefore replace it with -1
-106. Write a Java program to check if a given array contains a subarray with 0 sum
-Example:
-Input :
-nums1= { 1, 2, -2, 3, 4, 5, 6 }
-nums2 = { 1, 2, 3, 4, 5, 6 }
-nums3 = { 1, 2, -3, 4, 5, 6 }
-Output:
-Does the said array contain a subarray with 0 sum: true
-Does the said array contain a subarray with 0 sum: false
-Does the said array contain a subarray with 0 sum: true
-107. Write a Java program to print all sub-arrays with 0 sum present in a given array of integer
-Example:
-Input :
-nums1 = { 1, 3, -7, 3, 2, 3, 1, -3, -2, -2 }
-nums2 = { 1, 2, -3, 4, 5, 6 }
-nums3= { 1, 2, -2, 3, 4, 5, 6 }
-Output:
-Sub-arrays with 0 sum : [1, 3, -7, 3]
-Sub-arrays with 0 sum : [3, -7, 3, 2, 3, 1, -3, -2]
-Sub-arrays with 0 sum : [1, 2, -3]
-Sub-arrays with 0 sum : [2, -2]
-108. Write a Java program to sort a given binary array in linear times.
-From Wikipedia,
-Linear time: An algorithm is said to take linear time, or O(n) time, if its time complexity is O(n). Informally, this means that the running time increases at most linearly with the size of the input. More precisely, this means that there is a constant c such that the running time is at most cn for every input of size n. For example, a procedure that adds up all elements of a list requires time proportional to the length of the list, if the adding time is constant, or, at least, bounded by a constant.
-Linear time is the best possible time complexity in situations where the algorithm has to sequentially read its entire input. Therefore, much research has been invested into discovering algorithms exhibiting linear time or, at least, nearly linear time. This research includes both software and hardware methods. There are several hardware technologies which exploit parallelism to provide this. An example is content-addressable memory. This concept of linear time is used in string matching algorithms such as the Boyer–Moore algorithm and Ukkonen's algorithm.
+	57. 	Write a Java program to sort a numeric array and a string array
+	58. 	Write a Java program to sum values of an array
+	59. 	Write a Java program to print the following grid
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -                                                                                           
+			- - - - - - - - - -  
+	60. 	Write a Java program to calculate the average value of array elements
+	61. 	Write a Java program to calculate the average value of array elements (answer should be in double)
+	62. 	Write a Java program to test if an array contains a specific value
+	63. 	Write a Java program to find the index of an array element
+	64. 	Write a Java program to insert an element (specific position) into an array
+	65. 	Write a Java program to copy an array by iterating the array
+	66. 	Write a Java program to find the maximum and minimum value of an array
+	67. 	Write a Java program to reverse an array of integer values
+	68. 	Write a Java program to find the duplicate values of an array of integer values
+	69. 	Write a Java program to find the duplicate values of an array of string values
+	70. 	Write a Java program to find the common elements between two arrays (string values)
+	71. 	Write a Java program to find the common elements between two arrays (double values)
+	72. 	Write a Java program to remove duplicate elements from an array
+	73. 	Write a Java program to find the second largest element in an array
+	74. 	Write a Java program to find the second smallest element in an array
+	75. 	Write a Java program to add two matrices of the same size
+	76. 	Write a Java program to find all pairs of elements in an array whose sum is equal to a specified number
+	77. 	Write a Java program to find a missing number in an array, [1,2,3,5,6,7,8,9]
+	78. 	Write a Java program to find common elements from three array
+	79. 	Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements
+	80. 	Write a Java program to get the difference between the largest and smallest values in an array of integers. The length of the array must be 
+		1 and above
+	81. 	Write a Java program to compute the average value of an array of integers except the largest and smallest values
+	82. 	Write a Java program to check if an array of integers without 0 and -1
+	83. 	Write a Java program to check if the sum of all the 10's in the array is exactly 30. Return false if the condition does not satisfy, 
+		otherwise true
+	84. 	Write a Java program to check if an array of integers contains two specified elements 65 and 77
+	85. 	Write a Java program to remove the duplicate elements of a given array and return the new length of the array.
+	    	Sample array: [20, 20, 30, 40, 50, 50, 50]
+	    	After removing the duplicate elements the program should return 4 as the new length of the array
+	86. 	Write a Java program to find the length of the longest consecutive elements sequence from a given unsorted array of integers.
+	    	Sample array: [49, 1, 3, 200, 2, 4, 70, 5]
+	    	The longest consecutive elements sequence is [1, 2, 3, 4, 5], therefore the program will return its length 5\
+	87. 	Write a Java program to find the sum of the two elements of a given array which is equal to a given integer.
+	    	Sample array: [1,2,4,5,6]
+	    	Target value: 6
+	88. 	Write a Java program to find all the unique triplets such that sum of all the three elements [x, y, z (x ≤ y ≤ z)] equal to a specified 
+		number. Sample array: [1, -2, 0, 5, -1, -4], Target value: 2
+	89. 	Write a Java program to create an array of its anti-diagonals from a given square matrix
+		Example:
+		Input :
+			1 2
+			3 4
+		Output:
+			[
+				[1],
+				[2, 3],
+				[4]
+			]
+	90. 	Write a Java program to get the majority element from a given array of integers containing duplicates
+	    	Majority element: A majority element is an element that appears more than n/2 times where n is the size of the array.
+	91. 	Write a Java program to print all the LEADERS in the array
+	    	Note: An element is leader if it is greater than all the elements to its right side
+	92. 	Write a Java program to find the two elements from a given array of positive and negative numbers such that their sum is closest to zero.
+	93. 	Write a Java program to find smallest and second smallest elements of a given array
+	94. 	Write a Java program to segregate all 0s on left side and all 1s on right side of a given array of 0s and 1s
+	95. 	Write a Java program to find all combination of four elements of a given array whose sum is equal to a given value
+	96. 	Write a Java program to count the number of possible triangles from a given unsorted array of positive integers
+	    	Note: The triangle inequality states that the sum of the lengths of any two sides of a triangle must be greater than or equal to the length 
+		of the third side.
+	97. 	Write a Java program to cyclically rotate a given array clockwise by on
+	98. 	Write a Java program to check whether there is a pair with a specified sum of a given sorted and rotated array
+	99. 	Write a Java program to find the rotation count in a given rotated sorted array of integers.
+	100. 	Write a Java program to arrange the elements of a given array of integers where all negative integers appear before all the positive 
+		integers
+	101. 	Write a Java program to arrange the elements of a given array of integers where all positive integers appear before all the negative 
+		integers
+	102. 	Write a Java program to sort an array of positive integers of a given array, in the sorted array the value of the first element should be 
+		maximum, second value should be minimum value, third should be second maximum, fourth second be second minimum and so on 
+	103. 	Write a Java program to separate 0s on left side and 1s on right side of an array of 0s and 1s in random order
+	104. 	Write a Java program to separate even and odd numbers of a given array of integers. Put all even numbers first, and then odd numbers
+	105. 	Write a Java program to replace every element with the next greatest element (from right side) in a given array of integers. There is no 
+		element next to the last element, therefore replace it with -1
+	106. 	Write a Java program to check if a given array contains a subarray with 0 sum
+		Example:
+		Input :
+			nums1= { 1, 2, -2, 3, 4, 5, 6 }
+			nums2 = { 1, 2, 3, 4, 5, 6 }
+			nums3 = { 1, 2, -3, 4, 5, 6 }
+		Output:
+			Does the said array contain a subarray with 0 sum: true
+			Does the said array contain a subarray with 0 sum: false
+			Does the said array contain a subarray with 0 sum: true
+	107. 	Write a Java program to print all sub-arrays with 0 sum present in a given array of integer
+		Example:
+		Input :
+			nums1 = { 1, 3, -7, 3, 2, 3, 1, -3, -2, -2 }
+			nums2 = { 1, 2, -3, 4, 5, 6 }
+			nums3= { 1, 2, -2, 3, 4, 5, 6 }
+		Output:
+			Sub-arrays with 0 sum : [1, 3, -7, 3]
+			Sub-arrays with 0 sum : [3, -7, 3, 2, 3, 1, -3, -2]
+			Sub-arrays with 0 sum : [1, 2, -3]
+			Sub-arrays with 0 sum : [2, -2]
+	108. 	Write a Java program to sort a given binary array in linear times.
+		From Wikipedia,
+		Linear time: An algorithm is said to take linear time, or O(n) time, if its time complexity is O(n). Informally, this means that the running 
+		time increases at most linearly with the size of the input. More precisely, this means that there is a constant c such that the running time 
+		is at most cn for every input of size n. For example, a procedure that adds up all elements of a list requires time proportional to the 
+		length of the list, if the adding time is constant, or, at least, bounded by a constant.
+		Linear time is the best possible time complexity in situations where the algorithm has to sequentially read its entire input. Therefore, 
+		much research has been invested into discovering algorithms exhibiting linear time or, at least, nearly linear time. This research includes 
+		both software and hardware methods. There are several hardware technologies which exploit parallelism to provide this. An example is 
+		content-addressable memory. This concept of linear time is used in string matching algorithms such as the Boyer–Moore algorithm and 
+		Ukkonen's algorithm.
+		Example:
+		Input :
+			b_nums[] = { 0, 1, 1, 0, 1, 1, 0, 1, 0, 0 }
+		Output:
+			After sorting: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+	109. Write a Java program to check if a sub-array is formed by consecutive integers from a given array of integers
+		Example:
+		Input :
+			nums = { 2, 5, 0, 2, 1, 4, 3, 6, 1, 0 }
+		Output:
+			The largest sub-array is [1, 7]
+		Elements of the sub-array: 5 0 2 1 4 3 6
+	110. 	Given two sorted arrays A and B of size p and q, write a Java program to merge elements of A with B by maintaining the sorted order i.e. 
+		fill A with first p smallest elements and fill B with remaining elements
+		Example:
+		Input :
+			int[] A = { 1, 5, 6, 7, 8, 10 }
+			int[] B = { 2, 4, 9 }
+		Output:
+			Sorted Arrays:
+			A: [1, 2, 4, 5, 6, 7]
+			B: [8, 9, 10]
+	111. 	Write a Java program to find maximum product of two integers in a given array of integers
+		Example:
+		Input :
+			nums = { 2, 3, 5, 7, -7, 5, 8, -5 }
+		Output:
+			Pair is (7, 8), Maximum Product: 56
+	112. 	Write a Java program to shuffle a given array of integers
+		Example:
+		Input :
+			nums = { 1, 2, 3, 4, 5, 6 }
+		Output:
+			Shuffle Array: [4, 2, 6, 5, 1, 3]
+	113. 	Write a Java program to rearrange a given array of unique elements such that every second element of the array is greater than its left and 
+		right elements
+	     	Example:
+		Input :
+			nums= { 1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14 }
+		Output:
+			Array with every second element is greater than its left and right elements:
+			[1, 4, 2, 9, 3, 8, 5, 10, 7, 14, 12]
+	114. 	Write a Java program to find the equilibrium indices from a given array of integers
+		Example:
+		Input :
+			nums = {-7, 1, 5, 2, -4, 3, 0}
+		Output:
+			Equilibrium indices found at : 3
+			Equilibrium indices found at : 6
+	115. 	Write a Java program to replace each element of the array with product of every other element in a given array of integers
+		Example:
+		Input :
+			nums1 = { 1, 2, 3, 4, 5, 6, 7}
+			nums2 = {0, 1, 2, 3, 4, 5, 6, 7}
+		Output:
+			Array with product of every other element:
+			[5040, 2520, 1680, 1260, 1008, 840, 720]
+			Array with product of every other element:
+			[5040, 0, 0, 0, 0, 0, 0, 0]
+	116. 	Write a Java program to find Longest Bitonic Subarray in a given array A bitonic subarray is a subarray of a given array where elements are 
+		first sorted in increasing order, then in decreasing order. A strictly increasing or strictly decreasing subarray is also accepted as 
+		bitonic subarray
+		Example:
+		Input :
+			nums = { 4, 5, 9, 5, 6, 10, 11, 9, 6, 4, 5 }
+		Output:
+			The longest bitonic subarray is [3,9]
+			Elements of the said sub-array: 5 6 10 11 9 6 4
+			The length of longest bitonic subarray is 7
+	117. 	Write a Java program to find maximum difference between two elements in a given array of integers such that smaller element appears before 
+		larger element
+		Example:
+		Input :
+			nums = { 2, 3, 1, 7, 9, 5, 11, 3, 5 }
+		Output:
+			The maximum difference between two elements of the said array elements 10
+	118. 	Write a Java program to find contiguous subarray within a given array of integers which has the largest sum. In computer science, the 
+		maximum sum subarray problem is the task of finding a contiguous subarray with the largest sum, within a given one-dimensional array 
+		A[1...n] of numbers. Formally, the task is to find indices and with, such that the sum is as large as possible.
+		Example:
+		Input :
+			int[] A = {1, 2, -3, -4, 0, 6, 7, 8, 9}
+		Output:
+			The largest sum of contiguous sub-array: 30
+	119. 	Write a Java program to find subarray which has the largest sum in a given circular array of integers
+		Example:
+		Input :
+			nums1 = { 2, 1, -5, 4, -3, 1, -3, 4, -1 }
+			nums2 = { 1, -2, 3, 0, 7, 8, 1, 2, -3 }
+		Output:
+			The sum of subarray with the largest sum is 6
+			The sum of subarray with the largest sum is 21
+	120. 	Write a Java program to create all possible permutations of a given array of distinct integers
+		Example:
+		Input :
+			nums1 = {1, 2, 3, 4}
+			nums2 = {1, 2, 3}
+		Output:
+			Possible permutations of the said array:
+			[1, 2, 3, 4]
+			[1, 2, 4, 3]
+			....
+			[4, 1, 3, 2]
+			[4, 1, 2, 3]
+			Possible permutations of the said array:
+			[1, 2, 3]
+			[1, 3, 2]
+			...
+			[3, 2, 1]
+			[3, 1, 2]
 
-Example:
-Input :
-b_nums[] = { 0, 1, 1, 0, 1, 1, 0, 1, 0, 0 }
-Output:
-After sorting: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-109. Write a Java program to check if a sub-array is formed by consecutive integers from a given array of integers
-Example:
-Input :
-nums = { 2, 5, 0, 2, 1, 4, 3, 6, 1, 0 }
-Output:
-The largest sub-array is [1, 7]
-Elements of the sub-array: 5 0 2 1 4 3 6
-110. Given two sorted arrays A and B of size p and q, write a Java program to merge elements of A with B by maintaining the sorted order i.e. fill A with 
-     first p smallest elements and fill B with remaining elements
-Example:
-Input :
-int[] A = { 1, 5, 6, 7, 8, 10 }
-int[] B = { 2, 4, 9 }
-Output:
-Sorted Arrays:
-A: [1, 2, 4, 5, 6, 7]
-B: [8, 9, 10]
-111. Write a Java program to find maximum product of two integers in a given array of integers
-Example:
-Input :
-nums = { 2, 3, 5, 7, -7, 5, 8, -5 }
-Output:
-Pair is (7, 8), Maximum Product: 56
-112. Write a Java program to shuffle a given array of integers
-Example:
-Input :
-nums = { 1, 2, 3, 4, 5, 6 }
-Output:
-Shuffle Array: [4, 2, 6, 5, 1, 3]
-113. Write a Java program to rearrange a given array of unique elements such that every second element of the array is greater than its left and right 
-     elements
-     Example:
-Input :
-nums= { 1, 2, 4, 9, 5, 3, 8, 7, 10, 12, 14 }
-Output:
-Array with every second element is greater than its left and right elements:
-[1, 4, 2, 9, 3, 8, 5, 10, 7, 14, 12]
-114. Write a Java program to find the equilibrium indices from a given array of integers
-Example:
-Input :
-nums = {-7, 1, 5, 2, -4, 3, 0}
-Output:
-Equilibrium indices found at : 3
-Equilibrium indices found at : 6
-115. Write a Java program to replace each element of the array with product of every other element in a given array of integers
-Example:
-Input :
-nums1 = { 1, 2, 3, 4, 5, 6, 7}
-nums2 = {0, 1, 2, 3, 4, 5, 6, 7}
-Output:
-Array with product of every other element:
-[5040, 2520, 1680, 1260, 1008, 840, 720]
-Array with product of every other element:
-[5040, 0, 0, 0, 0, 0, 0, 0]
-116. Write a Java program to find Longest Bitonic Subarray in a given array
-A bitonic subarray is a subarray of a given array where elements are first sorted in increasing order, then in decreasing order. A strictly increasing or strictly decreasing subarray is also accepted as bitonic subarray
-Example:
-Input :
-nums = { 4, 5, 9, 5, 6, 10, 11, 9, 6, 4, 5 }
-Output:
-The longest bitonic subarray is [3,9]
-Elements of the said sub-array: 5 6 10 11 9 6 4
-The length of longest bitonic subarray is 7
-117. Write a Java program to find maximum difference between two elements in a given array of integers such that smaller element appears before larger element
-Example:
-Input :
-nums = { 2, 3, 1, 7, 9, 5, 11, 3, 5 }
-Output:
-The maximum difference between two elements of the said array elements
-10
-118. Write a Java program to find contiguous subarray within a given array of integers which has the largest sum
-In computer science, the maximum sum subarray problem is the task of finding a contiguous subarray with the largest sum, within a given one-dimensional array A[1...n] of numbers. Formally, the task is to find indices and with, such that the sum is as large as possible.
-Example:
-Input :
-int[] A = {1, 2, -3, -4, 0, 6, 7, 8, 9}
-Output:
-The largest sum of contiguous sub-array: 30
-119. Write a Java program to find subarray which has the largest sum in a given circular array of integers
-Example:
-Input :
-nums1 = { 2, 1, -5, 4, -3, 1, -3, 4, -1 }
-nums2 = { 1, -2, 3, 0, 7, 8, 1, 2, -3 }
-Output:
-The sum of subarray with the largest sum is 6
-The sum of subarray with the largest sum is 21
-120. Write a Java program to create all possible permutations of a given array of distinct integers
-Example:
-Input :
-nums1 = {1, 2, 3, 4}
-nums2 = {1, 2, 3}
-Output:
-Possible permutations of the said array:
-[1, 2, 3, 4]
-[1, 2, 4, 3]
-....
-[4, 1, 3, 2]
-[4, 1, 2, 3]
-Possible permutations of the said array:
-[1, 2, 3]
-[1, 3, 2]
-...
-[3, 2, 1]
-[3, 1, 2]
 
 
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
 
+		------------------------------------------------------------------------------------------------------------------
+									String
+		------------------------------------------------------------------------------------------------------------------
 	
-String 
+ 
 	1.	How to compare strings?
 	2.	How to search last occurance of a substring inside a substring?
 	3.	How to remove a particular character from a string?
@@ -1279,31 +1239,25 @@ String
 			OP -   you are how world Hello
 		b.	IP -   Good morning
 			OP -   morning Good
-		c.  IP -   who is this
+		c.	IP -   who is this
 			OP -   this is who
-	
 	11.	Wap to convert String to char array 
 	12.	Wap to convert char array to String
 	13. 	Wap to remove all spaces from a string
 	14. 	Wap to remove spaces those are present at starting and ending of a String
 	15.	Wap to remove all integers from a String 
 	16.	Wap to remove start from a String
-	17.	Wap to remove all special characters from String(Note: accept alphabets lower case or upper case 
-		all other characters are special characters). 
+	17.	Wap to remove all special characters from String (Note: accept alphabets lower case or upper case, all other characters are special 
+		characters). 
 	18.	https://soshace.com/top-20-java-string-interview-questions-and-answers/
 	19.	Wap to count each character except space
 	20.	Wap to count the total number of vowels and consonants in a string
 	21.	Wap to determine whether two strings are the anagram
-	22.	Wap to divide String in 3 equal parts
-		String s = "aaabbbccc";
-	23.	Wap to remove all lower case letters
-		String s = "aAzZXYcFEDgHIjklMNppc";
-	24.	Wap to remove all upper case letters
-		String s = "aAzZXYcFEDgHIjklMNppc";
+	22.	Wap to divide String in 3 equal parts, String s = "aaabbbccc";
+	23.	Wap to remove all lower case letters, String s = "aAzZXYcFEDgHIjklMNppc";
+	24.	Wap to remove all upper case letters, String s = "aAzZXYcFEDgHIjklMNppc";
 	25.	Wap to determine whether a given string is palindrome
-	26. 	Wap to remove duplicate characters
-		String s = "abacddeffi";
-		OP : "abcdefi"
+	26. 	Wap to remove duplicate characters, String s = "abacddeffi"; OP : "abcdefi"
 	27.	Wap to convert String to int
 	28. 	Wap to convert int to String
 	29.	Wap to convert String to long
@@ -1312,9 +1266,7 @@ String
 	32.	Wap to convert float to String
 	33. 	Wap to convert String to double
 	34.	Wap to convert double to String
-	35.	Wap to implement Run Length Encoding
-		e.g if input is "aaabbc" then output is "3a2b1c
-		ip-> "aabbbddacd" then op-> "2a3b2d1a1c1d"
+	35.	Wap to implement Run Length Encoding, e.g if input is "aaabbc" then output is "3a2b1c, ip-> "aabbbddacd" then op-> "2a3b2d1a1c1d"
 	36.	Wap to reverse the order of the words in the given string
 		Input: s = “geeks quiz practice code” 
 		Output: s = “code practice quiz geeks”
@@ -1369,747 +1321,580 @@ String
 		Input:  str1 = “aab”, str2 = “xyz”
 		Output: False
 		Explanation: One occurrence of ‘a’ in str1 has ‘x’ in str2 and other occurrence of ‘a’ has ‘y’.
-	44.	
+	44.	Wap to which will shift 1 place right each character, 1 place right shift means  a will be b, b will be c, z will be a
+	45.	Wap to which will shift 1 place left each character, 1 place left shift means  b will be a, c will be b, a will be z
+	46.	Wap to which will shift 2 place right each character, 2 place right shift means  a will be c, b will be d, z will be b, y will be a.
+	47.	Wap to which will shift 2 place right each character, 2 place left shift means  a will be y, b will be z, z will be x
+	48.	Wap which will convert all even place character in String to upper case.
+	49.	Wap which will convert all even place character in String to lower case.
+	50.	Wap which will convert all odd place character in String to upper case.
+	51.	Wap which will convert all odd place character in String to lower case.
+	52.	Wap which will convert all odd place character in String to lower case and even place character to upper case.
+	53.	Wap which will convert all odd place character in String to upper case and even place character to lower case.
+	
 		
 		
 	
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-	
-	
-Method
-	1.	void printNegative(int[])
-		method will print all negative number from supplied array
-	2.	void printPositive(int[])
-		method will print all positive number from supplied array
-	3.	void printEven(int[])
-		method will print all even number from supplied array
-	4.	void printOdd(int[])
-		method will print all odd number from supplied array
-	5.	void printNum(int[], int)
-		method will print number if found in array from supplied array
+
+
+		------------------------------------------------------------------------------------------------------------------
+									Method
+		------------------------------------------------------------------------------------------------------------------			
+
+	1.	void printNegative(int[]), method will print all negative number from supplied array
+	2.	void printPositive(int[]), method will print all positive number from supplied array
+	3.	void printEven(int[]), method will print all even number from supplied array
+	4.	void printOdd(int[]), method will print all odd number from supplied array
+	5.	void printNum(int[], int), method will print number if found in array from supplied array
 		e.g. if a[]={1,2,3} n b=2 then print 2
 		if a[]={1,2,3} n b=5 then print not found, here 5 is not an array element
-	6.	void copy(int[], int[])
-		copy first array to second array
-	7.	int[] copy(int[])
-		create an array and copy supplied array and return that new array
-	8.	int sum(int[])
-		find sum of all elements of an array and return sum
-	9.	double average(int[])
-		find the average of array elements and return average
-	10.	int greatest(int[])
-		find greatest element of an array and return that greatest value
-	11.	int smallest(int[])
-		find smallest element of an array and return that smallest value
-		int[] addTwoArrays(int[], int[]) - all array of same size
-		add two supplied arrays elements and then copy the some of each element to 3rd array and 
-		return 3rd array.
-	12.	int[] copyArrays(int[], int[]) - target array size = size of arr1 + size of arr2
-		copy first array and second array to two third array.
+	6.	void copy(int[], int[]), copy first array to second array
+	7.	int[] copy(int[]), create an array and copy supplied array and return that new array
+	8.	int sum(int[]), find sum of all elements of an array and return sum
+	9.	double average(int[]), find the average of array elements and return average
+	10.	int greatest(int[]), find greatest element of an array and return that greatest value
+	11.	int smallest(int[]), find smallest element of an array and return that smallest value
+	12.	int[] copyArrays(int[], int[]) - target array size = size of arr1 + size of arr2, copy first array and second array to two third array.
 	13.	int add(int, int) - add two numbers and return sum
 	14.	int sub(int, int) - subtract two numbers and return result
 	15.	int mul(int, int) - multiply two numbers and return result
 	16.	int reminder(int, int) - find remainder and return 
 	17.	double div(int, int) - divide first argument with second argument and return the result
 	18.	double average(int, int, int) - find average of formal arguments and return result
-	19.	double percent(int, int, int, int, int)
-		suppose 5 arguments are marks in subjects, each subject is of 100 marks,
-		find percentage and return result
-	20.	long factorial(int)
-		find factorial of given argument and return result
-	21.	boolean prime(int)
-		check whether given number is prime or not and return true or false
-	22.	void fibonocci(int)
-		print fibonacci series 
-	23.	void printIncrStar(int n)
-		print star patter
-	24.	void printStarFromRight(int n)
-		print star pattern from right
-	25.	void printStarReverse(int n)
-		print star pattern in decrease order 
-	26.	void printStarReverseRight(int n)
-		print star in decreasing order from right
-	27.	void diamond(int n)
-		print diamond
-	28.	int countOnes(int a[])  a[] = {1,2,1,3,2,1,1,1};
-		count number of times one in array and return count
-	29.	int countZero(int a[])  a[] = {1,0,1,0,0,1,1,0};
-		count number of zeros and return 
-	30.	int checkChar(char c) 
-		return 1 if argument is capital letter or -1 if lower case, 0 if not alphabet
-	31.	int[] countOneZero(int a[]) - a[] = {1,0,1,0,0,1,1};
-		create an array having the count of zero and one in given array, 
-		return zero and one count array.
-		e.g the return array having r[] = {3, 4}
-		a[] = {1,0,1,0,0,1,1}; - this array having 3 zeros and 4 ones
-	32.	char[] reverse(char[] src)
-		create new array and copy the src array to new array in reverse order 
-	33.	char[] reverse(char[] src)
-		reverse the same array and return.
-	34.	Write a value-returning method, isVowel that returns the value true if a given character is a 	
-		vowel, and otherwise returns false. 
-	35.	Write a method named isEven that accepts an int argument. The method should return true if the 
-		argument is even, or false otherwise. 
-	36.	Write a program with a method named getTotal that accepts two integers as an argument and return 
-		its sum. Call this method from main( ) and print the results.
-	
-	37.	What will be the output of the following program.
-	a.	class MethodsTest {
-			public static void main(String s[]) {
-				float m = 34;
-				float n = 56;
-				float o = sum(m, n);
-				System.out.println("o = " + o);
+	19.	double percent(int, int, int, int, int), suppose 5 arguments are marks in subjects, each subject is of 100 marks, find percentage and return 
+		result.
+	20.	long factorial(int), find factorial of given argument and return result
+	21.	boolean prime(int), check whether given number is prime or not and return true or false
+	22.	void fibonocci(int), print fibonacci series 
+	23.	void printIncrStar(int n), print star patter
+	24.	void printStarFromRight(int n), print star pattern from right
+	25.	void printStarReverse(int n), print star pattern in decrease order 
+	26.	void printStarReverseRight(int n), print star in decreasing order from right
+	27.	void diamond(int n), print diamond
+	28.	int countOnes(int a[])  a[] = {1,2,1,3,2,1,1,1}; count number of times one in array and return count
+	29.	int countZero(int a[])  a[] = {1,0,1,0,0,1,1,0}; count number of zeros and return 
+	30.	int checkChar(char c), return 1 if argument is capital letter or -1 if lower case, 0 if not alphabet
+	31.	int[] countOneZero(int a[]) - a[] = {1,0,1,0,0,1,1}; create an array having the count of zero and one in given array, return zero and one 
+		count array. e.g the return array having r[] = {3, 4}, a[] = {1,0,1,0,0,1,1}; - this array having 3 zeros and 4 ones
+	32.	char[] reverse(char[] src), create new array and copy the src array to new array in reverse order 
+	33.	char[] reverse(char[] src), reverse the same array and return.
+	34.	Write a value-returning method, isVowel that returns the value true if a given character is a, vowel, and otherwise returns false. 
+	35.	Write a method named isEven that accepts an int argument. The method should return true if the argument is even, or false otherwise. 
+	36.	Write a program with a method named getTotal that accepts two integers as an argument and return its sum. Call this method from main( ) and 
+		print the results. 
+	37.	int[] addTwoArrays(int[], int[]) - all array of same size add two supplied arrays elements and then copy the some of each element to 3rd 
+		array and return 3rd array.
+	38.	char[] stringToArray(String), convert string to char array and return that array
+	39.	double[] stringToDoubleArray(String) convert string to double array and return that array
+	40.	int[] stringToIntArray(String) convert string to int array and return that array
+	41.	float[] stringToFloatArray(String) convert string to float array and return that array
+	42.	float[] charToFloatArray(char[]) convert char array to float array and return that array
+	43.	char[] floatToCharArray(float[]) convert float array to char array and return that array
+	44.	char[] intToCharArray(int[]) convert int array to char array and return that array
+	45.	int[] floatToCharArray(boolean[]) convert boolean array to int array and return that array, false -> 0, true -> 1
+	46.	boolean[] intToBooleanArray(int[]) convert int array to boolean array and return that array, 0 -> false, 1 -> true
+	47.	float[] doubleToFloatArray(double[]) convert double array to float array
+	48.	double sumOfArray(double[]) sum of all elements of given array and return the sum
+	49.	int[] firstHalfArray(int[]) split given array in half and sum the of all elements of first half and return sum
+	50.	double[] secondHalfArray(double[]) split given array in half and sum the of all elements of second half and return sum
+	51.	String returnSizeInString(int[]) find the length of array and return "even" if size is even, "odd" if size is odd and "zero" if size is zero
+	52.	String arrayToString(int[]) convert int array to string and return string
+	53.	String arrayToString(char[]) convert char array to string and return string
+	54.	String arrayToString(double[]) convert double array to string and return string
+	55.	String arrayToString(float[]) convert float array to string and return string
+	56.	String arrayToString(byte[]) convert byte array to string and return string
+	57.	String arrayToString(short[]) convert short array to string and return string
+	58.	String arrayToString(double[]) convert double array to string and return string
+	59.	Write a program with a method named getTotal that accepts two integers as an argument and return its sum. Call this method from main( ) and 
+		print the results.
+	60.	What will be the output of the following program.
+		a.	class MethodsTest {
+				public static void main(String s[]) {
+					float m = 34;
+					float n = 56;
+					float o = sum(m, n);
+					System.out.println("o = " + o);
+				}
+				public static void sum(float m, float n) {
+					System.out.println("m = " + m + " n = " + n);
+					return m + n;
+				}
 			}
-			public static void sum(float m, float n) {
-				System.out.println("m = " + m + " n = " + n);
-				return m + n;
+		b.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = 0;
+					sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static void sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					c = a + b;
+				}
 			}
+		c.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = 0;
+					sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static void sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					int c = a + b;
+				}
+			}
+		d.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static int sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					int c = a + b
+					return c;
+				}
+			}
+		e.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static int sum(int b, int a) {
+					System.out.println("a = " + a + " b = " + b);
+					return a + b;
+				}
+			}
+		f.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = 0;
+					sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static int sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					int c = 0;
+					c = a + b;
+					System.out.println("c = " + c);
+					return c;
+				}
+			}
+		g.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = 0;
+					sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static int sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					int c = 0;
+					c = a + b;
+					System.out.println("c = " + c);
+					return c;
+				}
+			}
+
+		h.	class MethodsTest {
+				public static void main(String s[]) {
+					int a = 34;
+					int b = 56;
+					int c = sum(a, b);
+					System.out.println("c = " + c);
+				}
+				public static int sum(int a, int b) {
+					System.out.println("a = " + a + " b = " + b);
+					return a + b;
+				}
+			}
+		i.	class Equation1 {
+				public static void main(String s[]) {
+					int x = 6;
+					int y = 3;
+					int z = 12;
+					int w = method1(x, y, z);
+					System.out.println("w = " + w);
+				}
+				public static int method1(int x, int y, int z) {
+					return (x * z) / y;
+				}
+			}
+		j.	class Equation1 {
+				public static void main(String s[]) {
+					int x = 6;
+					int y = 3;
+					int z = 12;
+					int w = method1(x, y, z);
+					System.out.println("w = " + w);
+				}
+				public static int method1(int y, int z, int x) {
+					return (x * z) / y;
+				}
+			}
+		k.	public class Madam {
+				public static void main(String[] args) {
+					int a = 5;
+					System.out.println(cube(a));
+				}
+				static int cube(int theNum) {
+					return theNum * theNum * theNum;
+				}
+			}
+	61.	Execute programs in ur ide and read related APIs used in this program
+		import java.util.Scanner;
+		
+		public class SumTwoNumber {
+		    public static void main(String[] args) {
+			Scanner console = new Scanner(System.in);
+			int num1, num2;
+			System.out.print("Enter first number: ");
+			num1 = console.nextInt();
+			System.out.print("Enter second number: ");
+			num2 = console.nextInt();
+			int sum = getTotal(num1, num2);
+			System.out.println("Sum: " + sum);
+		    }
+		    public static int getTotal(int number1, int number2) {
+			return number1 + number2;
+		    }
 		}
-	b.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = 0;
-				sum(a, b);
-				System.out.println("c = " + c);
+	62.	Write a method named isEven that accepts an int argument. The method should return true if the argument is even, or false otherwise. Also 
+		write a program to test your method.
+		
+		import java.util.Scanner;
+
+		public class TestEven {
+		    public static void main(String[] args) {
+			Scanner console = new Scanner(System.in);
+			int num;
+			System.out.print("Enter an integer: ");
+			num = console.nextInt();
+			if(isEven(num)) {
+			    System.out.println("Number is even");
 			}
-			public static void sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				c = a + b;
+			else {
+			    System.out.println("Number is odd");
+			}    
+		    }
+		    public static boolean isEven(int number) {
+			if(number % 2 == 0) {
+			    return true;
 			}
+			else {
+			    return false;
+			}
+		    }
 		}
+	63.	Write a value-returning method, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. In main() 
+		method accept a string from user and count number of vowels in that string.
 
-	c.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = 0;
-				sum(a, b);
-				System.out.println("c = " + c);
+		import java.util.Scanner;
+
+		public class TestEven {
+		    public static void main(String[] args) {
+			Scanner console = new Scanner(System.in);
+			String sentence;
+			System.out.print("Enter a string: ");
+			sentence = console.nextLine();
+			int count = 0;
+			for(int i = 0; i < sentence.length(); i++) {
+			    if(isVowel(sentence.charAt(i))) {
+				count++;
+			    }
 			}
-			public static void sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				int c = a + b;
+			System.out.println("Number of vowels: " + count);    
+		    }
+		    public static boolean isVowel(char letter) {
+			switch(letter) {
+			    case 'a':
+			    case 'A':
+			    case 'e':
+			    case 'E':
+			    case 'i':
+			    case 'I':
+			    case 'o':
+			    case 'O':
+			    case 'u':
+			    case 'U':
+				return true;
+			    default:
+				return false;
 			}
+		    }
 		}
-
-	d.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				sum(a, b);
-				System.out.println("c = " + c);
+	64.	A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly 
+		divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6. Write a method named 
+		isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main 
+		method that displays prime numbers between 1 to 500.
+		public class PrimeNumbers {
+		    public static void main(String[] args) {        
+			for(int i = 1; i <= 500; i++) {
+			    if(isPrime(i)) {
+				System.out.print(i + " ");
+			    }
+			}    
+		    }
+		    public static boolean isPrime(int number) {
+			for(int i = 2; i < number; i++) {
+			    if(number % i == 0) {
+				return false;
+			    }
 			}
-			public static int sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				int c = a + b
-				return c;
-			}
+			return true;
+		    }
 		}
+	65.	A nonnegative integer is called a palindrome if it reads forward and backward in the same way. For example, the numbers 5, 121, 3443, and 
+		123454321 are palindromes. Write a method that takes as input a nonnegative integer and returns true if the number is a palindrome; 
+		otherwise, it returns false. Also write a program to test your method.
+		import java.util.Scanner;
 
-	e.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = sum(a, b);
-				System.out.println("c = " + c);
+		public class TestPalindrom {
+		    public static void main(String[] args) {
+			Scanner console = new Scanner(System.in);
+			int num;
+			System.out.print("Enter a number: ");
+			num = console.nextInt();        
+			if(isPalindrom(num)) {
+			    System.out.println("Number is palindrom");
 			}
-			public static int sum(int b, int a) {
-				System.out.println("a = " + a + " b = " + b);
-				return a + b;
+			else {
+			    System.out.println("Number is not palindrom");
 			}
+		    }
+		    public static boolean isPalindrom(int number) {
+			int temp = number;
+			int remainder;
+			int reverse = 0;
+			while(temp > 0) 
+			    remainder = temp % 10;
+			    temp = temp / 10;
+			    reverse = reverse * 10 + remainder;
+			}
+			return reverse == number;
+		    }
 		}
-
-	f.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = 0;
-				sum(a, b);
-				System.out.println("c = " + c);
-			}
-			public static int sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				int c = 0;
-				c = a + b;
-				System.out.println("c = " + c);
-				return c;
-			}
+	66.	What will be the output of the following program?
+		public class Madam {
+		    public static void main(String[] args) {
+			int a = 5;
+			System.out.println(cube(a));
+		    }
+		    static int cube(int theNum) {
+			return theNum * theNum * theNum;
+		    }
 		}
-
-	g.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = 0;
-				sum(a, b);
-				System.out.println("c = " + c);
-			}
-			public static int sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				int c = 0;
-				c = a + b;
-				System.out.println("c = " + c);
-				return c;
-			}
+		sulotion=125
+	66.	What will be the output of the following program?
+		class Equation1 {
+		    public static void main(String s[]) {
+			int x = 6;
+			int y = 3;
+			int z = 12;
+			int w = method1(x, y, z);        
+			System.out.println("w = " + w);
+		    }
+		    public static int method1(int y, int z, int x) {
+			return (x * z) / y;
+		    }
 		}
-
-	h.	class MethodsTest {
-			public static void main(String s[]) {
-				int a = 34;
-				int b = 56;
-				int c = sum(a, b);
-				System.out.println("c = " + c);
-			}
-			public static int sum(int a, int b) {
-				System.out.println("a = " + a + " b = " + b);
-				return a + b;
-			}
+		solution=6
+	67.	What will be the output of the following program?
+		class Equation1 {
+		    public static void main(String s[]) {
+			int x = 6;
+			int y = 3;
+			int z = 12;
+			int w = method1(x, y, z);        
+			System.out.println("w = " + w);
+		    }
+		    public static int method1(int x, int y, int z) {
+			return (x * z) / y;
+		    }
 		}
-
-	i.	class Equation1 {
-			public static void main(String s[]) {
-				int x = 6;
-				int y = 3;
-				int z = 12;
-				int w = method1(x, y, z);
-				System.out.println("w = " + w);
-			}
-			public static int method1(int x, int y, int z) {
-				return (x * z) / y;
-			}
+		sulotion = 24
+	68.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = sum(a, b);
+			System.out.println("c = " + c);
+		    }  
+		    public static int sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			return a + b;
+		    }
 		}
-
-	j.	class Equation1 {
-			public static void main(String s[]) {
-				int x = 6;
-				int y = 3;
-				int z = 12;
-				int w = method1(x, y, z);
-				System.out.println("w = " + w);
-			}
-			public static int method1(int y, int z, int x) {
-				return (x * z) / y;
-			}
+		solution
+		a = 34 b = 56
+		c = 90
+	69.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = 0;
+			sum(a, b);
+			System.out.println("c = " + c);
+		    }
+		    public static int sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			int c = 0;
+			c = a + b;
+			System.out.println("c = " + c);
+			return c;
+		    }
 		}
-
-	k.	public class Madam {
-			public static void main(String[] args) {
-				int a = 5;
-				System.out.println(cube(a));
-			}
-			static int cube(int theNum) {
-				return theNum * theNum * theNum;
-			}
+	70.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = 0;
+			sum(a, b);
+			System.out.println("c = " + c);
+		    }
+		    public static int sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			int c = 0;
+			c = a + b;
+			System.out.println("c = " + c);
+			return c;
+		    }
 		}
-				
-			
-	create a class name PatternPrinting
-		create these methods
-			void increasingStar(int)
-			void decreasingStar(int)
-			void increasingStarWithSpace(int)
-			void decreasingStarWithSpace(int)
-			void pyramid(int)
-			void reversePyramid(int)
-			void diamond(int)
-			void numRow(int)
-			void numColumn(int)
-			
-			Question 1
-Write a program with a method named getTotal that accepts two integers as an argument and return its sum. Call this method from main( ) and print the results.
-Show the answer.
-import java.util.Scanner;
-
-public class SumTwoNumber
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
-        int num1, num2;
-        
-        System.out.print("Enter first number: ");
-        num1 = console.nextInt();
-        
-        System.out.print("Enter second number: ");
-        num2 = console.nextInt();
-        
-        int sum = getTotal(num1, num2);
-        
-        System.out.println("Sum: " + sum);
-    }
-
-    public static int getTotal(int number1, int number2)
-    {
-        return number1 + number2;
-    }
-}
-
-
-Question 2
-Write a method named isEven that accepts an int argument. The method should return true if the argument is even, or false otherwise. Also write a program to test your method.
-Show the answer.
-import java.util.Scanner;
-
-public class TestEven
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
-        int num;
-        
-        System.out.print("Enter an integer: ");
-        num = console.nextInt();
-                
-        if(isEven(num))
-        {
-            System.out.println("Number is even");
-        }
-        else
-        {
-            System.out.println("Number is odd");
-        }    
-    }
-
-    public static boolean isEven(int number)
-    {
-        if(number % 2 == 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
-}
-
-Question 3
-Write a value-returning method, isVowel that returns the value true if a given character is a vowel, and otherwise returns false. In main() method accept a string from user and count number of vowels in that string.
-Show the answer.
-import java.util.Scanner;
-
-public class TestEven
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
-        String sentence;
-        
-        System.out.print("Enter a string: ");
-        sentence = console.nextLine();
-        
-        int count = 0;
-        
-        for(int i = 0; i < sentence.length(); i++)
-        {
-            if(isVowel(sentence.charAt(i)))
-            {
-                count++;
-            }
-        }
-        
-        System.out.println("Number of vowels: " + count);    
-    }
-
-    public static boolean isVowel(char letter)
-    {
-        switch(letter)
-        {
-            case 'a':
-            case 'A':
-            case 'e':
-            case 'E':
-            case 'i':
-            case 'I':
-            case 'o':
-            case 'O':
-            case 'u':
-            case 'U':
-                return true;
-            default:
-                return false;
-        }
-    }
-}
-
-Question 4
-A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
-Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
-Show the answer.
-public class PrimeNumbers
-{
-    public static void main(String[] args)
-    {        
-        for(int i = 1; i <= 500; i++)
-        {
-            if(isPrime(i))
-            {
-                System.out.print(i + " ");
-            }
-        }    
-    }
-
-    public static boolean isPrime(int number)
-    {
-        for(int i = 2; i < number; i++)
-	{
-	    if(number % i == 0)
-            {
-                return false;
-            }
-        }
-        
-        return true;
-    }
-}
-
-
-Question 5
-A nonnegative integer is called a palindrome if it reads forward and backward in the same way. For example, the numbers 5, 121, 3443, and 123454321 are palindromes. Write a method that takes as input a nonnegative integer and returns true if the number is a palindrome; otherwise, it returns false. Also write a program to test your method.
-Show the answer.
-
-import java.util.Scanner;
-
-public class TestPalindrom
-{
-    public static void main(String[] args)
-    {
-        Scanner console = new Scanner(System.in);
-     
-        int num;
-
-        System.out.print("Enter a number: ");
-        num = console.nextInt();
-        
-        if(isPalindrom(num))
-        {
-            System.out.println("Number is palindrom");
-        }
-        else
-        {
-            System.out.println("Number is not palindrom");
-        }
-    }
-
-
-    public static boolean isPalindrom(int number)
-    {
-        int temp = number;
-        int remainder;
-        int reverse = 0;
-        
-        while(temp > 0)
-	{
-            remainder = temp % 10;
-            temp = temp / 10;
-            reverse = reverse * 10 + remainder;
-	}
-        
-        return reverse == number;
-    }
-}
-
-6- What will be the output of the following program?
-public class Madam
-{
-    public static void main(String[] args)
-    {
-        int a = 5;
-        System.out.println(cube(a));
-    }
-    static int cube(int theNum)
-    {
-        return theNum * theNum * theNum;
-    }
-}
-
-sulotion=125
+		solution
+		a = 34 b = 56
+		c = 90
+		c = 0
+	71.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = sum(a, b);
+			System.out.println("c = " + c);
+		    }
+		    public static int sum(int b, int a) {
+			System.out.println("a = " + a + " b = " + b);
+			return a + b;
+		    }
+		}
+		solution
+		a = 56 b = 34
+		c = 90
+	72.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			sum(a, b);
+			System.out.println("c = " + c);
+		    }
+		    public static int sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			int c = a + b
+			return c;
+		    }
+		}
+		solution
+		Compilation Error
+	73.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = 0;
+			sum(a, b);
+			System.out.println("c = " + c);
+		    }    
+		    public static void sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			int c = a + b;
+		    }
+		}
+		solution
+		a = 34 b = 56
+		c = 0
+	74.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			int a = 34;
+			int b = 56;
+			int c = 0;
+			sum(a, b);
+			System.out.println("c = " + c);
+		    }
+		    public static void sum(int a, int b) {
+			System.out.println("a = " + a + " b = " + b);
+			c = a + b;
+		    }
+		}
+		solution
+		Compilation Error
+	75.	What will be the output of the following program.
+		class MethodsTest {
+		    public static void main(String s[]) {
+			float m = 34;
+			float n = 56;
+			float o = sum(m, n);
+			System.out.println("o = " + o);
+		    }
+		    public static void sum(float m, float n) {
+			System.out.println("m = " + m + " n = " + n);
+			return m + n;
+		    }
+		}
+		solution 
+		Compilation Error
+	76.	A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly 
+		divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6. Write a method named 
+		isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main 
+		method that displays prime numbers between 1 to 500.		
+		public class PrimeNumbers {
+		    public static void main(String[] args) {        
+			for(int i = 1; i <= 500; i++) {
+			    if(isPrime(i)) {
+				System.out.print(i + " ");
+			    }
+			}    
+		    }
+		    public static boolean isPrime(int number) {
+			for(int i = 2; i < number; i++) {
+			    if(number % i == 0) {
+				return false;
+			    }
+			}
+			return true;
+		    }
+		}
+	77.	boolean checkFirstLastChar(String), return true if first and last character is same else return false. Node: case doesn't matter
+	78.	boolean checkFirstLastChar(String), return true if first and last character is upper case character else return false.
+	79.	boolean checkFirstLastChar(String), return true if first and last character is lower case character else return false.
+	80.	boolean checkFirstLastChar(String), return true if first character is upper case and last character is lower case else return false.
+	81.	boolean checkFirstLastChar(String), return true if first character is lower case and last character is upper case else return false.
 
 
 
-7-What will be the output of the following program?
-class Equation1
-{
-    public static void main(String s[])
-    {
-        int x = 6;
-        int y = 3;
-        int z = 12;
-
-        int w = method1(x, y, z);
-        
-        System.out.println("w = " + w);
-    }
-
-    public static int method1(int y, int z, int x)
-    {
-        return (x * z) / y;
-    }
-}
-
-solution=6
-8- What will be the output of the following program?
-class Equation1
-{
-    public static void main(String s[])
-    {
-        int x = 6;
-        int y = 3;
-        int z = 12;
-
-        int w = method1(x, y, z);
-        
-        System.out.println("w = " + w);
-    }
-
-    public static int method1(int x, int y, int z)
-    {
-        return (x * z) / y;
-    }
-}
-sulotion = 24
-
-
-
-9- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static int sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        return a + b;
-    }
-}
-solution
-a = 34 b = 56
-c = 90
-
-
-
-10- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = 0;
-        sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static int sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        int c = 0;
-        c = a + b;
-        System.out.println("c = " + c);
-        return c;
-    }
-}
-What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = 0;
-        sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static int sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        int c = 0;
-        c = a + b;
-        System.out.println("c = " + c);
-        return c;
-    }
-}
-
-solution
-
-a = 34 b = 56
-c = 90
-c = 0
-
-
-
-11-
-What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static int sum(int b, int a)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        return a + b;
-    }
-}
-solution
-a = 56 b = 34
-c = 90
-
-12- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static int sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        int c = a + b
-        return c;
-    }
-}
-
-solution
-
-Compilation Error
-
-
-13-  What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = 0;
-        sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static void sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        int c = a + b;
-    }
-}
-
-solution
-
-
-a = 34 b = 56
-c = 0
-
-
-14- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        int a = 34;
-        int b = 56;
-        int c = 0;
-        sum(a, b);
-        System.out.println("c = " + c);
-    }
-    
-    public static void sum(int a, int b)
-    {
-        System.out.println("a = " + a + " b = " + b);
-        c = a + b;
-    }
-}
-
-solution
-Compilation Error
-
-
-
-
-15- What will be the output of the following program.
-class MethodsTest
-{
-    public static void main(String s[])
-    {
-        float m = 34;
-        float n = 56;
-        float o = sum(m, n);
-        System.out.println("o = " + o);
-    }
-    
-    public static void sum(float m, float n)
-    {
-        System.out.println("m = " + m + " n = " + n);
-        return m + n;
-    }
-}
-solution 
-Compilation Error
-qestion 4
-A prime number is a number that is evenly divisible only by itself and 1. For example, the number 5 is prime because it can be evenly divided only by 1 and 5. The number 6, however, is not prime because it can be divided evenly by 1, 2, 4, and 6.
-Write a method named isPrime, which takes an integer as an argument and returns true if the argument is a prime number, or false otherwise. Also write main method that displays prime numbers between 1 to 500.
-Show the answer.
-public class PrimeNumbers
-{
-    public static void main(String[] args)
-    {        
-        for(int i = 1; i <= 500; i++)
-        {
-            if(isPrime(i))
-            {
-                System.out.print(i + " ");
-            }
-        }    
-    }
-
-    public static boolean isPrime(int number)
-    {
-        for(int i = 2; i < number; i++)
-	{
-	    if(number % i == 0)
-            {
-                return false;
-            }
-        }
-        
-        return true;
-    }
-}
-
-
-	-------------------------------------------------------------------------------------------------------
-				-------------------------------------------------------------------------------------------------------
-			
-
-Class:
-	1.	Create a class Company having member variables companyId, name, description. create getters and 
-		setters for all member variables. Create object of Company class in other class inside main method
-		and set all member values and print all member values using getters.
+		------------------------------------------------------------------------------------------------------------------
+									Class
+		------------------------------------------------------------------------------------------------------------------			
+		
+	1.	Create a class Company having member variables companyId, name, description. create getters and setters for all member variables. Create 
+		object of Company class in other class inside main method and set all member values and print all member values using getters.
 	2.	Create a class Presentation having member variables presentationId, bookedCompanyId, bookedRoomId, startTime, endTime. Create getters and 
 		setters for all member variables. Create object of Presentation class in other class inside main method and set all member values and print 
 		all member values using getters.
-	3.	Create a class Room having member variables roomId, floorNum, seatCapacity. create getters and 
-		setters for all member variables. Create object of Room class in other class inside main method
-		and set all member values and print all member values using getters.
+	3.	Create a class Room having member variables roomId, floorNum, seatCapacity. create getters and  setters for all member variables. Create 
+		object of Room class in other class inside main method and set all member values and print all member values using getters.
 	4.	Create a class Attendee having member variables attendeeId, firstName, lastName, phone, email, vip. create getters and setters for all 
 		member variables. Create object of Attendee class in other class inside main method and set all member values and print all member values 
 		using getters.	
@@ -2122,9 +1907,8 @@ Class:
 	7.	Create a class SalariedEmployee having member variables id, annualSalary, employeeId. create getters and setters for all member variables. 
 		Create object of SalariedEmployee class in other class inside main method and set all member values and print all member values using 
 		getters.	
-	8.	Create a class City having member variables id, city. create getters and 
-		setters for all member variables. Create object of City class in other class inside main method
-		and set all member values and print all member values using getters.		
+	8.	Create a class City having member variables id, city. create getters and setters for all member variables. Create object of City class in 
+		other class inside main method and set all member values and print all member values using getters.		
 	9.	Create a class HourlyEmployee having member variables id, annualSalary, employeeId . create getters and setters for all member variables. 
 		Create object of HourlyEmployee class in other class inside main method and set all member values and print all member values using getters.
 	10.	Create a class OrderItems having member variables orderId, productId, quantity. create getters and 
@@ -2259,39 +2043,90 @@ Class:
 		getters, setters, override toString(), hashcode() and equals() methods.
 	68.	Create a class StaffAgents with member variables int agentId, String[] phoneNums, List<String> labourNames, boolean 3rdVendor and member 
 		methods are getters, setters, override toString(), hashcode() and equals() methods.
-	69.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	70.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	71.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	72.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	73.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	74.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	75.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	76.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	77.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	78.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	79.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	80.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	81.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	82.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	83.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	84.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	85.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	86.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	87.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	88.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	89.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	90.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	91.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	92.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	93.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	94.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	95.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	96.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	97.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	98.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	99.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
-	
-	
+	69.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() 
+		methods.
+	70.	Create a class SchoolPrimary with member variables schoolId, name, registrationDate, medium, address and member methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	71.	Create a class TeacherPrimary with member variables id, teacherId, name, dob, email, schoolId, fatherName and member methods are getters,  
+		and setters, override toString(), hashcode() and equals() methods.
+	72.	Create a class MiniCar with member variables carId, model, company, engine, color, type and member methods are getters,  and setters, 
+		override toString(), hashcode() and equals() methods.
+	73.	Create a class EmployeePrivate with member variables id, name, dob, email, designation, joiningDate, resigned, companyName and member 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	74.	Create a class EmployeeManager with member variables id, name, dob, email, companyCreatedDate, joiningDate, salary and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	75.	Create a class GameUser with member variables id, name, dob, email, playingTime, gameType, experienceInYear and member methods are getters, 
+		and setters, override toString(), hashcode() and equals() methods.
+	76.	Create a class WebsiteUser with member variables id, name, dob, emailId, List<String> urlList, isFBUser, isInstaUser, isLinkedInUser and \
+		member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	77.	Create a class MonitorCurve with member variables id, companyName, modelNum, created_date, companyEmail, screenSize, length, breadth, 
+		customerCareEmail, customerCareNum and member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	78.	Create a class MonitorWide with member variables id, orgName, modelNo, orgEmail, created_date, screenSize, length, breadth and member 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	79.	Create a class Pizza with member variables id, name, createdDate, expiryDate, type, isHalal, companyEmail, size, price, isVeg, isCheese and 
+		member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	80.	Create a class Bread with member variables id, name, creatDate, expDate, type, emailOrg, isWheatBrea, isHalal and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	81.	Create a class Water with member variables id, name, percentageMineral, isElectrolyteWater, originPlace, isLake, isSea, isRiver and member 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	82.	Create a class Zoo with member variables id, name, foundationDate, inaugrationDate, emailZooAuthority, animal(List of name) and member 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	83.	Create a class Bird with member variables id, name, dob, color, canFly, weight, height, canSwim, country(list of name) and member methods 
+		are getters,  and setters, override toString(), hashcode() and equals() methods.
+	84.	Create a class Street with member variables streetid, name, cityName, stateName, pincode and member methods are getters,  and setters, 
+		override toString(), hashcode() and equals() methods.
+	85.	Create a class Promoter with member variables UUID, promoterId, supervisorName, salary, ownerName, constructionSite, plotNum, street, city, 
+		state, pincode, estimatePrice, totalPrice, priceOfLand, extra, contractorCostId and member methods are getters,  and setters, override 
+		toString(), hashcode() and equals() methods.
+	86.	Create a class Contractor with member variables UUID, contractorId, estimatedCost, finalCost, numOfLabors, name, estimatedOutsideCost and 
+		member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	87.	Create a class UserSession with member variables  and member methods are getters,  and setters, override toString(), hashcode() and equals() 
+		methods.
+	88.	Create a class TimeConsume with member variables UUID, timeId, startingDate, exactStartingDate, finishDate, exactFinishDate, 
+		workStopDuration, exactWorkStopDuration, totalDuration, exactDuration and member methods are getters,  and setters, override toString(), 
+		hashcode() and equals() methods.
+	89.	Create a class Profit with member variables profitId, totalExpenditure, exactExpenditure, numOfEemployee, exactNumOfEmployee and member 
+		methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	90.	Create a class OptialShop with member variables shopId, shopName, createdDate, openingTime, closingTime and member methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	91.	Create a class Drink with member variables drinkId, type, transparent, taste, size, cost, name, countryOriginated and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	92.	Create a class Tea with member variables id, typeOfTea, taste, price, size, placeOfOrigin, companyName, flavorName and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	93.	Create a class Tailor with member variables id, shopName, masterName, numOfLabors, type and member methods are getters,  and setters, 
+		override toString(), hashcode() and equals() methods.
+	94.	Create a class Laptop with member variables id, companyName, createdDate, purchasedDate, ram, rom, processor, generation, screenSize and 
+		member methods are getters,  and setters, override toString(), hashcode() and equals() methods.
+	95.	Create a class Friends with member variables id, name, isSchool, isCollege, isPrimarySchool, friendshipDuration and member methods are 
+		getters,  and setters, override toString(), hashcode() and equals() methods.
+	96.	Create a class Liquid with member variables id, type, name, color, price and member methods are getters,  and setters, override toString(), 
+		hashcode() and equals() methods.
+	97.	Create a class Wire with member variables wireId, price, type, length, breadth, diameter, company and member methods are getters,  and 
+		setters, override toString(), hashcode() and equals() methods.
+	98.	Create a class Colors with member variables id, name and member methods are getters,  and setters, override toString(), hashcode() and 
+		equals() methods.
+	99.	Create a class kids with member variables id, name, levelOfEnergy, age, levelOfCuriosity and member methods are getters,  and setters, 
+		override toString(), hashcode() and equals() methods.
+	100.	create a class name PatternPrinting and create these methods inside PatternPrinting class
+			void increasingStar(int) - print increasing start
+			void decreasingStar(int) - print decreasing start
+			void increasingStarWithSpace(int) - print increasing star and star having space with adjacent star
+			void decreasingStarWithSpace(int) - print decreasing star and star having space with adjacent star
+			void pyramid(int) - print pyramid
+			void reversePyramid(int) - print reverse pyramid
+			void diamond(int) - print diamond
+			void numRow(int) - print row number 
+			e.g.
+			1
+			22
+			333
+			and so on
+			void numColumn(int) - print from 1 to column number
+			e.g.
+			1
+			12
+			123
+			and so on
 	
 	
 		------------------------------------------------------------------------------------------------------------------
