@@ -32,7 +32,7 @@ class ComaparatorClass implements Comparator<Integer> {
 			if (i1 == i2) {
 				return 0;
 			}
-			return 1;
+			return 1; 
 			
 			
 	}
