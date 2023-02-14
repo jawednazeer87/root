@@ -10,7 +10,7 @@ public class GradingSystem {
 		
 		int marks = newscan.nextInt();
 	
-		if (marks > 80) {
+		if (marks > 80 ) {
 			System.out.println("A");
 		} else if (marks > 60 && marks <= 80) {
 			System.out.println("B");
