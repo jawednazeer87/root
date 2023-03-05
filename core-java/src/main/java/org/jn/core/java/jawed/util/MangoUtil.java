@@ -5,6 +5,9 @@ import java.util.List;
 
 import org.jn.core.java.jawed.intrfc.MangoIntrfcLambda;
 import org.jn.core.java.jawed.model.Mango;
+import org.jn.core.java.jawed.model.dto.MangoDTO;
+
+import com.google.gson.Gson;
 
 public class MangoUtil {
 
@@ -34,4 +37,26 @@ public class MangoUtil {
 		}
 		return list.toArray(new Mango[] {});
 	}
+	
+	public static MangoDTO toDTO(Mango mango) {
+		MangoDTO dto = new MangoDTO();
+		dto.setColor(mango.getColor());
+		dto.setTaste(mango.getTaste());
+		dto.setWeight(mango.getWeight());
+		return dto;
+	}
+	
+	public static MangoDTO toDTOAuto(Mango mango) {
+		Gson gson = new Gson();
+		String json = gson.toJson(mango);		//converted java object to stringized object json
+		System.out.println("json:   " + json);
+		MangoDTO dto = gson.fromJson(json, MangoDTO.class);	//json to java object
+		return dto;
+	}
+	
+	public static MangoDTO toDTOAuto2(Mango mango) {
+		Gson gson = new Gson();
+		return gson.fromJson(gson.toJson(mango), MangoDTO.class);
+	}
+	
 }
