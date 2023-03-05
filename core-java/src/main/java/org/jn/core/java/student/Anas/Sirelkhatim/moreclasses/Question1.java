@@ -1,4 +1,4 @@
-package org.jn.core.java.student.anas.sirelkhatim.moreclasses;
+package org.jn.core.java.student.Anas.Sirelkhatim.moreclasses;
 
 
 class Company
