@@ -1,4 +1,4 @@
-package org.jn.core.java.student.anas.sirelkhatim.incrementDecrement;
+package org.jn.core.java.student.Anas.Sirelkhatim.incrementDecrement;
 
 public class PreIncrement {
 
