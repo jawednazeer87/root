@@ -7,7 +7,7 @@ public class AttendeeMain {
 		Attendee attendee = new Attendee();
 		attendee.setAttendeeId(84);
 		attendee.setEmail("abc@gmail.com");
-		attendee.setFirstName("Falana");
+		attendee.setFirstName("checking from intelli j ide");
 		attendee.setLastName("dimkana");
 		
 		System.out.println(attendee.toString());
