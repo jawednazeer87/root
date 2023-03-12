@@ -10,7 +10,7 @@ import org.jn.core.java.jawed.jdbc.util.GetSqlConnection;
 
 public class UserService {
 	
-private Connection con = null;
+	private Connection con = null;
 	
 	public UserService() {
 		con = GetSqlConnection.connectionOpen();

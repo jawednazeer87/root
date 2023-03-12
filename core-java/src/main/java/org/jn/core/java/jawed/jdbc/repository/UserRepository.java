@@ -138,10 +138,10 @@ public class UserRepository {
 			pStatement.setDate(10, new java.sql.Date(user.getUpdatedDate().getTime()));
 			int executeUpdate = pStatement.executeUpdate();
 			if(executeUpdate>0) {
-				System.out.println("data created successfully: "+executeUpdate);
+				System.out.println("data created successfully: " + executeUpdate);
 			}
 			else {
-				System.out.println("failed to insert data: "+executeUpdate);
+				System.out.println("failed to insert data: " + executeUpdate);
 			}
 		}
 		catch(SQLException se){
@@ -169,7 +169,7 @@ public class UserRepository {
 			java.sql.Date sqlDate = new java.sql.Date(user.getDob().getTime());
 			String query = " update user set firstName=?, lastName=?, dob=?, "
 							+ " email=?, fatherName=?, gender=?, country=?,"
-							+ " qualification=?, created_date=?, updated_date=? "
+							+ " qualification=?, updated_date=? "
 							+ " where id=? ";
 			pStatement = con.prepareStatement(query);
 			pStatement.setString(1, user.getFirstName());
@@ -180,9 +180,8 @@ public class UserRepository {
 			pStatement.setBoolean(6, user.getGender());
 			pStatement.setString(7, user.getCountry());
 			pStatement.setString(8, user.getQualification());
-			pStatement.setDate(9, new java.sql.Date(user.getCreatedDate().getTime()));
-			pStatement.setDate(10, new java.sql.Date(user.getUpdatedDate().getTime()));
-			pStatement.setInt(11, user.getId());
+			pStatement.setDate(9, new java.sql.Date(user.getUpdatedDate().getTime()));
+			pStatement.setInt(10, user.getId());
 			int executeUpdate = pStatement.executeUpdate();
 			if(executeUpdate>0) {
 				System.out.println("data updated successfully: "+executeUpdate);

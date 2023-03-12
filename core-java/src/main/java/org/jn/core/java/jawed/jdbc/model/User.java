@@ -3,7 +3,7 @@ package org.jn.core.java.jawed.jdbc.model;
 import java.io.Serializable;
 import java.util.Date;
 
-public class User implements Serializable{
+public class User implements Serializable {
 
 	private static final long serialVersionUID = -1582067386243719716L;
 

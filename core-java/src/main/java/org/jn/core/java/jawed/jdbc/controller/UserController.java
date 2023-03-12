@@ -20,8 +20,8 @@ public class UserController {
 //		uc.displayAllUser();
 //		uc.findUserById();
 //		uc.deleteUserById();
-//		uc.updateUser();
-		uc.getUserByName();
+		uc.updateUser();
+//		uc.getUserByName();
 	}
 	
 	void getUserByName() {
@@ -45,7 +45,6 @@ public class UserController {
 		userDTO.setQualification("Graduate");
 		localDate = LocalDate.now();
 		date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
-		userDTO.setCreatedDate(date);
 		userDTO.setUpdatedDate(date);
 		UserService userService = new UserService();
 		Gson gson = new Gson();
@@ -70,7 +69,7 @@ public class UserController {
 		print(userDTO);
 	}
 	void createUser() {
-		LocalDate localDate = LocalDate.of(1986, 02, 20);
+		LocalDate localDate = LocalDate.of(1996, 12, 30);
 		Date date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
 		UserDTO userDTO = new UserDTO();
 		userDTO.setFirstName("ahmed");
@@ -85,9 +84,9 @@ public class UserController {
 		date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
 		userDTO.setCreatedDate(date);
 		userDTO.setUpdatedDate(date);
-		UserService userService = new UserService();
 		Gson gson = new Gson();
 		User user = gson.fromJson(gson.toJson(userDTO), User.class);
+		UserService userService = new UserService();
 		userService.createUser(user);
 		UserDTO userDTO2 = gson.fromJson(gson.toJson(user), UserDTO.class);
 		print(userDTO2);
