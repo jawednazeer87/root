@@ -67,7 +67,7 @@ public class UserController {
 		System.out.println(json);
 		UserDTO userDTO = gson.fromJson(json, UserDTO.class);
 		print(userDTO);
-	}
+	} 
 	void createUser() {
 		LocalDate localDate = LocalDate.of(1996, 12, 30);
 		Date date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
