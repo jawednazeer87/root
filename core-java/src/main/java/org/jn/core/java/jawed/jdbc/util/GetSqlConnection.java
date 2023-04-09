@@ -10,9 +10,8 @@ public class GetSqlConnection {
 
 	public static Connection connectionOpen() {
 		try {
-			//Class.forName("com.mysql.jdbc.Driver");
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			// here student is database name, root is username and password
+			// here studentdb is database name, root is username and password
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb?serverTimezone=UTC", "root", "root");
 			if (con != null) {
 				System.out.println("connected with mysql successfully");
@@ -23,10 +22,10 @@ public class GetSqlConnection {
 			}
 		} 
 		catch (Exception e) {
-			System.out.println(e.getMessage());
 			e.printStackTrace();
+			throw new RuntimeException(e);
 		}
-		return null;
+		throw new RuntimeException("Didnot get connection object, terminating program");
 	}
 	 
 	public static void connectionClose() {

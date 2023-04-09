@@ -58,6 +58,7 @@ public class UserController {
 		int res = userService.deleteUserById(id);
 		System.out.println("res: " + res);
 	}
+	
 	void findUserById() {
 		int id = 5;
 		UserService userService = new UserService();
@@ -68,40 +69,27 @@ public class UserController {
 		UserDTO userDTO = gson.fromJson(json, UserDTO.class);
 		print(userDTO);
 	} 
-	void createUser() {
-		LocalDate localDate = LocalDate.of(1996, 12, 30);
-		Date date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
-		UserDTO userDTO = new UserDTO();
-		userDTO.setFirstName("ahmed");
-		userDTO.setLastName("raza");
-		userDTO.setDob(date);
-		userDTO.setEmail("ahmed@gmail.com");
-		userDTO.setFatherName("muneer ahmed");
-		userDTO.setGender(true);
-		userDTO.setCountry("India");
-		userDTO.setQualification("Graduate");
-		localDate = LocalDate.now();
-		date = Date.from(localDate.atStartOfDay(ZoneId.systemDefault()).toInstant());
-		userDTO.setCreatedDate(date);
-		userDTO.setUpdatedDate(date);
+	
+	public static void createUser(UserDTO userDTO) {
 		Gson gson = new Gson();
-		User user = gson.fromJson(gson.toJson(userDTO), User.class);
+		User user = gson.fromJson(gson.toJson(userDTO), User.class);	//dto to model
 		UserService userService = new UserService();
 		userService.createUser(user);
-		UserDTO userDTO2 = gson.fromJson(gson.toJson(user), UserDTO.class);
+		UserDTO userDTO2 = gson.fromJson(gson.toJson(user), UserDTO.class);	//model to dto
 		print(userDTO2);
 	}
 	
-	void displayAllUser() {
+	static void displayAllUser() {
 		UserService userService = new UserService();
 		List<User> userList = userService.getAllUser();
 		print(userList);
 	}
 	
-	void print(List<User> userList) {
+	static void print(List<User> userList) {
 		userList.forEach(System.out::println);
 	}
-	void print(UserDTO userDTO) {
+	
+	static void print(UserDTO userDTO) {
 		System.out.println(userDTO);
 	}
 }
