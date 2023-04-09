@@ -1,7 +1,6 @@
 package org.jn.core.java.jawed.jdbc.service;
 
 import java.sql.Connection;
-import java.util.ArrayList;
 import java.util.List;
 
 import org.jn.core.java.jawed.jdbc.model.User;
@@ -21,19 +20,11 @@ public class UserService {
 	}
 	
 	public List<User> getAllUser(){
-		List<User> userList = new ArrayList<>();
-		if(con!=null) {
-			userList = UserRepository.getAllUser(con);
-		}
-		return userList;
+		return UserRepository.getAllUser(con);
 	}
 	
 	public User findUserById(long id){
-		User user = null;
-		if(con!=null) {
-			user = UserRepository.findUserById(con, id);
-		}
-		return user;
+		return UserRepository.findUserById(con, id);
 	}
 	
 	public int deleteUserById(long userId) {
