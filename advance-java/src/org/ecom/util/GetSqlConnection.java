@@ -8,13 +8,13 @@ public class GetSqlConnection {
 
 	private static Connection con = null;
 
+	private GetSqlConnection() {}
+	
 	public static Connection connectionOpen() {
-
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			// here student is database name, root is username and password
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb?serverTimezone=UTC", "root", "root");
-
 			if (con != null) {
 				System.out.println("connected with mysql successfully");
 				return con;
@@ -30,7 +30,6 @@ public class GetSqlConnection {
 	}
 	
 	public static void connectionClose() {
-
 		try {
 			if (con != null) {
 				con.close();
@@ -40,5 +39,4 @@ public class GetSqlConnection {
 			e.printStackTrace();
 		}
 	}
-	
 }

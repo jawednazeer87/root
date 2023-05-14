@@ -50,34 +50,19 @@
 		    <div class="collapse navbar-collapse" id="navbarResponsive">
 		      <ul class="navbar-nav ms-auto">
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/asif">Asif</a>
+		          <a class="nav-link" href="user/list/jawed">Jawed</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/tahir">Tahir D</a>
+		          <a class="nav-link" href="user/list/salman">Salman</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/noorain">Noorain</a>
+		          <a class="nav-link" href="user/list/mirza">Mirza</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/nizam">Nizam</a>
-		        </li>
-		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/abdul">Abdul R</a>
-		        </li>
-		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/jamal">Jamal</a>
-		        </li>
-		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/elhadj">Elhadj</a>
+		          <a class="nav-link" href="user/list/shoeeb">Shoeeb</a>
 		        </li>
 		        <li class="nav-item active">
 		          <a class="nav-link" href="user/list/aameen">Aameen</a>
-		        </li>
-		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/bakeel">Bakeel</a>
-		        </li>
-		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/sajid">Sajid</a>
 		        </li>
 		      </ul>
 		    </div>
