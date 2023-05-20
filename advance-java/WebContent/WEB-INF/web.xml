@@ -63,4 +63,14 @@
 		<url-pattern>/user/search/jawed</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+	<servlet-name>shoaeebUserServlet</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>shoaeebUserServlet</servlet-name>
+	<url-pattern>/user/list/shoaeeb</url-pattern>
+	</servlet-mapping>
+	
+
 </web-app>
