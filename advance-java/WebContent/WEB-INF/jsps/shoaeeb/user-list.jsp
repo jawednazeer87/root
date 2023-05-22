@@ -16,7 +16,7 @@
 					role="button">Home</a>
 			</div>
 			<div class="col-sm">
-				<a class="btn btn-primary" href="#"
+				<a class="btn btn-primary" href="/advance-java/user/create/shoaeebcreate "
 					role="button" style="float: right;">
 						Create User
 				</a>
@@ -29,7 +29,7 @@
 <br />
 
 <div>
-	<form action="#" class="form-inline">
+	<form action="/advance-java/user/search/shoaeebsearch" class="form-inline" method="get">
 		<div class="form-group mx-sm-3 mb-2 container">
 			<label for="name" class="mr-2">Search By Name</label> <input
 				type="text" class="form-control mx-2" id="name"
@@ -59,7 +59,7 @@
 		%>
 		<tr>
 			<td><a
-				href="#=<%=user.getId()%>">
+				href="/advance-java/user/detail/shoaeebDetail?userId=<%=user.getId()%>">
 					<%=user.getFirstName()%>
 			</a></td>
 			<td><%=user.getEmail()%></td>
@@ -68,12 +68,12 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<a
-							href="#<%=user.getId()%>"
+							href="/advance-java/user/delete/shoaeebDelete?userId=<%=user.getId()%>"
 							class="btn btn-danger">Delete</a>
 					</div>
 					<div class="col-sm-3">
 						<a
-							href="#=<%=user.getId()%>"
+							href="/advance-java/user/update/shoaeebUpdate?userId=<%=user.getId()%>"
 							class="btn btn-secondary">Update</a>
 					</div>
 				</div>

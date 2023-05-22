@@ -72,5 +72,51 @@
 	<url-pattern>/user/list/shoaeeb</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+	<servlet-name>shoaeebDeleteUser</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserDeleteController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>shoaeebDeleteUser</servlet-name>
+	<url-pattern>/user/delete/shoaeebDelete</url-pattern>
+	</servlet-mapping>
 
+	<servlet>
+	<servlet-name>shoaeebUpdateUser</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserUpdateController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebUpdateUser</servlet-name>
+	<url-pattern>/user/update/shoaeebUpdate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebDetailUser</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserDetailController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebDetailUser</servlet-name>
+	<url-pattern>/user/detail/shoaeebDetail</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebCreateUser</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserCreateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>shoaeebCreateUser</servlet-name>
+	<url-pattern>/user/create/shoaeebcreate</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebUserSearch</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.UserSearchController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>shoaeebUserSearch</servlet-name>
+		<url-pattern>/user/search/shoaeebsearch</url-pattern>
+	</servlet-mapping>
 </web-app>

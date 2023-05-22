@@ -59,7 +59,7 @@
 		          <a class="nav-link" href="user/list/mirza">Mirza</a>
 		        </li>
 		        <li class="nav-item active">
-		          <a class="nav-link" href="user/list/shoeeb">Shoeeb</a>
+		          <a class="nav-link" href="user/list/shoaeeb">Shoeeb</a>
 		        </li>
 		        <li class="nav-item active">
 		          <a class="nav-link" href="user/list/aameen">Aameen</a>

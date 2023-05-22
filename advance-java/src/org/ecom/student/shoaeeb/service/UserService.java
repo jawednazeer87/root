@@ -41,7 +41,7 @@ private Connection con = null;
 	}
 	
 	public int deleteUserById(long userId) {
-		return UserRepository.deleteUserById(con, userId);
+		 return UserRepository.deleteUserById(con, userId);
 	}
 	
 	public void createUser(User user) {
@@ -55,5 +55,8 @@ private Connection con = null;
 	
 	public List<User> getUserByName(String name){
 		return UserRepository.getUserByName(con, name);
+	}
+	public List<User> search(String name){
+	    return UserRepository.search(con, name, name, name);
 	}
 }
