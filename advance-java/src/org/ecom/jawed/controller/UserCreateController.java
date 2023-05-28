@@ -2,10 +2,10 @@ package org.ecom.jawed.controller;
 
 import java.io.IOException;
 
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.regex.Pattern;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -22,16 +22,20 @@ public class UserCreateController extends HttpServlet {
 	private static final long serialVersionUID = 6467649553058598678L;
 
 	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
 		String destination = ProjectConstants.JSP_FOLDER_PATH + "jawed/user-create.jsp";
 		RequestDispatcher requestDispatcher = request.getRequestDispatcher(destination);
 		System.out.println("user add do get");
+		request.setAttribute("dobValid", true);
+		request.setAttribute("emailValid", true);
 		requestDispatcher.forward(request, response);
 	}
-	
+
 	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 
 		String firstName = request.getParameter("fname");
 		String lName = request.getParameter("lname");
@@ -40,47 +44,67 @@ public class UserCreateController extends HttpServlet {
 		String genderString = request.getParameter("gender");
 		String fatherName = request.getParameter("fatherName");
 		String country = request.getParameter("country");
-		
-		System.out.println("fatherName: "+fatherName);
-		System.out.println("firstName: "+firstName);
-		System.out.println("lName: "+lName);
-		System.out.println("email: "+email);
-		System.out.println("dob string: "+dobString);
-		System.out.println("gender: "+genderString);
-		System.out.println("country: "+country);
-		
-		boolean gender = false;
-		if(genderString!=null) {
-			gender = Boolean.parseBoolean(genderString);
+		boolean isFormValid = true;
+		boolean emailValid = Pattern.compile("^(.+)@(\\S+)$")
+	      .matcher(email)
+	      .matches();
+		if ( !emailValid ) {
+			isFormValid = false;
+			request.setAttribute("emailValid", emailValid);
+		} else {
+			request.setAttribute("emailValid", emailValid);
 		}
-		UserService userService = new UserService();
-		
-		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
-		Date dob = null;
-		try {
-			dob = formatter.parse(dobString);
-	        System.out.println("dob in java.util.date format: "+dob);
-	        User user = new User();
-	 		user.setDob(dob);
-	 		user.setFirstName(firstName);
-	 		user.setLastName(lName);
-	 		user.setFatherName(fatherName);
-	 		user.setGender(gender);
-	 		user.setEmail(email);
-	 		user.setCountry(country);
-	 		userService.createUser(user);
-        } 
-		catch (ParseException e) {
-            e.printStackTrace();
-        }
-		catch (Exception e) {
-            e.printStackTrace();
-        }
-		
-		userService.connectionClose();
-		
-		//to avoid form submission
-		response.sendRedirect("/advance-java/user/list/jawed");  
+		if (dobString.length() == 0) {
+			isFormValid = false;
+			request.setAttribute("dobValid", false);
+		} else {
+			request.setAttribute("dobValid", true);
+		}
+		if ( !isFormValid ) {
+			String destination = ProjectConstants.JSP_FOLDER_PATH + "jawed/user-create.jsp";
+			RequestDispatcher requestDispatcher = request.getRequestDispatcher(destination);
+			System.out.println("user add do get");
+			requestDispatcher.forward(request, response);
+		} else {
+			System.out.println("fatherName: " + fatherName);
+			System.out.println("firstName: " + firstName);
+			System.out.println("lName: " + lName);
+			System.out.println("email: " + email);
+			System.out.println("dob string: " + dobString);
+			System.out.println("gender: " + genderString);
+			System.out.println("country: " + country);
+
+			boolean gender = false;
+			if (genderString != null) {
+				gender = Boolean.parseBoolean(genderString);
+			}
+			UserService userService = new UserService();
+
+			SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy");
+			Date dob = null;
+			try {
+				dob = formatter.parse(dobString);
+				System.out.println("dob in java.util.date format: " + dob);
+				User user = new User();
+				user.setDob(dob);
+				user.setFirstName(firstName);
+				user.setLastName(lName);
+				user.setFatherName(fatherName);
+				user.setGender(gender);
+				user.setEmail(email);
+				user.setCountry(country);
+				userService.createUser(user);
+			} catch (ParseException e) {
+				e.printStackTrace();
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+			userService.connectionClose();
+
+			// to avoid form submission
+			response.sendRedirect("/advance-java/user/list/jawed");
+		}
 	}
-	
+
 }

@@ -59,10 +59,10 @@
 		      </li>
 		      <li class="nav-item dropdown active">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Shoeeb
+		          Shoaeeb
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="/advance-java/user/list/shoaeeb">Shoaeeb User</a>
 		          <a class="dropdown-item" href="#">Another action</a>
 		          <a class="dropdown-item" href="#">Something else here</a>
 		        </div>

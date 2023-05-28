@@ -30,3 +30,8 @@ i {
 tr:nth-child(even) {
   background-color: #edffff;
 }
+
+.error-message {
+	color: red;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
