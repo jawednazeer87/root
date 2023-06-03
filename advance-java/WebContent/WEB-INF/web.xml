@@ -119,4 +119,57 @@
 		<servlet-name>shoaeebUserSearch</servlet-name>
 		<url-pattern>/user/search/shoaeebsearch</url-pattern>
 	</servlet-mapping>
+	
+	
+	<!-- for employee -->
+	<servlet>
+	<servlet-name>shoaeebEmployeeList</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.EmployeeController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebEmployeeList</servlet-name>
+	<url-pattern>/employee/list/shoaeeb</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebEmployeeSearchList</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.EmployeeSearchController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebEmployeeSearchList</servlet-name>
+	<url-pattern>/employee/search/shoaeebsearch</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+	<servlet-name>shoaeebEmployeeDetails</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.EmployeeDetailsController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebEmployeeDetails</servlet-name>
+	<url-pattern>/employee/details/shoaeebdetails</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebEmployeeDelete</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.EmployeeDeleteController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>shoaeebEmployeeDelete</servlet-name>
+		<url-pattern>/employee/delete/shoaeebdelete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>shoaeebEmployeeCreate</servlet-name>
+	<servlet-class>org.ecom.student.shoaeeb.controller.EmployeeCreateController</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>shoaeebEmployeeCreate</servlet-name>
+	<url-pattern>/employee/create/shoaeebcreate</url-pattern>
+	</servlet-mapping>
 </web-app>

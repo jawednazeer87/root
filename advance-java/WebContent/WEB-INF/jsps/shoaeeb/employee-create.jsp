@@ -1,7 +1,7 @@
 <%@ include file="/WEB-INF/jsps/common/header.jsp" %> 
 
 <div class='text-center'>
-	<h1 class="display-1">User</h1>
+	<h1 class="display-1">Employee</h1>
 </div>
 <div>
 	<h2>
@@ -11,18 +11,15 @@
 </div>
 
 <div class='text-center mb-3'>
-	<h3><medium class="text-muted">Create User</medium></h3>
+	<h3><medium class="text-muted">Create Employee</medium></h3>
 </div>
-<form action="/advance-java/user/create/shoaeebcreate" method="post" id="userForm" class="container mb-5">
+<form action="/advance-java/employee/create/shoaeebcreate" method="post" id="userForm" class="container mb-5">
 	<div class="form-group">
 		<label for="fname">First Name</label>
 		<input type="text" class="form-control" name="fname" id="fname" aria-describedby="firstNameHelp" placeholder="Enter First Name">
 		<small id="firstNameHelp" class="form-text text-muted">
 			Please provide alphabets
 		</small>
-		
-		<p style='display:<%=(boolean)request.getAttribute("validFirstName")?"none":"block"%>;color:red'>Please Provide Your FirstName</p>
-		
 	</div>
 	<div class="form-group">
 		<label for="lname">Last Name</label>
@@ -30,8 +27,6 @@
 		<small id="lastNameHelp" class="form-text text-muted">
 			Please provide alphabets
 		</small>
-				<p style='display:<%=(boolean)request.getAttribute("validLastName")?"none":"block"%>;color:red'>Please Provide Your LastName</p>
-		
 	</div>
 	<div class="form-group">
 		<label for="fatherName">Father Name</label>
@@ -39,8 +34,6 @@
 		<small id="fatherNameHelp" class="form-text text-muted">
 			Please provide alphabets
 		</small>
-				<p style='display:<%=(boolean)request.getAttribute("validFatherName")?"none":"block"%>; color:red;'>Please Provide Your FatherName</p>
-		
 	</div>
 	<div class="form-group">
 		<label for="datepicker">Date Of Birth</label>
@@ -48,8 +41,6 @@
 		<small id="datepickerHelp" class="form-text text-muted">
 			Please provide dob
 		</small>
-		<p style='display:<%=(boolean)request.getAttribute("validDob")?"none":"block"%>; color:red;'>Please Provide Your Dob</p>
-		
 	</div>
 	<div class="form-group">
 		<label for="email">Email</label>
@@ -57,9 +48,6 @@
 		<small id="emailNameHelp" class="form-text text-muted">
 			We'll never share your email with anyone else.
 		</small>
-		<p style='display:<%=(boolean)request.getAttribute("validEmail")?"none":"block"%>;color:red;'>Please Provide Your Email</p>
-		
-		
 	</div>
 	<div class="form-check form-check-inline">
 		<input class="form-check-input" type="radio" name="gender" id="male" value="true">
@@ -73,8 +61,6 @@
 			Female
 		</label>
 	</div>
-	<p style='display:<%=(boolean)request.getAttribute("validGender")?"none":"block"%>;color:red;'>Please Provide Your Gender</p>
-	
 	<div class="form-group">
       <label for="country">Country</label>
       <select id="country" name="country" class="form-control" onchange="changeCountry();">
@@ -85,11 +71,9 @@
 	    <option value="saudi">Saudi</option>
 	    <option value="nigeria">Nigeria</option>
       </select>
-      	<p style='display:<%=(boolean)request.getAttribute("validCountry")?"none":"block"%>; color:red;'>Please Provide Your Country</p>
-      
     </div>
   	<input type="submit" value="Submit" class="btn btn-primary">
-  	<a class="btn btn-dark mx-3" href="/advance-java/user/list/jawed" role="button">Cancel</a>
+  	<a class="btn btn-dark mx-3" href="/advance-java/employee/list/shoaeeb" role="button">Cancel</a>
 </form> 
 
 

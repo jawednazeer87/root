@@ -26,7 +26,7 @@ public class UserDeleteController extends HttpServlet {
 		{
 			e.printStackTrace();
 		}
-		response.sendRedirect("/advance-java/user/list/shoaeeb");
+		response.sendRedirect("/advance-java/employee/list/shoaeeb");
 		
 	}
 }

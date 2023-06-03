@@ -62,8 +62,8 @@
 		          Shoaeeb
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="/advance-java/user/list/shoaeeb">Shoaeeb User</a>
-		          <a class="dropdown-item" href="#">Another action</a>
+		          <a class="dropdown-item" href="/advance-java/user/list/shoaeeb">User</a>
+		          <a class="dropdown-item" href="/advance-java/employee/list/shoaeeb">Employee</a>
 		          <a class="dropdown-item" href="#">Something else here</a>
 		        </div>
 		      </li>
