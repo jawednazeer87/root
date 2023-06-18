@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.ecom.constant.ProjectConstants;
+import org.ecom.mirza.constant.ProjectConstants;
 import org.ecom.student.shoaeeb.model.User;
 import org.ecom.student.shoaeeb.service.UserService;
 

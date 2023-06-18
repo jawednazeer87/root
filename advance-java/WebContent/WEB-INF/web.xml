@@ -120,6 +120,61 @@
 		<url-pattern>/user/search/shoaeebsearch</url-pattern>
 	</servlet-mapping>
 	
+
+	<servlet>
+	<servlet-name>mirzaUserServlet</servlet-name>
+	<servlet-class>org.ecom.mirza.controller.UserController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>mirzaUserServlet</servlet-name>
+	<url-pattern>/user/list/mirza</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+	<servlet-name>mirzaCreateUser</servlet-name>
+	<servlet-class>org.ecom.mirza.controller.CreateUserController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>mirzaCreateUser</servlet-name>
+	<url-pattern>/user/add/mirza</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	
+		<servlet-name>mirzaDelateUser</servlet-name>
+		<servlet-class>org.ecom.mirza.controller.DeleteUserController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mirzaDelateUser</servlet-name>
+		<url-pattern>/user/delete/mirza</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>mirzaUserDetail</servlet-name>
+		<servlet-class>org.ecom.mirza.controller.UserDetailController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mirzaUserDetail</servlet-name>
+		<url-pattern>/user/detail/mirza</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>mirzaUserSearch</servlet-name>
+		<servlet-class>org.ecom.mirza.controller.UserSearchController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mirzaUserSearch</servlet-name>
+		<url-pattern>/user/search/mirza</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>mirzaUserUpdate</servlet-name>
+		<servlet-class>org.ecom.mirza.controller.UserUpdateController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>mirzaUserUpdate</servlet-name>
+		<url-pattern>/user/update/mirza</url-pattern>
+	</servlet-mapping>
+	
+
 	
 	<!-- for employee -->
 	<servlet>
@@ -172,4 +227,5 @@
 	<servlet-name>shoaeebEmployeeCreate</servlet-name>
 	<url-pattern>/employee/create/shoaeebcreate</url-pattern>
 	</servlet-mapping>
+
 </web-app>

@@ -6,15 +6,17 @@ public class NumPercentage {
 		// TODO Auto-generated method stub
 		
 		
-		int num1= 5;
+		int py=90, com=85, java=81, cpp= 90, css=45;
 		
-		int num2 =8;
+		double total, avg, percentage;
 		
-		float percentage;
+		total=py+com+java+cpp+css;
 		
-		percentage =num1*100/num2;
+		avg=(total/5);
+		percentage=(total/500)*100;
 		
-		System.out.println(percentage);
+		System.out.println(total+ ""+avg+ " "+percentage);
+	
 
 	}
 

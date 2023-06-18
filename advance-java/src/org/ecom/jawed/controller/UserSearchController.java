@@ -33,7 +33,7 @@ public class UserSearchController extends HttpServlet {
 			System.out.println(e.getMessage());
 		}
 		
-		String destination = ProjectConstants.JSP_FOLDER_PATH + "jawed/user-list.jsp";
+		String destination = ProjectConstants.JSP_FOLDER_PATH + "javed/user-list.jsp";
 		RequestDispatcher requestDispatcher = request.getRequestDispatcher(destination);
 		
 		requestDispatcher.forward(request, response);
